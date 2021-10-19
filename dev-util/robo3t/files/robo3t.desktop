@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Robo 3T
+Type=Application
+Comment=Native cross-platform MongoDB management tool
+Exec=robo3t
+Icon=
+Categories=Development;

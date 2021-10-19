@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Postman
+Type=Application
+Comment=The complete API-First Development Platform
+Exec=Postman
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Categories=Development;
