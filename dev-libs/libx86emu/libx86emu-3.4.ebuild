@@ -6,7 +6,7 @@ inherit toolchain-funcs
 
 DESCRIPTION="A library for emulating x86"
 HOMEPAGE="https://www.opensuse.org/"
-SRC_URI="https://github.com/wfeldt/libx86emu/archive/3.3/3.3.tar.gz -> libx86emu-3.3.tar.gz"
+SRC_URI="https://github.com/wfeldt/libx86emu/archive/3.4/3.4.tar.gz -> libx86emu-3.4.tar.gz"
 
 LICENSE="HPND"
 SLOT="0"
@@ -23,10 +23,10 @@ src_configure() {
 
 src_compile()
 {
-	emake VERSION="3.3" MAJOR_VERSION="3" shared
+	emake VERSION="3.4" MAJOR_VERSION="3" shared
 }
 
 src_install() {
-	emake DESTDIR="${ED}" LIBDIR="/usr/$(get_libdir)" VERSION="3.3" MAJOR_VERSION="3" install
+	emake DESTDIR="${ED}" LIBDIR="/usr/$(get_libdir)" VERSION="3.4" MAJOR_VERSION="3" install
 	dodoc README*
 }
