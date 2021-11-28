@@ -5,7 +5,7 @@ EAPI=7
 CRATES="adler-1.0.2
 aho-corasick-0.7.18
 ansi_term-0.11.0
-anyhow-1.0.45
+anyhow-1.0.50
 arrayvec-0.5.2
 atty-0.2.14
 autocfg-1.0.1
@@ -17,7 +17,7 @@ cargo-0.57.0
 cargo-platform-0.1.2
 cargo-util-0.1.1
 cbindgen-0.20.0
-cc-1.0.71
+cc-1.0.72
 cfg-if-1.0.0
 clap-2.33.3
 commoncrypto-0.2.0
@@ -25,11 +25,11 @@ commoncrypto-sys-0.2.0
 core-foundation-0.9.2
 core-foundation-sys-0.8.3
 crates-io-0.33.0
-crc32fast-1.2.1
+crc32fast-1.2.2
 crossbeam-utils-0.8.5
 crypto-hash-0.3.4
-curl-0.4.40
-curl-sys-0.4.50+curl-7.79.1
+curl-0.4.41
+curl-sys-0.4.51+curl-7.80.0
 either-1.6.1
 env_logger-0.9.0
 filetime-0.2.15
@@ -40,7 +40,7 @@ foreign-types-shared-0.1.1
 form_urlencoded-1.0.1
 fwdansi-1.1.0
 getrandom-0.2.3
-git2-0.13.23
+git2-0.13.24
 git2-curl-0.14.1
 glob-0.3.0
 globset-0.4.8
@@ -60,8 +60,8 @@ itoa-0.4.8
 jobserver-0.1.24
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.107
-libgit2-sys-0.12.24+1.3.0
+libc-0.2.108
+libgit2-sys-0.12.25+1.3.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
 libz-sys-1.1.3
@@ -76,7 +76,7 @@ opener-0.5.0
 openssl-0.10.38
 openssl-probe-0.1.4
 openssl-src-300.0.2+3.0.0
-openssl-sys-0.9.70
+openssl-sys-0.9.71
 percent-encoding-2.1.0
 pkg-config-0.3.22
 ppv-lite86-0.2.15
@@ -97,14 +97,14 @@ regex-syntax-0.6.25
 remove_dir_all-0.5.3
 rustc-workspace-hack-1.0.0
 rustfix-0.6.0
-ryu-1.0.5
+ryu-1.0.6
 same-file-1.0.6
 schannel-0.1.19
 semver-1.0.4
 serde-1.0.130
 serde_derive-1.0.130
 serde_ignored-0.1.2
-serde_json-1.0.69
+serde_json-1.0.72
 shell-escape-0.1.5
 sized-chunks-0.6.5
 socket2-0.4.2
@@ -112,7 +112,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.8.0
 structopt-0.3.25
 structopt-derive-0.4.18
-syn-1.0.81
+syn-1.0.82
 tar-0.4.37
 tempfile-3.2.0
 termcolor-1.1.2
