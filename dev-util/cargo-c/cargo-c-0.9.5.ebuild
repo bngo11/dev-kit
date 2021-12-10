@@ -60,7 +60,7 @@ itoa-0.4.8
 jobserver-0.1.24
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.109
+libc-0.2.110
 libgit2-sys-0.12.26+1.3.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
@@ -101,8 +101,8 @@ ryu-1.0.6
 same-file-1.0.6
 schannel-0.1.19
 semver-1.0.4
-serde-1.0.130
-serde_derive-1.0.130
+serde-1.0.131
+serde_derive-1.0.131
 serde_ignored-0.1.2
 serde_json-1.0.72
 shell-escape-0.1.5
