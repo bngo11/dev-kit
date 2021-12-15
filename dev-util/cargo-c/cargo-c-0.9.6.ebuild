@@ -13,7 +13,7 @@ bitflags-1.3.2
 bitmaps-2.1.0
 bstr-0.2.17
 bytesize-1.1.0
-cargo-0.57.0
+cargo-0.58.0
 cargo-platform-0.1.2
 cargo-util-0.1.1
 cbindgen-0.20.0
@@ -56,11 +56,11 @@ ignore-0.4.18
 im-rc-15.0.0
 indexmap-1.7.0
 itertools-0.10.3
-itoa-0.4.8
+itoa-1.0.1
 jobserver-0.1.24
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.110
+libc-0.2.112
 libgit2-sys-0.12.26+1.3.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
@@ -71,18 +71,19 @@ memchr-2.4.1
 miniz_oxide-0.4.4
 miow-0.3.7
 num_cpus-1.13.0
-once_cell-1.8.0
+once_cell-1.9.0
 opener-0.5.0
 openssl-0.10.38
 openssl-probe-0.1.4
-openssl-src-300.0.3+3.0.0
-openssl-sys-0.9.71
+openssl-src-111.17.0+1.1.1m
+openssl-sys-0.9.72
+os_info-3.0.8
 percent-encoding-2.1.0
-pkg-config-0.3.23
+pkg-config-0.3.24
 ppv-lite86-0.2.15
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.33
+proc-macro2-1.0.34
 quote-1.0.10
 rand-0.8.4
 rand_chacha-0.3.1
@@ -97,14 +98,14 @@ regex-syntax-0.6.25
 remove_dir_all-0.5.3
 rustc-workspace-hack-1.0.0
 rustfix-0.6.0
-ryu-1.0.6
+ryu-1.0.9
 same-file-1.0.6
 schannel-0.1.19
 semver-1.0.4
 serde-1.0.131
 serde_derive-1.0.131
 serde_ignored-0.1.2
-serde_json-1.0.72
+serde_json-1.0.73
 shell-escape-0.1.5
 sized-chunks-0.6.5
 socket2-0.4.2
@@ -113,7 +114,7 @@ strsim-0.8.0
 structopt-0.3.25
 structopt-derive-0.4.18
 syn-1.0.82
-tar-0.4.37
+tar-0.4.38
 tempfile-3.2.0
 termcolor-1.1.2
 textwrap-0.11.0
@@ -146,7 +147,7 @@ inherit cargo
 
 DESCRIPTION="Helper program to build and install c-like libraries"
 HOMEPAGE="https://github.com/lu-zero/cargo-c"
-SRC_URI="https://api.github.com/repos/lu-zero/cargo-c/tarball/v0.9.5 -> cargo-c-0.9.5.tar.gz
+SRC_URI="https://api.github.com/repos/lu-zero/cargo-c/tarball/v0.9.6 -> cargo-c-0.9.6.tar.gz
 	$(cargo_crate_uris ${CRATES})"
 
 RESTRICT="mirror"
