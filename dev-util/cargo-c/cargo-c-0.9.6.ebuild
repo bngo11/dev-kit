@@ -83,8 +83,8 @@ pkg-config-0.3.24
 ppv-lite86-0.2.15
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.34
-quote-1.0.10
+proc-macro2-1.0.36
+quote-1.0.14
 rand-0.8.4
 rand_chacha-0.3.1
 rand_core-0.5.1
@@ -113,7 +113,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.8.0
 structopt-0.3.25
 structopt-derive-0.4.18
-syn-1.0.83
+syn-1.0.84
 tar-0.4.38
 tempfile-3.2.0
 termcolor-1.1.2
@@ -122,7 +122,7 @@ thread_local-1.1.3
 tinyvec-1.5.1
 tinyvec_macros-0.1.0
 toml-0.5.8
-typenum-1.14.0
+typenum-1.15.0
 unicode-bidi-0.3.7
 unicode-normalization-0.1.19
 unicode-segmentation-1.8.0
