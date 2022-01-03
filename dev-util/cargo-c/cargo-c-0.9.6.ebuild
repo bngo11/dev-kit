@@ -80,7 +80,7 @@ openssl-sys-0.9.72
 os_info-3.0.9
 percent-encoding-2.1.0
 pkg-config-0.3.24
-ppv-lite86-0.2.15
+ppv-lite86-0.2.16
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
 proc-macro2-1.0.36
@@ -102,10 +102,10 @@ ryu-1.0.9
 same-file-1.0.6
 schannel-0.1.19
 semver-1.0.4
-serde-1.0.132
-serde_derive-1.0.132
+serde-1.0.133
+serde_derive-1.0.133
 serde_ignored-0.1.2
-serde_json-1.0.73
+serde_json-1.0.74
 shell-escape-0.1.5
 sized-chunks-0.6.5
 socket2-0.4.2
@@ -132,7 +132,7 @@ url-2.2.2
 utf8parse-0.2.0
 vcpkg-0.2.15
 vec_map-0.8.2
-version_check-0.9.3
+version_check-0.9.4
 vte-0.10.1
 vte_generate_state_changes-0.1.1
 walkdir-2.3.2
