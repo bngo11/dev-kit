@@ -1,0 +1,12 @@
+BDEPEND=dev-util/ninja dev-util/cmake
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-python/sphinx
+DESCRIPTION=Library routines related to building,parsing and iterating BSON documents
+EAPI=7
+HOMEPAGE=https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson
+IUSE=examples static-libs
+KEYWORDS=*
+LICENSE=Apache-2.0
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-c-driver/releases/download/1.21.0/mongo-c-driver-1.21.0.tar.gz -> libbson-1.21.0.tar.gz
+_md5_=a06bb5a07b5e79599b348052ff92266b

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install setup
+DEPEND=|| ( dev-lang/python:3.10 dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 )
+DESCRIPTION=A set of command-line tools for the Google Cloud Platform.
+EAPI=7
+HOMEPAGE=https://cloud.google.com/sdk/
+IUSE=zsh-completion
+KEYWORDS=*
+LICENSE=Apache-2.0
+RDEPEND=|| ( dev-lang/python:3.10 dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 )
+SLOT=0
+SRC_URI=https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-371.0.0-linux-x86_64.tar.gz
+_md5_=838686133e863403760c50303ec4c973
