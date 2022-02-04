@@ -8,5 +8,4 @@ RDEPEND=media-fonts/dejavu media-libs/freetype !dev-util/jenkins-lts-bin >=virtu
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://get.jenkins.io/war/2.333/jenkins.war -> jenkins-bin-2.333.war
-_eclasses_=user	e68863263b1e8611dacf381bec5c8b2b
 _md5_=bec1c38046ea875b6d0119f8130f6c0a

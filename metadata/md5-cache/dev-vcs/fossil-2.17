@@ -11,5 +11,4 @@ REQUIRED_USE=openssl? ( !miniz )
 RESTRICT=test
 SLOT=0
 SRC_URI=http://www.fossil-scm.org/home/tarball/f48180f2ff3169651a725396d4f7d667c99a92873b9c3df7eee2f144be7a0721/fossil-src-2.17.tar.gz -> fossil-2.17.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=16aa726a609af51a9e2cf38185780ac4
