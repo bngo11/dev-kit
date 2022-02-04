@@ -11,5 +11,4 @@ RDEPEND=>=dev-libs/expat-2.1.0-r3[-mgorny(-)] >=dev-libs/glib-2.40:2[-mgorny(-)]
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.112.tar.gz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	bash-completion-r1	47a7402d95930413ce25ba8d857339bb	libtool	f143db5a74ccd9ca28c1234deffede96	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multilib-build	dbed54cab0d2fac962c6342aeae40ef9	multilib-minimal	8bddda43703ba94d8341f4e247f97566	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=dc93c5fad83cd2e130807bb7b2ffc1b3
