@@ -5,7 +5,7 @@ EAPI=6
 inherit eutils pax-utils xdg-utils gnome2-utils
 
 DESCRIPTION="Native cross-platform MongoDB management tool"
-SRC_URI="https://github.com/Studio3T/robomongo/releases/download/v1.3.1/${P}-linux-x86_64-7419c406.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/Studio3T/robomongo/releases/download/v${PV}/${P}-linux-x86_64-e6ac9ec.tar.gz -> ${P}.tar.gz"
 HOMEPAGE="https://robomongo.org/"
 KEYWORDS="~amd64"
 SLOT="0"
