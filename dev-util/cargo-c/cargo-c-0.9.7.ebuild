@@ -5,7 +5,7 @@ EAPI=7
 CRATES="adler-1.0.2
 aho-corasick-0.7.18
 ansi_term-0.12.1
-anyhow-1.0.53
+anyhow-1.0.55
 arrayvec-0.5.2
 atty-0.2.14
 autocfg-1.1.0
@@ -17,7 +17,7 @@ cargo-0.59.0
 cargo-platform-0.1.2
 cargo-util-0.1.1
 cbindgen-0.20.0
-cc-1.0.72
+cc-1.0.73
 cfg-if-1.0.0
 clap-2.34.0
 commoncrypto-0.2.0
@@ -61,7 +61,7 @@ itoa-1.0.1
 jobserver-0.1.24
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.117
+libc-0.2.119
 libgit2-sys-0.12.26+1.3.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
@@ -97,7 +97,7 @@ rustfix-0.6.0
 ryu-1.0.9
 same-file-1.0.6
 schannel-0.1.19
-semver-1.0.5
+semver-1.0.6
 serde-1.0.136
 serde_derive-1.0.136
 serde_ignored-0.1.2
