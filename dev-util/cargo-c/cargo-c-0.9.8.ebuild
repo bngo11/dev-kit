@@ -76,7 +76,7 @@ once_cell-1.10.0
 opener-0.5.0
 openssl-0.10.38
 openssl-probe-0.1.5
-openssl-src-111.17.0+1.1.1m
+openssl-src-111.18.0+1.1.1n
 openssl-sys-0.9.72
 os_info-3.2.0
 percent-encoding-2.1.0
@@ -109,7 +109,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.8.0
 structopt-0.3.26
 structopt-derive-0.4.18
-syn-1.0.88
+syn-1.0.89
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.1.3
