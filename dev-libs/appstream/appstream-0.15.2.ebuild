@@ -1,18 +1,12 @@
-# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 inherit meson xdg-utils
 
-if [[ ${PV} = *9999* ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/ximion/${PN}"
-else
-	SRC_URI="https://www.freedesktop.org/software/appstream/releases/AppStream-${PV}.tar.xz"
-	KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~x86"
-	S="${WORKDIR}/AppStream-${PV}"
-fi
+SRC_URI="https://www.freedesktop.org/software/appstream/releases/AppStream-${PV}.tar.xz"
+KEYWORDS="*"
+S="${WORKDIR}/AppStream-${PV}"
 
 DESCRIPTION="Cross-distro effort for providing metadata for software in the Linux ecosystem"
 HOMEPAGE="https://www.freedesktop.org/wiki/Distributions/AppStream/"
@@ -44,10 +38,6 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	test? ( qt5? ( dev-qt/qttest:5 ) )
 "
-
-PATCHES=(
-	"${FILESDIR}"/${P}-disable-Werror-flags.patch # bug 733774
-)
 
 src_prepare() {
 	default
