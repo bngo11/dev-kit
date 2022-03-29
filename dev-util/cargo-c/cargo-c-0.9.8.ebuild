@@ -97,7 +97,7 @@ rustfix-0.6.0
 ryu-1.0.9
 same-file-1.0.6
 schannel-0.1.19
-semver-1.0.6
+semver-1.0.7
 serde-1.0.136
 serde_derive-1.0.136
 serde_ignored-0.1.2
@@ -109,7 +109,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.8.0
 structopt-0.3.26
 structopt-derive-0.4.18
-syn-1.0.89
+syn-1.0.90
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.1.3
