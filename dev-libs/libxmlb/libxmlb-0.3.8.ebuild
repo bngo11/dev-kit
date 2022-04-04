@@ -2,21 +2,26 @@
 
 EAPI=7
 
-inherit meson
+PYTHON_COMPAT=( python3+ )
+
+inherit meson python-any-r1 xdg
 
 DESCRIPTION="Library to help create and query binary XML blobs"
 HOMEPAGE="https://github.com/hughsie/libxmlb"
-SRC_URI="https://github.com/hughsie/libxmlb/archive/0.3.8.tar.gz -> libxmlb-0.3.8.tar.gz"
+SRC_URI="https://github.com/hughsie/libxmlb/tarball/4782df2cec808f71762aa9f69c11759b4e127b61 -> libxmlb-0.3.8-4782df2.tar.gz"
 LICENSE="LGPL-2.1+"
 SLOT="0"
 
 KEYWORDS="*"
 IUSE="doc introspection stemmer test"
 
+RESTRICT="!test? ( test )"
+
 RDEPEND="
+	app-arch/xz-utils
 	dev-libs/glib:2
 	sys-apps/util-linux
-	stemmer? ( dev-libs/snowball-stemmer )
+	stemmer? ( dev-libs/snowball-stemmer:= )
 "
 
 DEPEND="
@@ -26,16 +31,28 @@ DEPEND="
 "
 
 BDEPEND="
+	${PYTHON_DEPS}
 	>=dev-util/meson-0.47.0
 	virtual/pkgconfig
+	introspection? (
+		$(python_gen_any_dep 'dev-python/setuptools[${PYTHON_USEDEP}]')
+	)
 "
+
+python_check_deps() {
+	has_version -b "dev-python/setuptools[${PYTHON_USEDEP}]"
+}
+
+pkg_setup() {
+	python-any-r1_pkg_setup
+}
 
 src_configure() {
 	local emesonargs=(
-		-Dgtkdoc="$(usex doc true false)"
-		-Dintrospection="$(usex introspection true false)"
-		-Dstemmer="$(usex stemmer true false)"
-		-Dtests="$(usex test true false)"
+		$(meson_use doc gtkdoc)
+		$(meson_use introspection)
+		$(meson_use stemmer)
+		$(meson_use test tests)
 	)
 
 	meson_src_configure

@@ -2,7 +2,9 @@
 
 EAPI=7
 
-inherit meson
+PYTHON_COMPAT=( {{python_compat}} )
+
+inherit meson python-any-r1 xdg
 
 DESCRIPTION="Library to help create and query binary XML blobs"
 HOMEPAGE="https://github.com/hughsie/libxmlb"
@@ -13,10 +15,13 @@ SLOT="0"
 KEYWORDS="*"
 IUSE="doc introspection stemmer test"
 
+RESTRICT="!test? ( test )"
+
 RDEPEND="
+	app-arch/xz-utils
 	dev-libs/glib:2
 	sys-apps/util-linux
-	stemmer? ( dev-libs/snowball-stemmer )
+	stemmer? ( dev-libs/snowball-stemmer:= )
 "
 
 DEPEND="
@@ -26,16 +31,28 @@ DEPEND="
 "
 
 BDEPEND="
+	${PYTHON_DEPS}
 	>=dev-util/meson-0.47.0
 	virtual/pkgconfig
+	introspection? (
+		$(python_gen_any_dep 'dev-python/setuptools[${PYTHON_USEDEP}]')
+	)
 "
+
+python_check_deps() {
+	has_version -b "dev-python/setuptools[${PYTHON_USEDEP}]"
+}
+
+pkg_setup() {
+	python-any-r1_pkg_setup
+}
 
 src_configure() {
 	local emesonargs=(
-		-Dgtkdoc="$(usex doc true false)"
-		-Dintrospection="$(usex introspection true false)"
-		-Dstemmer="$(usex stemmer true false)"
-		-Dtests="$(usex test true false)"
+		$(meson_use doc gtkdoc)
+		$(meson_use introspection)
+		$(meson_use stemmer)
+		$(meson_use test tests)
 	)
 
 	meson_src_configure
