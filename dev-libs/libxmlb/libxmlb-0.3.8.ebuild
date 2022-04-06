@@ -2,13 +2,13 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3+ )
+PYTHON_COMPAT=(  )
 
 inherit meson python-any-r1 xdg
 
 DESCRIPTION="Library to help create and query binary XML blobs"
 HOMEPAGE="https://github.com/hughsie/libxmlb"
-SRC_URI="https://github.com/hughsie/libxmlb/tarball/4782df2cec808f71762aa9f69c11759b4e127b61 -> libxmlb-0.3.8-4782df2.tar.gz"
+SRC_URI="https://github.com/hughsie/libxmlb/archive/0.3.8.tar.gz -> libxmlb-0.3.8.tar.gz"
 LICENSE="LGPL-2.1+"
 SLOT="0"
 
