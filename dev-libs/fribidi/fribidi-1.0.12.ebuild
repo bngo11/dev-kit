@@ -6,7 +6,7 @@ inherit toolchain-funcs
 
 DESCRIPTION="A free implementation of the unicode bidirectional algorithm"
 HOMEPAGE="https://fribidi.org/"
-SRC_URI="https://github.com/fribidi/fribidi/releases/download/v1.0.11/fribidi-1.0.11.tar.xz -> fribidi-1.0.11.tar.xz"
+SRC_URI="https://github.com/fribidi/fribidi/releases/download/v1.0.12/fribidi-1.0.12.tar.xz -> fribidi-1.0.12.tar.xz"
 
 LICENSE="LGPL-2.1+"
 SLOT="0"
