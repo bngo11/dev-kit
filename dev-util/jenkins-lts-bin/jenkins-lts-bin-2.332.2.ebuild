@@ -7,15 +7,15 @@ inherit user
 DESCRIPTION="Extensible continuous integration server"
 HOMEPAGE="https://jenkins.io/"
 LICENSE="MIT"
-SRC_URI="http://mirrors.jenkins-ci.org/war-stable/2.332.2/jenkins.war -> jenkins-lts-bin-2.332.2.war"
+SRC_URI="https://get.jenkins.io/war-stable/2.332.2/jenkins.war -> jenkins-bin-2.332.2.war"
 RESTRICT="mirror"
-SLOT="lts"
+SLOT="0"
 KEYWORDS="*"
 IUSE=""
 
 RDEPEND="media-fonts/dejavu
 	media-libs/freetype
-	!dev-util/jenkins-bin:0
+	!dev-util/jenkins-bin
 	>=virtual/jre-1.8.0"
 
 S=${WORKDIR}
