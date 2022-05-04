@@ -19,7 +19,7 @@ cargo-util-0.1.2
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.1.14
+clap-3.1.15
 clap_derive-3.1.7
 clap_lex-0.2.0
 combine-4.6.4
@@ -70,7 +70,7 @@ libgit2-sys-0.13.3+1.4.2
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
 libz-sys-1.1.6
-log-0.4.16
+log-0.4.17
 matches-0.1.9
 memchr-2.5.0
 miniz_oxide-0.5.1
@@ -78,10 +78,11 @@ miow-0.3.7
 num_cpus-1.13.1
 once_cell-1.10.0
 opener-0.5.0
-openssl-0.10.38
+openssl-0.10.39
+openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.18.0+1.1.1n
-openssl-sys-0.9.72
+openssl-sys-0.9.73
 os_info-3.3.0
 os_str_bytes-6.0.0
 percent-encoding-2.1.0
@@ -106,7 +107,7 @@ semver-1.0.9
 serde-1.0.137
 serde_derive-1.0.137
 serde_ignored-0.1.3
-serde_json-1.0.80
+serde_json-1.0.81
 shell-escape-0.1.5
 sized-chunks-0.6.5
 socket2-0.4.4
