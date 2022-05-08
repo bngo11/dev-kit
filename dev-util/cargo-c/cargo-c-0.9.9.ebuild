@@ -19,7 +19,7 @@ cargo-util-0.1.2
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.1.15
+clap-3.1.17
 clap_derive-3.1.7
 clap_lex-0.2.0
 combine-4.6.4
@@ -78,7 +78,7 @@ miow-0.3.7
 num_cpus-1.13.1
 once_cell-1.10.0
 opener-0.5.0
-openssl-0.10.39
+openssl-0.10.40
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.18.0+1.1.1n
@@ -89,7 +89,7 @@ percent-encoding-2.1.0
 pkg-config-0.3.25
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.37
+proc-macro2-1.0.38
 quote-1.0.18
 rand_core-0.6.3
 rand_xoshiro-0.6.0
