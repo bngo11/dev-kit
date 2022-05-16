@@ -19,8 +19,8 @@ cargo-util-0.1.2
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.1.17
-clap_derive-3.1.7
+clap-3.1.18
+clap_derive-3.1.18
 clap_lex-0.2.0
 combine-4.6.4
 commoncrypto-0.2.0
@@ -32,7 +32,7 @@ crc32fast-1.3.2
 crossbeam-utils-0.8.8
 crypto-hash-0.3.4
 curl-0.4.43
-curl-sys-0.4.54+curl-7.83.0
+curl-sys-0.4.55+curl-7.83.1
 either-1.6.1
 env_logger-0.9.0
 fastrand-1.7.0
@@ -43,7 +43,7 @@ foreign-types-0.3.2
 foreign-types-shared-0.1.1
 form_urlencoded-1.0.1
 fwdansi-1.1.0
-git2-0.14.3
+git2-0.14.4
 git2-curl-0.15.0
 glob-0.3.0
 globset-0.4.8
@@ -60,13 +60,13 @@ im-rc-15.1.0
 indexmap-1.8.1
 instant-0.1.12
 itertools-0.10.3
-itoa-1.0.1
+itoa-1.0.2
 jobserver-0.1.24
 kstring-1.0.6
 lazy_static-1.4.0
 lazycell-1.3.0
 libc-0.2.125
-libgit2-sys-0.13.3+1.4.2
+libgit2-sys-0.13.4+1.4.2
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
 libz-sys-1.1.6
@@ -84,7 +84,7 @@ openssl-probe-0.1.5
 openssl-src-111.18.0+1.1.1n
 openssl-sys-0.9.73
 os_info-3.3.0
-os_str_bytes-6.0.0
+os_str_bytes-6.0.1
 percent-encoding-2.1.0
 pkg-config-0.3.25
 proc-macro-error-1.0.4
@@ -100,7 +100,7 @@ regex-syntax-0.6.25
 remove_dir_all-0.5.3
 rustc-workspace-hack-1.0.0
 rustfix-0.6.0
-ryu-1.0.9
+ryu-1.0.10
 same-file-1.0.6
 schannel-0.1.19
 semver-1.0.9
@@ -110,10 +110,10 @@ serde_ignored-0.1.3
 serde_json-1.0.81
 shell-escape-0.1.5
 sized-chunks-0.6.5
-socket2-0.4.5
+socket2-0.4.4
 strip-ansi-escapes-0.1.1
 strsim-0.10.0
-syn-1.0.92
+syn-1.0.94
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.1.3
@@ -139,12 +139,6 @@ winapi-0.3.9
 winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.5
 winapi-x86_64-pc-windows-gnu-0.4.0
-windows-sys-0.36.1
-windows_aarch64_msvc-0.36.1
-windows_i686_gnu-0.36.1
-windows_i686_msvc-0.36.1
-windows_x86_64_gnu-0.36.1
-windows_x86_64_msvc-0.36.1
 "
 
 inherit cargo
