@@ -1,6 +1,6 @@
 BDEPEND=>=dev-util/meson-0.48.2 >=dev-util/ninja-1.7.2
 DEFINED_PHASES=compile configure install prepare setup test
-DEPEND=virtual/libudev:=[-mgorny(-)] >=dev-libs/glib-2.32:2[-mgorny(-)] >=dev-libs/gobject-introspection-1.32:= test? ( || ( dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10 ) ) app-arch/xz-utils dev-libs/libgudev[-mgorny(-)] >=dev-util/gtk-doc-am-1.14 virtual/pkgconfig
+DEPEND=virtual/libudev:=[-mgorny(-)] >=dev-libs/glib-2.32:2[-mgorny(-)] >=dev-libs/gobject-introspection-1.32:= test? ( || ( dev-lang/python:3.10 dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 ) ) app-arch/xz-utils dev-libs/libgudev[-mgorny(-)] >=dev-util/gtk-doc-am-1.14 virtual/pkgconfig
 DESCRIPTION=Mock hardware devices for creating unit tests
 EAPI=7
 HOMEPAGE=https://github.com/martinpitt/umockdev/
