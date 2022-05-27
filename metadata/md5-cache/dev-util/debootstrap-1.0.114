@@ -7,5 +7,4 @@ LICENSE=MIT
 RDEPEND=app-arch/dpkg net-misc/wget sys-devel/binutils
 SLOT=0
 SRC_URI=mirror://debian/pool/main/d/debootstrap/debootstrap_1.0.114.tar.gz mirror://gentoo/devices.tar.gz
-_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8
 _md5_=2f3099f6daa01cadd57f8be90fb2e5a5
