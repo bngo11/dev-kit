@@ -7,7 +7,7 @@ inherit multilib-minimal python-any-r1 meson vala
 
 DESCRIPTION="Mock hardware devices for creating unit tests"
 HOMEPAGE="https://github.com/martinpitt/umockdev/"
-SRC_URI="https://github.com/martinpitt/umockdev/releases/download/0.17.12/umockdev-0.17.12.tar.xz -> umockdev-0.17.12.tar.xz"
+SRC_URI="https://github.com/martinpitt/umockdev/releases/download/0.17.13/umockdev-0.17.13.tar.xz -> umockdev-0.17.13.tar.xz"
 
 LICENSE="LGPL-2.1+"
 SLOT="0"

@@ -37,7 +37,7 @@ either-1.6.1
 env_logger-0.9.0
 fastrand-1.7.0
 filetime-0.2.16
-flate2-1.0.23
+flate2-1.0.24
 fnv-1.0.7
 foreign-types-0.3.2
 foreign-types-shared-0.1.1
@@ -57,7 +57,7 @@ humantime-2.1.0
 idna-0.2.3
 ignore-0.4.18
 im-rc-15.1.0
-indexmap-1.8.1
+indexmap-1.8.2
 instant-0.1.12
 itertools-0.10.3
 itoa-1.0.2
@@ -69,11 +69,11 @@ libc-0.2.126
 libgit2-sys-0.13.4+1.4.2
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
-libz-sys-1.1.6
+libz-sys-1.1.8
 log-0.4.17
 matches-0.1.9
 memchr-2.5.0
-miniz_oxide-0.5.1
+miniz_oxide-0.5.3
 miow-0.3.7
 num_cpus-1.13.1
 once_cell-1.12.0
