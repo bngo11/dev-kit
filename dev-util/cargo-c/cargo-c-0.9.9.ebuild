@@ -82,7 +82,7 @@ openssl-0.10.40
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.20.0+1.1.1o
-openssl-sys-0.9.73
+openssl-sys-0.9.74
 os_info-3.4.0
 os_str_bytes-6.1.0
 percent-encoding-2.1.0
@@ -113,7 +113,7 @@ sized-chunks-0.6.5
 socket2-0.4.4
 strip-ansi-escapes-0.1.1
 strsim-0.10.0
-syn-1.0.95
+syn-1.0.96
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.1.3
