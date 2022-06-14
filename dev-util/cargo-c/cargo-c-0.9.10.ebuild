@@ -19,9 +19,9 @@ cargo-util-0.1.2
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.1.18
-clap_derive-3.1.18
-clap_lex-0.2.0
+clap-3.2.1
+clap_derive-3.2.1
+clap_lex-0.2.2
 combine-4.6.4
 commoncrypto-0.2.0
 commoncrypto-sys-0.2.0
@@ -124,7 +124,7 @@ toml-0.5.9
 toml_edit-0.13.4
 typenum-1.15.0
 unicode-bidi-0.3.8
-unicode-ident-1.0.0
+unicode-ident-1.0.1
 unicode-normalization-0.1.19
 unicode-width-0.1.9
 unicode-xid-0.2.3
