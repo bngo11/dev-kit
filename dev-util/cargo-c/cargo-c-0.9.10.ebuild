@@ -19,8 +19,8 @@ cargo-util-0.1.2
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.4
-clap_derive-3.2.4
+clap-3.2.5
+clap_derive-3.2.5
 clap_lex-0.2.2
 combine-4.6.4
 commoncrypto-0.2.0
@@ -29,7 +29,7 @@ core-foundation-0.9.3
 core-foundation-sys-0.8.3
 crates-io-0.34.0
 crc32fast-1.3.2
-crossbeam-utils-0.8.8
+crossbeam-utils-0.8.9
 crypto-hash-0.3.4
 curl-0.4.43
 curl-sys-0.4.55+curl-7.83.1
@@ -47,7 +47,7 @@ git2-0.14.4
 git2-curl-0.15.0
 glob-0.3.0
 globset-0.4.9
-hashbrown-0.11.2
+hashbrown-0.12.1
 heck-0.4.0
 hermit-abi-0.1.19
 hex-0.3.2
@@ -57,7 +57,7 @@ humantime-2.1.0
 idna-0.2.3
 ignore-0.4.18
 im-rc-15.1.0
-indexmap-1.8.2
+indexmap-1.9.0
 instant-0.1.12
 itertools-0.10.3
 itoa-1.0.2
