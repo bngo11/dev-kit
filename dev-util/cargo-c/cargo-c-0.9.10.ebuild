@@ -4,7 +4,7 @@ EAPI=7
 
 CRATES="adler-1.0.2
 aho-corasick-0.7.18
-anyhow-1.0.57
+anyhow-1.0.58
 arrayvec-0.5.2
 atty-0.2.14
 autocfg-1.1.0
@@ -19,9 +19,9 @@ cargo-util-0.1.2
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.5
-clap_derive-3.2.5
-clap_lex-0.2.2
+clap-3.2.6
+clap_derive-3.2.6
+clap_lex-0.2.3
 combine-4.6.4
 commoncrypto-0.2.0
 commoncrypto-sys-0.2.0
@@ -29,7 +29,7 @@ core-foundation-0.9.3
 core-foundation-sys-0.8.3
 crates-io-0.34.0
 crc32fast-1.3.2
-crossbeam-utils-0.8.9
+crossbeam-utils-0.8.10
 crypto-hash-0.3.4
 curl-0.4.43
 curl-sys-0.4.55+curl-7.83.1
@@ -57,7 +57,7 @@ humantime-2.1.0
 idna-0.2.3
 ignore-0.4.18
 im-rc-15.1.0
-indexmap-1.9.0
+indexmap-1.9.1
 instant-0.1.12
 itertools-0.10.3
 itoa-1.0.2
@@ -80,7 +80,7 @@ opener-0.5.0
 openssl-0.10.40
 openssl-macros-0.1.0
 openssl-probe-0.1.5
-openssl-src-111.20.0+1.1.1o
+openssl-src-111.21.0+1.1.1p
 openssl-sys-0.9.74
 os_info-3.4.0
 os_str_bytes-6.1.0
@@ -88,8 +88,8 @@ percent-encoding-2.1.0
 pkg-config-0.3.25
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.39
-quote-1.0.18
+proc-macro2-1.0.40
+quote-1.0.20
 rand_core-0.6.3
 rand_xoshiro-0.6.0
 redox_syscall-0.2.13
@@ -112,7 +112,7 @@ sized-chunks-0.6.5
 socket2-0.4.4
 strip-ansi-escapes-0.1.1
 strsim-0.10.0
-syn-1.0.96
+syn-1.0.98
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.1.3
@@ -125,7 +125,7 @@ toml_edit-0.13.4
 typenum-1.15.0
 unicode-bidi-0.3.8
 unicode-ident-1.0.1
-unicode-normalization-0.1.19
+unicode-normalization-0.1.20
 unicode-width-0.1.9
 unicode-xid-0.2.3
 url-2.2.2
