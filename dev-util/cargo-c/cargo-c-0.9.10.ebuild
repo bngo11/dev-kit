@@ -15,11 +15,11 @@ bytes-1.1.0
 bytesize-1.1.0
 cargo-0.62.0
 cargo-platform-0.1.2
-cargo-util-0.1.2
+cargo-util-0.1.3
 cbindgen-0.23.0
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.7
+clap-3.2.8
 clap_derive-3.2.7
 clap_lex-0.2.4
 combine-4.6.4
@@ -33,7 +33,7 @@ crossbeam-utils-0.8.10
 crypto-hash-0.3.4
 curl-0.4.43
 curl-sys-0.4.55+curl-7.83.1
-either-1.6.1
+either-1.7.0
 env_logger-0.9.0
 fastrand-1.7.0
 filetime-0.2.16
@@ -102,11 +102,11 @@ rustfix-0.6.1
 ryu-1.0.10
 same-file-1.0.6
 schannel-0.1.20
-semver-1.0.11
+semver-1.0.12
 serde-1.0.137
 serde_derive-1.0.137
 serde_ignored-0.1.3
-serde_json-1.0.81
+serde_json-1.0.82
 shell-escape-0.1.5
 sized-chunks-0.6.5
 socket2-0.4.4
