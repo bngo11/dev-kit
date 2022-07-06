@@ -81,7 +81,7 @@ opener-0.5.0
 openssl-0.10.40
 openssl-macros-0.1.0
 openssl-probe-0.1.5
-openssl-src-111.21.0+1.1.1p
+openssl-src-111.22.0+1.1.1q
 openssl-sys-0.9.74
 os_info-3.4.0
 os_str_bytes-6.1.0
@@ -95,9 +95,9 @@ quote-1.0.20
 rand_core-0.6.3
 rand_xoshiro-0.6.0
 redox_syscall-0.2.13
-regex-1.5.6
+regex-1.6.0
 regex-automata-0.1.10
-regex-syntax-0.6.26
+regex-syntax-0.6.27
 remove_dir_all-0.5.3
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
