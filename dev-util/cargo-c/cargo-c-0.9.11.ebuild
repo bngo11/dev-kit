@@ -11,7 +11,7 @@ autocfg-1.1.0
 bitflags-1.3.2
 bitmaps-2.1.0
 bstr-0.2.17
-bytes-1.1.0
+bytes-1.2.0
 bytesize-1.1.0
 cargo-0.63.1
 cargo-platform-0.1.2
@@ -19,7 +19,7 @@ cargo-util-0.2.0
 cbindgen-0.24.3
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.12
+clap-3.2.13
 clap_derive-3.2.7
 clap_lex-0.2.4
 combine-4.6.4
