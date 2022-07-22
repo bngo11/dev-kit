@@ -19,7 +19,7 @@ cargo-util-0.2.0
 cbindgen-0.24.3
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.13
+clap-3.2.14
 clap_derive-3.2.7
 clap_lex-0.2.4
 combine-4.6.4
@@ -31,8 +31,8 @@ crates-io-0.34.0
 crc32fast-1.3.2
 crossbeam-utils-0.8.10
 crypto-hash-0.3.4
-curl-0.4.43
-curl-sys-0.4.55+curl-7.83.1
+curl-0.4.44
+curl-sys-0.4.56+curl-7.83.1
 either-1.7.0
 env_logger-0.9.0
 fastrand-1.7.0
@@ -105,8 +105,8 @@ ryu-1.0.10
 same-file-1.0.6
 schannel-0.1.20
 semver-1.0.12
-serde-1.0.139
-serde_derive-1.0.139
+serde-1.0.140
+serde_derive-1.0.140
 serde_ignored-0.1.4
 serde_json-1.0.82
 shell-escape-0.1.5
