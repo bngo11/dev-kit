@@ -3,8 +3,8 @@
 EAPI=7
 
 CRATES="adler-1.0.2
-aho-corasick-0.7.18
-anyhow-1.0.63
+aho-corasick-0.7.19
+anyhow-1.0.64
 arrayvec-0.5.2
 atty-0.2.14
 autocfg-1.1.0
@@ -19,7 +19,7 @@ cargo-util-0.2.1
 cbindgen-0.24.3
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.19
+clap-3.2.20
 clap_derive-3.2.18
 clap_lex-0.2.4
 combine-4.6.6
@@ -32,7 +32,7 @@ crc32fast-1.3.2
 crossbeam-utils-0.8.11
 crypto-hash-0.3.4
 curl-0.4.44
-curl-sys-0.4.56+curl-7.83.1
+curl-sys-0.4.57+curl-7.85.0
 either-1.8.0
 env_logger-0.9.0
 fastrand-1.8.0
@@ -73,10 +73,10 @@ libz-sys-1.1.8
 log-0.4.17
 matches-0.1.9
 memchr-2.5.0
-miniz_oxide-0.5.3
+miniz_oxide-0.5.4
 miow-0.3.7
 num_cpus-1.13.1
-once_cell-1.13.1
+once_cell-1.14.0
 opener-0.5.0
 openssl-0.10.41
 openssl-macros-0.1.0
@@ -111,7 +111,7 @@ serde_ignored-0.1.5
 serde_json-1.0.85
 shell-escape-0.1.5
 sized-chunks-0.6.5
-socket2-0.4.6
+socket2-0.4.7
 static_assertions-1.1.0
 strip-ansi-escapes-0.1.1
 strsim-0.10.0
