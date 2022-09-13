@@ -7,7 +7,7 @@ inherit meson vala
 
 DESCRIPTION="Library for reading and writing Jcat files"
 HOMEPAGE="https://github.com/hughsie/libjcat"
-SRC_URI="https://github.com/hughsie/libjcat/archive/0.1.11.tar.gz -> libjcat-0.1.11.tar.gz"
+SRC_URI="https://github.com/hughsie/libjcat/archive/0.1.12.tar.gz -> libjcat-0.1.12.tar.gz"
 LICENSE="LGPL-2.1+"
 SLOT="0"
 
