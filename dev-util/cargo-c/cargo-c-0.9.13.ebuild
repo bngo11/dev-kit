@@ -52,7 +52,7 @@ heck-0.4.0
 hermit-abi-0.1.19
 hex-0.3.2
 hex-0.4.3
-home-0.5.3
+home-0.5.4
 humantime-2.1.0
 idna-0.3.0
 ignore-0.4.18
@@ -65,7 +65,7 @@ jobserver-0.1.25
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.134
+libc-0.2.135
 libgit2-sys-0.13.4+1.4.2
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
