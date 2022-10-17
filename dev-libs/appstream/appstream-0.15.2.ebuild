@@ -29,6 +29,7 @@ RDEPEND="
 	dev-db/lmdb:=
 	>=dev-libs/glib-2.58:2
 	dev-libs/libxml2:2
+	dev-libs/libxmlb
 	dev-libs/libyaml
 	dev-libs/snowball-stemmer
 	net-misc/curl
