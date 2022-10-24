@@ -19,7 +19,7 @@ cargo-util-0.2.1
 cbindgen-0.24.3
 cc-1.0.73
 cfg-if-1.0.0
-clap-3.2.22
+clap-3.2.21
 clap_derive-3.2.18
 clap_lex-0.2.4
 combine-4.6.6
@@ -81,7 +81,7 @@ openssl-0.10.42
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.22.0+1.1.1q
-openssl-sys-0.9.76
+openssl-sys-0.9.77
 os_info-3.5.1
 os_str_bytes-6.3.0
 pathdiff-0.2.1
@@ -104,8 +104,8 @@ ryu-1.0.11
 same-file-1.0.6
 schannel-0.1.20
 semver-1.0.14
-serde-1.0.145
-serde_derive-1.0.145
+serde-1.0.147
+serde_derive-1.0.147
 serde_ignored-0.1.5
 serde_json-1.0.87
 shell-escape-0.1.5
@@ -118,7 +118,7 @@ syn-1.0.103
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.1.3
-textwrap-0.15.1
+textwrap-0.15.0
 thread_local-1.1.4
 tinyvec-1.6.0
 tinyvec_macros-0.1.0
