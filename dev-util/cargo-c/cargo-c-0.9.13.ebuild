@@ -32,7 +32,7 @@ crc32fast-1.3.2
 crossbeam-utils-0.8.12
 crypto-hash-0.3.4
 curl-0.4.44
-curl-sys-0.4.56+curl-7.83.1
+curl-sys-0.4.58+curl-7.86.0
 either-1.8.0
 env_logger-0.9.1
 fastrand-1.8.0
@@ -83,7 +83,7 @@ openssl-probe-0.1.5
 openssl-src-111.22.0+1.1.1q
 openssl-sys-0.9.77
 os_info-3.5.1
-os_str_bytes-6.3.0
+os_str_bytes-6.3.1
 pathdiff-0.2.1
 percent-encoding-2.2.0
 pkg-config-0.3.26
