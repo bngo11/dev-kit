@@ -15,7 +15,7 @@ bytes-1.2.1
 bytesize-1.1.0
 cargo-0.65.0
 cargo-platform-0.1.2
-cargo-util-0.2.1
+cargo-util-0.2.2
 cbindgen-0.24.3
 cc-1.0.74
 cfg-if-1.0.0
@@ -32,7 +32,7 @@ crc32fast-1.3.2
 crossbeam-utils-0.8.12
 crypto-hash-0.3.4
 curl-0.4.44
-curl-sys-0.4.58+curl-7.86.0
+curl-sys-0.4.59+curl-7.86.0
 either-1.8.0
 env_logger-0.9.1
 fastrand-1.8.0
@@ -74,13 +74,13 @@ log-0.4.17
 memchr-2.5.0
 miniz_oxide-0.5.4
 miow-0.3.7
-num_cpus-1.13.1
+num_cpus-1.14.0
 once_cell-1.16.0
 opener-0.5.0
 openssl-0.10.42
 openssl-macros-0.1.0
 openssl-probe-0.1.5
-openssl-src-111.22.0+1.1.1q
+openssl-src-111.24.0+1.1.1s
 openssl-sys-0.9.77
 os_info-3.5.1
 os_str_bytes-6.3.1
