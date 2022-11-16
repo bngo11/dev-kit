@@ -8,9 +8,9 @@ inherit meson python-any-r1 xdg
 
 DESCRIPTION="Library to help create and query binary XML blobs"
 HOMEPAGE="https://github.com/hughsie/libxmlb"
-SRC_URI="https://github.com/hughsie/libxmlb/archive/0.3.10.tar.gz -> libxmlb-0.3.10.tar.gz"
+SRC_URI="https://github.com/hughsie/libxmlb/tarball/a6cac6a715d57c393bbddee4d0381ad943341af9 -> libxmlb-0.3.10-a6cac6a.tar.gz"
 LICENSE="LGPL-2.1+"
-SLOT="0"
+SLOT="0/2" # libxmlb.so version
 
 KEYWORDS="*"
 IUSE="doc introspection stemmer test"
@@ -43,6 +43,12 @@ python_check_deps() {
 	has_version -b "dev-python/setuptools[${PYTHON_USEDEP}]"
 }
 
+post_src_unpack() {
+	if [ ! -d "${S}" ] ; then
+		mv "${WORKDIR}"/hughsie-libxmlb-* "${S}" || die
+	fi
+}
+
 pkg_setup() {
 	python-any-r1_pkg_setup
 }
@@ -54,6 +60,5 @@ src_configure() {
 		$(meson_use stemmer)
 		$(meson_use test tests)
 	)
-
 	meson_src_configure
 }
