@@ -20,7 +20,6 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	dev-util/glib-utils
 	virtual/pkgconfig
 	test? ( dev-util/dbus-test-runner )
 "
