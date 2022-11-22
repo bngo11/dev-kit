@@ -3,7 +3,7 @@
 EAPI=7
 
 CRATES="adler-1.0.2
-aho-corasick-0.7.19
+aho-corasick-0.7.20
 anyhow-1.0.66
 arrayvec-0.5.2
 atty-0.2.14
@@ -11,7 +11,7 @@ autocfg-1.1.0
 bitflags-1.3.2
 bitmaps-2.1.0
 bstr-0.2.17
-bytes-1.2.1
+bytes-1.3.0
 bytesize-1.1.0
 cargo-0.66.0
 cargo-platform-0.1.2
@@ -29,7 +29,7 @@ core-foundation-0.9.3
 core-foundation-sys-0.8.3
 crates-io-0.34.0
 crc32fast-1.3.2
-crossbeam-utils-0.8.13
+crossbeam-utils-0.8.12
 crypto-hash-0.3.4
 curl-0.4.44
 curl-sys-0.4.59+curl-7.86.0
