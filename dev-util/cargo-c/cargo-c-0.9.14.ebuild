@@ -17,7 +17,7 @@ cargo-0.66.0
 cargo-platform-0.1.2
 cargo-util-0.2.2
 cbindgen-0.24.3
-cc-1.0.77
+cc-1.0.78
 cfg-if-1.0.0
 clap-3.2.23
 clap_derive-3.2.18
@@ -103,8 +103,8 @@ ryu-1.0.11
 same-file-1.0.6
 schannel-0.1.20
 semver-1.0.14
-serde-1.0.149
-serde_derive-1.0.149
+serde-1.0.150
+serde_derive-1.0.150
 serde_ignored-0.1.5
 serde_json-1.0.89
 shell-escape-0.1.5
@@ -121,7 +121,7 @@ textwrap-0.16.0
 thread_local-1.1.4
 tinyvec-1.6.0
 tinyvec_macros-0.1.0
-toml-0.5.9
+toml-0.5.10
 toml_edit-0.14.4
 typenum-1.16.0
 unicode-bidi-0.3.8
