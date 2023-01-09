@@ -49,7 +49,7 @@ form_urlencoded-1.1.0
 fwdansi-1.1.0
 git2-0.15.0
 git2-curl-0.16.0
-glob-0.3.0
+glob-0.3.1
 globset-0.4.10
 hashbrown-0.12.3
 heck-0.4.0
