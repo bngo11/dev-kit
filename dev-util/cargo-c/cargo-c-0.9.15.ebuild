@@ -67,7 +67,7 @@ hmac-0.12.1
 home-0.5.4
 humantime-2.1.0
 idna-0.3.0
-ignore-0.4.19
+ignore-0.4.20
 im-rc-15.1.0
 indexmap-1.9.2
 instant-0.1.12
@@ -137,7 +137,7 @@ subtle-2.4.1
 syn-1.0.107
 tar-0.4.38
 tempfile-3.3.0
-termcolor-1.1.3
+termcolor-1.2.0
 textwrap-0.16.0
 thread_local-1.1.4
 tinyvec-1.6.0
