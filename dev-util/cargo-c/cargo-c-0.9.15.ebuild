@@ -53,7 +53,7 @@ foreign-types-shared-0.1.1
 form_urlencoded-1.1.0
 fwdansi-1.1.0
 generic-array-0.14.6
-git2-0.16.0
+git2-0.16.1
 git2-curl-0.17.0
 glob-0.3.1
 globset-0.4.10
@@ -80,7 +80,7 @@ kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
 libc-0.2.139
-libgit2-sys-0.14.1+1.5.0
+libgit2-sys-0.14.2+1.5.1
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
 libz-sys-1.1.8
@@ -105,7 +105,7 @@ percent-encoding-2.2.0
 pkg-config-0.3.26
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.49
+proc-macro2-1.0.50
 quote-1.0.23
 rand_core-0.6.4
 rand_xoshiro-0.6.0
@@ -116,7 +116,7 @@ regex-syntax-0.6.28
 remove_dir_all-0.5.3
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
-rustix-0.36.6
+rustix-0.36.7
 ryu-1.0.12
 same-file-1.0.6
 schannel-0.1.21
@@ -142,11 +142,11 @@ textwrap-0.16.0
 thread_local-1.1.4
 tinyvec-1.6.0
 tinyvec_macros-0.1.0
-toml-0.5.10
-toml_datetime-0.5.0
+toml-0.5.11
+toml_datetime-0.5.1
 toml_edit-0.15.0
 typenum-1.16.0
-unicode-bidi-0.3.8
+unicode-bidi-0.3.10
 unicode-ident-1.0.6
 unicode-normalization-0.1.22
 unicode-width-0.1.10
