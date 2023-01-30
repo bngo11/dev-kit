@@ -92,7 +92,7 @@ miow-0.5.0
 nom8-0.2.0
 num-traits-0.2.15
 once_cell-1.17.0
-opener-0.5.1
+opener-0.5.2
 openssl-0.10.45
 openssl-macros-0.1.0
 openssl-probe-0.1.5
