@@ -22,7 +22,7 @@ cbindgen-0.24.3
 cc-1.0.79
 cfg-if-1.0.0
 clap-3.2.23
-clap-4.1.4
+clap-4.1.6
 clap_derive-4.1.0
 clap_lex-0.2.4
 clap_lex-0.3.1
@@ -43,7 +43,7 @@ either-1.8.1
 env_logger-0.10.0
 errno-0.2.8
 errno-dragonfly-0.1.2
-fastrand-1.8.0
+fastrand-1.9.0
 filetime-0.2.20
 flate2-1.0.25
 fnv-1.0.7
@@ -91,7 +91,7 @@ miniz_oxide-0.6.2
 miow-0.5.0
 nom8-0.2.0
 num-traits-0.2.15
-once_cell-1.17.0
+once_cell-1.17.1
 opener-0.5.2
 openssl-0.10.45
 openssl-macros-0.1.0
@@ -141,7 +141,7 @@ tar-0.4.38
 tempfile-3.3.0
 termcolor-1.2.0
 textwrap-0.16.0
-thread_local-1.1.4
+thread_local-1.1.7
 tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
