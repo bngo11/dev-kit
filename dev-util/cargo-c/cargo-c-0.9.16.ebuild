@@ -12,9 +12,9 @@ base64-0.13.1
 bitflags-1.3.2
 bitmaps-2.1.0
 block-buffer-0.10.3
-bstr-1.2.0
+bstr-1.3.0
 bytes-1.4.0
-bytesize-1.1.0
+bytesize-1.2.0
 cargo-0.68.0
 cargo-platform-0.1.2
 cargo-util-0.2.3
@@ -22,10 +22,10 @@ cbindgen-0.24.3
 cc-1.0.79
 cfg-if-1.0.0
 clap-3.2.23
-clap-4.1.6
-clap_derive-4.1.0
+clap-4.1.8
+clap_derive-4.1.8
 clap_lex-0.2.4
-clap_lex-0.3.1
+clap_lex-0.3.2
 combine-4.6.6
 commoncrypto-0.2.0
 commoncrypto-sys-0.2.0
@@ -37,7 +37,7 @@ crc32fast-1.3.2
 crypto-common-0.1.6
 crypto-hash-0.3.4
 curl-0.4.44
-curl-sys-0.4.59+curl-7.86.0
+curl-sys-0.4.60+curl-7.88.1
 digest-0.10.6
 either-1.8.1
 env_logger-0.10.0
@@ -72,10 +72,10 @@ im-rc-15.1.0
 indexmap-1.9.2
 instant-0.1.12
 io-lifetimes-1.0.5
-is-terminal-0.4.3
+is-terminal-0.4.4
 itertools-0.10.5
 itoa-1.0.5
-jobserver-0.1.25
+jobserver-0.1.26
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
@@ -96,7 +96,7 @@ opener-0.5.2
 openssl-0.10.45
 openssl-macros-0.1.0
 openssl-probe-0.1.5
-openssl-src-111.25.0+1.1.1t
+openssl-src-111.25.1+1.1.1t
 openssl-sys-0.9.80
 ordered-float-2.10.0
 os_info-3.6.0
@@ -114,7 +114,6 @@ redox_syscall-0.2.16
 regex-1.7.1
 regex-automata-0.1.10
 regex-syntax-0.6.28
-remove_dir_all-0.5.3
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
 rustix-0.36.8
@@ -136,9 +135,9 @@ static_assertions-1.1.0
 strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.4.1
-syn-1.0.107
+syn-1.0.109
 tar-0.4.38
-tempfile-3.3.0
+tempfile-3.4.0
 termcolor-1.2.0
 textwrap-0.16.0
 thread_local-1.1.7
