@@ -128,14 +128,14 @@ pkg-config-0.3.26
 primeorder-0.13.0
 proc-macro-error-1.0.4
 proc-macro-error-attr-1.0.4
-proc-macro2-1.0.52
+proc-macro2-1.0.53
 quote-1.0.26
 rand_core-0.6.4
 rand_xoshiro-0.6.0
 redox_syscall-0.2.16
-regex-1.7.1
+regex-1.7.2
 regex-automata-0.1.10
-regex-syntax-0.6.28
+regex-syntax-0.6.29
 rfc6979-0.4.0
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
@@ -163,7 +163,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.4.1
 syn-1.0.109
-syn-2.0.3
+syn-2.0.6
 tar-0.4.38
 tempfile-3.4.0
 termcolor-1.2.0
@@ -181,7 +181,7 @@ toml_datetime-0.6.1
 toml_edit-0.15.0
 toml_edit-0.19.7
 typenum-1.16.0
-unicode-bidi-0.3.12
+unicode-bidi-0.3.13
 unicode-ident-1.0.8
 unicode-normalization-0.1.22
 unicode-width-0.1.10
