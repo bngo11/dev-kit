@@ -163,7 +163,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.4.1
 syn-1.0.109
-syn-2.0.6
+syn-2.0.7
 tar-0.4.38
 tempfile-3.4.0
 termcolor-1.2.0
@@ -179,7 +179,7 @@ toml-0.7.3
 toml_datetime-0.5.1
 toml_datetime-0.6.1
 toml_edit-0.15.0
-toml_edit-0.19.7
+toml_edit-0.19.8
 typenum-1.16.0
 unicode-bidi-0.3.13
 unicode-ident-1.0.8
@@ -213,7 +213,7 @@ windows_i686_msvc-0.42.2
 windows_x86_64_gnu-0.42.2
 windows_x86_64_gnullvm-0.42.2
 windows_x86_64_msvc-0.42.2
-winnow-0.3.6
+winnow-0.4.0
 zeroize-1.5.7
 "
 
