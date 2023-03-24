@@ -12,7 +12,6 @@ base16ct-0.2.0
 base64-0.13.1
 base64ct-1.6.0
 bitflags-1.3.2
-bitflags-2.0.2
 bitmaps-2.1.0
 block-buffer-0.10.4
 bstr-1.4.0
@@ -26,8 +25,8 @@ cbindgen-0.24.3
 cc-1.0.79
 cfg-if-1.0.0
 clap-3.2.23
-clap-4.1.11
-clap_derive-4.1.9
+clap-4.1.13
+clap_derive-4.1.12
 clap_lex-0.2.4
 clap_lex-0.3.3
 combine-4.6.6
@@ -126,8 +125,6 @@ percent-encoding-2.2.0
 pkcs8-0.10.1
 pkg-config-0.3.26
 primeorder-0.13.0
-proc-macro-error-1.0.4
-proc-macro-error-attr-1.0.4
 proc-macro2-1.0.53
 quote-1.0.26
 rand_core-0.6.4
@@ -163,7 +160,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.4.1
 syn-1.0.109
-syn-2.0.7
+syn-2.0.8
 tar-0.4.38
 tempfile-3.4.0
 termcolor-1.2.0
