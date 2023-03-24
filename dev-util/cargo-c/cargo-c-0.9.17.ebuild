@@ -108,11 +108,11 @@ miow-0.5.0
 num-traits-0.2.15
 once_cell-1.17.1
 opener-0.5.2
-openssl-0.10.47
+openssl-0.10.48
 openssl-macros-0.1.0
 openssl-probe-0.1.5
 openssl-src-111.25.2+1.1.1t
-openssl-sys-0.9.82
+openssl-sys-0.9.83
 ordered-float-2.10.0
 orion-0.17.4
 os_info-3.7.0
@@ -160,7 +160,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.4.1
 syn-1.0.109
-syn-2.0.8
+syn-2.0.9
 tar-0.4.38
 tempfile-3.4.0
 termcolor-1.2.0
@@ -210,7 +210,7 @@ windows_i686_msvc-0.42.2
 windows_x86_64_gnu-0.42.2
 windows_x86_64_gnullvm-0.42.2
 windows_x86_64_msvc-0.42.2
-winnow-0.4.0
+winnow-0.4.1
 zeroize-1.5.7
 "
 
