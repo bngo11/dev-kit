@@ -1276,8 +1276,8 @@ go-module_set_globals
 
 DESCRIPTION="A tool for creating identical machine images for multiple platforms"
 HOMEPAGE="https://www.packer.io/ https://github.com/hashicorp/packer"
-SRC_URI="https://api.github.com/repos/hashicorp/packer/tarball/v1.8.6 -> packer-v1.8.6.tar.gz
-	${EGO_SUM_SRC_URI}"
+SRC_URI="https://github.com/hashicorp/packer/tarball/7c133022d2433a94cb0e6023b594120fd69a2679 -> packer-1.8.6-7c13302.tar.gz
+https://direct.funtoo.org/ae/20/a7/ae20a7d2cac7a5dc36be91eac9da6792dde43819ba0720ae86cb2c7efcf6c59f88f59c7eeb09f99abcdc2af88e3aa0c27d30e841907eee94819a4674a78e5972 -> packer-1.8.6-funtoo-go-bundle-9f866841a9d8202bae6ea04a47923785505502c96a8589f86a9a4c7ac099aa7ed22f0cb12fb170607a55807f6f918b258ff7fab2548b5f14968f99748ad1bfc8.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -1286,12 +1286,7 @@ KEYWORDS="*"
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.17"
-
-src_unpack() {
-	go-module_src_unpack
-	rm -rf ${S}
-	mv ${WORKDIR}/hashicorp-packer-* ${S} || die
-}
+S="${WORKDIR}/hashicorp-packer-7c13302"
 
 src_compile() {
 	go build -o "${PN}" || die "compile failed"

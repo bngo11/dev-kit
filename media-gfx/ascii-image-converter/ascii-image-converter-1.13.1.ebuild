@@ -361,8 +361,8 @@ go-module_set_globals
 
 DESCRIPTION="A cross-platform command-line tool to convert images into ascii art and print them on the console."
 HOMEPAGE="https://github.com/TheZoraiz/ascii-image-converter"
-SRC_URI="https://api.github.com/repos/TheZoraiz/ascii-image-converter/tarball/v1.13.1 -> ascii-image-converter-v1.13.1.tar.gz
-	${EGO_SUM_SRC_URI}"
+SRC_URI="https://github.com/TheZoraiz/ascii-image-converter/tarball/d05a757c5e02ab23e97b6f6fca4e1fbeb10ab559 -> ascii-image-converter-1.13.1-d05a757.tar.gz
+https://direct.funtoo.org/ba/78/13/ba7813d72b7cc9152177378ef277a9aebf8a2b5c688c5399a64a90999c35a2c18fc62d7c4e3b754ab9a4cea879a18d60b5e666794d5cfce1a5482ac8d870ac68 -> ascii-image-converter-1.13.1-funtoo-go-bundle-fb371af4cd1dfe6dfb35f2fb106b8e1bd5914dbdb5b0bef2ab1df3cb6bd0126d586af6a3ca31d1d258a255d279acd346532a162de2062f0ebc0c64e402f296ae.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
@@ -371,9 +371,7 @@ KEYWORDS="*"
 DEPEND=""
 BDEPEND=">=dev-lang/go-1.17"
 
-src_unpack() {
-	go-module_src_unpack
-	rm -rf ${S}
+post_src_unpack() {
 	mv ${WORKDIR}/TheZoraiz-ascii-image-converter-* ${S} || die
 }
 

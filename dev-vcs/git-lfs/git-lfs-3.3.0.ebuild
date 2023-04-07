@@ -118,8 +118,8 @@ EGO_PN=github.com/git-lfs/git-lfs
 DESCRIPTION="Git extension for versioning large files"
 HOMEPAGE="https://git-lfs.github.com/"
 
-SRC_URI="https://api.github.com/repos/git-lfs/git-lfs/tarball/v3.3.0 -> git-lfs-v3.3.0.tar.gz
-	${EGO_SUM_SRC_URI}"
+SRC_URI="https://github.com/git-lfs/git-lfs/tarball/77deabdf9a18f8a07ecfd3e0f4aa572ffbbab8d4 -> git-lfs-3.3.0-77deabd.tar.gz
+https://direct.funtoo.org/80/5c/f8/805cf81384d4f904c793af7fa37c0af910da9ac32034535f8274860f9dd1f3c88ade1adf8f607e77d5d0fdf620d2188e9e543f9299318965771b78a26caf3b93 -> git-lfs-3.3.0-funtoo-go-bundle-bf25cba0ef1e2b6e7e744b6b963a6e952bdc6a63d7995d2c7b08182e168c778bd3907d858d5d695dccae3b1120d523b2615ce5b054c6857ccb12003cf9954a4a.tar.gz"
 KEYWORDS="*"
 
 LICENSE="Apache-2.0 BSD BSD-2 BSD-4 ISC MIT"
@@ -141,9 +141,7 @@ DOCS=(
 	SECURITY.md
 )
 
-src_unpack() {
-	go-module_src_unpack
-	rm -rf ${S}
+post_src_unpack() {
 	mv ${WORKDIR}/git-lfs-git-lfs-* ${S} || die
 }
 

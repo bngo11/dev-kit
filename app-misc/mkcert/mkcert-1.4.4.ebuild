@@ -31,8 +31,8 @@ go-module_set_globals
 
 DESCRIPTION="A zero-config tool to make locally trusted development certificates"
 HOMEPAGE="https://github.com/FiloSottile/mkcert"
-SRC_URI="https://api.github.com/repos/FiloSottile/mkcert/tarball/v1.4.4 -> mkcert-1.4.4.tar.gz
-		${EGO_SUM_SRC_URI}"
+SRC_URI="https://github.com/FiloSottile/mkcert/tarball/2a46726cebac0ff4e1f133d90b4e4c42f1edf44a -> mkcert-1.4.4-2a46726.tar.gz
+https://direct.funtoo.org/b1/5e/54/b15e548f2d8fbd3e206725059f5e1e41e1014ed6645d419848e54fd72062ab461ee70b8faf399edba8db6f52020c782c8800eeaa5267bbd177c359a92d8090f5 -> mkcert-1.4.4-funtoo-go-bundle-1ada4f76bdb8fd3e8528df10f42ea02a4e3f3a0d97a1816c91c4b819b0dc644fd17e60bb9250865b0fef6990bad95e7bb98ab4107bc27439a0c7d2c182165bc7.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"
@@ -43,9 +43,7 @@ RDEPEND="
 	dev-libs/nss[utils]
 "
 
-src_unpack() {
-	go-module_src_unpack
-	rm -rf ${S}
+post_src_unpack() {
 	mv ${WORKDIR}/FiloSottile-mkcert-* ${S} || die
 }
 
