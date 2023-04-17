@@ -8,5 +8,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/boyter/scc/tarball/401ff326fc05d0ca4b2caab70881e68f83b7b119 -> scc-3.1.0-401ff32.tar.gz https://direct.funtoo.org/44/41/a4/4441a4597660d5314e1cc6dc80ba540ca500e1f1857bfca46e7e1a8f34124602c428786a3fd9cff07ae5095da38946dd4aab79ebb66ad74a2d448716af06572e -> scc-3.1.0-funtoo-go-bundle-307790817f633b649604ea48b7921b990ac8daa475b28adc0784be80edd5c756b65cf6105dbded3cfe101aecbc6adad70f60d4e3b18140370a7a9fb52a10067f.tar.gz
-_eclasses_=go-module	7aad60675732a578d7eb16e3e26a47e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
 _md5_=169f93792974f11d44e7b3ebb13ef6dc
