@@ -108,7 +108,7 @@ libgit2-sys-0.14.1+1.5.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
 libz-sys-1.1.8
-linux-raw-sys-0.3.3
+linux-raw-sys-0.3.4
 log-0.4.17
 memchr-2.5.0
 miniz_oxide-0.6.2
@@ -145,7 +145,7 @@ regex-syntax-0.7.1
 rfc6979-0.4.0
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
-rustix-0.37.13
+rustix-0.37.14
 ryu-1.0.13
 same-file-1.0.6
 schannel-0.1.21
