@@ -54,8 +54,8 @@ EGO_SUM=(
 	"github.com/aymerick/douceur v0.2.0/go.mod"
 	"github.com/briandowns/spinner v1.18.1"
 	"github.com/briandowns/spinner v1.18.1/go.mod"
-	"github.com/cenkalti/backoff/v4 v4.2.0"
-	"github.com/cenkalti/backoff/v4 v4.2.0/go.mod"
+	"github.com/cenkalti/backoff/v4 v4.2.1"
+	"github.com/cenkalti/backoff/v4 v4.2.1/go.mod"
 	"github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod"
 	"github.com/charmbracelet/glamour v0.5.1-0.20220727184942-e70ff2d969da"
 	"github.com/charmbracelet/glamour v0.5.1-0.20220727184942-e70ff2d969da/go.mod"
@@ -69,15 +69,15 @@ EGO_SUM=(
 	"github.com/cli/browser v1.1.0/go.mod"
 	"github.com/cli/crypto v0.0.0-20210929142629-6be313f59b03"
 	"github.com/cli/crypto v0.0.0-20210929142629-6be313f59b03/go.mod"
-	"github.com/cli/go-gh v1.2.1"
-	"github.com/cli/go-gh v1.2.1/go.mod"
+	"github.com/cli/go-gh/v2 v2.0.0"
+	"github.com/cli/go-gh/v2 v2.0.0/go.mod"
 	"github.com/cli/oauth v1.0.1"
 	"github.com/cli/oauth v1.0.1/go.mod"
 	"github.com/cli/safeexec v1.0.0/go.mod"
 	"github.com/cli/safeexec v1.0.1"
 	"github.com/cli/safeexec v1.0.1/go.mod"
-	"github.com/cli/shurcoo!l-graphql v0.0.2"
-	"github.com/cli/shurcoo!l-graphql v0.0.2/go.mod"
+	"github.com/cli/shurcoo!l-graphql v0.0.3"
+	"github.com/cli/shurcoo!l-graphql v0.0.3/go.mod"
 	"github.com/client9/misspell v0.3.4/go.mod"
 	"github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod"
 	"github.com/cpuguy83/go-md2man/v2 v2.0.2"
@@ -584,8 +584,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/89caedf1817c21e4bdb9b136a46444225ec4c982 -> cli-2.27.0-89caedf.tar.gz
-https://direct.funtoo.org/cf/96/53/cf965344feaf0c6e145f650852e7f410d971d1b51370bc14e824995cadb6f15a9a1f1ebaed89db76bd778fc67c8d51929bde024a13af624b9875ccf81bacb3bb -> github-cli-2.27.0-funtoo-go-bundle-37c988a9f88be9cba40278904836b37f62b8567d2bb37f03ee85533aa70daef95ad14f38313a0e1d0217e4ad2e8f4a5beae315d8e374b30659798cd4587adb2f.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/32faa8e5fa7b36019baf273124ff7d54d8c201f6 -> cli-2.28.0-32faa8e.tar.gz
+https://direct.funtoo.org/05/c3/73/05c37395d6a5522d25c453c7cfac4ca263c37fe72110044c7502baf65d32aa9986a2c1ec48e450d2aa5da69ee3745ca0a32460ffa17caa4c560bd9b156d5460b -> github-cli-2.28.0-funtoo-go-bundle-2fc3f9ab62f971683ae04af97c68ca975b2c192b74784cd448862626011816e4823ee609c7a3dadb901f1c9559d9349c43927d5e8d3e025170e763b464f137a2.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -597,7 +597,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.27.0"
+	export GH_VERSION="v2.28.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
