@@ -10,7 +10,7 @@ anstyle-1.0.0
 anstyle-parse-0.2.0
 anstyle-query-1.0.0
 anstyle-wincon-1.0.1
-anyhow-1.0.70
+anyhow-1.0.71
 arrayvec-0.5.2
 autocfg-1.1.0
 base16ct-0.2.0
@@ -137,7 +137,7 @@ regex-syntax-0.7.1
 rfc6979-0.4.0
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
-rustix-0.37.15
+rustix-0.37.18
 ryu-1.0.13
 same-file-1.0.6
 schannel-0.1.21
