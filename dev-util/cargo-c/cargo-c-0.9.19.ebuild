@@ -28,8 +28,8 @@ cargo-util-0.2.3
 cbindgen-0.24.3
 cc-1.0.79
 cfg-if-1.0.0
-clap-4.2.5
-clap_builder-4.2.5
+clap-4.2.7
+clap_builder-4.2.7
 clap_derive-4.2.0
 clap_lex-0.4.1
 colorchoice-1.0.0
@@ -96,12 +96,12 @@ jobserver-0.1.26
 js-sys-0.3.61
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.142
+libc-0.2.143
 libgit2-sys-0.14.1+1.5.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
 libz-sys-1.1.9
-linux-raw-sys-0.3.6
+linux-raw-sys-0.3.7
 log-0.4.17
 memchr-2.5.0
 miniz_oxide-0.7.1
@@ -123,7 +123,7 @@ pathdiff-0.2.1
 pem-rfc7468-0.7.0
 percent-encoding-2.2.0
 pkcs8-0.10.2
-pkg-config-0.3.26
+pkg-config-0.3.27
 primeorder-0.13.1
 proc-macro2-1.0.56
 quote-1.0.26
@@ -137,15 +137,15 @@ regex-syntax-0.7.1
 rfc6979-0.4.0
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
-rustix-0.37.18
+rustix-0.37.19
 ryu-1.0.13
 same-file-1.0.6
 schannel-0.1.21
 sec1-0.7.2
 semver-1.0.17
-serde-1.0.160
+serde-1.0.162
 serde-value-0.7.0
-serde_derive-1.0.160
+serde_derive-1.0.162
 serde_ignored-0.1.7
 serde_json-1.0.96
 serde_spanned-0.6.1
@@ -155,7 +155,7 @@ shell-escape-0.1.5
 signature-2.1.0
 sized-chunks-0.6.5
 socket2-0.4.9
-spki-0.7.1
+spki-0.7.2
 strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.4.1
@@ -165,9 +165,9 @@ tar-0.4.38
 tempfile-3.5.0
 termcolor-1.2.0
 thread_local-1.1.7
-time-0.3.20
-time-core-0.1.0
-time-macros-0.2.8
+time-0.3.21
+time-core-0.1.1
+time-macros-0.2.9
 tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
@@ -216,7 +216,7 @@ windows_x86_64_gnullvm-0.42.2
 windows_x86_64_gnullvm-0.48.0
 windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.0
-winnow-0.4.4
+winnow-0.4.6
 zeroize-1.6.0
 "
 
