@@ -96,7 +96,7 @@ jobserver-0.1.26
 js-sys-0.3.61
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.143
+libc-0.2.144
 libgit2-sys-0.14.1+1.5.0
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.2.23
@@ -126,7 +126,7 @@ pkcs8-0.10.2
 pkg-config-0.3.27
 primeorder-0.13.1
 proc-macro2-1.0.56
-quote-1.0.26
+quote-1.0.27
 rand_core-0.6.4
 rand_xoshiro-0.6.0
 redox_syscall-0.2.16
