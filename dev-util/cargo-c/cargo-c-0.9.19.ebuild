@@ -46,7 +46,7 @@ crypto-common-0.1.6
 crypto-hash-0.3.4
 ct-codecs-1.1.1
 curl-0.4.44
-curl-sys-0.4.62+curl-8.1.0
+curl-sys-0.4.63+curl-8.1.2
 der-0.7.6
 digest-0.10.7
 ecdsa-0.16.7
@@ -109,10 +109,10 @@ miow-0.5.0
 num-traits-0.2.15
 once_cell-1.17.2
 opener-0.5.2
-openssl-0.10.53
+openssl-0.10.54
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-src-111.25.3+1.1.1t
+openssl-src-111.26.0+1.1.1u
 openssl-sys-0.9.88
 ordered-float-2.10.0
 orion-0.17.4
