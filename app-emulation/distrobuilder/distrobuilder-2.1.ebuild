@@ -1896,7 +1896,7 @@ EGO_SUM=(
 go-module_set_globals
 
 SRC_URI="https://github.com/lxc/distrobuilder/tarball/ff0c6f52796fce915208147272f107fcd31490bd -> distrobuilder-2.1-ff0c6f5.tar.gz
-https://direct.funtoo.org/3e/71/e9/3e71e9dfb74c92c9eedf74cf6194c6ceb92df7317c58554568ef8f9e5cd3296b3339d8263d4ac211865d4e02c0c07c0f5f252681f4ed0e668c47143a309eca27 -> distrobuilder-2.1-funtoo-go-bundle-f158613f763a6ecdc746f4b81c005520939b80540147a33a8ef5952f40d59609d9f4226fc535db8ed69cc2f6bcade98242b5abec4b30ffc79666c9ab1d07e25d.tar.gz"
+https://direct.funtoo.org/81/82/ae/8182ae4e8ce910fec0aea9cb48182e3db4216ec4fc7512e6b6fb6895520d6ddf498cc36062e03d08ab34ae74fcfd50eab8e6d42e5a497ca9e21df1b0bb6c01e3 -> distrobuilder-2.1-funtoo-go-bundle-f158613f763a6ecdc746f4b81c005520939b80540147a33a8ef5952f40d59609d9f4226fc535db8ed69cc2f6bcade98242b5abec4b30ffc79666c9ab1d07e25d.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

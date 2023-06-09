@@ -119,7 +119,7 @@ DESCRIPTION="Git extension for versioning large files"
 HOMEPAGE="https://git-lfs.github.com/"
 
 SRC_URI="https://github.com/git-lfs/git-lfs/tarball/77deabdf9a18f8a07ecfd3e0f4aa572ffbbab8d4 -> git-lfs-3.3.0-77deabd.tar.gz
-https://direct.funtoo.org/80/5c/f8/805cf81384d4f904c793af7fa37c0af910da9ac32034535f8274860f9dd1f3c88ade1adf8f607e77d5d0fdf620d2188e9e543f9299318965771b78a26caf3b93 -> git-lfs-3.3.0-funtoo-go-bundle-bf25cba0ef1e2b6e7e744b6b963a6e952bdc6a63d7995d2c7b08182e168c778bd3907d858d5d695dccae3b1120d523b2615ce5b054c6857ccb12003cf9954a4a.tar.gz"
+https://direct.funtoo.org/b0/1a/88/b01a88ff810554a6c23520c4d4f9a51fd12c0e40b0de72b45851c46da4bcafd51c6aa8b3dbc118daaa18a3e017cfd91a2eceedfb2250b77c78d995b1361f62cf -> git-lfs-3.3.0-funtoo-go-bundle-bf25cba0ef1e2b6e7e744b6b963a6e952bdc6a63d7995d2c7b08182e168c778bd3907d858d5d695dccae3b1120d523b2615ce5b054c6857ccb12003cf9954a4a.tar.gz"
 KEYWORDS="*"
 
 LICENSE="Apache-2.0 BSD BSD-2 BSD-4 ISC MIT"
