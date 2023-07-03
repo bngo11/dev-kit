@@ -140,7 +140,7 @@ instant-0.1.12
 io-close-0.3.7
 is-terminal-0.4.8
 itertools-0.10.5
-itoa-1.0.7
+itoa-1.0.8
 jobserver-0.1.26
 js-sys-0.3.64
 lazy_static-1.4.0
@@ -202,15 +202,15 @@ rfc6979-0.4.0
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
 rustix-0.38.2
-ryu-1.0.13
+ryu-1.0.14
 same-file-1.0.6
 schannel-0.1.22
 scopeguard-1.1.0
 sec1-0.7.2
 semver-1.0.17
-serde-1.0.165
+serde-1.0.166
 serde-value-0.7.0
-serde_derive-1.0.165
+serde_derive-1.0.166
 serde_ignored-0.1.7
 serde_json-1.0.99
 serde_spanned-0.6.3
@@ -249,7 +249,7 @@ toml_edit-0.19.11
 typenum-1.16.0
 unicode-bidi-0.3.13
 unicode-bom-1.1.4
-unicode-ident-1.0.9
+unicode-ident-1.0.10
 unicode-normalization-0.1.22
 unicode-width-0.1.10
 unicode-xid-0.2.4
