@@ -123,7 +123,7 @@ hashbrown-0.12.3
 hashbrown-0.13.2
 hashbrown-0.14.0
 heck-0.4.1
-hermit-abi-0.3.1
+hermit-abi-0.3.2
 hex-0.4.3
 hkdf-0.12.3
 hmac-0.12.1
@@ -171,7 +171,7 @@ openssl-probe-0.1.5
 openssl-src-111.26.0+1.1.1u
 openssl-sys-0.9.90
 ordered-float-2.10.0
-orion-0.17.4
+orion-0.17.5
 os_info-3.7.0
 p384-0.13.0
 parking_lot-0.12.1
@@ -212,7 +212,7 @@ serde-1.0.166
 serde-value-0.7.0
 serde_derive-1.0.166
 serde_ignored-0.1.7
-serde_json-1.0.99
+serde_json-1.0.100
 serde_spanned-0.6.3
 sha1-0.10.5
 sha1_smol-1.0.0
@@ -234,8 +234,8 @@ syn-2.0.23
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.2.0
-thiserror-1.0.40
-thiserror-impl-1.0.40
+thiserror-1.0.41
+thiserror-impl-1.0.41
 thread_local-1.1.7
 time-0.3.22
 time-core-0.1.1
