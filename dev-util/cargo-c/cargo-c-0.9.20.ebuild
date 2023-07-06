@@ -22,7 +22,7 @@ bitflags-1.3.2
 bitflags-2.3.3
 bitmaps-2.1.0
 block-buffer-0.10.4
-bstr-1.5.0
+bstr-1.6.0
 btoi-0.4.3
 bumpalo-3.13.0
 bytes-1.4.0
@@ -33,8 +33,8 @@ cargo-util-0.2.4
 cbindgen-0.24.5
 cc-1.0.79
 cfg-if-1.0.0
-clap-4.3.10
-clap_builder-4.3.10
+clap-4.3.11
+clap_builder-4.3.11
 clap_derive-4.3.2
 clap_lex-0.5.0
 clru-0.6.1
@@ -42,7 +42,7 @@ colorchoice-1.0.0
 const-oid-0.9.3
 core-foundation-0.9.3
 core-foundation-sys-0.8.4
-cpufeatures-0.2.8
+cpufeatures-0.2.9
 crates-io-0.36.0
 crc32fast-1.3.2
 crossbeam-channel-0.5.8
@@ -194,14 +194,14 @@ rand_xoshiro-0.6.0
 redox_syscall-0.2.16
 redox_syscall-0.3.5
 redox_users-0.4.3
-regex-1.8.4
-regex-automata-0.1.10
-regex-syntax-0.7.2
+regex-1.9.0
+regex-automata-0.3.0
+regex-syntax-0.7.3
 remove_dir_all-0.5.3
 rfc6979-0.4.0
 rustc-workspace-hack-1.0.0
 rustfix-0.6.1
-rustix-0.38.2
+rustix-0.38.3
 ryu-1.0.14
 same-file-1.0.6
 schannel-0.1.22
@@ -211,7 +211,7 @@ semver-1.0.17
 serde-1.0.166
 serde-value-0.7.0
 serde_derive-1.0.166
-serde_ignored-0.1.7
+serde_ignored-0.1.8
 serde_json-1.0.100
 serde_spanned-0.6.3
 sha1-0.10.5
@@ -222,7 +222,7 @@ signal-hook-0.3.15
 signal-hook-registry-1.4.1
 signature-2.1.0
 sized-chunks-0.6.5
-smallvec-1.10.0
+smallvec-1.11.0
 socket2-0.4.9
 spki-0.7.2
 static_assertions-1.1.0
@@ -243,9 +243,9 @@ time-macros-0.2.9
 tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
-toml-0.7.5
+toml-0.7.6
 toml_datetime-0.6.3
-toml_edit-0.19.11
+toml_edit-0.19.12
 typenum-1.16.0
 unicode-bidi-0.3.13
 unicode-bom-1.1.4

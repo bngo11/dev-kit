@@ -17,7 +17,7 @@ IUSE="static-libs test"
 
 RESTRICT="!test? ( test )"
 
-DOCS=( readme.md )
+DOCS=( README.md )
 
 src_configure() {
 	local mycmakeargs=(
