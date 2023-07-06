@@ -138,7 +138,7 @@ indexmap-1.9.3
 indexmap-2.0.0
 instant-0.1.12
 io-close-0.3.7
-is-terminal-0.4.8
+is-terminal-0.4.9
 itertools-0.10.5
 itoa-1.0.8
 jobserver-0.1.26
@@ -290,7 +290,7 @@ windows_x86_64_gnullvm-0.42.2
 windows_x86_64_gnullvm-0.48.0
 windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.0
-winnow-0.4.7
+winnow-0.4.8
 zeroize-1.6.0
 "
 
