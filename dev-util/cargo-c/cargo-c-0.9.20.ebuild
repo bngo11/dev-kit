@@ -234,8 +234,8 @@ syn-2.0.23
 tar-0.4.38
 tempfile-3.3.0
 termcolor-1.2.0
-thiserror-1.0.41
-thiserror-impl-1.0.41
+thiserror-1.0.42
+thiserror-impl-1.0.42
 thread_local-1.1.7
 time-0.3.22
 time-core-0.1.1
