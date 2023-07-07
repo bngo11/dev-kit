@@ -194,8 +194,8 @@ rand_xoshiro-0.6.0
 redox_syscall-0.2.16
 redox_syscall-0.3.5
 redox_users-0.4.3
-regex-1.9.0
-regex-automata-0.3.0
+regex-1.9.1
+regex-automata-0.3.1
 regex-syntax-0.7.3
 remove_dir_all-0.5.3
 rfc6979-0.4.0

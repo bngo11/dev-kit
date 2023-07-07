@@ -5,5 +5,3 @@ cbindgen:
         github:
           user: mozilla
           query: releases
-        extensions:
-          - rust

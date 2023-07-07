@@ -2,8 +2,6 @@ distrobuilder:
   generator: github-1
   packages:
     - distrobuilder:
-        extensions:
-          - golang
         github:
           user: lxc
           query: releases

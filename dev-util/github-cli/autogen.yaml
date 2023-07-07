@@ -2,8 +2,6 @@ github-cli:
   generator: github-1
   packages:
     - github-cli:
-        extensions:
-          - golang
         github:
           user: cli
           repo: cli

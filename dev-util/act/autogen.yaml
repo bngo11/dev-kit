@@ -2,8 +2,6 @@ act:
   generator: github-1
   packages:
     - act:
-        extensions:
-          - golang
         github:
           user: nektos
           query: releases

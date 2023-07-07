@@ -2,8 +2,6 @@ mkcert:
   generator: github-1
   packages:
     - mkcert:
-        extensions:
-          - golang
         github:
           user: FiloSottile
           query: releases
