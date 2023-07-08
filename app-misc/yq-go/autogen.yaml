@@ -2,6 +2,8 @@ yq-go:
   generator: github-1
   packages:
     - yq-go:
+        extensions:
+          - golang
         github:
           user: mikefarah
           repo: yq

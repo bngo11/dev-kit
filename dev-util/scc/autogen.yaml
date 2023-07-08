@@ -2,6 +2,8 @@ scc:
   generator: github-1
   packages:
     - scc:
+        extensions:
+          - golang
         github:
           user: boyter
           query: releases
