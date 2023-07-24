@@ -464,8 +464,6 @@ EGO_SUM=(
 	"github.com/hashicorp/packer-plugin-docker v1.0.8/go.mod"
 	"github.com/hashicorp/packer-plugin-googlecompute v1.1.0"
 	"github.com/hashicorp/packer-plugin-googlecompute v1.1.0/go.mod"
-	"github.com/hashicorp/packer-plugin-parallels v1.0.3"
-	"github.com/hashicorp/packer-plugin-parallels v1.0.3/go.mod"
 	"github.com/hashicorp/packer-plugin-qemu v1.0.9"
 	"github.com/hashicorp/packer-plugin-qemu v1.0.9/go.mod"
 	"github.com/hashicorp/packer-plugin-sdk v0.4.0"
@@ -1041,8 +1039,8 @@ go-module_set_globals
 
 DESCRIPTION="A tool for creating identical machine images for multiple platforms"
 HOMEPAGE="https://www.packer.io/ https://github.com/hashicorp/packer"
-SRC_URI="https://github.com/hashicorp/packer/tarball/7845f3a02c751bc57104673617ada596933c9a08 -> packer-1.9.1-7845f3a.tar.gz
-https://direct.funtoo.org/12/15/7a/12157ade9317e3dc1cdb807a79596b04a21f72b36508f30d88098eb21afc6ecf64a4d23420000e266e5b5397d9c4170e4b1be6aba8fa0e372ed57525f5137613 -> packer-1.9.1-funtoo-go-bundle-dd8f8ffbdbf1d0d2a6d3243716006f7881ff87da1d0f71b26dcf77993d80aad705bb5f900f9daf9d61290aff421e7816403ff14a30241904119bc4ab5b31c998.tar.gz"
+SRC_URI="https://github.com/hashicorp/packer/tarball/11f6e0d5450d0a7005cd6e604a7f82d57114a338 -> packer-1.9.2-11f6e0d.tar.gz
+https://direct.funtoo.org/aa/35/f2/aa35f265d329b757e3f19d96ff8d90c895f29602cc0e99dd2c79c7eb4b2291a824641453cdaaa464f88f7731c1d19dd4da620cacb2e13df2dee54a4a90138248 -> packer-1.9.2-funtoo-go-bundle-ec5b14cffa087f0196cbed5a73e6c5b0a1ccd3a7522fdbea45bf5ae616b131fdf53861431db42de902e098efe0956f8649635bc8b699d89db9588080effe561f.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -1051,7 +1049,7 @@ KEYWORDS="*"
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.17"
-S="${WORKDIR}/hashicorp-packer-7845f3a"
+S="${WORKDIR}/hashicorp-packer-11f6e0d"
 
 src_compile() {
 	go build -o "${PN}" || die "compile failed"
