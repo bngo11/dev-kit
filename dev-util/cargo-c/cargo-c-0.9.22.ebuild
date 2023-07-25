@@ -40,7 +40,7 @@ clru-0.6.1
 colorchoice-1.0.0
 const-oid-0.9.4
 core-foundation-0.9.3
-core-foundation-sys-0.8.5
+core-foundation-sys-0.8.4
 cpufeatures-0.2.9
 crates-io-0.37.0
 crc32fast-1.3.2
@@ -50,7 +50,7 @@ crypto-bigint-0.5.2
 crypto-common-0.1.6
 ct-codecs-1.1.1
 curl-0.4.44
-curl-sys-0.4.63+curl-8.1.2
+curl-sys-0.4.64+curl-8.2.0
 der-0.7.7
 digest-0.10.7
 dunce-1.0.4
@@ -291,7 +291,7 @@ windows_x86_64_gnullvm-0.42.2
 windows_x86_64_gnullvm-0.48.0
 windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.0
-winnow-0.5.0
+winnow-0.5.1
 zeroize-1.6.0
 "
 
