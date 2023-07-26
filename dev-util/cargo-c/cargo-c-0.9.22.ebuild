@@ -151,7 +151,7 @@ libc-0.2.147
 libgit2-sys-0.15.2+1.6.4
 libnghttp2-sys-0.1.7+1.45.0
 libssh2-sys-0.3.0
-libz-sys-1.1.10
+libz-sys-1.1.12
 linux-raw-sys-0.3.8
 linux-raw-sys-0.4.3
 lock_api-0.4.10
