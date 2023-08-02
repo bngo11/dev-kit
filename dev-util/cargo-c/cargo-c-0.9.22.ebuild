@@ -30,7 +30,7 @@ cargo-0.72.1
 cargo-platform-0.1.3
 cargo-util-0.2.4
 cbindgen-0.24.5
-cc-1.0.79
+cc-1.0.80
 cfg-if-1.0.0
 clap-4.3.19
 clap_builder-4.3.19
@@ -292,7 +292,7 @@ windows_x86_64_gnullvm-0.42.2
 windows_x86_64_gnullvm-0.48.0
 windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.0
-winnow-0.5.2
+winnow-0.5.3
 zeroize-1.6.0
 "
 
