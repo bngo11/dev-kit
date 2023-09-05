@@ -266,7 +266,7 @@ vcpkg-0.2.15
 version_check-0.9.4
 vte-0.10.1
 vte_generate_state_changes-0.1.1
-walkdir-2.3.3
+walkdir-2.4.0
 wasi-0.11.0+wasi-snapshot-preview1
 wasm-bindgen-0.2.87
 wasm-bindgen-backend-0.2.87
