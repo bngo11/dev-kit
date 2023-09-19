@@ -312,7 +312,7 @@ go-module_set_globals
 
 DESCRIPTION="Run your GitHub Actions locally"
 HOMEPAGE="https://github.com/nektos/act"
-SRC_URI="https://github.com/nektos/act/tarball/80b0955303888742c3ab73af5758bb7b01f5f57c -> act-0.2.50-80b0955.tar.gz
+SRC_URI="https://github.com/nektos/act/tarball/3ee49647fc77e9ffd9baabccd1d242990b5e2b5b -> act-0.2.50-3ee4964.tar.gz
 https://direct.funtoo.org/4f/01/c0/4f01c0f3f4de21b172640c9ea05535370a87a381d75f447f37af672506951ed6d122c5be13b685161ebdac37639388e0c575e4a8dde72f5d614abe4dc87735d9 -> act-0.2.50-funtoo-go-bundle-6470ff91858c02c74f9b60e8c4a65a9aa111cb3c9ba56d0ede75a26320fc920b7d7e66e8b47c607c4f798880d0cc5196401ead992debdb074a36f5e5d3d4ea77.tar.gz"
 
 RDEPEND="
