@@ -64,7 +64,7 @@ equivalent-1.0.1
 errno-0.3.3
 errno-dragonfly-0.1.2
 faster-hex-0.8.1
-fastrand-2.0.0
+fastrand-2.0.1
 ff-0.13.0
 fiat-crypto-0.2.1
 filetime-0.2.22

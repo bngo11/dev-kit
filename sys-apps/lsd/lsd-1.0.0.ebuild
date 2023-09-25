@@ -168,7 +168,7 @@ inherit cargo
 
 DESCRIPTION="A modern ls with a lot of pretty colors and awesome icons"
 HOMEPAGE="https://github.com/lsd-rs/lsd"
-SRC_URI="https://api.github.com/repos/lsd-rs/lsd/tarball/v1.0.0 -> lsd-v1.0.0.tar.gz
+SRC_URI="https://api.github.com/repos/lsd-rs/lsd/tarball/v1.0.0 -> lsd-1.0.0.tar.gz
 https://crates.io/api/v1/crates/aho-corasick/0.7.18/download -> aho-corasick-0.7.18.crate
 https://crates.io/api/v1/crates/ansi_term/0.12.1/download -> ansi_term-0.12.1.crate
 https://crates.io/api/v1/crates/assert_cmd/1.0.8/download -> assert_cmd-1.0.8.crate

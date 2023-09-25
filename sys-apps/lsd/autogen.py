@@ -11,7 +11,7 @@ async def generate(hub, **pkginfo):
 	for release in json_list:
 		if release["prerelease"] or release["draft"]:
 			continue
-		version = release["tag_name"]
+		version = release["tag_name"].strip('v')
 		url = release["tarball_url"]
 		break
 	final_name = f'{pkginfo["name"]}-{version}.tar.gz'
