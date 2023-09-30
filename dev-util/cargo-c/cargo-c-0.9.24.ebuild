@@ -5,11 +5,11 @@ EAPI=7
 CRATES="adler-1.0.2
 ahash-0.8.3
 aho-corasick-1.1.1
-anstream-0.6.1
+anstream-0.6.4
 anstyle-1.0.4
 anstyle-parse-0.2.2
 anstyle-query-1.0.0
-anstyle-wincon-3.0.0
+anstyle-wincon-3.0.1
 anyhow-1.0.75
 arc-swap-1.6.0
 arrayvec-0.5.2
@@ -126,7 +126,7 @@ glob-0.3.1
 globset-0.4.13
 group-0.13.0
 hashbrown-0.12.3
-hashbrown-0.14.0
+hashbrown-0.14.1
 heck-0.4.1
 hermit-abi-0.3.3
 hex-0.4.3
@@ -140,7 +140,7 @@ ignore-0.4.20
 im-rc-15.1.0
 imara-diff-0.1.5
 indexmap-1.9.3
-indexmap-2.0.1
+indexmap-2.0.2
 io-close-0.3.7
 is-terminal-0.4.9
 itertools-0.10.5
@@ -203,7 +203,7 @@ regex-automata-0.3.8
 regex-syntax-0.7.5
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.14
+rustix-0.38.15
 ryu-1.0.15
 same-file-1.0.6
 schannel-0.1.22
