@@ -58,10 +58,10 @@ dunce-1.0.4
 ecdsa-0.16.8
 ed25519-compact-2.0.4
 either-1.9.0
-elliptic-curve-0.13.5
+elliptic-curve-0.13.6
 env_logger-0.10.0
 equivalent-1.0.1
-errno-0.3.3
+errno-0.3.4
 errno-dragonfly-0.1.2
 faster-hex-0.8.1
 fastrand-2.0.1
@@ -151,7 +151,7 @@ js-sys-0.3.64
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.148
+libc-0.2.149
 libgit2-sys-0.15.2+1.6.4
 libnghttp2-sys-0.1.8+1.55.1
 libssh2-sys-0.3.0
@@ -160,7 +160,7 @@ linux-raw-sys-0.4.8
 lock_api-0.4.10
 log-0.4.20
 maybe-async-0.2.7
-memchr-2.6.3
+memchr-2.6.4
 memmap2-0.5.10
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
@@ -189,7 +189,7 @@ pkcs8-0.10.2
 pkg-config-0.3.27
 ppv-lite86-0.2.17
 primeorder-0.13.2
-proc-macro2-1.0.67
+proc-macro2-1.0.68
 prodash-25.0.2
 pulldown-cmark-0.9.3
 quote-1.0.33
@@ -203,7 +203,7 @@ regex-automata-0.3.9
 regex-syntax-0.7.5
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.15
+rustix-0.38.17
 ryu-1.0.15
 same-file-1.0.6
 schannel-0.1.22
@@ -232,7 +232,7 @@ strip-ansi-escapes-0.1.1
 strsim-0.10.0
 subtle-2.5.0
 syn-1.0.109
-syn-2.0.37
+syn-2.0.38
 tar-0.4.40
 tempfile-3.8.0
 termcolor-1.3.0
@@ -292,7 +292,7 @@ windows_x86_64_gnullvm-0.42.2
 windows_x86_64_gnullvm-0.48.5
 windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.5
-winnow-0.5.15
+winnow-0.5.16
 zeroize-1.6.0
 "
 

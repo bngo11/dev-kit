@@ -114,8 +114,8 @@ EGO_SUM=(
 	"github.com/mattn/go-isatty v0.0.16/go.mod"
 	"github.com/mattn/go-isatty v0.0.19"
 	"github.com/mattn/go-isatty v0.0.19/go.mod"
-	"github.com/mattn/go-runewidth v0.0.14"
-	"github.com/mattn/go-runewidth v0.0.14/go.mod"
+	"github.com/mattn/go-runewidth v0.0.15"
+	"github.com/mattn/go-runewidth v0.0.15/go.mod"
 	"github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b"
 	"github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b/go.mod"
 	"github.com/mitchellh/mapstructure v1.1.2"
@@ -145,13 +145,13 @@ EGO_SUM=(
 	"github.com/pkg/errors v0.9.1/go.mod"
 	"github.com/pmezard/go-difflib v1.0.0"
 	"github.com/pmezard/go-difflib v1.0.0/go.mod"
-	"github.com/rhysd/actionlint v1.6.25"
-	"github.com/rhysd/actionlint v1.6.25/go.mod"
+	"github.com/rhysd/actionlint v1.6.26"
+	"github.com/rhysd/actionlint v1.6.26/go.mod"
 	"github.com/rivo/uniseg v0.2.0/go.mod"
 	"github.com/rivo/uniseg v0.4.4"
 	"github.com/rivo/uniseg v0.4.4/go.mod"
-	"github.com/robfig/cron v1.2.0"
-	"github.com/robfig/cron v1.2.0/go.mod"
+	"github.com/robfig/cron/v3 v3.0.1"
+	"github.com/robfig/cron/v3 v3.0.1/go.mod"
 	"github.com/rogpeppe/go-internal v1.11.0"
 	"github.com/russross/blackfriday/v2 v2.1.0/go.mod"
 	"github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06"
@@ -309,8 +309,8 @@ go-module_set_globals
 
 DESCRIPTION="Run your GitHub Actions locally"
 HOMEPAGE="https://github.com/nektos/act"
-SRC_URI="https://github.com/nektos/act/tarball/e48aa7225c0d67c431d485c4d73c98a73d644cdf -> act-0.2.51-e48aa72.tar.gz
-https://direct.funtoo.org/5a/a3/8f/5aa38f75aefadd10bd27e6f9e316d5856b91acce5e4d361b860fb0bb36d9de65a361cea96fe2162020b1ec005862b858ec15dfe5599c5c85395e92e25a3e4df9 -> act-0.2.51-funtoo-go-bundle-7d8e35ab2708437ff5368a3ab60a36a6f946d8b1519d969a5b4cf5f064c06fe4a233fb02f806aaea274c18e7b27bfce1385f3c3ad475059620164536ab421a2f.tar.gz"
+SRC_URI="https://github.com/nektos/act/tarball/d690cf18684bdb10e2ab30abb8e105a678f4ec95 -> act-0.2.52-d690cf1.tar.gz
+https://direct.funtoo.org/3d/b7/ef/3db7ef1757245922ea160afcff6e3bc95c865df7c886202bdfd0f4c69c353de2e76f1cc33df2bbda192b221d10315cda95db826878881e151480367eeb89fab4 -> act-0.2.52-funtoo-go-bundle-3841f51055e58573b766851bcaa99e4be114f2881b45450346abdf439364e2935b55263f8983d13d8a16d022875691925bfbee834ad65e100eb1bc933fc6e2cc.tar.gz"
 
 RDEPEND="
 	app-emulation/docker
