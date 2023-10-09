@@ -4,7 +4,7 @@ EAPI=7
 
 CRATES="adler-1.0.2
 ahash-0.8.3
-aho-corasick-1.1.1
+aho-corasick-1.1.2
 anstream-0.6.4
 anstyle-1.0.4
 anstyle-parse-0.2.2
@@ -27,8 +27,8 @@ bumpalo-3.14.0
 bytes-1.5.0
 bytesize-1.3.0
 cargo-0.73.1
-cargo-platform-0.1.3
-cargo-util-0.2.5
+cargo-platform-0.1.4
+cargo-util-0.2.6
 cbindgen-0.25.0
 cc-1.0.83
 cfg-if-1.0.0
@@ -50,7 +50,7 @@ crypto-bigint-0.5.3
 crypto-common-0.1.6
 ct-codecs-1.1.1
 curl-0.4.44
-curl-sys-0.4.66+curl-8.3.0
+curl-sys-0.4.67+curl-8.3.0
 der-0.7.8
 deranged-0.3.8
 digest-0.10.7
@@ -61,8 +61,7 @@ either-1.9.0
 elliptic-curve-0.13.6
 env_logger-0.10.0
 equivalent-1.0.1
-errno-0.3.4
-errno-dragonfly-0.1.2
+errno-0.3.5
 faster-hex-0.8.1
 fastrand-2.0.1
 ff-0.13.0
@@ -156,7 +155,7 @@ libgit2-sys-0.15.2+1.6.4
 libnghttp2-sys-0.1.8+1.55.1
 libssh2-sys-0.3.0
 libz-sys-1.1.12
-linux-raw-sys-0.4.8
+linux-raw-sys-0.4.10
 lock_api-0.4.10
 log-0.4.20
 maybe-async-0.2.7
@@ -164,9 +163,9 @@ memchr-2.6.4
 memmap2-0.5.10
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
-miow-0.5.0
+miow-0.6.0
 nom-7.1.3
-num-traits-0.2.16
+num-traits-0.2.17
 num_threads-0.1.6
 once_cell-1.18.0
 opener-0.5.2
@@ -185,11 +184,12 @@ pasetors-0.6.7
 pathdiff-0.2.1
 pem-rfc7468-0.7.0
 percent-encoding-2.3.0
+pin-project-lite-0.2.13
 pkcs8-0.10.2
 pkg-config-0.3.27
 ppv-lite86-0.2.17
 primeorder-0.13.2
-proc-macro2-1.0.68
+proc-macro2-1.0.69
 prodash-25.0.2
 pulldown-cmark-0.9.3
 quote-1.0.33
@@ -203,7 +203,7 @@ regex-automata-0.3.9
 regex-syntax-0.7.5
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.17
+rustix-0.38.18
 ryu-1.0.15
 same-file-1.0.6
 schannel-0.1.22
@@ -249,6 +249,9 @@ toml-0.5.11
 toml-0.7.8
 toml_datetime-0.6.3
 toml_edit-0.19.15
+tracing-0.1.37
+tracing-attributes-0.1.26
+tracing-core-0.1.31
 typenum-1.17.0
 unicase-2.7.0
 unicode-bidi-0.3.13
@@ -275,22 +278,14 @@ winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.6
 winapi-x86_64-pc-windows-gnu-0.4.0
 windows-0.48.0
-windows-sys-0.42.0
 windows-sys-0.48.0
 windows-targets-0.48.5
-windows_aarch64_gnullvm-0.42.2
 windows_aarch64_gnullvm-0.48.5
-windows_aarch64_msvc-0.42.2
 windows_aarch64_msvc-0.48.5
-windows_i686_gnu-0.42.2
 windows_i686_gnu-0.48.5
-windows_i686_msvc-0.42.2
 windows_i686_msvc-0.48.5
-windows_x86_64_gnu-0.42.2
 windows_x86_64_gnu-0.48.5
-windows_x86_64_gnullvm-0.42.2
 windows_x86_64_gnullvm-0.48.5
-windows_x86_64_msvc-0.42.2
 windows_x86_64_msvc-0.48.5
 winnow-0.5.16
 zeroize-1.6.0
