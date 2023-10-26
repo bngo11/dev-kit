@@ -3,7 +3,7 @@
 EAPI=7
 
 CRATES="adler-1.0.2
-ahash-0.8.3
+ahash-0.8.6
 aho-corasick-1.1.2
 anstream-0.6.4
 anstyle-1.0.4
@@ -15,7 +15,7 @@ arc-swap-1.6.0
 arrayvec-0.5.2
 autocfg-1.1.0
 base16ct-0.2.0
-base64-0.21.4
+base64-0.21.5
 base64ct-1.6.0
 bitflags-1.3.2
 bitflags-2.4.1
@@ -36,16 +36,16 @@ cargo-util-0.2.6
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
-clap-4.4.6
-clap_builder-4.4.6
-clap_derive-4.4.2
-clap_lex-0.5.1
+clap-4.4.7
+clap_builder-4.4.7
+clap_derive-4.4.7
+clap_lex-0.6.0
 clru-0.6.1
 colorchoice-1.0.0
 const-oid-0.9.5
 core-foundation-0.9.3
 core-foundation-sys-0.8.4
-cpufeatures-0.2.9
+cpufeatures-0.2.10
 crates-io-0.38.0
 crc32fast-1.3.2
 crossbeam-channel-0.5.8
@@ -177,7 +177,7 @@ opener-0.6.1
 openssl-0.10.57
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-src-300.1.5+3.1.3
+openssl-src-300.1.6+3.1.4
 openssl-sys-0.9.93
 ordered-float-2.10.1
 orion-0.17.6
@@ -222,12 +222,12 @@ sec1-0.7.3
 security-framework-2.9.2
 security-framework-sys-2.9.1
 semver-1.0.20
-serde-1.0.189
+serde-1.0.190
 serde-value-0.7.0
-serde_derive-1.0.189
+serde_derive-1.0.190
 serde_ignored-0.1.9
 serde_json-1.0.107
-serde_spanned-0.6.3
+serde_spanned-0.6.4
 sha1-0.10.6
 sha1_smol-1.0.0
 sha2-0.10.8
@@ -238,7 +238,7 @@ signal-hook-registry-1.4.1
 signature-2.1.0
 sized-chunks-0.6.5
 smallvec-1.11.1
-socket2-0.4.9
+socket2-0.4.10
 spki-0.7.2
 static_assertions-1.1.0
 strip-ansi-escapes-0.1.1
@@ -260,12 +260,12 @@ tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
 toml-0.7.8
-toml_datetime-0.6.3
+toml_datetime-0.6.5
 toml_edit-0.19.15
 tracing-0.1.40
 tracing-attributes-0.1.27
 tracing-core-0.1.32
-tracing-log-0.1.3
+tracing-log-0.1.4
 tracing-subscriber-0.3.17
 typenum-1.17.0
 unicase-2.7.0
@@ -304,6 +304,8 @@ windows_x86_64_gnu-0.48.5
 windows_x86_64_gnullvm-0.48.5
 windows_x86_64_msvc-0.48.5
 winnow-0.5.17
+zerocopy-0.7.15
+zerocopy-derive-0.7.15
 zeroize-1.6.0
 "
 
