@@ -45,7 +45,7 @@ colorchoice-1.0.0
 const-oid-0.9.5
 core-foundation-0.9.3
 core-foundation-sys-0.8.4
-cpufeatures-0.2.10
+cpufeatures-0.2.11
 crates-io-0.38.0
 crc32fast-1.3.2
 crossbeam-channel-0.5.8
