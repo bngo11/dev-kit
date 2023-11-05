@@ -68,7 +68,7 @@ errno-0.3.5
 faster-hex-0.8.1
 fastrand-2.0.1
 ff-0.13.0
-fiat-crypto-0.2.1
+fiat-crypto-0.2.2
 filetime-0.2.22
 flate2-1.0.28
 fnv-1.0.7
@@ -141,13 +141,13 @@ ignore-0.4.20
 im-rc-15.1.0
 imara-diff-0.1.5
 indexmap-1.9.3
-indexmap-2.0.2
+indexmap-2.1.0
 io-close-0.3.7
 itertools-0.10.5
 itertools-0.11.0
 itoa-1.0.9
 jobserver-0.1.27
-js-sys-0.3.64
+js-sys-0.3.65
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
@@ -174,11 +174,11 @@ num-traits-0.2.17
 num_threads-0.1.6
 once_cell-1.18.0
 opener-0.6.1
-openssl-0.10.57
+openssl-0.10.59
 openssl-macros-0.1.1
 openssl-probe-0.1.5
 openssl-src-300.1.6+3.1.4
-openssl-sys-0.9.93
+openssl-sys-0.9.95
 ordered-float-2.10.1
 orion-0.17.6
 os_info-3.7.0
@@ -195,7 +195,7 @@ pkcs8-0.10.2
 pkg-config-0.3.27
 powerfmt-0.2.0
 ppv-lite86-0.2.17
-primeorder-0.13.2
+primeorder-0.13.3
 proc-macro2-1.0.69
 prodash-25.0.2
 pulldown-cmark-0.9.3
@@ -213,7 +213,7 @@ regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.20
+rustix-0.38.21
 ryu-1.0.15
 same-file-1.0.6
 schannel-0.1.22
@@ -226,7 +226,7 @@ serde-1.0.190
 serde-value-0.7.0
 serde_derive-1.0.190
 serde_ignored-0.1.9
-serde_json-1.0.107
+serde_json-1.0.108
 serde_spanned-0.6.4
 sha1-0.10.6
 sha1_smol-1.0.0
@@ -247,7 +247,7 @@ subtle-2.5.0
 syn-1.0.109
 syn-2.0.38
 tar-0.4.40
-tempfile-3.8.0
+tempfile-3.8.1
 termcolor-1.3.0
 terminal_size-0.3.0
 thiserror-1.0.50
@@ -284,11 +284,11 @@ vte-0.10.1
 vte_generate_state_changes-0.1.1
 walkdir-2.4.0
 wasi-0.11.0+wasi-snapshot-preview1
-wasm-bindgen-0.2.87
-wasm-bindgen-backend-0.2.87
-wasm-bindgen-macro-0.2.87
-wasm-bindgen-macro-support-0.2.87
-wasm-bindgen-shared-0.2.87
+wasm-bindgen-0.2.88
+wasm-bindgen-backend-0.2.88
+wasm-bindgen-macro-0.2.88
+wasm-bindgen-macro-support-0.2.88
+wasm-bindgen-shared-0.2.88
 winapi-0.3.9
 winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.6
@@ -303,9 +303,9 @@ windows_i686_msvc-0.48.5
 windows_x86_64_gnu-0.48.5
 windows_x86_64_gnullvm-0.48.5
 windows_x86_64_msvc-0.48.5
-winnow-0.5.17
-zerocopy-0.7.15
-zerocopy-derive-0.7.15
+winnow-0.5.19
+zerocopy-0.7.25
+zerocopy-derive-0.7.25
 zeroize-1.6.0
 "
 
