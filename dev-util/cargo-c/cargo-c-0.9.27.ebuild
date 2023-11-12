@@ -21,7 +21,7 @@ bitflags-1.3.2
 bitflags-2.4.1
 bitmaps-2.1.0
 block-buffer-0.10.4
-bstr-1.7.0
+bstr-1.8.0
 btoi-0.4.3
 bumpalo-3.14.0
 bytes-1.5.0
@@ -36,8 +36,8 @@ cargo-util-0.2.6
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
-clap-4.4.7
-clap_builder-4.4.7
+clap-4.4.8
+clap_builder-4.4.8
 clap_derive-4.4.7
 clap_lex-0.6.0
 clru-0.6.1
@@ -64,11 +64,11 @@ ed25519-compact-2.0.4
 either-1.9.0
 elliptic-curve-0.13.6
 equivalent-1.0.1
-errno-0.3.5
+errno-0.3.6
 faster-hex-0.8.1
 fastrand-2.0.1
 ff-0.13.0
-fiat-crypto-0.2.2
+fiat-crypto-0.2.3
 filetime-0.2.22
 flate2-1.0.28
 fnv-1.0.7
@@ -77,7 +77,7 @@ foreign-types-shared-0.1.1
 form_urlencoded-1.2.0
 fwdansi-1.1.0
 generic-array-0.14.7
-getrandom-0.2.10
+getrandom-0.2.11
 git2-0.17.2
 git2-curl-0.18.0
 gix-0.45.1
@@ -157,7 +157,7 @@ libloading-0.8.1
 libnghttp2-sys-0.1.8+1.55.1
 libssh2-sys-0.3.0
 libz-sys-1.1.12
-linux-raw-sys-0.4.10
+linux-raw-sys-0.4.11
 lock_api-0.4.11
 log-0.4.20
 matchers-0.1.0
@@ -222,9 +222,9 @@ sec1-0.7.3
 security-framework-2.9.2
 security-framework-sys-2.9.1
 semver-1.0.20
-serde-1.0.190
+serde-1.0.192
 serde-value-0.7.0
-serde_derive-1.0.190
+serde_derive-1.0.192
 serde_ignored-0.1.9
 serde_json-1.0.108
 serde_spanned-0.6.4
@@ -237,7 +237,7 @@ signal-hook-0.3.17
 signal-hook-registry-1.4.1
 signature-2.1.0
 sized-chunks-0.6.5
-smallvec-1.11.1
+smallvec-1.11.2
 socket2-0.4.10
 spki-0.7.2
 static_assertions-1.1.0
