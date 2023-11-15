@@ -50,7 +50,7 @@ crates-io-0.38.0
 crc32fast-1.3.2
 crossbeam-channel-0.5.8
 crossbeam-utils-0.8.16
-crypto-bigint-0.5.3
+crypto-bigint-0.5.4
 crypto-common-0.1.6
 ct-codecs-1.1.1
 curl-0.4.44
@@ -64,11 +64,11 @@ ed25519-compact-2.0.4
 either-1.9.0
 elliptic-curve-0.13.6
 equivalent-1.0.1
-errno-0.3.6
+errno-0.3.7
 faster-hex-0.8.1
 fastrand-2.0.1
 ff-0.13.0
-fiat-crypto-0.2.3
+fiat-crypto-0.2.4
 filetime-0.2.22
 flate2-1.0.28
 fnv-1.0.7
@@ -213,7 +213,7 @@ regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.21
+rustix-0.38.24
 ryu-1.0.15
 same-file-1.0.6
 schannel-0.1.22
@@ -248,7 +248,7 @@ syn-1.0.109
 syn-2.0.39
 tar-0.4.40
 tempfile-3.8.1
-termcolor-1.3.0
+termcolor-1.4.0
 terminal_size-0.3.0
 thiserror-1.0.50
 thiserror-impl-1.0.50
@@ -265,12 +265,12 @@ toml_edit-0.19.15
 tracing-0.1.40
 tracing-attributes-0.1.27
 tracing-core-0.1.32
-tracing-log-0.1.4
-tracing-subscriber-0.3.17
+tracing-log-0.2.0
+tracing-subscriber-0.3.18
 typenum-1.17.0
 unicase-2.7.0
 unicode-bidi-0.3.13
-unicode-bom-2.0.2
+unicode-bom-2.0.3
 unicode-ident-1.0.12
 unicode-normalization-0.1.22
 unicode-width-0.1.11
@@ -304,9 +304,9 @@ windows_x86_64_gnu-0.48.5
 windows_x86_64_gnullvm-0.48.5
 windows_x86_64_msvc-0.48.5
 winnow-0.5.19
-zerocopy-0.7.25
-zerocopy-derive-0.7.25
-zeroize-1.6.0
+zerocopy-0.7.26
+zerocopy-derive-0.7.26
+zeroize-1.6.1
 "
 
 inherit cargo
