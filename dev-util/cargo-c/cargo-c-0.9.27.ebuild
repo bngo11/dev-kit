@@ -28,11 +28,12 @@ bytes-1.5.0
 bytesize-1.3.0
 cargo-0.74.0
 cargo-credential-0.3.0
-cargo-credential-libsecret-0.3.1
-cargo-credential-macos-keychain-0.3.0
-cargo-credential-wincred-0.3.0
-cargo-platform-0.1.4
-cargo-util-0.2.6
+cargo-credential-0.4.1
+cargo-credential-libsecret-0.3.2
+cargo-credential-macos-keychain-0.3.1
+cargo-credential-wincred-0.3.1
+cargo-platform-0.1.5
+cargo-util-0.2.7
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
@@ -50,7 +51,7 @@ crates-io-0.38.0
 crc32fast-1.3.2
 crossbeam-channel-0.5.8
 crossbeam-utils-0.8.16
-crypto-bigint-0.5.4
+crypto-bigint-0.5.5
 crypto-common-0.1.6
 ct-codecs-1.1.1
 curl-0.4.44
@@ -59,16 +60,16 @@ der-0.7.8
 deranged-0.3.9
 digest-0.10.7
 dunce-1.0.4
-ecdsa-0.16.8
+ecdsa-0.16.9
 ed25519-compact-2.0.4
 either-1.9.0
-elliptic-curve-0.13.6
+elliptic-curve-0.13.7
 equivalent-1.0.1
 errno-0.3.7
 faster-hex-0.8.1
 fastrand-2.0.1
 ff-0.13.0
-fiat-crypto-0.2.4
+fiat-crypto-0.2.5
 filetime-0.2.22
 flate2-1.0.28
 fnv-1.0.7
@@ -195,7 +196,7 @@ pkcs8-0.10.2
 pkg-config-0.3.27
 powerfmt-0.2.0
 ppv-lite86-0.2.17
-primeorder-0.13.3
+primeorder-0.13.6
 proc-macro2-1.0.69
 prodash-25.0.2
 pulldown-cmark-0.9.3
@@ -235,7 +236,7 @@ sharded-slab-0.1.7
 shell-escape-0.1.5
 signal-hook-0.3.17
 signal-hook-registry-1.4.1
-signature-2.1.0
+signature-2.2.0
 sized-chunks-0.6.5
 smallvec-1.11.2
 socket2-0.4.10
@@ -306,7 +307,7 @@ windows_x86_64_msvc-0.48.5
 winnow-0.5.19
 zerocopy-0.7.26
 zerocopy-derive-0.7.26
-zeroize-1.6.1
+zeroize-1.7.0
 "
 
 inherit cargo
