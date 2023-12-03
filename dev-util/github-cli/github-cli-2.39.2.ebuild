@@ -30,8 +30,8 @@ EGO_SUM=(
 	"github.com/cli/browser v1.0.0/go.mod"
 	"github.com/cli/browser v1.3.0"
 	"github.com/cli/browser v1.3.0/go.mod"
-	"github.com/cli/go-gh/v2 v2.4.1-0.20231024095351-47a83eeb1778"
-	"github.com/cli/go-gh/v2 v2.4.1-0.20231024095351-47a83eeb1778/go.mod"
+	"github.com/cli/go-gh/v2 v2.4.1-0.20231120145612-d32c104a9a25"
+	"github.com/cli/go-gh/v2 v2.4.1-0.20231120145612-d32c104a9a25/go.mod"
 	"github.com/cli/oauth v1.0.1"
 	"github.com/cli/oauth v1.0.1/go.mod"
 	"github.com/cli/safeexec v1.0.0/go.mod"
@@ -44,8 +44,8 @@ EGO_SUM=(
 	"github.com/cpuguy83/go-md2man/v2 v2.0.3/go.mod"
 	"github.com/creack/pty v1.1.9/go.mod"
 	"github.com/creack/pty v1.1.17/go.mod"
-	"github.com/creack/pty v1.1.20"
-	"github.com/creack/pty v1.1.20/go.mod"
+	"github.com/creack/pty v1.1.21"
+	"github.com/creack/pty v1.1.21/go.mod"
 	"github.com/danieljoos/wincred v1.2.0"
 	"github.com/danieljoos/wincred v1.2.0/go.mod"
 	"github.com/davecgh/go-spew v1.1.0/go.mod"
@@ -251,8 +251,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/3f37d7e372857c17141f290aeac404babc0282cc -> cli-2.39.1-3f37d7e.tar.gz
-https://direct.funtoo.org/d3/30/44/d33044487407701d230c1a7d5b0819a11d8748d9dd7b7c0c863588b092096cfff19c5d8d75d6507ed008ad8f9dc42412042579db059de6dcd1d35bbe3ceb8d0c -> github-cli-2.39.1-funtoo-go-bundle-0c6ba2541e840b975db853ed57d56ce5eb7b143d17c1742008f82661909e71a7c2bb5e573ccfbaf5ac6c3727517bafd8e96064cfe671ea4da6deadf09900a92a.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/63094461621f8e91217d9b89f513f53e21670bd9 -> cli-2.39.2-6309446.tar.gz
+https://direct.funtoo.org/ab/0c/f8/ab0cf8175ca95ec6966c3387093bc2fcd2e4e72e5ad9282bff79b0c8ee7c46147056bb4ad95424c66912d649041b2ab1a21af3519f6886dadc160cc369e2a4fa -> github-cli-2.39.2-funtoo-go-bundle-fd2bbf79ee89f427d6d414951abc019e3a95d033e4d8b045e1482dc4d3883efd50b804c25eaac5f1c08cc388d87b7da4b1ed3b8ece0ff0e2c0dfad9bab6dc4e3.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -264,7 +264,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.39.1"
+	export GH_VERSION="v2.39.2"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
