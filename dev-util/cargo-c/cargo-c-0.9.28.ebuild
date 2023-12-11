@@ -183,7 +183,7 @@ opener-0.6.1
 openssl-0.10.61
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-src-300.2.0+3.2.0
+openssl-src-300.2.1+3.2.0
 openssl-sys-0.9.97
 ordered-float-2.10.1
 orion-0.17.6
@@ -311,7 +311,7 @@ windows_x86_64_gnullvm-0.48.5
 windows_x86_64_gnullvm-0.52.0
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.0
-winnow-0.5.26
+winnow-0.5.27
 zeroize-1.7.0
 "
 
