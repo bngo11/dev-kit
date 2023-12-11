@@ -32,7 +32,7 @@ crossbeam-deque-0.8.3
 crossbeam-epoch-0.9.15
 crossbeam-utils-0.8.16
 ctrlc-3.4.1
-dashmap-5.4.0
+dashmap-5.5.3
 derive_arbitrary-1.3.2
 dissimilar-1.0.7
 dot-0.1.4
@@ -48,8 +48,7 @@ form_urlencoded-1.2.0
 fsevent-sys-4.1.0
 fst-0.4.7
 gimli-0.27.3
-hashbrown-0.12.3
-hashbrown-0.14.2
+hashbrown-0.14.3
 heck-0.4.1
 hermit-abi-0.2.6
 home-0.5.5
@@ -74,13 +73,12 @@ lsp-server-0.7.4
 lsp-types-0.94.0
 memchr-2.6.4
 memmap2-0.5.10
-memoffset-0.8.0
 memoffset-0.9.0
 mimalloc-0.1.37
 miniz_oxide-0.6.2
 miniz_oxide-0.7.1
 mio-0.8.5
-miow-0.5.0
+miow-0.6.0
 nix-0.26.2
 nix-0.27.1
 nohash-hasher-0.2.0
@@ -92,7 +90,7 @@ object-0.32.0
 once_cell-1.18.0
 oorandom-11.1.3
 parking_lot-0.12.1
-parking_lot_core-0.9.6
+parking_lot_core-0.9.9
 paste-1.0.12
 percent-encoding-2.3.0
 perf-event-0.4.7
@@ -105,18 +103,18 @@ protobuf-support-3.2.0
 pulldown-cmark-0.9.3
 pulldown-cmark-to-cmark-10.0.4
 quote-1.0.28
-ra-ap-rustc_abi-0.20.0
-ra-ap-rustc_index-0.20.0
-ra-ap-rustc_index_macros-0.20.0
-ra-ap-rustc_lexer-0.20.0
-ra-ap-rustc_parse_format-0.20.0
+ra-ap-rustc_abi-0.21.0
+ra-ap-rustc_index-0.21.0
+ra-ap-rustc_index_macros-0.21.0
+ra-ap-rustc_lexer-0.21.0
+ra-ap-rustc_parse_format-0.21.0
 rayon-1.8.0
 rayon-core-1.12.0
-redox_syscall-0.2.16
 redox_syscall-0.3.5
-rowan-0.15.11
-rust-analyzer-salsa-0.17.0-pre.3
-rust-analyzer-salsa-macros-0.17.0-pre.3
+redox_syscall-0.4.1
+rowan-0.15.15
+rust-analyzer-salsa-0.17.0-pre.4
+rust-analyzer-salsa-macros-0.17.0-pre.4
 rustc-demangle-0.1.23
 rustc-hash-1.1.0
 ryu-1.0.13
@@ -200,7 +198,7 @@ inherit cargo
 
 DESCRIPTION="A Rust compiler front-end for IDEs"
 HOMEPAGE="https://github.com/rust-lang/rust-analyzer"
-SRC_URI="https://api.github.com/repos/rust-lang/rust-analyzer/tarball/2023-12-04 -> rust-analyzer-20231204.tar.gz
+SRC_URI="https://api.github.com/repos/rust-lang/rust-analyzer/tarball/2023-12-11 -> rust-analyzer-20231211.tar.gz
 	$(cargo_crate_uris ${CRATES})"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
@@ -224,6 +222,6 @@ src_unpack() {
 # Upstream code reference: https://github.com/rust-lang/rust-analyzer/blob/master/crates/rust-analyzer/src/version.rs
 src_install() {
 	RUST_VERSION="$(rustc --version | awk {'print $2'})"
-	CFG_RELEASE="$RUST_VERSION (2023-12-04-standalone-funtoo)" cargo_src_install --path "./crates/rust-analyzer"
+	CFG_RELEASE="$RUST_VERSION (2023-12-11-standalone-funtoo)" cargo_src_install --path "./crates/rust-analyzer"
 	einstalldocs
 }
