@@ -655,7 +655,7 @@ EGO_SUM=(
 go-module_set_globals
 
 SRC_URI="https://github.com/jesseduffield/lazygit/tarball/5e388e21c8ca6aa883dbcbe45c47f6fdd5116815 -> lazygit-0.40.2-5e388e2.tar.gz
-https://direct.funtoo.org/7c/d9/cf/7cd9cf42f3c6c6ba0a6ecf8a6607601116cc30f1cc52aeec019f6545b84febb007417fafaf8f37515f0c8218e761b461e3999332dbd90e33f7f84455e0b9ec5e -> lazygit-0.40.2-funtoo-go-bundle-3408656cdcae7860a8a5e50a24803a1e939c2b695055b6a9b99f8dc67677ce9a88332a3056fd453327af6380e602a1f5725147f8e347db2d772d1eb4aa3d3eac.tar.gz"
+https://direct.funtoo.org/c7/60/c0/c760c0cc897d1162077b89d53b835bc4aadabe7ccb0a326dad67851ad530a0baf657a7f0cd6a5a447561ae39cb65f522084b2bc45b4aec78e9ba15bd027420d1 -> lazygit-0.40.2-funtoo-go-bundle-3408656cdcae7860a8a5e50a24803a1e939c2b695055b6a9b99f8dc67677ce9a88332a3056fd453327af6380e602a1f5725147f8e347db2d772d1eb4aa3d3eac.tar.gz"
 
 DESCRIPTION="A simple terminal UI for git commands"
 HOMEPAGE="http://github.com/jesseduffield/lazygit"
