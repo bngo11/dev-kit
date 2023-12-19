@@ -254,9 +254,9 @@ terminal_size-0.3.0
 thiserror-1.0.51
 thiserror-impl-1.0.51
 thread_local-1.1.7
-time-0.3.30
+time-0.3.31
 time-core-0.1.2
-time-macros-0.2.15
+time-macros-0.2.16
 tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
