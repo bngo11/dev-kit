@@ -1,4 +1,3 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,20 +8,20 @@ SRC_URI="https://github.com/OpenSC/${PN}/releases/download/${P}/${P}.tar.bz2"
 
 LICENSE="|| ( BSD GPL-2 )"
 SLOT="0"
-KEYWORDS="alpha amd64 arm ~arm64 ~hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh ~sparc x86 ~x86-fbsd"
-IUSE="bindist doc gnutls libressl nss static-libs"
+KEYWORDS="*"
+IUSE="doc gnutls nss test"
+# Fails trying to load /usr/lib/pkcs11/provider.so?
+RESTRICT="!test? ( test ) test"
 
-RDEPEND="
-	!libressl? ( >=dev-libs/openssl-0.9.7:0=[bindist=] )
-	libressl? ( dev-libs/libressl )
-	gnutls? ( >=net-libs/gnutls-1.4.4 )
+RDEPEND=">=dev-libs/openssl-0.9.7:=
+	gnutls? ( >=net-libs/gnutls-1.4.4:= )
 	nss? ( dev-libs/nss )"
 DEPEND="${RDEPEND}"
 BDEPEND="virtual/pkgconfig
 	doc? ( >=app-doc/doxygen-1.4.7 )"
 
 PATCHES=(
-	"${FILESDIR}/${P}-build.patch"
+	"${FILESDIR}/${P}-incompatible-func-ptr-clang16.patch"
 )
 
 src_configure() {
@@ -32,10 +31,14 @@ src_configure() {
 		$(use_enable doc) \
 		$(use_enable gnutls crypto-engine-gnutls) \
 		$(use_enable nss crypto-engine-nss) \
-		$(use_enable static-libs static)
+		$(use_enable test tests)
 }
 
 src_install() {
 	default
-	find "${D}" -name '*.la' -delete || die
+
+	# bug #555262
+	rm "${ED}"/usr/share/doc/${PF}/COPYING.{BSD,GPL} || die
+
+	find "${ED}" -name '*.la' -delete || die
 }
