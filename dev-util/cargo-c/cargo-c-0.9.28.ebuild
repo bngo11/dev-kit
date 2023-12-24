@@ -9,7 +9,7 @@ anstyle-1.0.4
 anstyle-parse-0.2.3
 anstyle-query-1.0.2
 anstyle-wincon-3.0.2
-anyhow-1.0.75
+anyhow-1.0.76
 arc-swap-1.6.0
 autocfg-1.1.0
 base16ct-0.2.0
@@ -49,10 +49,10 @@ core-foundation-sys-0.8.6
 cpufeatures-0.2.11
 crates-io-0.39.0
 crc32fast-1.3.2
-crossbeam-channel-0.5.9
+crossbeam-channel-0.5.10
 crossbeam-deque-0.8.4
-crossbeam-epoch-0.9.16
-crossbeam-utils-0.8.17
+crossbeam-epoch-0.9.17
+crossbeam-utils-0.8.18
 crypto-bigint-0.5.5
 crypto-common-0.1.6
 ct-codecs-1.1.1
@@ -169,7 +169,6 @@ matchers-0.1.0
 maybe-async-0.2.7
 memchr-2.6.4
 memmap2-0.7.1
-memoffset-0.9.0
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
 miow-0.6.0
@@ -180,11 +179,11 @@ num-traits-0.2.17
 num_threads-0.1.6
 once_cell-1.19.0
 opener-0.6.1
-openssl-0.10.61
+openssl-0.10.62
 openssl-macros-0.1.1
 openssl-probe-0.1.5
 openssl-src-300.2.1+3.2.0
-openssl-sys-0.9.97
+openssl-sys-0.9.98
 ordered-float-2.10.1
 orion-0.17.6
 os_info-3.7.0
@@ -198,11 +197,11 @@ pem-rfc7468-0.7.0
 percent-encoding-2.3.1
 pin-project-lite-0.2.13
 pkcs8-0.10.2
-pkg-config-0.3.27
+pkg-config-0.3.28
 powerfmt-0.2.0
 ppv-lite86-0.2.17
 primeorder-0.13.6
-proc-macro2-1.0.70
+proc-macro2-1.0.71
 prodash-26.2.2
 pulldown-cmark-0.9.3
 quote-1.0.33
@@ -228,7 +227,7 @@ security-framework-2.9.2
 security-framework-sys-2.9.1
 semver-1.0.20
 serde-1.0.193
-serde-untagged-0.1.2
+serde-untagged-0.1.3
 serde-value-0.7.0
 serde_derive-1.0.193
 serde_ignored-0.1.9
@@ -247,7 +246,7 @@ spki-0.7.3
 strsim-0.10.0
 subtle-2.5.0
 syn-1.0.109
-syn-2.0.41
+syn-2.0.42
 tar-0.4.40
 tempfile-3.8.1
 terminal_size-0.3.0
