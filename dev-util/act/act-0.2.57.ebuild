@@ -7,7 +7,7 @@ inherit go-module
 EGO_SUM=(
 	"dario.cat/mergo v1.0.0"
 	"dario.cat/mergo v1.0.0/go.mod"
-	"github.com/!ada!logics/go-fuzz-headers v0.0.0-20230106234847-43070de90fa1"
+	"github.com/!ada!logics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24"
 	"github.com/!alec!aivazis/survey/v2 v2.3.7"
 	"github.com/!alec!aivazis/survey/v2 v2.3.7/go.mod"
 	"github.com/!azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78"
@@ -17,7 +17,7 @@ EGO_SUM=(
 	"github.com/!microsoft/go-winio v0.5.2/go.mod"
 	"github.com/!microsoft/go-winio v0.6.1"
 	"github.com/!microsoft/go-winio v0.6.1/go.mod"
-	"github.com/!microsoft/hcsshim v0.10.0-rc.8"
+	"github.com/!microsoft/hcsshim v0.11.4"
 	"github.com/!netflix/go-expect v0.0.0-20220104043353-73e0943537d2"
 	"github.com/!netflix/go-expect v0.0.0-20220104043353-73e0943537d2/go.mod"
 	"github.com/!proton!mail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371"
@@ -31,8 +31,8 @@ EGO_SUM=(
 	"github.com/bwesterb/go-ristretto v1.2.3/go.mod"
 	"github.com/cloudflare/circl v1.3.3"
 	"github.com/cloudflare/circl v1.3.3/go.mod"
-	"github.com/containerd/containerd v1.7.2"
-	"github.com/containerd/containerd v1.7.2/go.mod"
+	"github.com/containerd/containerd v1.7.11"
+	"github.com/containerd/containerd v1.7.11/go.mod"
 	"github.com/cpuguy83/go-md2man/v2 v2.0.3/go.mod"
 	"github.com/creack/pty v1.1.17/go.mod"
 	"github.com/creack/pty v1.1.21"
@@ -185,8 +185,9 @@ EGO_SUM=(
 	"github.com/timshannon/bolthold v0.0.0-20210913165410-232392fc8a6a/go.mod"
 	"github.com/xanzy/ssh-agent v0.3.3"
 	"github.com/xanzy/ssh-agent v0.3.3/go.mod"
-	"github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f"
 	"github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f/go.mod"
+	"github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb"
+	"github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb/go.mod"
 	"github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415"
 	"github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415/go.mod"
 	"github.com/xeipuuv/gojsonschema v1.2.0"
@@ -204,8 +205,8 @@ EGO_SUM=(
 	"golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d/go.mod"
 	"golang.org/x/crypto v0.3.1-0.20221117191849-2c476679df9a/go.mod"
 	"golang.org/x/crypto v0.7.0/go.mod"
-	"golang.org/x/crypto v0.16.0"
-	"golang.org/x/crypto v0.16.0/go.mod"
+	"golang.org/x/crypto v0.17.0"
+	"golang.org/x/crypto v0.17.0/go.mod"
 	"golang.org/x/mod v0.2.0/go.mod"
 	"golang.org/x/mod v0.3.0/go.mod"
 	"golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod"
@@ -307,8 +308,8 @@ go-module_set_globals
 
 DESCRIPTION="Run your GitHub Actions locally"
 HOMEPAGE="https://github.com/nektos/act"
-SRC_URI="https://github.com/nektos/act/tarball/697fe2787bcf0425005303eca0fbce59098bff97 -> act-0.2.56-697fe27.tar.gz
-https://direct.funtoo.org/13/80/81/138081d202e4b1180f35248756307832adee43296750db2087e8e23e3d6732c92491606a9314a5361245b27f508daf94e836db266e6ee166ddd867f381f5a865 -> act-0.2.56-funtoo-go-bundle-6aa739232dad08681c7090f69e458b8acd040f095024452e8f450314332e6d8b66a6049efa3563d05f2fe1950d7cf0db2020fe8f7ba75bca4ece27c82b15455c.tar.gz"
+SRC_URI="https://github.com/nektos/act/tarball/11cc578c23a17a6025a002fe6614a64f69a9f367 -> act-0.2.57-11cc578.tar.gz
+https://direct.funtoo.org/b6/44/51/b64451cd93670992ac22594a2e8ec6a3e4ad0d0a7e1551664482c9b7156b5714d8a2c51217c6d7d9030563879d5fb4deeba94b03193f7b48d32fa492c1bdbeb5 -> act-0.2.57-funtoo-go-bundle-a7f20f8e25c4ea91b24704e661b19879e38601ebf9e180d95157669ac3f2cd1c0a03840c3ba4f0f5cc73415475200cbe8cd37392375ac0f01e9edb5265351c0e.tar.gz"
 
 RDEPEND="
 	app-emulation/docker
