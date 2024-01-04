@@ -34,7 +34,7 @@ cargo-util-0.2.8
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
-clap-4.4.12
+clap-4.4.13
 clap_builder-4.4.12
 clap_derive-4.4.7
 clap_lex-0.6.0
@@ -45,7 +45,7 @@ colorchoice-1.0.0
 const-oid-0.9.6
 core-foundation-0.9.4
 core-foundation-sys-0.8.6
-cpufeatures-0.2.11
+cpufeatures-0.2.12
 crates-io-0.39.1
 crc32fast-1.3.2
 crossbeam-channel-0.5.10
@@ -252,7 +252,7 @@ strsim-0.10.0
 subtle-2.5.0
 supports-hyperlinks-2.1.0
 syn-1.0.109
-syn-2.0.47
+syn-2.0.48
 tar-0.4.40
 tempfile-3.9.0
 terminal_size-0.3.0
