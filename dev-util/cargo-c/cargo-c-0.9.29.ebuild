@@ -146,7 +146,7 @@ home-0.5.9
 http-auth-0.1.9
 humantime-2.1.0
 idna-0.5.0
-ignore-0.4.21
+ignore-0.4.22
 im-rc-15.1.0
 indexmap-1.9.3
 indexmap-2.1.0
@@ -205,7 +205,7 @@ pkg-config-0.3.28
 powerfmt-0.2.0
 ppv-lite86-0.2.17
 primeorder-0.13.6
-proc-macro2-1.0.75
+proc-macro2-1.0.76
 prodash-26.2.2
 pulldown-cmark-0.9.3
 quote-1.0.35
@@ -230,10 +230,10 @@ sec1-0.7.3
 security-framework-2.9.2
 security-framework-sys-2.9.1
 semver-1.0.21
-serde-1.0.194
+serde-1.0.195
 serde-untagged-0.1.5
 serde-value-0.7.0
-serde_derive-1.0.194
+serde_derive-1.0.195
 serde_ignored-0.1.10
 serde_json-1.0.111
 serde_spanned-0.6.5
@@ -318,7 +318,7 @@ windows_x86_64_gnullvm-0.48.5
 windows_x86_64_gnullvm-0.52.0
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.0
-winnow-0.5.32
+winnow-0.5.33
 zeroize-1.7.0
 "
 
