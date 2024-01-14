@@ -4,7 +4,7 @@ EAPI=7
 
 CRATES="adler-1.0.2
 aho-corasick-1.1.2
-anstream-0.6.5
+anstream-0.6.7
 anstyle-1.0.4
 anstyle-parse-0.2.3
 anstyle-query-1.0.2
@@ -13,7 +13,7 @@ anyhow-1.0.79
 arc-swap-1.6.0
 autocfg-1.1.0
 base16ct-0.2.0
-base64-0.21.5
+base64-0.21.7
 base64ct-1.6.0
 bitflags-1.3.2
 bitflags-2.4.1
@@ -34,8 +34,8 @@ cargo-util-0.2.8
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
-clap-4.4.13
-clap_builder-4.4.12
+clap-4.4.16
+clap_builder-4.4.16
 clap_derive-4.4.7
 clap_lex-0.6.0
 clru-0.6.1
@@ -80,7 +80,7 @@ foreign-types-0.3.2
 foreign-types-shared-0.1.1
 form_urlencoded-1.2.1
 generic-array-0.14.7
-getrandom-0.2.11
+getrandom-0.2.12
 git2-0.18.1
 git2-curl-0.19.0
 gix-0.55.2
@@ -155,7 +155,7 @@ itertools-0.11.0
 itertools-0.12.0
 itoa-1.0.10
 jobserver-0.1.27
-js-sys-0.3.66
+js-sys-0.3.67
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
@@ -164,7 +164,7 @@ libgit2-sys-0.16.1+1.7.1
 libloading-0.8.1
 libnghttp2-sys-0.1.9+1.58.0
 libssh2-sys-0.3.0
-libz-sys-1.1.13
+libz-sys-1.1.14
 linux-raw-sys-0.4.12
 lock_api-0.4.11
 log-0.4.20
@@ -221,7 +221,7 @@ regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.28
+rustix-0.38.30
 ryu-1.0.16
 same-file-1.0.6
 schannel-0.1.23
@@ -244,7 +244,7 @@ sharded-slab-0.1.7
 shell-escape-0.1.5
 signature-2.2.0
 sized-chunks-0.6.5
-smallvec-1.11.2
+smallvec-1.12.0
 socket2-0.4.10
 spki-0.7.3
 static_assertions-1.1.0
@@ -289,11 +289,11 @@ vcpkg-0.2.15
 version_check-0.9.4
 walkdir-2.4.0
 wasi-0.11.0+wasi-snapshot-preview1
-wasm-bindgen-0.2.89
-wasm-bindgen-backend-0.2.89
-wasm-bindgen-macro-0.2.89
-wasm-bindgen-macro-support-0.2.89
-wasm-bindgen-shared-0.2.89
+wasm-bindgen-0.2.90
+wasm-bindgen-backend-0.2.90
+wasm-bindgen-macro-0.2.90
+wasm-bindgen-macro-support-0.2.90
+wasm-bindgen-shared-0.2.90
 winapi-0.3.9
 winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.6
@@ -318,7 +318,7 @@ windows_x86_64_gnullvm-0.48.5
 windows_x86_64_gnullvm-0.52.0
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.0
-winnow-0.5.33
+winnow-0.5.34
 zeroize-1.7.0
 "
 

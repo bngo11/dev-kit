@@ -181,8 +181,8 @@ EGO_SUM=(
 	"github.com/zalando/go-keyring v0.2.3/go.mod"
 	"golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod"
 	"golang.org/x/crypto v0.0.0-20210921155107-089bfa567519/go.mod"
-	"golang.org/x/crypto v0.14.0"
-	"golang.org/x/crypto v0.14.0/go.mod"
+	"golang.org/x/crypto v0.17.0"
+	"golang.org/x/crypto v0.17.0/go.mod"
 	"golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod"
 	"golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod"
 	"golang.org/x/net v0.0.0-20210226172049-e18ecbb05110/go.mod"
@@ -207,19 +207,19 @@ EGO_SUM=(
 	"golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10/go.mod"
 	"golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod"
 	"golang.org/x/sys v0.6.0/go.mod"
-	"golang.org/x/sys v0.13.0"
-	"golang.org/x/sys v0.13.0/go.mod"
+	"golang.org/x/sys v0.15.0"
+	"golang.org/x/sys v0.15.0/go.mod"
 	"golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod"
 	"golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod"
-	"golang.org/x/term v0.13.0"
-	"golang.org/x/term v0.13.0/go.mod"
+	"golang.org/x/term v0.15.0"
+	"golang.org/x/term v0.15.0/go.mod"
 	"golang.org/x/text v0.3.0/go.mod"
 	"golang.org/x/text v0.3.3/go.mod"
 	"golang.org/x/text v0.3.7/go.mod"
 	"golang.org/x/text v0.4.0/go.mod"
 	"golang.org/x/text v0.5.0/go.mod"
-	"golang.org/x/text v0.13.0"
-	"golang.org/x/text v0.13.0/go.mod"
+	"golang.org/x/text v0.14.0"
+	"golang.org/x/text v0.14.0/go.mod"
 	"golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod"
 	"golang.org/x/tools v0.0.0-20191119224855-298f0cb1881e/go.mod"
 	"golang.org/x/tools v0.1.12/go.mod"
@@ -251,8 +251,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/6d11395c083cbba795b955075ddbb92c289fd1df -> cli-2.40.1-6d11395.tar.gz
-https://direct.funtoo.org/b1/ea/cb/b1eacbad0ac0210dda1f71a88596259682d80d32953be3def874f62eb4fc55e4d3dcabc171935403b1e5a7f09291f25ed605ffb7844d64d1e2b56103675fdb43 -> github-cli-2.40.1-funtoo-go-bundle-fd2bbf79ee89f427d6d414951abc019e3a95d033e4d8b045e1482dc4d3883efd50b804c25eaac5f1c08cc388d87b7da4b1ed3b8ece0ff0e2c0dfad9bab6dc4e3.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/e9fabfe9a9a0cfa2790edbba2f0b771c19433546 -> cli-2.42.0-e9fabfe.tar.gz
+https://direct.funtoo.org/61/0d/8f/610d8f29fc512037d1bda35779a5f5e4ff9027a831e21658e7438a566f04f1b862d71cc08e586d3b56569629d493dc067b5aec0e5c1b59e121d0b39c310c79b8 -> github-cli-2.42.0-funtoo-go-bundle-ce0a2a790b562be2eb517b7e6bad60179d16003898b220b94ed3bd2fdec3601531e2e77717e305eb520606a8b538d0927feb35b3c622b25afdf2ba37ec903ff7.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -264,7 +264,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.40.1"
+	export GH_VERSION="v2.42.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
