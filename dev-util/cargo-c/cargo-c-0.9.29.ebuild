@@ -4,7 +4,7 @@ EAPI=7
 
 CRATES="adler-1.0.2
 aho-corasick-1.1.2
-anstream-0.6.7
+anstream-0.6.11
 anstyle-1.0.4
 anstyle-parse-0.2.3
 anstyle-query-1.0.2
@@ -16,7 +16,7 @@ base16ct-0.2.0
 base64-0.21.7
 base64ct-1.6.0
 bitflags-1.3.2
-bitflags-2.4.1
+bitflags-2.4.2
 bitmaps-2.1.0
 block-buffer-0.10.4
 bstr-1.9.0
@@ -34,8 +34,8 @@ cargo-util-0.2.8
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
-clap-4.4.17
-clap_builder-4.4.17
+clap-4.4.18
+clap_builder-4.4.18
 clap_derive-4.4.7
 clap_lex-0.6.0
 clru-0.6.1
@@ -91,7 +91,7 @@ gix-chunk-0.4.7
 gix-command-0.2.10
 gix-commitgraph-0.22.1
 gix-config-0.31.0
-gix-config-value-0.14.3
+gix-config-value-0.14.4
 gix-credentials-0.21.0
 gix-date-0.8.3
 gix-diff-0.37.0
@@ -113,7 +113,7 @@ gix-odb-0.54.0
 gix-pack-0.44.0
 gix-packetline-0.16.7
 gix-packetline-blocking-0.16.6
-gix-path-0.10.3
+gix-path-0.10.4
 gix-pathspec-0.4.1
 gix-prompt-0.7.0
 gix-protocol-0.41.1
@@ -122,14 +122,14 @@ gix-ref-0.38.0
 gix-refspec-0.19.0
 gix-revision-0.23.0
 gix-revwalk-0.9.0
-gix-sec-0.10.3
+gix-sec-0.10.4
 gix-submodule-0.5.0
 gix-tempfile-11.0.1
 gix-trace-0.1.7
 gix-transport-0.38.0
 gix-traverse-0.34.0
 gix-url-0.25.2
-gix-utils-0.1.8
+gix-utils-0.1.9
 gix-validate-0.8.3
 gix-worktree-0.27.0
 glob-0.3.1
@@ -138,7 +138,7 @@ group-0.13.0
 hashbrown-0.12.3
 hashbrown-0.14.3
 heck-0.4.1
-hermit-abi-0.3.3
+hermit-abi-0.3.4
 hex-0.4.3
 hkdf-0.12.4
 hmac-0.12.1
@@ -165,7 +165,7 @@ libloading-0.8.1
 libnghttp2-sys-0.1.9+1.58.0
 libssh2-sys-0.3.0
 libz-sys-1.1.14
-linux-raw-sys-0.4.12
+linux-raw-sys-0.4.13
 lock_api-0.4.11
 log-0.4.20
 matchers-0.1.0
@@ -183,11 +183,11 @@ num-traits-0.2.17
 num_threads-0.1.6
 once_cell-1.19.0
 opener-0.6.1
-openssl-0.10.62
+openssl-0.10.63
 openssl-macros-0.1.1
 openssl-probe-0.1.5
 openssl-src-300.2.1+3.2.0
-openssl-sys-0.9.98
+openssl-sys-0.9.99
 ordered-float-2.10.1
 orion-0.17.6
 os_info-3.7.0
@@ -201,11 +201,11 @@ pem-rfc7468-0.7.0
 percent-encoding-2.3.1
 pin-project-lite-0.2.13
 pkcs8-0.10.2
-pkg-config-0.3.28
+pkg-config-0.3.29
 powerfmt-0.2.0
 ppv-lite86-0.2.17
 primeorder-0.13.6
-proc-macro2-1.0.76
+proc-macro2-1.0.78
 prodash-26.2.2
 pulldown-cmark-0.9.3
 quote-1.0.35
@@ -214,9 +214,9 @@ rand_chacha-0.3.1
 rand_core-0.6.4
 rand_xoshiro-0.6.0
 redox_syscall-0.4.1
-regex-1.10.2
+regex-1.10.3
 regex-automata-0.1.10
-regex-automata-0.4.3
+regex-automata-0.4.4
 regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
@@ -244,7 +244,7 @@ sharded-slab-0.1.7
 shell-escape-0.1.5
 signature-2.2.0
 sized-chunks-0.6.5
-smallvec-1.12.0
+smallvec-1.13.1
 socket2-0.4.10
 spki-0.7.3
 static_assertions-1.1.0
@@ -276,7 +276,7 @@ tracing-log-0.2.0
 tracing-subscriber-0.3.18
 typenum-1.17.0
 unicase-2.7.0
-unicode-bidi-0.3.14
+unicode-bidi-0.3.15
 unicode-bom-2.0.3
 unicode-ident-1.0.12
 unicode-normalization-0.1.22
@@ -298,8 +298,6 @@ winapi-0.3.9
 winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.6
 winapi-x86_64-pc-windows-gnu-0.4.0
-windows-0.52.0
-windows-core-0.52.0
 windows-sys-0.48.0
 windows-sys-0.52.0
 windows-targets-0.48.5
