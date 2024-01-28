@@ -113,7 +113,7 @@ gix-odb-0.54.0
 gix-pack-0.44.0
 gix-packetline-0.16.7
 gix-packetline-blocking-0.16.6
-gix-path-0.10.4
+gix-path-0.10.5
 gix-pathspec-0.4.1
 gix-prompt-0.7.0
 gix-protocol-0.41.1
@@ -149,7 +149,7 @@ idna-0.5.0
 ignore-0.4.22
 im-rc-15.1.0
 indexmap-1.9.3
-indexmap-2.1.0
+indexmap-2.2.0
 is-terminal-0.4.10
 itertools-0.11.0
 itertools-0.12.0
@@ -164,7 +164,7 @@ libgit2-sys-0.16.1+1.7.1
 libloading-0.8.1
 libnghttp2-sys-0.1.9+1.58.0
 libssh2-sys-0.3.0
-libz-sys-1.1.14
+libz-sys-1.1.15
 linux-raw-sys-0.4.13
 lock_api-0.4.11
 log-0.4.20
@@ -172,7 +172,7 @@ matchers-0.1.0
 maybe-async-0.2.7
 memchr-2.7.1
 memmap2-0.7.1
-memmap2-0.9.3
+memmap2-0.9.4
 minimal-lexical-0.2.1
 miniz_oxide-0.7.1
 miow-0.6.0
@@ -207,7 +207,7 @@ ppv-lite86-0.2.17
 primeorder-0.13.6
 proc-macro2-1.0.78
 prodash-26.2.2
-pulldown-cmark-0.9.3
+pulldown-cmark-0.9.5
 quote-1.0.35
 rand-0.8.5
 rand_chacha-0.3.1
@@ -216,7 +216,7 @@ rand_xoshiro-0.6.0
 redox_syscall-0.4.1
 regex-1.10.3
 regex-automata-0.1.10
-regex-automata-0.4.4
+regex-automata-0.4.5
 regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
@@ -230,12 +230,12 @@ sec1-0.7.3
 security-framework-2.9.2
 security-framework-sys-2.9.1
 semver-1.0.21
-serde-1.0.195
+serde-1.0.196
 serde-untagged-0.1.5
 serde-value-0.7.0
-serde_derive-1.0.195
+serde_derive-1.0.196
 serde_ignored-0.1.10
-serde_json-1.0.111
+serde_json-1.0.112
 serde_spanned-0.6.5
 sha1-0.10.6
 sha1_smol-1.0.0
@@ -316,7 +316,7 @@ windows_x86_64_gnullvm-0.48.5
 windows_x86_64_gnullvm-0.52.0
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.0
-winnow-0.5.34
+winnow-0.5.35
 zeroize-1.7.0
 "
 
