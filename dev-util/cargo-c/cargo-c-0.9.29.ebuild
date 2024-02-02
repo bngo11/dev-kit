@@ -5,7 +5,7 @@ EAPI=7
 CRATES="adler-1.0.2
 aho-corasick-1.1.2
 anstream-0.6.11
-anstyle-1.0.4
+anstyle-1.0.5
 anstyle-parse-0.2.3
 anstyle-query-1.0.2
 anstyle-wincon-3.0.2
@@ -56,7 +56,7 @@ crypto-bigint-0.5.5
 crypto-common-0.1.6
 ct-codecs-1.1.1
 curl-0.4.44
-curl-sys-0.4.70+curl-8.5.0
+curl-sys-0.4.71+curl-8.6.0
 der-0.7.8
 deranged-0.3.11
 digest-0.10.7
@@ -149,17 +149,17 @@ idna-0.5.0
 ignore-0.4.22
 im-rc-15.1.0
 indexmap-1.9.3
-indexmap-2.2.0
+indexmap-2.2.2
 is-terminal-0.4.10
 itertools-0.11.0
-itertools-0.12.0
+itertools-0.12.1
 itoa-1.0.10
 jobserver-0.1.27
 js-sys-0.3.67
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
-libc-0.2.152
+libc-0.2.153
 libgit2-sys-0.16.1+1.7.1
 libloading-0.8.1
 libnghttp2-sys-0.1.9+1.58.0
@@ -169,7 +169,7 @@ linux-raw-sys-0.4.13
 lock_api-0.4.11
 log-0.4.20
 matchers-0.1.0
-maybe-async-0.2.7
+maybe-async-0.2.9
 memchr-2.7.1
 memmap2-0.7.1
 memmap2-0.9.4
@@ -179,6 +179,7 @@ miow-0.6.0
 nom-7.1.3
 normpath-1.1.1
 nu-ansi-term-0.46.0
+num-conv-0.1.0
 num-traits-0.2.17
 num_threads-0.1.6
 once_cell-1.19.0
@@ -186,7 +187,7 @@ opener-0.6.1
 openssl-0.10.63
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-src-300.2.1+3.2.0
+openssl-src-300.2.2+3.2.1
 openssl-sys-0.9.99
 ordered-float-2.10.1
 orion-0.17.6
@@ -207,7 +208,7 @@ ppv-lite86-0.2.17
 primeorder-0.13.6
 proc-macro2-1.0.78
 prodash-26.2.2
-pulldown-cmark-0.9.5
+pulldown-cmark-0.9.6
 quote-1.0.35
 rand-0.8.5
 rand_chacha-0.3.1
@@ -221,7 +222,7 @@ regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
 rustfix-0.6.1
-rustix-0.38.30
+rustix-0.38.31
 ryu-1.0.16
 same-file-1.0.6
 schannel-0.1.23
@@ -235,7 +236,7 @@ serde-untagged-0.1.5
 serde-value-0.7.0
 serde_derive-1.0.196
 serde_ignored-0.1.10
-serde_json-1.0.112
+serde_json-1.0.113
 serde_spanned-0.6.5
 sha1-0.10.6
 sha1_smol-1.0.0
@@ -259,16 +260,16 @@ terminal_size-0.3.0
 thiserror-1.0.56
 thiserror-impl-1.0.56
 thread_local-1.1.7
-time-0.3.31
+time-0.3.32
 time-core-0.1.2
-time-macros-0.2.16
+time-macros-0.2.17
 tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
-toml-0.8.8
+toml-0.8.9
 toml_datetime-0.6.5
 toml_edit-0.20.7
-toml_edit-0.21.0
+toml_edit-0.21.1
 tracing-0.1.40
 tracing-attributes-0.1.27
 tracing-core-0.1.32
@@ -316,7 +317,7 @@ windows_x86_64_gnullvm-0.48.5
 windows_x86_64_gnullvm-0.52.0
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.0
-winnow-0.5.35
+winnow-0.5.36
 zeroize-1.7.0
 "
 
