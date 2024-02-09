@@ -3,10 +3,8 @@
 EAPI="6"
 PYTHON_REQ_USE="xml"
 PYTHON_COMPAT=( python3+ )
-DISTUTILS_SINGLE_IMPL=1
-DISTUTILS_USE_SETUPTOOLS=no
 
-inherit gnome2 distutils-r1
+inherit gnome.org gnome3-utils meson python-single-r1 xdg
 
 DESCRIPTION="A graphical diff and merge tool"
 HOMEPAGE="http://meldmerge.org/"
@@ -15,11 +13,12 @@ LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="*"
 IUSE=""
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-libs/glib-2.50:2
 	$(python_gen_cond_dep '
-		>=dev-python/pygobject-3.30:3[cairo,${PYTHON_MULTI_USEDEP}]
+		>=dev-python/pygobject-3.30:3[cairo,${PYTHON_USEDEP}]
 	')
 	gnome-base/gsettings-desktop-schemas
 	>=x11-libs/gtk+-3.20:3[introspection]
@@ -37,13 +36,30 @@ DEPEND="${RDEPEND}
 # but it's mainly needed for debian and derivatives - seems the fallback
 # works fine, as we aren't a special_case, just an annoying warning.
 
-python_compile_all() {
-	mydistutilsargs=( --no-update-icon-cache --no-compile-schemas )
+pkg_setup() {
+	python-single-r1_pkg_setup
 }
 
-python_install() {
-	local mydistutilsargs=( --no-update-icon-cache --no-compile-schemas build )
-	distutils-r1_python_install
-	rm "${ED}"/usr/share/doc/meld-${PV}/{COPYING,NEWS} || die
-	rmdir "${ED}"/usr/share/doc/meld-${PV} || die
+src_configure() {
+	local emesonargs=(
+		-Dprofile=''
+		-Dbyte-compile=false
+	)
+	meson_src_configure
+}
+
+src_install() {
+	meson_src_install
+	python_optimize
+	python_fix_shebang "${ED}"/usr/bin/meld
+}
+
+pkg_postinst() {
+	xdg_pkg_postinst
+	gnome3_schemas_update
+}
+
+pkg_postrm() {
+	xdg_pkg_postrm
+	gnome3_schemas_update
 }
