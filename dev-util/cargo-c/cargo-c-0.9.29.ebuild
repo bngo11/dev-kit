@@ -150,7 +150,7 @@ ignore-0.4.22
 im-rc-15.1.0
 indexmap-1.9.3
 indexmap-2.2.2
-is-terminal-0.4.11
+is-terminal-0.4.12
 itertools-0.11.0
 itertools-0.12.1
 itoa-1.0.10
