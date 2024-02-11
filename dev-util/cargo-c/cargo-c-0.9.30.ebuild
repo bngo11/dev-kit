@@ -262,8 +262,8 @@ syn-2.0.48
 tar-0.4.40
 tempfile-3.10.0
 terminal_size-0.3.0
-thiserror-1.0.56
-thiserror-impl-1.0.56
+thiserror-1.0.57
+thiserror-impl-1.0.57
 thread_local-1.1.7
 time-0.3.34
 time-core-0.1.2
