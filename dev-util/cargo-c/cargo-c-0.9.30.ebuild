@@ -23,7 +23,7 @@ bitmaps-2.1.0
 block-buffer-0.10.4
 bstr-1.9.0
 btoi-0.4.3
-bumpalo-3.14.0
+bumpalo-3.15.0
 bytes-1.5.0
 bytesize-1.3.0
 cargo-0.77.0
@@ -36,8 +36,8 @@ cargo-util-0.2.9
 cbindgen-0.26.0
 cc-1.0.83
 cfg-if-1.0.0
-clap-4.5.0
-clap_builder-4.5.0
+clap-4.5.1
+clap_builder-4.5.1
 clap_derive-4.5.0
 clap_lex-0.7.0
 clru-0.6.1
@@ -49,7 +49,7 @@ core-foundation-0.9.4
 core-foundation-sys-0.8.6
 cpufeatures-0.2.12
 crates-io-0.39.2
-crc32fast-1.3.2
+crc32fast-1.4.0
 crossbeam-channel-0.5.11
 crossbeam-deque-0.8.5
 crossbeam-epoch-0.9.18
@@ -57,7 +57,7 @@ crossbeam-utils-0.8.19
 crypto-bigint-0.5.5
 crypto-common-0.1.6
 ct-codecs-1.1.1
-curl-0.4.45
+curl-0.4.46
 curl-sys-0.4.72+curl-8.6.0
 der-0.7.8
 deranged-0.3.11
@@ -142,7 +142,7 @@ hashbrown-0.12.3
 hashbrown-0.14.3
 hashlink-0.8.4
 heck-0.4.1
-hermit-abi-0.3.5
+hermit-abi-0.3.6
 hex-0.4.3
 hkdf-0.12.4
 hmac-0.12.1
@@ -153,7 +153,7 @@ idna-0.5.0
 ignore-0.4.22
 im-rc-15.1.0
 indexmap-1.9.3
-indexmap-2.2.2
+indexmap-2.2.3
 is-terminal-0.4.12
 itertools-0.12.1
 itoa-1.0.10
@@ -184,13 +184,13 @@ normpath-1.1.1
 nu-ansi-term-0.46.0
 num-conv-0.1.0
 num-traits-0.2.18
-num_threads-0.1.6
+num_threads-0.1.7
 once_cell-1.19.0
 opener-0.6.1
 openssl-0.10.63
 openssl-macros-0.1.1
 openssl-probe-0.1.5
-openssl-src-300.2.2+3.2.1
+openssl-src-300.2.3+3.2.1
 openssl-sys-0.9.99
 ordered-float-2.10.1
 orion-0.17.6
@@ -205,7 +205,7 @@ pem-rfc7468-0.7.0
 percent-encoding-2.3.1
 pin-project-lite-0.2.13
 pkcs8-0.10.2
-pkg-config-0.3.29
+pkg-config-0.3.30
 powerfmt-0.2.0
 ppv-lite86-0.2.17
 primeorder-0.13.6
@@ -258,7 +258,7 @@ strsim-0.11.0
 subtle-2.5.0
 supports-hyperlinks-2.1.0
 syn-1.0.109
-syn-2.0.48
+syn-2.0.49
 tar-0.4.40
 tempfile-3.10.0
 terminal_size-0.3.0
@@ -274,7 +274,7 @@ toml-0.5.11
 toml-0.8.10
 toml_datetime-0.6.5
 toml_edit-0.21.1
-toml_edit-0.22.4
+toml_edit-0.22.6
 tracing-0.1.40
 tracing-attributes-0.1.27
 tracing-core-0.1.32
@@ -322,7 +322,8 @@ windows_x86_64_gnullvm-0.48.5
 windows_x86_64_gnullvm-0.52.0
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.0
-winnow-0.5.39
+winnow-0.5.40
+winnow-0.6.1
 zerocopy-0.7.32
 zerocopy-derive-0.7.32
 zeroize-1.7.0
