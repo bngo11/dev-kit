@@ -9,7 +9,7 @@ android_tools:
          repo: android-tools
          query: releases
          tarball: android-tools-{tag}.tar.xz
-         select: '\d+\.\d+\.\d+(?:_p\d+)'
+         # select: '\d+\.\d+\.\d+(?:_p\d+)'
          transform:
            - kind: string
              match: 'p'
