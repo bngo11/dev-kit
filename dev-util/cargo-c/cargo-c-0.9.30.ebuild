@@ -69,7 +69,7 @@ either-1.10.0
 elliptic-curve-0.13.8
 encoding_rs-0.8.33
 equivalent-1.0.1
-erased-serde-0.4.2
+erased-serde-0.4.3
 errno-0.3.8
 fallible-iterator-0.3.0
 fallible-streaming-iterator-0.1.9
@@ -227,7 +227,7 @@ rfc6979-0.4.0
 rusqlite-0.30.0
 rustfix-0.7.0
 rustix-0.38.31
-ryu-1.0.16
+ryu-1.0.17
 same-file-1.0.6
 schannel-0.1.23
 scopeguard-1.2.0
