@@ -11,7 +11,7 @@ anstyle-1.0.6
 anstyle-parse-0.2.3
 anstyle-query-1.0.2
 anstyle-wincon-3.0.2
-anyhow-1.0.79
+anyhow-1.0.80
 arc-swap-1.6.0
 autocfg-1.1.0
 base16ct-0.2.0
@@ -234,7 +234,7 @@ scopeguard-1.2.0
 sec1-0.7.3
 security-framework-2.9.2
 security-framework-sys-2.9.1
-semver-1.0.21
+semver-1.0.22
 serde-1.0.196
 serde-untagged-0.1.5
 serde-value-0.7.0
