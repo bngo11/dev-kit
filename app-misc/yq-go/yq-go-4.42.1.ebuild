@@ -11,8 +11,8 @@ EGO_SUM=(
 	"github.com/alecthomas/assert/v2 v2.3.0/go.mod"
 	"github.com/alecthomas/participle/v2 v2.1.1"
 	"github.com/alecthomas/participle/v2 v2.1.1/go.mod"
-	"github.com/alecthomas/repr v0.3.0"
-	"github.com/alecthomas/repr v0.3.0/go.mod"
+	"github.com/alecthomas/repr v0.4.0"
+	"github.com/alecthomas/repr v0.4.0/go.mod"
 	"github.com/cpuguy83/go-md2man/v2 v2.0.3/go.mod"
 	"github.com/davecgh/go-spew v1.1.0/go.mod"
 	"github.com/davecgh/go-spew v1.1.1"
@@ -96,13 +96,13 @@ go-module_set_globals
 
 DESCRIPTION="yq is a portable command-line YAML, JSON and XML processor"
 HOMEPAGE="https://github.com/mikefarah/yq"
-SRC_URI="https://github.com/mikefarah/yq/tarball/047694546cad8f9eaac1627bbc8bcc502fdd88bf -> yq-4.41.1-0476945.tar.gz
-https://direct.funtoo.org/4b/e2/e1/4be2e17042c3038cd3d59cbb8412c9bb53375178c58369a21360bbabf083176a375c7dbdc3767f2e68270d9b0b0358f1d81088fae839e9a068db4e00f43df2f1 -> yq-go-4.41.1-funtoo-go-bundle-5070aab8de2caf1e13ffa5b4587c55a772e1a0b37bb0b4a2232562f7209c3b63bd1307c60ca4986af74e406227975ee1e69cda172d6c555a6d03fc3370225157.tar.gz"
+SRC_URI="https://github.com/mikefarah/yq/tarball/9adde1ac14bb283b8955d2b0d567bcaf3c69e639 -> yq-4.42.1-9adde1a.tar.gz
+https://direct.funtoo.org/29/2f/e2/292fe28b237dff734e2d689b9665bdb352c951fe1bbe0739b0853325243e439d85b583b8956b468b1b11eb11e21e0b7f6b83c2b05e958f1ab311818178abf45e -> yq-go-4.42.1-funtoo-go-bundle-4be63055e5fd6bcdae3bd7cccdf31e3fcf3685755a951df7ab1c1869d933c318be225729bc1d2d37b93b40a4223abe682e555e49c3fa74220a77dd7a9b34ff39.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
 KEYWORDS="*"
-S="${WORKDIR}/mikefarah-yq-0476945"
+S="${WORKDIR}/mikefarah-yq-9adde1a"
 
 DEPEND=""
 RDEPEND=">=dev-vcs/git-1.7.3"
