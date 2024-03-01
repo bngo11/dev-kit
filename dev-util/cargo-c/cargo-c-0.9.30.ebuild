@@ -153,7 +153,7 @@ idna-0.5.0
 ignore-0.4.22
 im-rc-15.1.0
 indexmap-1.9.3
-indexmap-2.2.4
+indexmap-2.2.5
 is-terminal-0.4.12
 itertools-0.12.1
 itoa-1.0.10
@@ -164,7 +164,7 @@ lazy_static-1.4.0
 lazycell-1.3.0
 libc-0.2.153
 libgit2-sys-0.16.2+1.7.2
-libloading-0.8.1
+libloading-0.8.2
 libnghttp2-sys-0.1.9+1.58.0
 libsqlite3-sys-0.27.0
 libssh2-sys-0.3.0
@@ -293,7 +293,7 @@ utf8parse-0.2.1
 valuable-0.1.0
 vcpkg-0.2.15
 version_check-0.9.4
-walkdir-2.4.0
+walkdir-2.5.0
 wasi-0.11.0+wasi-snapshot-preview1
 wasm-bindgen-0.2.91
 wasm-bindgen-backend-0.2.91
@@ -323,7 +323,7 @@ windows_x86_64_gnullvm-0.52.4
 windows_x86_64_msvc-0.48.5
 windows_x86_64_msvc-0.52.4
 winnow-0.5.40
-winnow-0.6.3
+winnow-0.6.5
 zerocopy-0.7.32
 zerocopy-derive-0.7.32
 zeroize-1.7.0

@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=Run your GitHub Actions locally
+EAPI=7
+HOMEPAGE=https://github.com/nektos/act
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=app-emulation/docker
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/nektos/act/tarball/c3560bcd06236fc359c6c0688d13ec29111aaca8 -> act-0.2.60-c3560bc.tar.gz https://direct.funtoo.org/56/fe/91/56fe910b40bacb0711e75f1c8e576318902686dcc087b69f25a410901f3a85242798a881b99d018782eb52b965ed25b152547d1ad85cbe15697cb6b5277f2194 -> act-0.2.60-funtoo-go-bundle-5c6dc54bbb1d39a317ce07208b89593806c4ad7946f22f52f0473713bfe0cdcc693189e7e48d12578e3774b7359b0a8a9cfe69c59ddafc692d4fe6ed85f681b6.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=2f34eaf78891427e20de226eb4a2cce8
