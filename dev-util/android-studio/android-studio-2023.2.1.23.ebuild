@@ -25,7 +25,7 @@ QA_PREBUILT="
 	opt/${PN}/plugins/android-ndk/resources/lldb/bin/*
 	opt/${PN}/plugins/android-ndk/resources/lldb/lib/python3.9/lib-dynload/*
 	opt/${PN}/plugins/android-ndk/resources/lldb/lib64/*
-	opt/${PN}/plugins/c-clangd/bin/clang/linux/*
+	opt/${PN}/plugins/c-clangd-plugin/bin/clang/linux/*
 	opt/${PN}/plugins/webp/lib/libwebp/linux/*
 "
 
@@ -92,12 +92,11 @@ src_install() {
 	local fn_path
 	# These have been moving around on us:
 	for fn in clang-tidy clangd; do
-		fn_path=$(cd "${D}"; find ."${dir}/plugins/c-clangd/bin/clang/linux" -name $fn)
+		fn_path=$(cd "${D}"; find ."${dir}/plugins/c-clangd-plugin/bin/clang/linux" -name $fn)
 		if [[ "${fn_path#.}" != "" ]]; then
 			fperms 755 ${fn_path#.}
 		fi
 	done
-	fperms -R 755 "${dir}"/plugins/terminal/{,fish}
 
 	newicon "bin/studio.png" "${PN}.png"
 	make_wrapper ${PN} ${dir}/bin/studio.sh
