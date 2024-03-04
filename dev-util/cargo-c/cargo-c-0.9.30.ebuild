@@ -34,7 +34,7 @@ cargo-credential-wincred-0.4.2
 cargo-platform-0.1.7
 cargo-util-0.2.9
 cbindgen-0.26.0
-cc-1.0.88
+cc-1.0.89
 cfg-if-1.0.0
 clap-4.5.1
 clap_builder-4.5.1
@@ -158,7 +158,7 @@ is-terminal-0.4.12
 itertools-0.12.1
 itoa-1.0.10
 jobserver-0.1.28
-js-sys-0.3.68
+js-sys-0.3.69
 kstring-2.0.0
 lazy_static-1.4.0
 lazycell-1.3.0
@@ -220,7 +220,7 @@ rand_xoshiro-0.6.0
 redox_syscall-0.4.1
 regex-1.10.3
 regex-automata-0.1.10
-regex-automata-0.4.5
+regex-automata-0.4.6
 regex-syntax-0.6.29
 regex-syntax-0.8.2
 rfc6979-0.4.0
@@ -295,11 +295,11 @@ vcpkg-0.2.15
 version_check-0.9.4
 walkdir-2.5.0
 wasi-0.11.0+wasi-snapshot-preview1
-wasm-bindgen-0.2.91
-wasm-bindgen-backend-0.2.91
-wasm-bindgen-macro-0.2.91
-wasm-bindgen-macro-support-0.2.91
-wasm-bindgen-shared-0.2.91
+wasm-bindgen-0.2.92
+wasm-bindgen-backend-0.2.92
+wasm-bindgen-macro-0.2.92
+wasm-bindgen-macro-support-0.2.92
+wasm-bindgen-shared-0.2.92
 winapi-0.3.9
 winapi-i686-pc-windows-gnu-0.4.0
 winapi-util-0.1.6
