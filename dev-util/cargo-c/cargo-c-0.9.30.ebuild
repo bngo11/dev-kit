@@ -23,7 +23,7 @@ bitmaps-2.1.0
 block-buffer-0.10.4
 bstr-1.9.1
 btoi-0.4.3
-bumpalo-3.15.3
+bumpalo-3.15.4
 bytes-1.5.0
 bytesize-1.3.0
 cargo-0.77.0
@@ -34,7 +34,7 @@ cargo-credential-wincred-0.4.2
 cargo-platform-0.1.7
 cargo-util-0.2.9
 cbindgen-0.26.0
-cc-1.0.89
+cc-1.0.90
 cfg-if-1.0.0
 clap-4.5.2
 clap_builder-4.5.2
