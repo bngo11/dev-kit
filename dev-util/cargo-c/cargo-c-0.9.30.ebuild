@@ -69,7 +69,7 @@ either-1.10.0
 elliptic-curve-0.13.8
 encoding_rs-0.8.33
 equivalent-1.0.1
-erased-serde-0.4.3
+erased-serde-0.4.4
 errno-0.3.8
 fallible-iterator-0.3.0
 fallible-streaming-iterator-0.1.9
