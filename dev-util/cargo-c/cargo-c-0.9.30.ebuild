@@ -4,7 +4,7 @@ EAPI=7
 
 CRATES="adler-1.0.2
 ahash-0.8.11
-aho-corasick-1.1.2
+aho-corasick-1.1.3
 allocator-api2-0.2.16
 anstream-0.6.13
 anstyle-1.0.6
@@ -18,7 +18,7 @@ base16ct-0.2.0
 base64-0.21.7
 base64ct-1.6.0
 bitflags-1.3.2
-bitflags-2.4.2
+bitflags-2.5.0
 bitmaps-2.1.0
 block-buffer-0.10.4
 bstr-1.9.1
@@ -76,7 +76,7 @@ fallible-streaming-iterator-0.1.9
 faster-hex-0.9.0
 fastrand-2.0.1
 ff-0.13.0
-fiat-crypto-0.2.6
+fiat-crypto-0.2.7
 filetime-0.2.23
 flate2-1.0.28
 foreign-types-0.3.2
@@ -84,7 +84,7 @@ foreign-types-shared-0.1.1
 form_urlencoded-1.2.1
 generic-array-0.14.7
 getrandom-0.2.12
-git2-0.18.2
+git2-0.18.3
 git2-curl-0.19.0
 gix-0.56.0
 gix-actor-0.28.1
@@ -227,7 +227,7 @@ regex-syntax-0.8.2
 rfc6979-0.4.0
 rusqlite-0.30.0
 rustfix-0.7.0
-rustix-0.38.31
+rustix-0.38.32
 ryu-1.0.17
 same-file-1.0.6
 schannel-0.1.23
@@ -272,10 +272,10 @@ time-macros-0.2.17
 tinyvec-1.6.0
 tinyvec_macros-0.1.1
 toml-0.5.11
-toml-0.8.11
+toml-0.8.12
 toml_datetime-0.6.5
 toml_edit-0.21.1
-toml_edit-0.22.7
+toml_edit-0.22.9
 tracing-0.1.40
 tracing-attributes-0.1.27
 tracing-core-0.1.32
