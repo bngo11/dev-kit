@@ -98,6 +98,8 @@ src_install() {
 		fi
 	done
 
+	fperms -R 755 "${dir}"/plugins/terminal/shell-integrations/{,fish}
+
 	newicon "bin/studio.png" "${PN}.png"
 	make_wrapper ${PN} ${dir}/bin/studio.sh
 	make_desktop_entry ${PN} "Android Studio" ${PN} "Development;IDE" "StartupWMClass=jetbrains-studio"
