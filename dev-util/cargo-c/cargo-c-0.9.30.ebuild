@@ -27,12 +27,12 @@ bumpalo-3.15.4
 bytes-1.5.0
 bytesize-1.3.0
 cargo-0.77.0
-cargo-credential-0.4.2
-cargo-credential-libsecret-0.4.2
-cargo-credential-macos-keychain-0.4.2
-cargo-credential-wincred-0.4.2
-cargo-platform-0.1.7
-cargo-util-0.2.9
+cargo-credential-0.4.4
+cargo-credential-libsecret-0.4.3
+cargo-credential-macos-keychain-0.4.3
+cargo-credential-wincred-0.4.3
+cargo-platform-0.1.8
+cargo-util-0.2.10
 cbindgen-0.26.0
 cc-1.0.90
 cfg-if-1.0.0
@@ -169,7 +169,7 @@ libloading-0.8.3
 libnghttp2-sys-0.1.9+1.58.0
 libsqlite3-sys-0.27.0
 libssh2-sys-0.3.0
-libz-sys-1.1.15
+libz-sys-1.1.16
 linux-raw-sys-0.4.13
 lock_api-0.4.11
 log-0.4.21
