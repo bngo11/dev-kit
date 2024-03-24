@@ -6,7 +6,7 @@ inherit cargo
 
 DESCRIPTION="A modern ls with a lot of pretty colors and awesome icons"
 HOMEPAGE="https://github.com/lsd-rs/lsd"
-SRC_URI="https://api.github.com/repos/lsd-rs/lsd/tarball/v1.1.0 -> lsd-1.1.0.tar.gz
+SRC_URI="https://api.github.com/repos/lsd-rs/lsd/tarball/v1.1.1 -> lsd-1.1.1.tar.gz
 https://crates.io/api/v1/crates/aho-corasick/1.1.2/download -> aho-corasick-1.1.2.crate
 https://crates.io/api/v1/crates/android-tzdata/0.1.1/download -> android-tzdata-0.1.1.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
