@@ -76,7 +76,7 @@ errno-0.3.8
 fallible-iterator-0.3.0
 fallible-streaming-iterator-0.1.9
 faster-hex-0.9.0
-fastrand-2.0.1
+fastrand-2.0.2
 ff-0.13.0
 fiat-crypto-0.2.7
 filetime-0.2.23
@@ -259,7 +259,7 @@ strsim-0.11.0
 subtle-2.5.0
 supports-hyperlinks-2.1.0
 syn-1.0.109
-syn-2.0.53
+syn-2.0.55
 tar-0.4.40
 tempfile-3.10.1
 terminal_size-0.3.0
