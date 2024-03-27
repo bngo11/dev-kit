@@ -6,7 +6,7 @@ inherit cargo
 
 DESCRIPTION="A modern ls with a lot of pretty colors and awesome icons"
 HOMEPAGE="https://github.com/lsd-rs/lsd"
-SRC_URI="https://api.github.com/repos/lsd-rs/lsd/tarball/v1.1.1 -> lsd-1.1.1.tar.gz
+SRC_URI="https://api.github.com/repos/lsd-rs/lsd/tarball/v1.1.2 -> lsd-1.1.2.tar.gz
 https://crates.io/api/v1/crates/aho-corasick/1.1.2/download -> aho-corasick-1.1.2.crate
 https://crates.io/api/v1/crates/android-tzdata/0.1.1/download -> android-tzdata-0.1.1.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
@@ -129,7 +129,7 @@ https://crates.io/api/v1/crates/strsim/0.10.0/download -> strsim-0.10.0.crate
 https://crates.io/api/v1/crates/syn/2.0.52/download -> syn-2.0.52.crate
 https://crates.io/api/v1/crates/sys-locale/0.3.1/download -> sys-locale-0.3.1.crate
 https://crates.io/api/v1/crates/tempfile/3.10.1/download -> tempfile-3.10.1.crate
-https://crates.io/api/v1/crates/term_grid/0.2.0/download -> term_grid-0.2.0.crate
+https://crates.io/api/v1/crates/term_grid/0.1.7/download -> term_grid-0.1.7.crate
 https://crates.io/api/v1/crates/terminal_size/0.2.6/download -> terminal_size-0.2.6.crate
 https://crates.io/api/v1/crates/terminal_size/0.3.0/download -> terminal_size-0.3.0.crate
 https://crates.io/api/v1/crates/termtree/0.4.1/download -> termtree-0.4.1.crate
