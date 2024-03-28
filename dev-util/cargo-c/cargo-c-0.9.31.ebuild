@@ -27,7 +27,7 @@ btoi-0.4.3
 bumpalo-3.15.4
 bytes-1.6.0
 bytesize-1.3.0
-cargo-0.78.0
+cargo-0.78.1
 cargo-credential-0.4.4
 cargo-credential-libsecret-0.4.3
 cargo-credential-macos-keychain-0.4.3
@@ -176,7 +176,7 @@ lock_api-0.4.11
 log-0.4.21
 matchers-0.1.0
 maybe-async-0.2.10
-memchr-2.7.1
+memchr-2.7.2
 memmap2-0.9.4
 minimal-lexical-0.2.1
 miniz_oxide-0.7.2
