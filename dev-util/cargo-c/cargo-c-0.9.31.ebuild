@@ -193,7 +193,7 @@ openssl-0.10.64
 openssl-macros-0.1.1
 openssl-probe-0.1.5
 openssl-src-300.2.3+3.2.1
-openssl-sys-0.9.101
+openssl-sys-0.9.102
 ordered-float-2.10.1
 orion-0.17.6
 os_info-3.8.2
