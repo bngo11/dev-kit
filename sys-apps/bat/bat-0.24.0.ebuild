@@ -2,195 +2,12 @@
 
 EAPI=7
 
-CRATES="
-adler-1.0.2
-aho-corasick-0.7.19
-aho-corasick-1.0.1
-ansi_colours-1.2.1
-anstream-0.6.4
-anstyle-0.3.5
-anstyle-1.0.0
-anstyle-parse-0.2.0
-anstyle-query-1.0.0
-anstyle-wincon-3.0.1
-assert_cmd-2.0.10
-autocfg-1.1.0
-base64-0.21.0
-bincode-1.3.3
-bit-set-0.5.3
-bit-vec-0.6.3
-bitflags-1.3.2
-bitflags-2.4.0
-bstr-1.6.0
-bugreport-0.5.0
-bytemuck-1.12.1
-bytesize-1.3.0
-cc-1.0.73
-cfg-if-1.0.0
-clap-4.4.6
-clap_builder-4.4.6
-clap_lex-0.5.0
-clircle-0.4.0
-colorchoice-1.0.0
-console-0.15.5
-content_inspector-0.2.4
-crc32fast-1.3.2
-dashmap-5.4.0
-difflib-0.4.0
-dissimilar-1.0.5
-doc-comment-0.3.3
-dunce-1.0.3
-either-1.8.0
-encode_unicode-0.3.6
-encoding_rs-0.8.33
-equivalent-1.0.1
-errno-0.3.3
-errno-dragonfly-0.1.2
-etcetera-0.8.0
-expect-test-1.4.1
-fancy-regex-0.7.1
-fastrand-2.0.0
-flate2-1.0.27
-float-cmp-0.9.0
-fnv-1.0.7
-form_urlencoded-1.1.0
-fsio-0.4.0
-getrandom-0.2.7
-git-version-0.3.5
-git-version-macro-0.3.5
-git2-0.18.0
-glob-0.3.0
-globset-0.4.10
-grep-cli-0.1.9
-hashbrown-0.12.3
-hashbrown-0.14.1
-home-0.5.5
-idna-0.3.0
-indexmap-1.9.1
-indexmap-2.0.2
-itertools-0.10.5
-itoa-1.0.3
-jobserver-0.1.25
-lazy_static-1.4.0
-libc-0.2.147
-libgit2-sys-0.16.1+1.7.1
-libz-sys-1.1.8
-line-wrap-0.1.1
-linked-hash-map-0.5.6
-linux-raw-sys-0.4.5
-lock_api-0.4.9
-log-0.4.17
-memchr-2.5.0
-miniz_oxide-0.7.1
-nix-0.26.2
-normalize-line-endings-0.3.0
-nu-ansi-term-0.49.0
-num-traits-0.2.15
-num_threads-0.1.6
-once_cell-1.18.0
-onig-6.4.0
-onig_sys-69.8.1
-os_str_bytes-6.4.1
-parking_lot-0.12.1
-parking_lot_core-0.9.7
-path_abs-0.5.1
-percent-encoding-2.2.0
-pkg-config-0.3.25
-plist-1.4.3
-ppv-lite86-0.2.17
-predicates-3.0.3
-predicates-core-1.0.6
-predicates-tree-1.0.5
-proc-macro-hack-0.5.19
-proc-macro2-1.0.66
-quick-xml-0.28.1
-quote-1.0.26
-rand-0.8.5
-rand_chacha-0.3.1
-rand_core-0.6.4
-redox_syscall-0.2.16
-redox_syscall-0.3.5
-regex-1.8.3
-regex-automata-0.3.7
-regex-syntax-0.6.27
-regex-syntax-0.7.2
-rgb-0.8.34
-run_script-0.10.0
-rustix-0.38.11
-ryu-1.0.11
-safemem-0.3.3
-same-file-1.0.6
-scopeguard-1.1.0
-semver-1.0.17
-serde-1.0.163
-serde_derive-1.0.163
-serde_json-1.0.85
-serde_yaml-0.9.25
-serial_test-2.0.0
-serial_test_derive-2.0.0
-shell-escape-0.1.5
-shell-words-1.1.0
-smallvec-1.10.0
-static_assertions-1.1.0
-std_prelude-0.2.12
-strsim-0.10.0
-syn-1.0.104
-syn-2.0.12
-syntect-5.0.0
-sys-info-0.9.1
-tempfile-3.8.0
-termcolor-1.1.3
-terminal_size-0.3.0
-termtree-0.2.4
-thiserror-1.0.40
-thiserror-impl-1.0.40
-time-0.3.14
-tinyvec-1.6.0
-tinyvec_macros-0.1.0
-unicode-bidi-0.3.8
-unicode-ident-1.0.4
-unicode-normalization-0.1.22
-unicode-width-0.1.10
-unsafe-libyaml-0.2.9
-url-2.3.1
-utf8parse-0.2.1
-vcpkg-0.2.15
-wait-timeout-0.2.0
-walkdir-2.3.3
-wasi-0.11.0+wasi-snapshot-preview1
-wild-2.1.0
-winapi-0.3.9
-winapi-i686-pc-windows-gnu-0.4.0
-winapi-util-0.1.5
-winapi-x86_64-pc-windows-gnu-0.4.0
-windows-sys-0.42.0
-windows-sys-0.45.0
-windows-sys-0.48.0
-windows-targets-0.42.1
-windows-targets-0.48.0
-windows_aarch64_gnullvm-0.42.1
-windows_aarch64_gnullvm-0.48.0
-windows_aarch64_msvc-0.42.1
-windows_aarch64_msvc-0.48.0
-windows_i686_gnu-0.42.1
-windows_i686_gnu-0.48.0
-windows_i686_msvc-0.42.1
-windows_i686_msvc-0.48.0
-windows_x86_64_gnu-0.42.1
-windows_x86_64_gnu-0.48.0
-windows_x86_64_gnullvm-0.42.1
-windows_x86_64_gnullvm-0.48.0
-windows_x86_64_msvc-0.42.1
-windows_x86_64_msvc-0.48.0
-yaml-rust-0.4.5
-"
+inherit bash-completion-r1 cargo
 
-inherit cargo
-
-DESCRIPTION="A cat(1) clone with wings"
+DESCRIPTION="A cat(1) clone with wings."
 HOMEPAGE="https://github.com/sharkdp/bat"
-SRC_URI="https://api.github.com/repos/sharkdp/bat/tarball/v0.24.0 -> bat-0.24.0.tar.gz
-	$(cargo_crate_uris ${CRATES})"
+SRC_URI="https://github.com/sharkdp/bat/tarball/fc9546854f5a7b38823f4990453c6cde386bfd3b -> bat-0.24.0-fc95468.tar.gz
+https://direct.funtoo.org/ad/75/57/ad7557af2427c4cfdab57b1c523ebb2428b532edfb8d583d0682ebbaa5253ac6ec51447824969a560424ddd8ea355afd63e5d21661e7ff1d8e7f137e03a94fe7 -> bat-0.24.0-funtoo-crates-bundle-b185fd188c488b36cf1f89328f61b9f604691e249fabb53f22f15bcece386a82fc9686a45c53f776f83fde6edfdd8e0318763ba93013200253305eb0a2f1a583.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
@@ -202,11 +19,10 @@ DEPEND="
 	sys-libs/zlib:=
 "
 
-# >app-backup/bacula-9.2[qt5] has file collisions, #686118
-RDEPEND="${DEPEND}
-	!>app-backup/bacula-9.2[qt5]
+BDEPEND="
+	virtual/pkgconfig
+	virtual/rust
 "
-BDEPEND="virtual/pkgconfig"
 
 DOCS=( README.md doc/alternatives.md )
 
@@ -226,11 +42,21 @@ src_configure() {
 
 src_install() {
 	cargo_src_install
-
 	einstalldocs
 
-	doman target/release/build/bat-*/out/assets/manual/bat.1
+	# This derives the temporary build crate name where bat's
+	# template generated bash completion file assets are located
+	local crate_build_dir=$(find "${S}/target/release/build/" -name "bat-*" | head -1) || die
+	local crate_build_dir_base=$(basename $crate_build_dir) || die
+
+	doman "target/release/build/${crate_build_dir_base}/out/assets/manual/bat.1"
+
+	newbashcomp "target/release/build/${crate_build_dir_base}/out/assets/completions/bat.bash" bat
 
 	insinto /usr/share/fish/vendor_completions.d/
-	doins target/release/build/bat-*/out/assets/completions/bat.fish
+	doins "target/release/build/${crate_build_dir_base}/out/assets/completions/bat.fish"
+
+	insinto /usr/share/zsh/site-functions/
+	newins "target/release/build/${crate_build_dir_base}/out/assets/completions/bat.zsh" _bat
+
 }
