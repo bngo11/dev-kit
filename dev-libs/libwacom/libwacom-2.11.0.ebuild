@@ -7,7 +7,7 @@ inherit meson python-any-r1 udev
 
 DESCRIPTION="Library for identifying Wacom tablets and their model-specific features"
 HOMEPAGE="https://github.com/linuxwacom/libwacom"
-SRC_URI="https://github.com/linuxwacom/libwacom/releases/download/libwacom-2.10.0/libwacom-2.10.0.tar.xz -> libwacom-2.10.0.tar.xz"
+SRC_URI="https://github.com/linuxwacom/libwacom/releases/download/libwacom-2.11.0/libwacom-2.11.0.tar.xz -> libwacom-2.11.0.tar.xz"
 
 LICENSE="MIT"
 SLOT="0"
