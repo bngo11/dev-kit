@@ -24,7 +24,7 @@ COMMON_DEPEND="
 	x11-libs/libXrandr
 	x11-libs/libX11
 	x11-libs/libXinerama
-	x11-libs/gtk:4
+	gui-libs/gtk:4
 "
 DEPEND="${COMMON_DEPEND}
 	x11-base/xorg-proto"
