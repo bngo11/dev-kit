@@ -5,13 +5,15 @@ EAPI=7
 inherit go-module
 
 EGO_SUM=(
+	"github.com/boyter/gocodewalker v1.3.2"
+	"github.com/boyter/gocodewalker v1.3.2/go.mod"
 	"github.com/coreos/go-systemd/v22 v22.5.0/go.mod"
 	"github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod"
+	"github.com/danwakefield/fnmatch v0.0.0-20160403171240-cbb64ac3d964"
+	"github.com/danwakefield/fnmatch v0.0.0-20160403171240-cbb64ac3d964/go.mod"
 	"github.com/davecgh/go-spew v1.1.0/go.mod"
 	"github.com/davecgh/go-spew v1.1.1"
 	"github.com/davecgh/go-spew v1.1.1/go.mod"
-	"github.com/dbaggerman/cuba v0.3.2"
-	"github.com/dbaggerman/cuba v0.3.2/go.mod"
 	"github.com/godbus/dbus/v5 v5.0.4/go.mod"
 	"github.com/google/gofuzz v1.0.0/go.mod"
 	"github.com/inconshreveable/mousetrap v1.0.1/go.mod"
@@ -19,7 +21,6 @@ EGO_SUM=(
 	"github.com/inconshreveable/mousetrap v1.1.0/go.mod"
 	"github.com/json-iterator/go v1.1.12"
 	"github.com/json-iterator/go v1.1.12/go.mod"
-	"github.com/karrick/godirwalk v1.10.12/go.mod"
 	"github.com/mattn/go-colorable v0.1.12/go.mod"
 	"github.com/mattn/go-colorable v0.1.13"
 	"github.com/mattn/go-colorable v0.1.13/go.mod"
@@ -37,7 +38,6 @@ EGO_SUM=(
 	"github.com/modern-go/reflect2 v1.0.2"
 	"github.com/modern-go/reflect2 v1.0.2/go.mod"
 	"github.com/pkg/errors v0.9.1/go.mod"
-	"github.com/pkg/profile v1.3.0/go.mod"
 	"github.com/pmezard/go-difflib v1.0.0"
 	"github.com/pmezard/go-difflib v1.0.0/go.mod"
 	"github.com/rivo/uniseg v0.2.0/go.mod"
@@ -54,6 +54,8 @@ EGO_SUM=(
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/testify v1.3.0"
 	"github.com/stretchr/testify v1.3.0/go.mod"
+	"golang.org/x/sync v0.7.0"
+	"golang.org/x/sync v0.7.0/go.mod"
 	"golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c/go.mod"
 	"golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6/go.mod"
 	"golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod"
@@ -71,8 +73,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/boyter/scc/tarball/19b9bc387d062ca6d4146a3841dee137921ddda1 -> scc-3.2.0-19b9bc3.tar.gz
-https://direct.funtoo.org/8f/2e/f7/8f2ef7e960e0fa1167c264e582d2f65cba385001e2d78f6d536e0f6d5c5c741c3d0aaa8645d0e824ff639fd0111fd2ada6f8a783c99c5ed5b920f180650a2649 -> scc-3.2.0-funtoo-go-bundle-0a4409377167cfa3d7d6046a69b469d99aec77cecd6879bc59930e920424221ae46d02f38ed4b6f8cbdf5c548798a2cea80c612c2dcdaea4ecec94011ae0adba.tar.gz"
+SRC_URI="https://github.com/boyter/scc/tarball/78b234a07ce85a816adaa329abab9d4a67bc5192 -> scc-3.3.2-78b234a.tar.gz
+https://direct.funtoo.org/fa/57/18/fa5718574b3b61626dc9200da8c6a7544e30100036b22cc5528eb9f773fe2397e95c6481527e830ad808be4f1e1304d403c323222a8ee982f9dabdc52119da50 -> scc-3.3.2-funtoo-go-bundle-f1bec46b381cb805c32a07bbb79be251992b244e0d4972a0bf03d0246304e462062fc814a62ae001ca6128c0d6d09217c8f347ec25c0283967791bcfdc7869f2.tar.gz"
 
 DESCRIPTION="A tool similar to cloc, sloccount and tokei"
 HOMEPAGE="https://github.com/boyter/scc"
