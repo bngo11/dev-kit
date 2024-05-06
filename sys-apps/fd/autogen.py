@@ -3,7 +3,7 @@
 import json
 
 async def generate(hub, **pkginfo):
-	json_data = await hub.pkgtools.fetch.get_page("https://api.github.com/repos/mozilla/cbindgen/releases", is_json=True)
+	json_data = await hub.pkgtools.fetch.get_page("https://api.github.com/repos/sharkdp/fd/releases", is_json=True)
 	version = None
 	url = None
 
@@ -12,7 +12,7 @@ async def generate(hub, **pkginfo):
 			if item["prerelease"] or item["draft"]:
 				continue
 
-			version = item["tag_name"]
+			version = item["tag_name"].strip('v')
 			list(map(int, version.split(".")))
 
 			for asset in item['assets']:

@@ -2,7 +2,7 @@
 
 EAPI=7
 
-inherit bash-completion-r1 cargo
+inherit bash-completion-r1 cargo rust-toolchain
 
 DESCRIPTION="{{description}}"
 HOMEPAGE="https://github.com/{{github_user}}/{{github_repo}}"
@@ -30,7 +30,7 @@ QA_FLAGS_IGNORED="/usr/bin/{{github_repo}}"
 src_unpack() {
 	cargo_src_unpack
 	rm -rf ${S}
-	mv ${WORKDIR}/{{github_user}}-{{github_repo}}-* ${S} || die
+	mv ${WORKDIR}/sharkdp-bat-* ${S} || die
 }
 
 src_configure() {

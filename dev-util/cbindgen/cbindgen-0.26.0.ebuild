@@ -99,7 +99,6 @@ https://crates.io/api/v1/crates/winapi/0.3.9/download -> winapi-0.3.9.crate
 https://crates.io/api/v1/crates/winapi-i686-pc-windows-gnu/0.4.0/download -> winapi-i686-pc-windows-gnu-0.4.0.crate
 https://crates.io/api/v1/crates/winapi-util/0.1.5/download -> winapi-util-0.1.5.crate
 https://crates.io/api/v1/crates/winapi-x86_64-pc-windows-gnu/0.4.0/download -> winapi-x86_64-pc-windows-gnu-0.4.0.crate"
-SRC_URI+=" $(cargo_crate_uris ${CRATES}) "
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT MPL-2.0 Apache-2.0 Unlicense ZLIB"
 SLOT="0"
