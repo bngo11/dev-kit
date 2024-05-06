@@ -25,7 +25,7 @@ BDEPEND="
 
 DOCS=( README.md doc/alternatives.md )
 
-QA_FLAGS_IGNORED="/usr/bin/{{github_repo}}"
+QA_FLAGS_IGNORED="/usr/bin/bat"
 
 src_unpack() {
 	cargo_src_unpack
@@ -45,17 +45,16 @@ src_install() {
 
 	# This derives the temporary build crate name where bat's
 	# template generated bash completion file assets are located
-	local crate_build_dir=$(find "${S}/target/release/build/" -name "bat-*" | head -1) || die
-	local crate_build_dir_base=$(basename $crate_build_dir) || die
+	local crate_build_dir=( target/release/build/bat-*/out )
 
-	doman "target/release/build/${crate_build_dir_base}/out/assets/manual/bat.1"
+	doman "${crate_build_dir_base}/assets/manual/bat.1"
 
-	newbashcomp "target/release/build/${crate_build_dir_base}/out/assets/completions/bat.bash" bat
+	newbashcomp "${crate_build_dir_base}/assets/completions/bat.bash" bat
 
 	insinto /usr/share/fish/vendor_completions.d/
-	doins "target/release/build/${crate_build_dir_base}/out/assets/completions/bat.fish"
+	doins "${crate_build_dir_base}/assets/completions/bat.fish"
 
 	insinto /usr/share/zsh/site-functions/
-	newins "target/release/build/${crate_build_dir_base}/out/assets/completions/bat.zsh" _bat
+	newins "${crate_build_dir_base}/assets/completions/bat.zsh" _bat
 
 }
