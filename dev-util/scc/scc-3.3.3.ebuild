@@ -73,8 +73,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/boyter/scc/tarball/78b234a07ce85a816adaa329abab9d4a67bc5192 -> scc-3.3.2-78b234a.tar.gz
-https://direct.funtoo.org/fa/57/18/fa5718574b3b61626dc9200da8c6a7544e30100036b22cc5528eb9f773fe2397e95c6481527e830ad808be4f1e1304d403c323222a8ee982f9dabdc52119da50 -> scc-3.3.2-funtoo-go-bundle-f1bec46b381cb805c32a07bbb79be251992b244e0d4972a0bf03d0246304e462062fc814a62ae001ca6128c0d6d09217c8f347ec25c0283967791bcfdc7869f2.tar.gz"
+SRC_URI="https://github.com/boyter/scc/tarball/24809c6e1c935d28454b8d6f448284dee60d4adc -> scc-3.3.3-24809c6.tar.gz
+https://direct.funtoo.org/41/30/e8/4130e82861c8b547e0b8f7fc195d5d7687dfce2842774ab6fd6666da0ce7cd89b58a0bd7d6e52f691fae0e22c7516ce27f55af533e8aade0938e5e85293445e7 -> scc-3.3.3-funtoo-go-bundle-f1bec46b381cb805c32a07bbb79be251992b244e0d4972a0bf03d0246304e462062fc814a62ae001ca6128c0d6d09217c8f347ec25c0283967791bcfdc7869f2.tar.gz"
 
 DESCRIPTION="A tool similar to cloc, sloccount and tokei"
 HOMEPAGE="https://github.com/boyter/scc"
