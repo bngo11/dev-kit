@@ -227,14 +227,14 @@ src_install() {
 	# template generated bash completion file assets are located
 	local crate_build_dir=( target/release/build/bat-*/out )
 
-	doman "${crate_build_dir_base}/assets/manual/bat.1"
+	doman "${crate_build_dir}/assets/manual/bat.1"
 
-	newbashcomp "${crate_build_dir_base}/assets/completions/bat.bash" bat
+	newbashcomp "${crate_build_dir}/assets/completions/bat.bash" bat
 
 	insinto /usr/share/fish/vendor_completions.d/
-	doins "${crate_build_dir_base}/assets/completions/bat.fish"
+	doins "${crate_build_dir}/assets/completions/bat.fish"
 
 	insinto /usr/share/zsh/site-functions/
-	newins "${crate_build_dir_base}/assets/completions/bat.zsh" _bat
+	newins "${crate_build_dir}/assets/completions/bat.zsh" _bat
 
 }
