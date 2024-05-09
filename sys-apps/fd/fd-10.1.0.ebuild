@@ -6,7 +6,7 @@ inherit cargo rust-toolchain
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com//"
-SRC_URI="https://api.github.com/repos/sharkdp/fd/tarball/v10.0.0 -> fd-musl_10.0.0_amd64.deb-10.0.0.tar.gz
+SRC_URI="https://api.github.com/repos/sharkdp/fd/tarball/v10.1.0 -> fd-musl_10.1.0_amd64.deb-10.1.0.tar.gz
 https://crates.io/api/v1/crates/aho-corasick/1.1.3/download -> aho-corasick-1.1.3.crate
 https://crates.io/api/v1/crates/android-tzdata/0.1.1/download -> android-tzdata-0.1.1.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
