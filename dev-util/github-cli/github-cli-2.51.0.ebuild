@@ -225,8 +225,8 @@ EGO_SUM=(
 	"github.com/googleapis/gax-go/v2 v2.12.3/go.mod"
 	"github.com/gorilla/css v1.0.0"
 	"github.com/gorilla/css v1.0.0/go.mod"
-	"github.com/gorilla/websocket v1.5.1"
-	"github.com/gorilla/websocket v1.5.1/go.mod"
+	"github.com/gorilla/websocket v1.5.2"
+	"github.com/gorilla/websocket v1.5.2/go.mod"
 	"github.com/h2non/parth v0.0.0-20190131123155-b4df798d6542"
 	"github.com/h2non/parth v0.0.0-20190131123155-b4df798d6542/go.mod"
 	"github.com/hashicorp/errwrap v1.0.0/go.mod"
@@ -460,8 +460,8 @@ EGO_SUM=(
 	"github.com/yuin/goldmark v1.5.4/go.mod"
 	"github.com/yuin/goldmark-emoji v1.0.2"
 	"github.com/yuin/goldmark-emoji v1.0.2/go.mod"
-	"github.com/zalando/go-keyring v0.2.4"
-	"github.com/zalando/go-keyring v0.2.4/go.mod"
+	"github.com/zalando/go-keyring v0.2.5"
+	"github.com/zalando/go-keyring v0.2.5/go.mod"
 	"go.mongodb.org/mongo-driver v1.14.0"
 	"go.mongodb.org/mongo-driver v1.14.0/go.mod"
 	"go.opencensus.io v0.24.0"
@@ -550,8 +550,8 @@ EGO_SUM=(
 	"google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237/go.mod"
 	"google.golang.org/grpc v1.62.2"
 	"google.golang.org/grpc v1.62.2/go.mod"
-	"google.golang.org/protobuf v1.34.1"
-	"google.golang.org/protobuf v1.34.1/go.mod"
+	"google.golang.org/protobuf v1.34.2"
+	"google.golang.org/protobuf v1.34.2/go.mod"
 	"gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod"
 	"gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c"
 	"gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c/go.mod"
@@ -579,8 +579,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/faef2ddd81b0736748413a7c646cd0bfc26c00a0 -> cli-2.50.0-faef2dd.tar.gz
-https://direct.funtoo.org/01/8d/9d/018d9dce78b5c4ba54c462213100680a8fd45e85359c96ce1cdf7b2ceb4bbf4b52965b7b546c569cbfcff5eeeb90c51653299277191e6dd80df235e6658f8eff -> github-cli-2.50.0-funtoo-go-bundle-09617411d7aed89f719b3dd32231351b80437f547d1fa559e0177d55225ca1456b39a02bb970b1dd31e80438959fa1adccaeb109efe15a7783681d7fd7cce78d.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/f647131e1d19da4d470cfeb5e936589e12e42960 -> cli-2.51.0-f647131.tar.gz
+https://direct.funtoo.org/d8/5e/5b/d85e5b82188d941d5b0cf9771848229966d1ba17650cb3e50d764443d952c5eddf320aa8c74d9c27715bd600e1b43ea55dabab9a4058c6d9ffd535f3389477cc -> github-cli-2.51.0-funtoo-go-bundle-6fb06aa47796796bd6a6f9e76d3e19659ced19168f5a21bed0bf3f3661b19611811e402e12467f460b90554ea80d5555f7dc4de0c538b104ce7ec78ccae0c8a4.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -592,7 +592,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.50.0"
+	export GH_VERSION="v2.51.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
