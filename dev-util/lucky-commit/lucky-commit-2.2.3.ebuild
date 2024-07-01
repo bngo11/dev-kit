@@ -7,7 +7,7 @@ inherit cargo
 DESCRIPTION="Customize your git commit hashes!"
 HOMEPAGE="https://github.com/not-an-aardvark/lucky-commit"
 SRC_URI="https://github.com/not-an-aardvark/lucky-commit/tarball/00000002877d35de410890b322e3f76790706390 -> lucky-commit-2.2.3-0000000.tar.gz
-https://direct.funtoo.org/95/13/4c/95134cc8bbb4247ebeeee1342c1a3889385fb006c5a89fe593b82447afe1de459236b7ead115c6dd963794fe47e2f855cd6756d88fb3d861b956029753252438 -> lucky-commit-2.2.3-funtoo-crates-bundle-bb0f63a6cb9b09dbfea55b0fbc0f1d6d8b9a48c0546e8fa9cb2e6a5226cfc320bb4d6770c96e6fcfb042d8a2cd16affe49edab61cc179beadee2c7d4084a78a8.tar.gz"
+https://direct.funtoo.org/1c/65/1a/1c651a7a8ae8c08ff773c92ae9288c85e868fc9486f9910f8bbaa7c6afa0cd585387c48e1790035b35031c3b18ab754b600d0f693e743210af744ee6525e2640 -> lucky-commit-2.2.3-funtoo-crates-bundle-bb0f63a6cb9b09dbfea55b0fbc0f1d6d8b9a48c0546e8fa9cb2e6a5226cfc320bb4d6770c96e6fcfb042d8a2cd16affe49edab61cc179beadee2c7d4084a78a8.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
