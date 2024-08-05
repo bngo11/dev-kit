@@ -28,8 +28,9 @@ RESTRICT="test"
 S="${WORKDIR}/${P}/${PN}"
 
 PATCHES=(
-	# Custom changes for gentoo
-	"${FILESDIR}/${PN}-3.53-gentoo-fixups.patch"
+	"${FILESDIR}"/nss-3.103-gentoo-fixes-add-pkgconfig-files.patch
+	"${FILESDIR}"/nss-3.21-gentoo-fixup-warnings.patch
+	"${FILESDIR}"/nss-3.87-use-clang-as-bgo892686.patch
 )
 
 src_prepare() {
@@ -44,7 +45,7 @@ src_prepare() {
 		-i lib/dbm/include/mcom_db.h || die
 
 	if use cacert ; then
-		eapply -p2 "${FILESDIR}/${PN}-cacert-class1-class3-r2.patch"
+		eapply -p2 "${FILESDIR}/${PN}-3.101-cacert-class1-class3.patch"
 	fi
 
 	pushd coreconf >/dev/null || die
