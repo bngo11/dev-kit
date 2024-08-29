@@ -4,6 +4,7 @@ EAPI=7
 
 AT_M4DIR="config"
 PYTHON_COMPAT=( python3+ )
+DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_OPTIONAL=1
 inherit autotools distutils-r1
 
