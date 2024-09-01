@@ -5,8 +5,8 @@ EAPI=7
 inherit go-module
 
 EGO_SUM=(
-	"dario.cat/mergo v1.0.0"
-	"dario.cat/mergo v1.0.0/go.mod"
+	"dario.cat/mergo v1.0.1"
+	"dario.cat/mergo v1.0.1/go.mod"
 	"github.com/!ada!logics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24"
 	"github.com/!ada!logics/go-fuzz-headers v0.0.0-20230811130428-ced1acdcaa24/go.mod"
 	"github.com/!alec!aivazis/survey/v2 v2.3.7"
@@ -53,12 +53,12 @@ EGO_SUM=(
 	"github.com/davecgh/go-spew v1.1.1/go.mod"
 	"github.com/distribution/reference v0.5.0"
 	"github.com/distribution/reference v0.5.0/go.mod"
-	"github.com/docker/cli v26.1.4+incompatible"
-	"github.com/docker/cli v26.1.4+incompatible/go.mod"
+	"github.com/docker/cli v26.1.5+incompatible"
+	"github.com/docker/cli v26.1.5+incompatible/go.mod"
 	"github.com/docker/distribution v2.8.3+incompatible"
 	"github.com/docker/distribution v2.8.3+incompatible/go.mod"
-	"github.com/docker/docker v26.1.3+incompatible"
-	"github.com/docker/docker v26.1.3+incompatible/go.mod"
+	"github.com/docker/docker v26.1.5+incompatible"
+	"github.com/docker/docker v26.1.5+incompatible/go.mod"
 	"github.com/docker/docker-credential-helpers v0.8.0"
 	"github.com/docker/docker-credential-helpers v0.8.0/go.mod"
 	"github.com/docker/go-connections v0.5.0"
@@ -292,15 +292,15 @@ EGO_SUM=(
 	"golang.org/x/sys v0.5.0/go.mod"
 	"golang.org/x/sys v0.6.0/go.mod"
 	"golang.org/x/sys v0.15.0/go.mod"
-	"golang.org/x/sys v0.22.0"
-	"golang.org/x/sys v0.22.0/go.mod"
+	"golang.org/x/sys v0.23.0"
+	"golang.org/x/sys v0.23.0/go.mod"
 	"golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod"
 	"golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod"
 	"golang.org/x/term v0.2.0/go.mod"
 	"golang.org/x/term v0.5.0/go.mod"
 	"golang.org/x/term v0.6.0/go.mod"
-	"golang.org/x/term v0.22.0"
-	"golang.org/x/term v0.22.0/go.mod"
+	"golang.org/x/term v0.23.0"
+	"golang.org/x/term v0.23.0/go.mod"
 	"golang.org/x/text v0.3.0/go.mod"
 	"golang.org/x/text v0.3.3/go.mod"
 	"golang.org/x/text v0.3.6/go.mod"
@@ -353,8 +353,8 @@ go-module_set_globals
 
 DESCRIPTION="Run your GitHub Actions locally"
 HOMEPAGE="https://github.com/nektos/act"
-SRC_URI="https://github.com/nektos/act/tarball/a8c5651f639fd46ef4b09916f90b1de0223aea55 -> act-0.2.65-a8c5651.tar.gz
-https://direct.funtoo.org/4a/0d/30/4a0d301ce9f421483b3bcd7bd4e87b21f4dc7c3d1c5d96d6514bb515e766627f7235dc39f7d176797b3bcaafce5d738ab0b0f9996747f971c85ca4baf7a74e3e -> act-0.2.65-funtoo-go-bundle-b9333ea7baee62160eb0468e57902db11692079fab6501b662967d93b2668bb4d282450f81bd798074128340708fabfa349e00b30aefdfb862677c2af4d3375f.tar.gz"
+SRC_URI="https://github.com/nektos/act/tarball/68d7e70d6da99e5b03cf0d048d4abdf74bd42f72 -> act-0.2.66-68d7e70.tar.gz
+https://direct.funtoo.org/ce/d6/3d/ced63d4b094e661dac6170a190c64ee49f10bfceb6e5c3b57ea85dde065c2f1bebfd2f4b12346aeb6a1cd22c4c5e115f03f809b0cdf55a6435e780027a1875e5 -> act-0.2.66-funtoo-go-bundle-76d5f682ca5356f71c75787a515f0a77446f72d911d3cc3aba1ba39a32e81b449994e13c672586ffea87c2e949db27305d466767e00d01d8250ac8120440bdc0.tar.gz"
 
 RDEPEND="
 	app-emulation/docker
