@@ -99,7 +99,7 @@ go-module_set_globals
 DESCRIPTION="yq is a portable command-line YAML, JSON and XML processor"
 HOMEPAGE="https://github.com/mikefarah/yq"
 SRC_URI="https://github.com/mikefarah/yq/tarball/bbdd97482f2d439126582a59689eb1c855944955 -> yq-4.44.3-bbdd974.tar.gz
-https://direct.funtoo.org/fe/8a/d7/fe8ad7ad1f21d13152636599937796fd67275911bea4c520e3ac263028681482630a05871bd7786bdc55cecce95d00595708dd6878b22b1560f84487aec647d4 -> yq-go-4.44.3-funtoo-go-bundle-e3c70b8111ecbf4f9a21c55d30d12f4ff132fc367dd75fe0a855cec22c9586f0a0e32c648f3c7c9c98734a43812632f4d8a6d8bdde52d00b08d88ef4927ad31c.tar.gz"
+https://direct.funtoo.org/e2/50/4b/e2504ba4cabc0ef6609dcff2b52a2d0894948e2aa95b41a044379f0bb6f056252d9d3ef03b2220b4be27210fdd631a358ebc563d67991f70c0615e49679d30f2 -> yq-go-4.44.3-funtoo-go-bundle-e3c70b8111ecbf4f9a21c55d30d12f4ff132fc367dd75fe0a855cec22c9586f0a0e32c648f3c7c9c98734a43812632f4d8a6d8bdde52d00b08d88ef4927ad31c.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"

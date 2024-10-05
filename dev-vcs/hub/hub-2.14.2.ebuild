@@ -49,7 +49,7 @@ go-module_set_globals
 DESCRIPTION="Command-line wrapper for git that makes you better at GitHub"
 HOMEPAGE="https://github.com/github/hub"
 SRC_URI="https://github.com/github/hub/tarball/606a5de81b31ade21631e90fb42082ad19b64aac -> hub-2.14.2-606a5de.tar.gz
-https://direct.funtoo.org/12/8b/17/128b177733033db87e6c30dec8a8b22d080c521cf04cdac5efed62dd28e8d251fbb7fb91b505f44a0126bdc6658a0adc856a8548abcbcba1c0d91426f10ae883 -> hub-2.14.2-funtoo-go-bundle-63a3df6b855a85b08d3eecd7d0d902eb3a13157f92811dbcaf0ad4cf65668a3aea34352cea6eb4cdc3bc3a23b7ce4a63bc6548d9f7ebb8586e7698f810da988f.tar.gz"
+https://direct.funtoo.org/13/65/8d/13658ded3ad512a9b365d63a86287cc78a8cfa6b5c35ba515dd398ea8cf8bcaf9e8691ee5e68812c7f89775f952bf961666734868559afb8d87376aa790ea878 -> hub-2.14.2-funtoo-go-bundle-63a3df6b855a85b08d3eecd7d0d902eb3a13157f92811dbcaf0ad4cf65668a3aea34352cea6eb4cdc3bc3a23b7ce4a63bc6548d9f7ebb8586e7698f810da988f.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
