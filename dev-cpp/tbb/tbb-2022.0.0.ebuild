@@ -28,7 +28,7 @@ RDEPEND="${DEPEND}"
 src_unpack() {
 	default
 	rm -rf "${S}"
-	mv "${WORKDIR}"/oneapi-src-oneTBB-* "${S}" || die
+	mv "${WORKDIR}"/uxlfoundation-oneTBB-* "${S}" || die
 }
 
 src_configure() {

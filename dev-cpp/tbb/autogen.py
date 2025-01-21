@@ -21,21 +21,34 @@ patches = [
 ]
 
 def get_release(release_data):
-	releases = list(
-		filter(lambda x: x["prerelease"] is False and x["draft"] is False, release_data)
-	)
-	return None if not releases else sorted(releases, key=lambda x: generic.parse(x["tag_name"])).pop()
+	version = None
+	url = None
 
+	for item in release_data:
+		try:
+			if item["prerelease"] or item["draft"]:
+				continue
+
+			version = item["tag_name"].strip("v")
+			list(map(int, version.split(".")))
+
+			url = item["tarball_url"]
+			print(version, url)
+			break
+
+		except (KeyError, IndexError, ValueError) as error:
+			print(error)
+			continue
+
+	return version, url
 
 async def generate(hub, **pkginfo):
-	user = "oneapi-src"
+	user = "uxlfoundation"
 	repo = "oneTBB"
-	release_data = await hub.pkgtools.fetch.get_page(f"https://api.github.com/repos/{user}/{repo}/releases", is_json=True)
-	latest_release = get_release(release_data)
-	if latest_release is None:
+	release_data = await hub.pkgtools.fetch.get_page(f"https://api.github.com/repos/{user}/{repo}/releases?page", is_json=True)
+	version, url = get_release(release_data)
+	if version is None:
 		raise hub.pkgtools.ebuild.BreezyError(f"Can't find suitable release of {repo}")
-	version = latest_release["tag_name"].lstrip("v")
-	url = latest_release["tarball_url"]
 	final_name = f"{pkginfo['name']}-{version}.tar.gz"
 
 	active_patches = []
