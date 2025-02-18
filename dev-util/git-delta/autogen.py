@@ -12,25 +12,19 @@ async def generate(hub, **pkginfo):
 		is_json=True,
 	)
 
-	try:
-		latest_release = max(
-			(
-				release
-				for release in release_data
-				if not release["prerelease"] and not release["draft"]
-			),
-			key=lambda release: generic.parse(release["tag_name"]),
-		)
-	except ValueError:
-		raise hub.pkgtools.ebuild.BreezyError(
-			f"Can't find suitable release of {github_repo}"
-		)
+	for item in release_data:
+		try:
+			if item["prerelease"] or item["draft"]:
+				continue
 
-	tag_name = latest_release["tag_name"]
-	latest_version = tag_name.lstrip("v")
+			version = item["tag_name"]
+			list(map(int, version.split(".")))
+			source_url = item["tarball_url"]
+			source_name = f"{github_repo}-{version}.tar.gz"
+			break
 
-	source_url = latest_release["tarball_url"]
-	source_name = f"{github_repo}-{latest_version}.tar.gz"
+		except (KeyError, IndexError, ValueError):
+			continue
 
 	source_artifact = hub.pkgtools.ebuild.Artifact(
 		url=source_url, final_name=source_name
@@ -42,7 +36,7 @@ async def generate(hub, **pkginfo):
 
 	ebuild = hub.pkgtools.ebuild.BreezyBuild(
 		**pkginfo,
-		version=latest_version,
+		version=version,
 		github_user=github_user,
 		github_repo=github_repo,
 		crates=cargo_artifacts["crates"],

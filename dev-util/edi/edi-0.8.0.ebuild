@@ -8,7 +8,7 @@ DESCRIPTION="An EFL-based IDE"
 HOMEPAGE="https://www.enlightenment.org/about-edi
 	https://phab.enlightenment.org/w/projects/edi/
 	https://github.com/Enlightenment/edi"
-SRC_URI="https://api.github.com/repos/Enlightenment/edi/tarball/refs/tags/v0.8.0 -> edi-0.8.0.tar.gz"
+SRC_URI="https://github.com/Enlightenment/edi/releases/download/v0.8.0/edi-0.8.0.tar.xz -> edi-0.8.0.tar.xz"
 
 LICENSE="GPL-2 GPL-3 LGPL-2.1-with-linking-exception"
 SLOT="0"

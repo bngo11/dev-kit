@@ -1,51 +1,51 @@
 #!/usr/bin/env python3
 
-from metatools.version import generic
-
-
-def get_release(releases_data):
-	releases = list(filter(lambda x: x["prerelease"] is False and x["draft"] is False, releases_data))
-	return None if not releases else sorted(releases, key=lambda x: generic.parse(x["tag_name"])).pop()
-
-
-async def get_latest_release(hub, github_user, github_repo):
-	json_list = await hub.pkgtools.fetch.get_page(
-		f"https://api.github.com/repos/{github_user}/{github_repo}/releases", is_json=True
-	)
-	latest_release = get_release(json_list)
-	if latest_release is None:
-		raise hub.pkgtools.ebuild.BreezyError(f"Can't find a suitable release of {github_repo}")
-
-	url = latest_release["tarball_url"]
-	version =  latest_release["tag_name"].lstrip("v")
-	version = version.lstrip("release-")
-	final_name = f"{github_repo}-{version}.tar.gz"
-	artifact = hub.pkgtools.ebuild.Artifact(url=url, final_name=final_name)
-	return {
-	"url": url,
-	"version": version,
-	"final_name": final_name,
-	"artifact": artifact
-	}
-
+import json
 
 async def generate(hub, **pkginfo):
-	github_user = "abseil"
-	github_repo = "abseil-cpp"
-	test_user = "google"
-	test_repo="googletest"
-	
-	src_info = await get_latest_release(hub, github_user, github_repo)
-	test_info = await get_latest_release(hub, test_user, test_repo)
+	github_list = [("abseil", pkginfo.get("name")), ("google", "googletest")]
+	artifacts_list = []
 
-	ebuild = hub.pkgtools.ebuild.BreezyBuild(
-		**pkginfo,
-		version=src_info["version"],
-		test_version=test_info["version"],
-		github_user=github_user,
-		github_repo=github_repo,
-		test_user=test_user,
-		test_repo=test_repo,
-		artifacts=[src_info["artifact"], test_info["artifact"]]
-	)
-	ebuild.push()
+	for github_user, github_repo in github_list:
+		json_data = await hub.pkgtools.fetch.get_page(f"https://api.github.com/repos/{github_user}/{github_repo}/releases", is_json=True)
+		version = None
+		url = None
+
+		for item in json_data:
+			try:
+				if item["prerelease"] or item["draft"]:
+					continue
+
+				version = item["tag_name"].lstrip("v")
+				list(map(int, version.split(".")))
+
+				for asset in item['assets']:
+					asset_name = asset["name"]
+
+					if asset_name.endswith("tar.gz"):
+						url = asset["browser_download_url"]
+						break
+
+				if url:
+					artifacts_list.append((version, asset_name, url))
+					break
+
+			except (KeyError, IndexError, ValueError):
+				continue
+
+	if artifacts_list:
+		pkg, google = artifacts_list
+		ebuild = hub.pkgtools.ebuild.BreezyBuild(
+			**pkginfo,
+			version=pkg[0],
+			test_version=google[0],
+			github_user=github_list[0][0],
+			github_repo=github_list[0][1],
+			test_user=github_list[1][0],
+			test_repo=github_list[1][1],
+			artifacts=[hub.pkgtools.ebuild.Artifact(url=pkg[2], final_name=pkg[1]),
+						hub.pkgtools.ebuild.Artifact(url=google[2], final_name=google[1])]
+		)
+		ebuild.push()
+
+# vim: ts=4 sw=4 noet

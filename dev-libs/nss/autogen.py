@@ -1,40 +1,42 @@
 #!/usr/bin/env python3
 
-from metatools.version import generic
 from bs4 import BeautifulSoup
 
-
 async def generate(hub, **pkginfo):
-	url = f"https://ftp.mozilla.org/pub/security/nss/releases/"
-	html_data = await hub.pkgtools.fetch.get_page(url)
-	soup = BeautifulSoup(html_data, "html.parser")
-	latest_version = "0"
-	for link in soup.find_all("a"):
-		href = link.get_text()
-		if href is not None and href.endswith("RTM/") and "WITH" not in href:
-			ref = href.split("_")
-			ref.pop(0)
-			ref.pop()
-			ver = ".".join(ref)
-			if generic.parse(latest_version) < generic.parse(ver):
-				latest_version = ver
-				latest_href = href
-	src_url = url+latest_href+"src/"
-	nspr_data = await hub.pkgtools.fetch.get_page(src_url)
-	nspr_soup = BeautifulSoup(nspr_data, "html.parser")
-	for link in nspr_soup.find_all("a"):
-		ref = link.get_text()
-		if ref is not None and "nspr" in ref:
-			nspr_ver = ref.split(".tar")[0].split("-")[-1]
-	final_name = f'{pkginfo["name"]}-{latest_version}.tar.gz'
+	repos = ['nspr', 'nss']
+	repo_info = []
 
-	ebuild = hub.pkgtools.ebuild.BreezyBuild(
-		**pkginfo,
-		version=latest_version,
-		nspr_ver=nspr_ver,
-		artifacts=[hub.pkgtools.ebuild.Artifact(url=src_url+final_name)],
-	)
-	ebuild.push()
+	for repo in repos:
+		html_data = await hub.pkgtools.fetch.get_page(f"https://hg.mozilla.org/projects/{repo}/")
+		soup = BeautifulSoup(html_data, "html.parser")
+		links = soup.find_all("a")
+		version = None
+
+		for link in links:
+			href = link.get("href")
+			if href and href.endswith("_RTM"):
+				parts = href.split("/")
+				version = parts[-1].lstrip(f"{repo.upper()}_").rstrip("_RTM").replace("_", ".")
+
+				try:
+					list(map(int, version.split(".")))
+					repo_info.append((version, parts[-1]))
+					break
+
+				except ValueError:
+					continue
+
+	if repo_info:
+		final_name = f"nss-{repo_info[1][0]}.tar.gz"
+		url = f"https://ftp.mozilla.org/pub/security/nss/releases/{repo_info[1][1]}/src/{final_name}"
+		ebuild = hub.pkgtools.ebuild.BreezyBuild(
+			**pkginfo,
+			version=repo_info[1][0],
+			nspr_ver=repo_info[0][0],
+			artifacts=[hub.pkgtools.ebuild.Artifact(url=url, final_name=final_name)],
+		)
+
+		ebuild.push()
 
 
 # vim: ts=4 sw=4 noet
