@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="Library routines related to building,parsing and iterating BSON documents"
 HOMEPAGE="https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson"
-SRC_URI="https://github.com/mongodb/mongo-c-driver/tarball/2eba4d10e41f6cb9826e5212ea141a98a4778570 -> mongo-c-driver-1.30.0-2eba4d1.tar.gz"
+SRC_URI="https://github.com/mongodb/mongo-c-driver/tarball/0dbc50648ac2c345142134f28e3a8122839cc29c -> mongo-c-driver-1.30.1-0dbc506.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
