@@ -9,6 +9,6 @@ KEYWORDS=*
 LICENSE=Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB
 RDEPEND=git? ( dev-libs/libgit2:= )
 SLOT=0
-SRC_URI=https://github.com/eza-community/eza/tarball/af5e750fd9eab53cc899bc63ef25d491b8a77d43 -> eza-0.20.21-af5e750.tar.gz https://direct.funtoo.org/28/28/d4/2828d457214ca1fc345eb5391422f16f84ba9d0344dd5c62470fa430be8d1b96e5eef25977ddf12bd579a1edc89b60716045f97918688b92bce87451eb9094d8 -> eza-0.20.21-funtoo-crates-bundle-ff46088fc762f90b41fe4ca902b069ad580745de9d4b4e7bfccb11ed409d9c39bed0aabd25391ae67361d720ae5a2b40bfd663eda44a10bceafe5d5e52427335.tar.gz
+SRC_URI=https://github.com/eza-community/eza/tarball/144fbf3b105521e1e604e952112c940f757c9905 -> eza-0.20.22-144fbf3.tar.gz https://direct.funtoo.org/e6/4c/5a/e64c5a2a01026523bf233a84e581ca141c93012d313809581ed1f86f561e2a980127959f764bbea12f4846a64768b50e1c4f0c8557c0f1da940da50df9044c91 -> eza-0.20.22-funtoo-crates-bundle-f7f1fac016ac825a4cbd679e9f51b3d5bffb92d478339114212b04ca58da2d6e8158a1779ef78785f7ae65128869db77dc4a34f527f498d466532318dbca51a8.tar.gz
 _eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	cargo	a3e90d3e6ca8541d967cff212149cffc	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=3d64ad1fe2c4ff936439af0623351218
+_md5_=d50aa9a1da30d043ddbc6528c1be898b
