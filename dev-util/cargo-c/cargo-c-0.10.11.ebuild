@@ -42,11 +42,11 @@ https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.18/download -> cargo-util-0.2.18.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.7.2/download -> cargo-util-schemas-0.7.2.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
-https://crates.io/api/v1/crates/cc/1.2.16/download -> cc-1.2.16.crate
+https://crates.io/api/v1/crates/cc/1.2.17/download -> cc-1.2.17.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/clap/4.5.32/download -> clap-4.5.32.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.32/download -> clap_builder-4.5.32.crate
-https://crates.io/api/v1/crates/clap_complete/4.5.46/download -> clap_complete-4.5.46.crate
+https://crates.io/api/v1/crates/clap_complete/4.5.47/download -> clap_complete-4.5.47.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.32/download -> clap_derive-4.5.32.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.4/download -> clap_lex-0.7.4.crate
 https://crates.io/api/v1/crates/clru/0.6.2/download -> clru-0.6.2.crate
@@ -381,9 +381,9 @@ https://crates.io/api/v1/crates/writeable/0.5.5/download -> writeable-0.5.5.crat
 https://crates.io/api/v1/crates/yoke/0.7.5/download -> yoke-0.7.5.crate
 https://crates.io/api/v1/crates/yoke-derive/0.7.5/download -> yoke-derive-0.7.5.crate
 https://crates.io/api/v1/crates/zerocopy/0.7.35/download -> zerocopy-0.7.35.crate
-https://crates.io/api/v1/crates/zerocopy/0.8.23/download -> zerocopy-0.8.23.crate
+https://crates.io/api/v1/crates/zerocopy/0.8.24/download -> zerocopy-0.8.24.crate
 https://crates.io/api/v1/crates/zerocopy-derive/0.7.35/download -> zerocopy-derive-0.7.35.crate
-https://crates.io/api/v1/crates/zerocopy-derive/0.8.23/download -> zerocopy-derive-0.8.23.crate
+https://crates.io/api/v1/crates/zerocopy-derive/0.8.24/download -> zerocopy-derive-0.8.24.crate
 https://crates.io/api/v1/crates/zerofrom/0.1.6/download -> zerofrom-0.1.6.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.6/download -> zerofrom-derive-0.1.6.crate
 https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
