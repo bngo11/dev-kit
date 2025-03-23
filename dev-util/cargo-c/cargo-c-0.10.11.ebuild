@@ -186,8 +186,8 @@ https://crates.io/api/v1/crates/itertools/0.13.0/download -> itertools-0.13.0.cr
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
 https://crates.io/api/v1/crates/jiff/0.1.29/download -> jiff-0.1.29.crate
-https://crates.io/api/v1/crates/jiff-tzdb/0.1.3/download -> jiff-tzdb-0.1.3.crate
-https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.2/download -> jiff-tzdb-platform-0.1.2.crate
+https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
+https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.32/download -> jobserver-0.1.32.crate
 https://crates.io/api/v1/crates/js-sys/0.3.77/download -> js-sys-0.3.77.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
