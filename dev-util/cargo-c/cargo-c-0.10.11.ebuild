@@ -71,7 +71,7 @@ https://crates.io/api/v1/crates/curl/0.4.47/download -> curl-0.4.47.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.80+curl-8.12.1/download -> curl-sys-0.4.80+curl-8.12.1.crate
 https://crates.io/api/v1/crates/dbus/0.9.7/download -> dbus-0.9.7.crate
 https://crates.io/api/v1/crates/der/0.7.9/download -> der-0.7.9.crate
-https://crates.io/api/v1/crates/deranged/0.4.0/download -> deranged-0.4.0.crate
+https://crates.io/api/v1/crates/deranged/0.4.1/download -> deranged-0.4.1.crate
 https://crates.io/api/v1/crates/digest/0.10.7/download -> digest-0.10.7.crate
 https://crates.io/api/v1/crates/displaydoc/0.2.5/download -> displaydoc-0.2.5.crate
 https://crates.io/api/v1/crates/dunce/1.0.5/download -> dunce-1.0.5.crate
@@ -206,7 +206,7 @@ https://crates.io/api/v1/crates/linux-raw-sys/0.4.15/download -> linux-raw-sys-0
 https://crates.io/api/v1/crates/linux-raw-sys/0.9.3/download -> linux-raw-sys-0.9.3.crate
 https://crates.io/api/v1/crates/litemap/0.7.5/download -> litemap-0.7.5.crate
 https://crates.io/api/v1/crates/lock_api/0.4.12/download -> lock_api-0.4.12.crate
-https://crates.io/api/v1/crates/log/0.4.26/download -> log-0.4.26.crate
+https://crates.io/api/v1/crates/log/0.4.27/download -> log-0.4.27.crate
 https://crates.io/api/v1/crates/matchers/0.1.0/download -> matchers-0.1.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.10/download -> maybe-async-0.2.10.crate
 https://crates.io/api/v1/crates/memchr/2.7.4/download -> memchr-2.7.4.crate
@@ -311,9 +311,9 @@ https://crates.io/api/v1/crates/thiserror/2.0.12/download -> thiserror-2.0.12.cr
 https://crates.io/api/v1/crates/thiserror-impl/1.0.69/download -> thiserror-impl-1.0.69.crate
 https://crates.io/api/v1/crates/thiserror-impl/2.0.12/download -> thiserror-impl-2.0.12.crate
 https://crates.io/api/v1/crates/thread_local/1.1.8/download -> thread_local-1.1.8.crate
-https://crates.io/api/v1/crates/time/0.3.40/download -> time-0.3.40.crate
+https://crates.io/api/v1/crates/time/0.3.41/download -> time-0.3.41.crate
 https://crates.io/api/v1/crates/time-core/0.1.4/download -> time-core-0.1.4.crate
-https://crates.io/api/v1/crates/time-macros/0.2.21/download -> time-macros-0.2.21.crate
+https://crates.io/api/v1/crates/time-macros/0.2.22/download -> time-macros-0.2.22.crate
 https://crates.io/api/v1/crates/tinystr/0.7.6/download -> tinystr-0.7.6.crate
 https://crates.io/api/v1/crates/tinyvec/1.9.0/download -> tinyvec-1.9.0.crate
 https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
