@@ -44,8 +44,8 @@ https://crates.io/api/v1/crates/cargo-util-schemas/0.7.2/download -> cargo-util-
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
 https://crates.io/api/v1/crates/cc/1.2.17/download -> cc-1.2.17.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
-https://crates.io/api/v1/crates/clap/4.5.32/download -> clap-4.5.32.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.32/download -> clap_builder-4.5.32.crate
+https://crates.io/api/v1/crates/clap/4.5.34/download -> clap-4.5.34.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.34/download -> clap_builder-4.5.34.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.47/download -> clap_complete-4.5.47.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.32/download -> clap_derive-4.5.32.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.4/download -> clap_lex-0.7.4.crate
@@ -167,11 +167,11 @@ https://crates.io/api/v1/crates/humantime/2.2.0/download -> humantime-2.2.0.crat
 https://crates.io/api/v1/crates/icu_collections/1.5.0/download -> icu_collections-1.5.0.crate
 https://crates.io/api/v1/crates/icu_locid/1.5.0/download -> icu_locid-1.5.0.crate
 https://crates.io/api/v1/crates/icu_locid_transform/1.5.0/download -> icu_locid_transform-1.5.0.crate
-https://crates.io/api/v1/crates/icu_locid_transform_data/1.5.0/download -> icu_locid_transform_data-1.5.0.crate
+https://crates.io/api/v1/crates/icu_locid_transform_data/1.5.1/download -> icu_locid_transform_data-1.5.1.crate
 https://crates.io/api/v1/crates/icu_normalizer/1.5.0/download -> icu_normalizer-1.5.0.crate
-https://crates.io/api/v1/crates/icu_normalizer_data/1.5.0/download -> icu_normalizer_data-1.5.0.crate
+https://crates.io/api/v1/crates/icu_normalizer_data/1.5.1/download -> icu_normalizer_data-1.5.1.crate
 https://crates.io/api/v1/crates/icu_properties/1.5.1/download -> icu_properties-1.5.1.crate
-https://crates.io/api/v1/crates/icu_properties_data/1.5.0/download -> icu_properties_data-1.5.0.crate
+https://crates.io/api/v1/crates/icu_properties_data/1.5.1/download -> icu_properties_data-1.5.1.crate
 https://crates.io/api/v1/crates/icu_provider/1.5.0/download -> icu_provider-1.5.0.crate
 https://crates.io/api/v1/crates/icu_provider_macros/1.5.0/download -> icu_provider_macros-1.5.0.crate
 https://crates.io/api/v1/crates/idna/1.0.3/download -> idna-1.0.3.crate
@@ -221,7 +221,7 @@ https://crates.io/api/v1/crates/nu-ansi-term/0.46.0/download -> nu-ansi-term-0.4
 https://crates.io/api/v1/crates/num-conv/0.1.0/download -> num-conv-0.1.0.crate
 https://crates.io/api/v1/crates/num-traits/0.2.19/download -> num-traits-0.2.19.crate
 https://crates.io/api/v1/crates/object/0.36.7/download -> object-0.36.7.crate
-https://crates.io/api/v1/crates/once_cell/1.21.1/download -> once_cell-1.21.1.crate
+https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
 https://crates.io/api/v1/crates/opener/0.7.2/download -> opener-0.7.2.crate
 https://crates.io/api/v1/crates/openssl/0.10.57/download -> openssl-0.10.57.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
