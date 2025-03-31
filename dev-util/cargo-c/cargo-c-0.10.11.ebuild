@@ -27,12 +27,12 @@ https://crates.io/api/v1/crates/base64/0.22.1/download -> base64-0.22.1.crate
 https://crates.io/api/v1/crates/base64ct/1.7.3/download -> base64ct-1.7.3.crate
 https://crates.io/api/v1/crates/bitflags/2.9.0/download -> bitflags-2.9.0.crate
 https://crates.io/api/v1/crates/bitmaps/2.1.0/download -> bitmaps-2.1.0.crate
-https://crates.io/api/v1/crates/blake3/1.7.0/download -> blake3-1.7.0.crate
+https://crates.io/api/v1/crates/blake3/1.8.0/download -> blake3-1.8.0.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
 https://crates.io/api/v1/crates/bstr/1.11.3/download -> bstr-1.11.3.crate
 https://crates.io/api/v1/crates/bumpalo/3.17.0/download -> bumpalo-3.17.0.crate
 https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
-https://crates.io/api/v1/crates/bytesize/1.3.2/download -> bytesize-1.3.2.crate
+https://crates.io/api/v1/crates/bytesize/1.3.3/download -> bytesize-1.3.3.crate
 https://crates.io/api/v1/crates/cargo/0.86.0/download -> cargo-0.86.0.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.8/download -> cargo-credential-0.4.8.crate
 https://crates.io/api/v1/crates/cargo-credential-libsecret/0.4.11/download -> cargo-credential-libsecret-0.4.11.crate
