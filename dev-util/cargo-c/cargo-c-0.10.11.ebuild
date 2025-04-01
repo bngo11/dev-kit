@@ -44,8 +44,8 @@ https://crates.io/api/v1/crates/cargo-util-schemas/0.7.2/download -> cargo-util-
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
 https://crates.io/api/v1/crates/cc/1.2.17/download -> cc-1.2.17.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
-https://crates.io/api/v1/crates/clap/4.5.34/download -> clap-4.5.34.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.34/download -> clap_builder-4.5.34.crate
+https://crates.io/api/v1/crates/clap/4.5.35/download -> clap-4.5.35.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.35/download -> clap_builder-4.5.35.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.47/download -> clap_complete-4.5.47.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.32/download -> clap_derive-4.5.32.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.4/download -> clap_lex-0.7.4.crate
@@ -188,7 +188,7 @@ https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
 https://crates.io/api/v1/crates/jiff/0.1.29/download -> jiff-0.1.29.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
-https://crates.io/api/v1/crates/jobserver/0.1.32/download -> jobserver-0.1.32.crate
+https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
 https://crates.io/api/v1/crates/js-sys/0.3.77/download -> js-sys-0.3.77.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
@@ -267,7 +267,7 @@ https://crates.io/api/v1/crates/rustc-hash/2.1.1/download -> rustc-hash-2.1.1.cr
 https://crates.io/api/v1/crates/rustc-stable-hash/0.1.2/download -> rustc-stable-hash-0.1.2.crate
 https://crates.io/api/v1/crates/rustfix/0.9.0/download -> rustfix-0.9.0.crate
 https://crates.io/api/v1/crates/rustix/0.38.44/download -> rustix-0.38.44.crate
-https://crates.io/api/v1/crates/rustix/1.0.3/download -> rustix-1.0.3.crate
+https://crates.io/api/v1/crates/rustix/1.0.5/download -> rustix-1.0.5.crate
 https://crates.io/api/v1/crates/ryu/1.0.20/download -> ryu-1.0.20.crate
 https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
 https://crates.io/api/v1/crates/schannel/0.1.27/download -> schannel-0.1.27.crate
