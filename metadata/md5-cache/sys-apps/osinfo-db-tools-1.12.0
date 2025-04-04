@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig >=sys-devel/gettext-0.19.8 dev-lang/perl test? ( || ( ( dev-lang/python:3.8 dev-python/pytest[python_targets_python3_8(-),python_single_target_python3_8(+)] dev-python/requests[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.9 dev-python/pytest[python_targets_python3_9(-),python_single_target_python3_9(+)] dev-python/requests[python_targets_python3_9(-),python_single_target_python3_9(+)] ) ( dev-lang/python:3.7 dev-python/pytest[python_targets_python3_7(-),python_single_target_python3_7(+)] dev-python/requests[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.10 dev-python/pytest[python_targets_python3_10(-),python_single_target_python3_10(+)] dev-python/requests[python_targets_python3_10(-),python_single_target_python3_10(+)] ) ( dev-lang/python:3.12 dev-python/pytest[python_targets_python3_12(-),python_single_target_python3_12(+)] dev-python/requests[python_targets_python3_12(-),python_single_target_python3_12(+)] ) ) ) >=dev-util/meson-0.48.2 >=dev-util/ninja-1.7.2
+DEFINED_PHASES=compile configure install setup test
+DEPEND=>=dev-libs/glib-2.44:2 dev-libs/json-glib >=app-arch/libarchive-3.0.0:= net-libs/libsoup:3 >=dev-libs/libxml2-2.6.0
+DESCRIPTION=Tools for managing the osinfo database
+EAPI=7
+HOMEPAGE=https://libosinfo.org/
+IUSE=test
+KEYWORDS=*
+LICENSE=GPL-2+
+RDEPEND=>=dev-libs/glib-2.44:2 dev-libs/json-glib >=app-arch/libarchive-3.0.0:= net-libs/libsoup:3 >=dev-libs/libxml2-2.6.0
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://releases.pagure.org/libosinfo/osinfo-db-tools-1.12.0.tar.xz
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	meson	598868603bb7b26fd2f41660674f7be3	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	c57a84554d3dca7c828e40d877b2dd7d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=403b72a7b3cbcbd757e4361c80e3b5f0

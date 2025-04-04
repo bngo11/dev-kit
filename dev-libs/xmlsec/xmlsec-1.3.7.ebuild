@@ -39,7 +39,7 @@ BDEPEND="virtual/pkgconfig
 S="${WORKDIR}/${PN}1-${PV}"
 
 PATCHES=(
-	"${FILESDIR}/${P}-test.patch"
+#	"${FILESDIR}/${PN}-1.3.0-optimisation.patch"
 )
 
 src_configure() {

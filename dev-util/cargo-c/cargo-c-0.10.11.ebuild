@@ -27,7 +27,7 @@ https://crates.io/api/v1/crates/base64/0.22.1/download -> base64-0.22.1.crate
 https://crates.io/api/v1/crates/base64ct/1.7.3/download -> base64ct-1.7.3.crate
 https://crates.io/api/v1/crates/bitflags/2.9.0/download -> bitflags-2.9.0.crate
 https://crates.io/api/v1/crates/bitmaps/2.1.0/download -> bitmaps-2.1.0.crate
-https://crates.io/api/v1/crates/blake3/1.8.0/download -> blake3-1.8.0.crate
+https://crates.io/api/v1/crates/blake3/1.8.1/download -> blake3-1.8.1.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
 https://crates.io/api/v1/crates/bstr/1.11.3/download -> bstr-1.11.3.crate
 https://crates.io/api/v1/crates/bumpalo/3.17.0/download -> bumpalo-3.17.0.crate
@@ -35,12 +35,12 @@ https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
 https://crates.io/api/v1/crates/bytesize/1.3.3/download -> bytesize-1.3.3.crate
 https://crates.io/api/v1/crates/cargo/0.86.0/download -> cargo-0.86.0.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.8/download -> cargo-credential-0.4.8.crate
-https://crates.io/api/v1/crates/cargo-credential-libsecret/0.4.11/download -> cargo-credential-libsecret-0.4.11.crate
-https://crates.io/api/v1/crates/cargo-credential-macos-keychain/0.4.11/download -> cargo-credential-macos-keychain-0.4.11.crate
-https://crates.io/api/v1/crates/cargo-credential-wincred/0.4.11/download -> cargo-credential-wincred-0.4.11.crate
+https://crates.io/api/v1/crates/cargo-credential-libsecret/0.4.12/download -> cargo-credential-libsecret-0.4.12.crate
+https://crates.io/api/v1/crates/cargo-credential-macos-keychain/0.4.12/download -> cargo-credential-macos-keychain-0.4.12.crate
+https://crates.io/api/v1/crates/cargo-credential-wincred/0.4.12/download -> cargo-credential-wincred-0.4.12.crate
 https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-0.2.0.crate
-https://crates.io/api/v1/crates/cargo-util/0.2.18/download -> cargo-util-0.2.18.crate
-https://crates.io/api/v1/crates/cargo-util-schemas/0.7.2/download -> cargo-util-schemas-0.7.2.crate
+https://crates.io/api/v1/crates/cargo-util/0.2.19/download -> cargo-util-0.2.19.crate
+https://crates.io/api/v1/crates/cargo-util-schemas/0.7.3/download -> cargo-util-schemas-0.7.3.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
 https://crates.io/api/v1/crates/cc/1.2.17/download -> cc-1.2.17.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
@@ -58,7 +58,7 @@ https://crates.io/api/v1/crates/constant_time_eq/0.3.1/download -> constant_time
 https://crates.io/api/v1/crates/core-foundation/0.10.0/download -> core-foundation-0.10.0.crate
 https://crates.io/api/v1/crates/core-foundation-sys/0.8.7/download -> core-foundation-sys-0.8.7.crate
 https://crates.io/api/v1/crates/cpufeatures/0.2.17/download -> cpufeatures-0.2.17.crate
-https://crates.io/api/v1/crates/crates-io/0.40.8/download -> crates-io-0.40.8.crate
+https://crates.io/api/v1/crates/crates-io/0.40.9/download -> crates-io-0.40.9.crate
 https://crates.io/api/v1/crates/crc32fast/1.4.2/download -> crc32fast-1.4.2.crate
 https://crates.io/api/v1/crates/crossbeam-channel/0.5.14/download -> crossbeam-channel-0.5.14.crate
 https://crates.io/api/v1/crates/crossbeam-deque/0.8.6/download -> crossbeam-deque-0.8.6.crate
@@ -82,7 +82,7 @@ https://crates.io/api/v1/crates/elliptic-curve/0.13.8/download -> elliptic-curve
 https://crates.io/api/v1/crates/encoding_rs/0.8.35/download -> encoding_rs-0.8.35.crate
 https://crates.io/api/v1/crates/equivalent/1.0.2/download -> equivalent-1.0.2.crate
 https://crates.io/api/v1/crates/erased-serde/0.4.6/download -> erased-serde-0.4.6.crate
-https://crates.io/api/v1/crates/errno/0.3.10/download -> errno-0.3.10.crate
+https://crates.io/api/v1/crates/errno/0.3.11/download -> errno-0.3.11.crate
 https://crates.io/api/v1/crates/fallible-iterator/0.3.0/download -> fallible-iterator-0.3.0.crate
 https://crates.io/api/v1/crates/fallible-streaming-iterator/0.1.9/download -> fallible-streaming-iterator-0.1.9.crate
 https://crates.io/api/v1/crates/faster-hex/0.9.0/download -> faster-hex-0.9.0.crate
@@ -90,7 +90,7 @@ https://crates.io/api/v1/crates/fastrand/2.3.0/download -> fastrand-2.3.0.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.2.9/download -> fiat-crypto-0.2.9.crate
 https://crates.io/api/v1/crates/filetime/0.2.25/download -> filetime-0.2.25.crate
-https://crates.io/api/v1/crates/flate2/1.1.0/download -> flate2-1.1.0.crate
+https://crates.io/api/v1/crates/flate2/1.1.1/download -> flate2-1.1.1.crate
 https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
 https://crates.io/api/v1/crates/foldhash/0.1.5/download -> foldhash-0.1.5.crate
 https://crates.io/api/v1/crates/foreign-types/0.3.2/download -> foreign-types-0.3.2.crate
@@ -109,9 +109,9 @@ https://crates.io/api/v1/crates/gix-chunk/0.4.11/download -> gix-chunk-0.4.11.cr
 https://crates.io/api/v1/crates/gix-command/0.4.1/download -> gix-command-0.4.1.crate
 https://crates.io/api/v1/crates/gix-commitgraph/0.25.1/download -> gix-commitgraph-0.25.1.crate
 https://crates.io/api/v1/crates/gix-config/0.42.0/download -> gix-config-0.42.0.crate
-https://crates.io/api/v1/crates/gix-config-value/0.14.11/download -> gix-config-value-0.14.11.crate
+https://crates.io/api/v1/crates/gix-config-value/0.14.12/download -> gix-config-value-0.14.12.crate
 https://crates.io/api/v1/crates/gix-credentials/0.26.0/download -> gix-credentials-0.26.0.crate
-https://crates.io/api/v1/crates/gix-date/0.9.3/download -> gix-date-0.9.3.crate
+https://crates.io/api/v1/crates/gix-date/0.9.4/download -> gix-date-0.9.4.crate
 https://crates.io/api/v1/crates/gix-diff/0.49.0/download -> gix-diff-0.49.0.crate
 https://crates.io/api/v1/crates/gix-dir/0.11.0/download -> gix-dir-0.11.0.crate
 https://crates.io/api/v1/crates/gix-discover/0.37.0/download -> gix-discover-0.37.0.crate
@@ -128,9 +128,9 @@ https://crates.io/api/v1/crates/gix-negotiate/0.17.0/download -> gix-negotiate-0
 https://crates.io/api/v1/crates/gix-object/0.46.1/download -> gix-object-0.46.1.crate
 https://crates.io/api/v1/crates/gix-odb/0.66.0/download -> gix-odb-0.66.0.crate
 https://crates.io/api/v1/crates/gix-pack/0.56.0/download -> gix-pack-0.56.0.crate
-https://crates.io/api/v1/crates/gix-packetline/0.18.3/download -> gix-packetline-0.18.3.crate
-https://crates.io/api/v1/crates/gix-packetline-blocking/0.18.2/download -> gix-packetline-blocking-0.18.2.crate
-https://crates.io/api/v1/crates/gix-path/0.10.14/download -> gix-path-0.10.14.crate
+https://crates.io/api/v1/crates/gix-packetline/0.18.4/download -> gix-packetline-0.18.4.crate
+https://crates.io/api/v1/crates/gix-packetline-blocking/0.18.3/download -> gix-packetline-blocking-0.18.3.crate
+https://crates.io/api/v1/crates/gix-path/0.10.15/download -> gix-path-0.10.15.crate
 https://crates.io/api/v1/crates/gix-pathspec/0.8.1/download -> gix-pathspec-0.8.1.crate
 https://crates.io/api/v1/crates/gix-prompt/0.9.1/download -> gix-prompt-0.9.1.crate
 https://crates.io/api/v1/crates/gix-protocol/0.47.0/download -> gix-protocol-0.47.0.crate
@@ -139,7 +139,7 @@ https://crates.io/api/v1/crates/gix-ref/0.49.1/download -> gix-ref-0.49.1.crate
 https://crates.io/api/v1/crates/gix-refspec/0.27.0/download -> gix-refspec-0.27.0.crate
 https://crates.io/api/v1/crates/gix-revision/0.31.1/download -> gix-revision-0.31.1.crate
 https://crates.io/api/v1/crates/gix-revwalk/0.17.0/download -> gix-revwalk-0.17.0.crate
-https://crates.io/api/v1/crates/gix-sec/0.10.11/download -> gix-sec-0.10.11.crate
+https://crates.io/api/v1/crates/gix-sec/0.10.12/download -> gix-sec-0.10.12.crate
 https://crates.io/api/v1/crates/gix-shallow/0.1.0/download -> gix-shallow-0.1.0.crate
 https://crates.io/api/v1/crates/gix-submodule/0.16.0/download -> gix-submodule-0.16.0.crate
 https://crates.io/api/v1/crates/gix-tempfile/15.0.0/download -> gix-tempfile-15.0.0.crate
@@ -148,7 +148,7 @@ https://crates.io/api/v1/crates/gix-transport/0.44.0/download -> gix-transport-0
 https://crates.io/api/v1/crates/gix-traverse/0.43.1/download -> gix-traverse-0.43.1.crate
 https://crates.io/api/v1/crates/gix-url/0.28.2/download -> gix-url-0.28.2.crate
 https://crates.io/api/v1/crates/gix-utils/0.1.14/download -> gix-utils-0.1.14.crate
-https://crates.io/api/v1/crates/gix-validate/0.9.3/download -> gix-validate-0.9.3.crate
+https://crates.io/api/v1/crates/gix-validate/0.9.4/download -> gix-validate-0.9.4.crate
 https://crates.io/api/v1/crates/gix-worktree/0.38.0/download -> gix-worktree-0.38.0.crate
 https://crates.io/api/v1/crates/glob/0.3.2/download -> glob-0.3.2.crate
 https://crates.io/api/v1/crates/globset/0.4.16/download -> globset-0.4.16.crate
@@ -185,7 +185,8 @@ https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_termi
 https://crates.io/api/v1/crates/itertools/0.13.0/download -> itertools-0.13.0.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
-https://crates.io/api/v1/crates/jiff/0.1.29/download -> jiff-0.1.29.crate
+https://crates.io/api/v1/crates/jiff/0.2.5/download -> jiff-0.2.5.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.5/download -> jiff-static-0.2.5.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
@@ -213,7 +214,7 @@ https://crates.io/api/v1/crates/memchr/2.7.4/download -> memchr-2.7.4.crate
 https://crates.io/api/v1/crates/memmap2/0.9.5/download -> memmap2-0.9.5.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
-https://crates.io/api/v1/crates/miniz_oxide/0.8.5/download -> miniz_oxide-0.8.5.crate
+https://crates.io/api/v1/crates/miniz_oxide/0.8.7/download -> miniz_oxide-0.8.7.crate
 https://crates.io/api/v1/crates/miow/0.6.0/download -> miow-0.6.0.crate
 https://crates.io/api/v1/crates/nom/7.1.3/download -> nom-7.1.3.crate
 https://crates.io/api/v1/crates/normpath/1.3.0/download -> normpath-1.3.0.crate
@@ -227,7 +228,7 @@ https://crates.io/api/v1/crates/openssl/0.10.57/download -> openssl-0.10.57.crat
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
 https://crates.io/api/v1/crates/openssl-src/300.4.2+3.4.1/download -> openssl-src-300.4.2+3.4.1.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.106/download -> openssl-sys-0.9.106.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.107/download -> openssl-sys-0.9.107.crate
 https://crates.io/api/v1/crates/ordered-float/2.10.1/download -> ordered-float-2.10.1.crate
 https://crates.io/api/v1/crates/orion/0.17.9/download -> orion-0.17.9.crate
 https://crates.io/api/v1/crates/os_info/3.10.0/download -> os_info-3.10.0.crate
