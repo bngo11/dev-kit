@@ -42,7 +42,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.19/download -> cargo-util-0.2.19.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.7.3/download -> cargo-util-schemas-0.7.3.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
-https://crates.io/api/v1/crates/cc/1.2.17/download -> cc-1.2.17.crate
+https://crates.io/api/v1/crates/cc/1.2.18/download -> cc-1.2.18.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/clap/4.5.35/download -> clap-4.5.35.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.35/download -> clap_builder-4.5.35.crate
