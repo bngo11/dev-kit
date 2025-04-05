@@ -179,7 +179,7 @@ https://crates.io/api/v1/crates/idna_adapter/1.2.0/download -> idna_adapter-1.2.
 https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
 https://crates.io/api/v1/crates/im-rc/15.1.0/download -> im-rc-15.1.0.crate
 https://crates.io/api/v1/crates/implib/0.3.5/download -> implib-0.3.5.crate
-https://crates.io/api/v1/crates/indexmap/2.8.0/download -> indexmap-2.8.0.crate
+https://crates.io/api/v1/crates/indexmap/2.9.0/download -> indexmap-2.9.0.crate
 https://crates.io/api/v1/crates/is_executable/1.0.4/download -> is_executable-1.0.4.crate
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.13.0/download -> itertools-0.13.0.crate
@@ -293,7 +293,7 @@ https://crates.io/api/v1/crates/shell-words/1.1.0/download -> shell-words-1.1.0.
 https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
 https://crates.io/api/v1/crates/signature/2.2.0/download -> signature-2.2.0.crate
 https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.5.crate
-https://crates.io/api/v1/crates/smallvec/1.14.0/download -> smallvec-1.14.0.crate
+https://crates.io/api/v1/crates/smallvec/1.15.0/download -> smallvec-1.15.0.crate
 https://crates.io/api/v1/crates/socket2/0.5.9/download -> socket2-0.5.9.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
 https://crates.io/api/v1/crates/stable_deref_trait/1.2.0/download -> stable_deref_trait-1.2.0.crate
