@@ -33,14 +33,14 @@ https://crates.io/api/v1/crates/bstr/1.11.3/download -> bstr-1.11.3.crate
 https://crates.io/api/v1/crates/bumpalo/3.17.0/download -> bumpalo-3.17.0.crate
 https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
 https://crates.io/api/v1/crates/bytesize/1.3.3/download -> bytesize-1.3.3.crate
-https://crates.io/api/v1/crates/cargo/0.87.0/download -> cargo-0.87.0.crate
+https://crates.io/api/v1/crates/cargo/0.87.1/download -> cargo-0.87.1.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.8/download -> cargo-credential-0.4.8.crate
 https://crates.io/api/v1/crates/cargo-credential-libsecret/0.4.12/download -> cargo-credential-libsecret-0.4.12.crate
 https://crates.io/api/v1/crates/cargo-credential-macos-keychain/0.4.12/download -> cargo-credential-macos-keychain-0.4.12.crate
 https://crates.io/api/v1/crates/cargo-credential-wincred/0.4.12/download -> cargo-credential-wincred-0.4.12.crate
 https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-0.2.0.crate
 https://crates.io/api/v1/crates/cargo-util/0.2.19/download -> cargo-util-0.2.19.crate
-https://crates.io/api/v1/crates/cargo-util-schemas/0.7.3/download -> cargo-util-schemas-0.7.3.crate
+https://crates.io/api/v1/crates/cargo-util-schemas/0.8.0/download -> cargo-util-schemas-0.8.0.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
 https://crates.io/api/v1/crates/cc/1.2.18/download -> cc-1.2.18.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
