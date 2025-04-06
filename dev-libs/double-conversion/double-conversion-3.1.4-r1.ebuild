@@ -31,6 +31,7 @@ src_configure() {
 		if [[ ${MULTIBUILD_VARIANT} = static-libs ]]; then
 			mycmakeargs+=( -DBUILD_SHARED_LIBS=OFF )
 		fi
+		mycmakeargs+=( -DCMAKE_POLICY_VERSION_MINIMUM=3.5 )
 
 		cmake-utils_src_configure
 	}
