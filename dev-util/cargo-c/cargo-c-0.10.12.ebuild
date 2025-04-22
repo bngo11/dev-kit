@@ -184,8 +184,8 @@ https://crates.io/api/v1/crates/is_executable/1.0.4/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
-https://crates.io/api/v1/crates/jiff/0.2.9/download -> jiff-0.2.9.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.9/download -> jiff-static-0.2.9.crate
+https://crates.io/api/v1/crates/jiff/0.2.10/download -> jiff-0.2.10.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.10/download -> jiff-static-0.2.10.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
