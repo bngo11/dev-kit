@@ -6,7 +6,7 @@ inherit eutils desktop xdg
 
 DESCRIPTION="Manage all your JetBrains Projects and Tools"
 HOMEPAGE="https://www.jetbrains.com/toolbox-app"
-SRC_URI="https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.6.0.40632.tar.gz -> jetbrains-toolbox-2.6.tar.gz"
+SRC_URI="https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.6.1.40902.tar.gz -> jetbrains-toolbox-2.6.1.tar.gz"
 
 LICENSE="JetBrains"
 SLOT="0"
@@ -17,7 +17,7 @@ DEPEND="sys-fs/fuse:0"
 QA_PREBUILT="opt/jetbrains-toolbox/jetbrains-toolbox"
 
 post_src_unpack() {
-	mv "${WORKDIR}"/"${PN}"-2.6.0.40632 "${S}" || die
+	mv "${WORKDIR}"/"${PN}"-2.6.1.40902 "${S}" || die
 }
 
 src_compile() {

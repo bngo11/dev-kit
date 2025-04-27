@@ -459,8 +459,8 @@ EGO_SUM=(
 	"github.com/sigstore/rekor v1.3.9/go.mod"
 	"github.com/sigstore/sigstore v1.9.1"
 	"github.com/sigstore/sigstore v1.9.1/go.mod"
-	"github.com/sigstore/sigstore-go v0.7.1"
-	"github.com/sigstore/sigstore-go v0.7.1/go.mod"
+	"github.com/sigstore/sigstore-go v0.7.2"
+	"github.com/sigstore/sigstore-go v0.7.2/go.mod"
 	"github.com/sigstore/sigstore/pkg/signature/kms/aws v1.9.1"
 	"github.com/sigstore/sigstore/pkg/signature/kms/aws v1.9.1/go.mod"
 	"github.com/sigstore/sigstore/pkg/signature/kms/azure v1.9.1"
@@ -608,8 +608,8 @@ EGO_SUM=(
 	"google.golang.org/genproto/googleapis/api v0.0.0-20250303144028-a0af3efb3deb/go.mod"
 	"google.golang.org/genproto/googleapis/rpc v0.0.0-20250313205543-e70fdf4c4cb4"
 	"google.golang.org/genproto/googleapis/rpc v0.0.0-20250313205543-e70fdf4c4cb4/go.mod"
-	"google.golang.org/grpc v1.71.0"
-	"google.golang.org/grpc v1.71.0/go.mod"
+	"google.golang.org/grpc v1.71.1"
+	"google.golang.org/grpc v1.71.1/go.mod"
 	"google.golang.org/protobuf v1.36.6"
 	"google.golang.org/protobuf v1.36.6/go.mod"
 	"gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod"
@@ -634,8 +634,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/408e21ebdddf9cd14289e49135389a6e5125eff4 -> cli-2.70.0-408e21e.tar.gz
-https://direct.funtoo.org/19/f5/94/19f594b75e7498a42414e24ac0556709515378ffba1d4c6003f468e19fb49096a77638ff71f64694c7b7c589b0ed94ed82e02b794a54303188b4baaf416f3c53 -> github-cli-2.70.0-funtoo-go-bundle-5a1c50a26b33bbb64da6915ac2994b1f73470cdfbb941b1b58bd8b012187c997595ed311d147a40741f06569f07766a07f7bac33e142536957fdd2cf09e24286.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/fb97b3efaabaf3a727beb6ed5f4adbf9e780f9ff -> cli-2.71.2-fb97b3e.tar.gz
+https://direct.funtoo.org/2c/1f/1e/2c1f1e8f4203013a0f8ead3553bedf3515062bafcba8353f5fc80ce36ec889adddfd81acd35c50cbcb2ae218a800f7d15d3fafbf61901020384c89701ad6f7f3 -> github-cli-2.71.2-funtoo-go-bundle-d8e5cb239521e8c03c5d90438ab290211fa46bc732c1d6172a868de9981d54b11b429149b2cb52ca05804919e1377e3fa84bfd7427cda296ade76b4343c2b77b.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -647,7 +647,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.70.0"
+	export GH_VERSION="v2.71.2"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
