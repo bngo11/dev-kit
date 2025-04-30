@@ -6,7 +6,7 @@ inherit toolchain-funcs
 
 DESCRIPTION="Simple, high-reliability, source control management, and more"
 HOMEPAGE="http://www.fossil-scm.org/"
-SRC_URI="http://www.fossil-scm.org/home/tarball/8f798279d5f7c3288099915f2ea88c57b6d6039f3f05eac5e237897af33376dc/fossil-src-2.25.tar.gz -> fossil-src-2.25.tar.gz"
+SRC_URI="http://www.fossil-scm.org/home/tarball/1205ec86cb5508e94b90698db2900997fe5c9db62429c67ac6fdc03d59aa2782/fossil-src-2.26.tar.gz -> fossil-src-2.26.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
@@ -49,7 +49,7 @@ RDEPEND="${DEPEND}"
 # Tests can't be run from the build directory
 RESTRICT="test"
 
-S="${WORKDIR}"/fossil-src-2.25
+S="${WORKDIR}"/fossil-src-2.26
 
 src_configure() {
 	local myconf="--with-openssl=$(usex openssl 1 none) \

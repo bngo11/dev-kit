@@ -117,20 +117,28 @@ EGO_SUM=(
 	"github.com/charmbracelet/colorprofile v0.2.3-0.20250311203215-f60798e515dc/go.mod"
 	"github.com/charmbracelet/glamour v0.9.2-0.20250319212134-549f544650e3"
 	"github.com/charmbracelet/glamour v0.9.2-0.20250319212134-549f544650e3/go.mod"
-	"github.com/charmbracelet/huh v0.6.1-0.20250409210615-c5906631cbb5"
-	"github.com/charmbracelet/huh v0.6.1-0.20250409210615-c5906631cbb5/go.mod"
+	"github.com/charmbracelet/huh v0.7.0"
+	"github.com/charmbracelet/huh v0.7.0/go.mod"
 	"github.com/charmbracelet/lipgloss v1.1.1-0.20250319133953-166f707985bc"
 	"github.com/charmbracelet/lipgloss v1.1.1-0.20250319133953-166f707985bc/go.mod"
 	"github.com/charmbracelet/x/ansi v0.8.0"
 	"github.com/charmbracelet/x/ansi v0.8.0/go.mod"
 	"github.com/charmbracelet/x/cellbuf v0.0.13"
 	"github.com/charmbracelet/x/cellbuf v0.0.13/go.mod"
+	"github.com/charmbracelet/x/conpty v0.1.0"
+	"github.com/charmbracelet/x/conpty v0.1.0/go.mod"
+	"github.com/charmbracelet/x/errors v0.0.0-20240508181413-e8d8b6e2de86"
+	"github.com/charmbracelet/x/errors v0.0.0-20240508181413-e8d8b6e2de86/go.mod"
 	"github.com/charmbracelet/x/exp/golden v0.0.0-20241011142426-46044092ad91"
 	"github.com/charmbracelet/x/exp/golden v0.0.0-20241011142426-46044092ad91/go.mod"
 	"github.com/charmbracelet/x/exp/strings v0.0.0-20240722160745-212f7b056ed0"
 	"github.com/charmbracelet/x/exp/strings v0.0.0-20240722160745-212f7b056ed0/go.mod"
 	"github.com/charmbracelet/x/term v0.2.1"
 	"github.com/charmbracelet/x/term v0.2.1/go.mod"
+	"github.com/charmbracelet/x/termios v0.1.1"
+	"github.com/charmbracelet/x/termios v0.1.1/go.mod"
+	"github.com/charmbracelet/x/xpty v0.1.2"
+	"github.com/charmbracelet/x/xpty v0.1.2/go.mod"
 	"github.com/cli/browser v1.0.0/go.mod"
 	"github.com/cli/browser v1.3.0"
 	"github.com/cli/browser v1.3.0/go.mod"
@@ -634,8 +642,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/fb97b3efaabaf3a727beb6ed5f4adbf9e780f9ff -> cli-2.71.2-fb97b3e.tar.gz
-https://direct.funtoo.org/2c/1f/1e/2c1f1e8f4203013a0f8ead3553bedf3515062bafcba8353f5fc80ce36ec889adddfd81acd35c50cbcb2ae218a800f7d15d3fafbf61901020384c89701ad6f7f3 -> github-cli-2.71.2-funtoo-go-bundle-d8e5cb239521e8c03c5d90438ab290211fa46bc732c1d6172a868de9981d54b11b429149b2cb52ca05804919e1377e3fa84bfd7427cda296ade76b4343c2b77b.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/c20a4a2ae9751ca3224189c5247de241c62e9202 -> cli-2.72.0-c20a4a2.tar.gz
+https://direct.funtoo.org/ff/dd/7f/ffdd7f487af66730598ee7b5382cdd8f6b47c55a51feeb11bd525f31b3db5e9b640e79fd1956ca47dc9d5870eb997b8bb70ba276c4e047ffd42a9e180d1ab7dc -> github-cli-2.72.0-funtoo-go-bundle-fee9018c549566c994665ad163bcd37420853b5b93a973a89077a3893ff522e99df5a8ab68568647ffe6f658ff08dbd5c7446b028da9e043ab106b0b92a883cd.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -647,7 +655,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.71.2"
+	export GH_VERSION="v2.72.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted

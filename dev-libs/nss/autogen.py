@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import requests
 from bs4 import BeautifulSoup
 
 async def generate(hub, **pkginfo):
@@ -20,6 +21,13 @@ async def generate(hub, **pkginfo):
 
 				try:
 					list(map(int, version.split(".")))
+					if repo == 'nspr':
+						res = requests.get(f"https://ftp.mozilla.org/pub/nspr/releases/v{version}/")
+					else:
+						res = requests.get(f"https://ftp.mozilla.org/pub/security/nss/releases/{parts[-1]}/")
+					if res.status_code != 200:
+						continue
+
 					if ver:
 						if version >= ver:
 							repo_info.append((version, parts[-1]))
