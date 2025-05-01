@@ -269,7 +269,7 @@ https://crates.io/api/v1/crates/rustc-hash/2.1.1/download -> rustc-hash-2.1.1.cr
 https://crates.io/api/v1/crates/rustc-stable-hash/0.1.2/download -> rustc-stable-hash-0.1.2.crate
 https://crates.io/api/v1/crates/rustfix/0.9.0/download -> rustfix-0.9.0.crate
 https://crates.io/api/v1/crates/rustix/0.38.44/download -> rustix-0.38.44.crate
-https://crates.io/api/v1/crates/rustix/1.0.6/download -> rustix-1.0.6.crate
+https://crates.io/api/v1/crates/rustix/1.0.7/download -> rustix-1.0.7.crate
 https://crates.io/api/v1/crates/ryu/1.0.20/download -> ryu-1.0.20.crate
 https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
 https://crates.io/api/v1/crates/schannel/0.1.27/download -> schannel-0.1.27.crate
