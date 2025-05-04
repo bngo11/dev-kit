@@ -12,7 +12,7 @@ LICENSE="MIT"
 IUSE="test"
 SLOT="0"
 
-SRC_URI="https://api.github.com/repos/fmtlib/fmt/tarball/11.1.4 -> fmt-11.1.4.tar.gz"
+SRC_URI="https://api.github.com/repos/fmtlib/fmt/tarball/11.2.0 -> fmt-11.2.0.tar.gz"
 KEYWORDS="*"
 
 DEPEND=""

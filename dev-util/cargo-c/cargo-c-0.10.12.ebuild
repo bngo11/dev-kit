@@ -42,7 +42,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.19/download -> cargo-util-0.2.19.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.8.0/download -> cargo-util-schemas-0.8.0.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
-https://crates.io/api/v1/crates/cc/1.2.20/download -> cc-1.2.20.crate
+https://crates.io/api/v1/crates/cc/1.2.21/download -> cc-1.2.21.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/clap/4.5.37/download -> clap-4.5.37.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.37/download -> clap_builder-4.5.37.crate
@@ -66,7 +66,7 @@ https://crates.io/api/v1/crates/crossbeam-epoch/0.9.18/download -> crossbeam-epo
 https://crates.io/api/v1/crates/crossbeam-utils/0.8.21/download -> crossbeam-utils-0.8.21.crate
 https://crates.io/api/v1/crates/crypto-bigint/0.5.5/download -> crypto-bigint-0.5.5.crate
 https://crates.io/api/v1/crates/crypto-common/0.1.6/download -> crypto-common-0.1.6.crate
-https://crates.io/api/v1/crates/ct-codecs/1.1.4/download -> ct-codecs-1.1.4.crate
+https://crates.io/api/v1/crates/ct-codecs/1.1.5/download -> ct-codecs-1.1.5.crate
 https://crates.io/api/v1/crates/curl/0.4.47/download -> curl-0.4.47.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.80+curl-8.12.1/download -> curl-sys-0.4.80+curl-8.12.1.crate
 https://crates.io/api/v1/crates/dbus/0.9.7/download -> dbus-0.9.7.crate
@@ -185,8 +185,8 @@ https://crates.io/api/v1/crates/is_executable/1.0.4/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
-https://crates.io/api/v1/crates/jiff/0.2.10/download -> jiff-0.2.10.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.10/download -> jiff-static-0.2.10.crate
+https://crates.io/api/v1/crates/jiff/0.2.12/download -> jiff-0.2.12.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.12/download -> jiff-static-0.2.12.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
@@ -257,7 +257,7 @@ https://crates.io/api/v1/crates/rand_chacha/0.9.0/download -> rand_chacha-0.9.0.
 https://crates.io/api/v1/crates/rand_core/0.6.4/download -> rand_core-0.6.4.crate
 https://crates.io/api/v1/crates/rand_core/0.9.3/download -> rand_core-0.9.3.crate
 https://crates.io/api/v1/crates/rand_xoshiro/0.6.0/download -> rand_xoshiro-0.6.0.crate
-https://crates.io/api/v1/crates/redox_syscall/0.5.11/download -> redox_syscall-0.5.11.crate
+https://crates.io/api/v1/crates/redox_syscall/0.5.12/download -> redox_syscall-0.5.12.crate
 https://crates.io/api/v1/crates/regex/1.11.1/download -> regex-1.11.1.crate
 https://crates.io/api/v1/crates/regex-automata/0.1.10/download -> regex-automata-0.1.10.crate
 https://crates.io/api/v1/crates/regex-automata/0.4.9/download -> regex-automata-0.4.9.crate
@@ -377,7 +377,7 @@ https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.52.6/download -> window
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.48.5/download -> windows_x86_64_msvc-0.48.5.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download -> windows_x86_64_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/winnow/0.6.26/download -> winnow-0.6.26.crate
-https://crates.io/api/v1/crates/winnow/0.7.8/download -> winnow-0.7.8.crate
+https://crates.io/api/v1/crates/winnow/0.7.9/download -> winnow-0.7.9.crate
 https://crates.io/api/v1/crates/wit-bindgen-rt/0.39.0/download -> wit-bindgen-rt-0.39.0.crate
 https://crates.io/api/v1/crates/write16/1.0.0/download -> write16-1.0.0.crate
 https://crates.io/api/v1/crates/writeable/0.5.5/download -> writeable-0.5.5.crate
