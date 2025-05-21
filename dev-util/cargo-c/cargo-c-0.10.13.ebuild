@@ -6,7 +6,7 @@ inherit cargo
 
 DESCRIPTION=""
 HOMEPAGE="https://github.com/lu-zero/cargo-c"
-SRC_URI="https://api.github.com/repos/lu-zero/cargo-c/tarball/v0.10.12 -> cargo-c-aarch64-unknown-linux-musl.tar.gz-0.10.12.tar.gz
+SRC_URI="https://api.github.com/repos/lu-zero/cargo-c/tarball/v0.10.13 -> cargo-c-aarch64-unknown-linux-musl.tar.gz-0.10.13.tar.gz
 https://crates.io/api/v1/crates/adler2/2.0.0/download -> adler2-2.0.0.crate
 https://crates.io/api/v1/crates/ahash/0.8.12/download -> ahash-0.8.12.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.3/download -> aho-corasick-1.1.3.crate
@@ -32,8 +32,7 @@ https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.1
 https://crates.io/api/v1/crates/bstr/1.12.0/download -> bstr-1.12.0.crate
 https://crates.io/api/v1/crates/bumpalo/3.17.0/download -> bumpalo-3.17.0.crate
 https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
-https://crates.io/api/v1/crates/bytesize/1.3.3/download -> bytesize-1.3.3.crate
-https://crates.io/api/v1/crates/cargo/0.87.1/download -> cargo-0.87.1.crate
+https://crates.io/api/v1/crates/cargo/0.88.0/download -> cargo-0.88.0.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.8/download -> cargo-credential-0.4.8.crate
 https://crates.io/api/v1/crates/cargo-credential-libsecret/0.4.13/download -> cargo-credential-libsecret-0.4.13.crate
 https://crates.io/api/v1/crates/cargo-credential-macos-keychain/0.4.13/download -> cargo-credential-macos-keychain-0.4.13.crate
@@ -42,7 +41,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.20/download -> cargo-util-0.2.20.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.8.1/download -> cargo-util-schemas-0.8.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
-https://crates.io/api/v1/crates/cc/1.2.22/download -> cc-1.2.22.crate
+https://crates.io/api/v1/crates/cc/1.2.23/download -> cc-1.2.23.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/clap/4.5.38/download -> clap-4.5.38.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.38/download -> clap_builder-4.5.38.crate
@@ -66,7 +65,7 @@ https://crates.io/api/v1/crates/crossbeam-epoch/0.9.18/download -> crossbeam-epo
 https://crates.io/api/v1/crates/crossbeam-utils/0.8.21/download -> crossbeam-utils-0.8.21.crate
 https://crates.io/api/v1/crates/crypto-bigint/0.5.5/download -> crypto-bigint-0.5.5.crate
 https://crates.io/api/v1/crates/crypto-common/0.1.6/download -> crypto-common-0.1.6.crate
-https://crates.io/api/v1/crates/ct-codecs/1.1.5/download -> ct-codecs-1.1.5.crate
+https://crates.io/api/v1/crates/ct-codecs/1.1.6/download -> ct-codecs-1.1.6.crate
 https://crates.io/api/v1/crates/curl/0.4.47/download -> curl-0.4.47.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.80+curl-8.12.1/download -> curl-sys-0.4.80+curl-8.12.1.crate
 https://crates.io/api/v1/crates/dbus/0.9.7/download -> dbus-0.9.7.crate
@@ -164,13 +163,12 @@ https://crates.io/api/v1/crates/hkdf/0.12.4/download -> hkdf-0.12.4.crate
 https://crates.io/api/v1/crates/hmac/0.12.1/download -> hmac-0.12.1.crate
 https://crates.io/api/v1/crates/home/0.5.11/download -> home-0.5.11.crate
 https://crates.io/api/v1/crates/http-auth/0.1.10/download -> http-auth-0.1.10.crate
-https://crates.io/api/v1/crates/humantime/2.2.0/download -> humantime-2.2.0.crate
 https://crates.io/api/v1/crates/icu_collections/2.0.0/download -> icu_collections-2.0.0.crate
 https://crates.io/api/v1/crates/icu_locale_core/2.0.0/download -> icu_locale_core-2.0.0.crate
 https://crates.io/api/v1/crates/icu_normalizer/2.0.0/download -> icu_normalizer-2.0.0.crate
 https://crates.io/api/v1/crates/icu_normalizer_data/2.0.0/download -> icu_normalizer_data-2.0.0.crate
-https://crates.io/api/v1/crates/icu_properties/2.0.0/download -> icu_properties-2.0.0.crate
-https://crates.io/api/v1/crates/icu_properties_data/2.0.0/download -> icu_properties_data-2.0.0.crate
+https://crates.io/api/v1/crates/icu_properties/2.0.1/download -> icu_properties-2.0.1.crate
+https://crates.io/api/v1/crates/icu_properties_data/2.0.1/download -> icu_properties_data-2.0.1.crate
 https://crates.io/api/v1/crates/icu_provider/2.0.0/download -> icu_provider-2.0.0.crate
 https://crates.io/api/v1/crates/idna/1.0.3/download -> idna-1.0.3.crate
 https://crates.io/api/v1/crates/idna_adapter/1.2.1/download -> idna_adapter-1.2.1.crate
@@ -182,8 +180,8 @@ https://crates.io/api/v1/crates/is_executable/1.0.4/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
-https://crates.io/api/v1/crates/jiff/0.2.13/download -> jiff-0.2.13.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.13/download -> jiff-static-0.2.13.crate
+https://crates.io/api/v1/crates/jiff/0.2.14/download -> jiff-0.2.14.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.14/download -> jiff-static-0.2.14.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
@@ -221,7 +219,7 @@ https://crates.io/api/v1/crates/num-traits/0.2.19/download -> num-traits-0.2.19.
 https://crates.io/api/v1/crates/object/0.36.7/download -> object-0.36.7.crate
 https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
 https://crates.io/api/v1/crates/opener/0.7.2/download -> opener-0.7.2.crate
-https://crates.io/api/v1/crates/openssl/0.10.57/download -> openssl-0.10.57.crate
+https://crates.io/api/v1/crates/openssl/0.10.72/download -> openssl-0.10.72.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
 https://crates.io/api/v1/crates/openssl-src/300.5.0+3.5.0/download -> openssl-src-300.5.0+3.5.0.crate

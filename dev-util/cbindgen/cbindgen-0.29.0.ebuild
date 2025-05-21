@@ -21,7 +21,7 @@ equivalent-1.0.1
 errno-0.3.9
 fastrand-2.1.0
 hashbrown-0.14.5
-heck-0.4.1
+heck-0.5.0
 indexmap-2.3.0
 is_terminal_polyfill-1.70.1
 itoa-1.0.11
@@ -76,7 +76,7 @@ inherit cargo rust-toolchain
 
 DESCRIPTION="A tool for generating C bindings to Rust code"
 HOMEPAGE="https://github.com//"
-SRC_URI="https://api.github.com/repos/mozilla/cbindgen/tarball/0.28.0 -> cbindgen-0.28.0.tar.gz
+SRC_URI="https://api.github.com/repos/mozilla/cbindgen/tarball/0.29.0 -> cbindgen-ubuntu22.04-0.29.0.tar.gz
 https://crates.io/api/v1/crates/anstream/0.6.15/download -> anstream-0.6.15.crate
 https://crates.io/api/v1/crates/anstyle/1.0.8/download -> anstyle-1.0.8.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.5/download -> anstyle-parse-0.2.5.crate
@@ -95,7 +95,7 @@ https://crates.io/api/v1/crates/equivalent/1.0.1/download -> equivalent-1.0.1.cr
 https://crates.io/api/v1/crates/errno/0.3.9/download -> errno-0.3.9.crate
 https://crates.io/api/v1/crates/fastrand/2.1.0/download -> fastrand-2.1.0.crate
 https://crates.io/api/v1/crates/hashbrown/0.14.5/download -> hashbrown-0.14.5.crate
-https://crates.io/api/v1/crates/heck/0.4.1/download -> heck-0.4.1.crate
+https://crates.io/api/v1/crates/heck/0.5.0/download -> heck-0.5.0.crate
 https://crates.io/api/v1/crates/indexmap/2.3.0/download -> indexmap-2.3.0.crate
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itoa/1.0.11/download -> itoa-1.0.11.crate

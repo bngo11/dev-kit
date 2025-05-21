@@ -157,8 +157,9 @@ EGO_SUM=(
 	"github.com/codahale/rfc6979 v0.0.0-20141003034818-6a90f24967eb/go.mod"
 	"github.com/containerd/stargz-snapshotter/estargz v0.16.3"
 	"github.com/containerd/stargz-snapshotter/estargz v0.16.3/go.mod"
-	"github.com/cpuguy83/go-md2man/v2 v2.0.6"
 	"github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod"
+	"github.com/cpuguy83/go-md2man/v2 v2.0.7"
+	"github.com/cpuguy83/go-md2man/v2 v2.0.7/go.mod"
 	"github.com/creack/pty v1.1.17/go.mod"
 	"github.com/creack/pty v1.1.24"
 	"github.com/creack/pty v1.1.24/go.mod"
@@ -642,8 +643,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/c20a4a2ae9751ca3224189c5247de241c62e9202 -> cli-2.72.0-c20a4a2.tar.gz
-https://direct.funtoo.org/ff/dd/7f/ffdd7f487af66730598ee7b5382cdd8f6b47c55a51feeb11bd525f31b3db5e9b640e79fd1956ca47dc9d5870eb997b8bb70ba276c4e047ffd42a9e180d1ab7dc -> github-cli-2.72.0-funtoo-go-bundle-fee9018c549566c994665ad163bcd37420853b5b93a973a89077a3893ff522e99df5a8ab68568647ffe6f658ff08dbd5c7446b028da9e043ab106b0b92a883cd.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/e0d7ad772f025607ce4ded6ae2343782d5d695ce -> cli-2.73.0-e0d7ad7.tar.gz
+https://direct.funtoo.org/31/fd/ae/31fdaee4abd19f597a57e1076763c529bdeaec9917247e30afcae1ac0d24f7021b93c5e6753253bacf4c2f77f8eef7c97445309076c32ac10b0617a5e08f4c87 -> github-cli-2.73.0-funtoo-go-bundle-8dad51cec9e4e6899a24ba9244f2a2eb448c9f0909eda13b1f2bfa23fb6cc52e9bd8d2b22a9ec8ec13b20089f9209708c2ea5bad19f1206ff50db7057f93ea86.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -655,7 +656,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.72.0"
+	export GH_VERSION="v2.73.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
