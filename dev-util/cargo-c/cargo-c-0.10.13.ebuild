@@ -16,7 +16,7 @@ https://crates.io/api/v1/crates/anstream/0.6.18/download -> anstream-0.6.18.crat
 https://crates.io/api/v1/crates/anstyle/1.0.10/download -> anstyle-1.0.10.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.6/download -> anstyle-parse-0.2.6.crate
 https://crates.io/api/v1/crates/anstyle-query/1.1.2/download -> anstyle-query-1.1.2.crate
-https://crates.io/api/v1/crates/anstyle-wincon/3.0.7/download -> anstyle-wincon-3.0.7.crate
+https://crates.io/api/v1/crates/anstyle-wincon/3.0.8/download -> anstyle-wincon-3.0.8.crate
 https://crates.io/api/v1/crates/anyhow/1.0.98/download -> anyhow-1.0.98.crate
 https://crates.io/api/v1/crates/arc-swap/1.7.1/download -> arc-swap-1.7.1.crate
 https://crates.io/api/v1/crates/arrayref/0.3.9/download -> arrayref-0.3.9.crate
@@ -41,7 +41,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.20/download -> cargo-util-0.2.20.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.8.1/download -> cargo-util-schemas-0.8.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
-https://crates.io/api/v1/crates/cc/1.2.23/download -> cc-1.2.23.crate
+https://crates.io/api/v1/crates/cc/1.2.24/download -> cc-1.2.24.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.0/download -> cfg-if-1.0.0.crate
 https://crates.io/api/v1/crates/clap/4.5.38/download -> clap-4.5.38.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.38/download -> clap_builder-4.5.38.crate
@@ -218,6 +218,7 @@ https://crates.io/api/v1/crates/num-conv/0.1.0/download -> num-conv-0.1.0.crate
 https://crates.io/api/v1/crates/num-traits/0.2.19/download -> num-traits-0.2.19.crate
 https://crates.io/api/v1/crates/object/0.36.7/download -> object-0.36.7.crate
 https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
+https://crates.io/api/v1/crates/once_cell_polyfill/1.70.1/download -> once_cell_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/opener/0.7.2/download -> opener-0.7.2.crate
 https://crates.io/api/v1/crates/openssl/0.10.72/download -> openssl-0.10.72.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
