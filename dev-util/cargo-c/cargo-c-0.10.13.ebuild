@@ -41,7 +41,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.2.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.20/download -> cargo-util-0.2.20.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.8.1/download -> cargo-util-schemas-0.8.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.28.0/download -> cbindgen-0.28.0.crate
-https://crates.io/api/v1/crates/cc/1.2.26/download -> cc-1.2.26.crate
+https://crates.io/api/v1/crates/cc/1.2.27/download -> cc-1.2.27.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.1/download -> cfg-if-1.0.1.crate
 https://crates.io/api/v1/crates/clap/4.5.40/download -> clap-4.5.40.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.40/download -> clap_builder-4.5.40.crate
@@ -180,8 +180,8 @@ https://crates.io/api/v1/crates/is_executable/1.0.4/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
-https://crates.io/api/v1/crates/jiff/0.2.14/download -> jiff-0.2.14.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.14/download -> jiff-static-0.2.14.crate
+https://crates.io/api/v1/crates/jiff/0.2.15/download -> jiff-0.2.15.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.15/download -> jiff-static-0.2.15.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.33/download -> jobserver-0.1.33.crate
@@ -189,7 +189,7 @@ https://crates.io/api/v1/crates/js-sys/0.3.77/download -> js-sys-0.3.77.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/lazycell/1.3.0/download -> lazycell-1.3.0.crate
-https://crates.io/api/v1/crates/libc/0.2.172/download -> libc-0.2.172.crate
+https://crates.io/api/v1/crates/libc/0.2.173/download -> libc-0.2.173.crate
 https://crates.io/api/v1/crates/libdbus-sys/0.2.5/download -> libdbus-sys-0.2.5.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.1+1.9.0/download -> libgit2-sys-0.18.1+1.9.0.crate
 https://crates.io/api/v1/crates/libloading/0.8.8/download -> libloading-0.8.8.crate
@@ -302,7 +302,7 @@ https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/supports-hyperlinks/3.1.0/download -> supports-hyperlinks-3.1.0.crate
 https://crates.io/api/v1/crates/supports-unicode/3.0.0/download -> supports-unicode-3.0.0.crate
-https://crates.io/api/v1/crates/syn/2.0.102/download -> syn-2.0.102.crate
+https://crates.io/api/v1/crates/syn/2.0.103/download -> syn-2.0.103.crate
 https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.13.2.crate
 https://crates.io/api/v1/crates/tar/0.4.44/download -> tar-0.4.44.crate
 https://crates.io/api/v1/crates/tempfile/3.20.0/download -> tempfile-3.20.0.crate
@@ -311,7 +311,7 @@ https://crates.io/api/v1/crates/thiserror/1.0.69/download -> thiserror-1.0.69.cr
 https://crates.io/api/v1/crates/thiserror/2.0.12/download -> thiserror-2.0.12.crate
 https://crates.io/api/v1/crates/thiserror-impl/1.0.69/download -> thiserror-impl-1.0.69.crate
 https://crates.io/api/v1/crates/thiserror-impl/2.0.12/download -> thiserror-impl-2.0.12.crate
-https://crates.io/api/v1/crates/thread_local/1.1.8/download -> thread_local-1.1.8.crate
+https://crates.io/api/v1/crates/thread_local/1.1.9/download -> thread_local-1.1.9.crate
 https://crates.io/api/v1/crates/time/0.3.41/download -> time-0.3.41.crate
 https://crates.io/api/v1/crates/time-core/0.1.4/download -> time-core-0.1.4.crate
 https://crates.io/api/v1/crates/time-macros/0.2.22/download -> time-macros-0.2.22.crate

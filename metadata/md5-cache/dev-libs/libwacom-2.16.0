@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=dev-libs/glib:2 dev-libs/libevdev dev-libs/libgudev:=
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/linuxwacom/libwacom/releases/download/libwacom-2.15.0/libwacom-2.15.0.tar.xz -> libwacom-2.15.0.tar.xz
+SRC_URI=https://github.com/linuxwacom/libwacom/releases/download/libwacom-2.16.0/libwacom-2.16.0.tar.xz -> libwacom-2.16.0.tar.xz
 _eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	meson	598868603bb7b26fd2f41660674f7be3	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	c57a84554d3dca7c828e40d877b2dd7d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	udev	7752f306eec7b286d00bdb47b763e7ac
-_md5_=5cf9aafadcebaf2d5e22efe45a118088
+_md5_=a255e8871a9df4b0292ce41598c81548
