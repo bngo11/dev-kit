@@ -10,5 +10,5 @@ RDEPEND=sys-libs/zlib:= mysql? ( dev-db/mysql-connector-c:= ) postgres? ( dev-db
 REQUIRED_USE=|| ( mysql postgres )
 SLOT=0
 SRC_URI=mirror://gentoo/super-smack-1.3.tar.gz
-_eclasses_=autotools	e9ade2787b2f54643c7cdffbfa1cca9c	eqawarn	bb3d80ca38bc542ed397ab65f64256a6	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=autotools	619846d0d85ed5d3334692c0215a603e	eqawarn	bb3d80ca38bc542ed397ab65f64256a6	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=3bd79af1b46f2270a0906f7e1d15f209
