@@ -30,7 +30,7 @@ https://crates.io/api/v1/crates/bitmaps/2.1.0/download -> bitmaps-2.1.0.crate
 https://crates.io/api/v1/crates/blake3/1.8.2/download -> blake3-1.8.2.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
 https://crates.io/api/v1/crates/bstr/1.12.0/download -> bstr-1.12.0.crate
-https://crates.io/api/v1/crates/bumpalo/3.18.1/download -> bumpalo-3.18.1.crate
+https://crates.io/api/v1/crates/bumpalo/3.19.0/download -> bumpalo-3.19.0.crate
 https://crates.io/api/v1/crates/bytes/1.10.1/download -> bytes-1.10.1.crate
 https://crates.io/api/v1/crates/cargo/0.88.0/download -> cargo-0.88.0.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.8/download -> cargo-credential-0.4.8.crate
