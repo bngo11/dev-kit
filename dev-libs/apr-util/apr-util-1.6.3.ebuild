@@ -41,7 +41,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	>=dev-build/libtool-2.4.2
+	>=sys-devel/libtool-2.4.2
 	doc? ( app-text/doxygen )
 "
 
