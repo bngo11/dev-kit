@@ -1,13 +1,12 @@
-# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 # Usually apr-util has the same PV as apr, but in case of security fixes, this may change.
 # APR_PV="${PV}"
-APR_PV="1.6.2"
+APR_PV="1.7.4"
 
-inherit autotools db-use libtool multilib toolchain-funcs
+inherit autotools db-use multilib toolchain-funcs
 
 DESCRIPTION="Apache Portable Runtime Utility Library"
 HOMEPAGE="https://apr.apache.org/"
@@ -17,18 +16,20 @@ LICENSE="Apache-2.0"
 SLOT="1"
 KEYWORDS="*"
 IUSE="berkdb doc gdbm ldap libressl mysql nss odbc openssl postgres sqlite static-libs"
-#RESTRICT="test"
 
 RDEPEND="
-	dev-libs/expat
 	>=dev-libs/apr-${APR_PV}:1=
-	berkdb? ( >=sys-libs/db-6:= )
+	dev-libs/expat
+	virtual/libcrypt:=
+	berkdb? ( >=sys-libs/db-4:= )
 	gdbm? ( sys-libs/gdbm:= )
-	ldap? ( =net-nds/openldap-2* )
-	mysql? ( || (
-		dev-db/mariadb-connector-c
-		dev-db/mysql-connector-c
-	) )
+	ldap? ( net-nds/openldap:= )
+	mysql? (
+		|| (
+			dev-db/mariadb-connector-c
+			>=dev-db/mysql-connector-c-8
+		)
+	)
 	nss? ( dev-libs/nss )
 	odbc? ( dev-db/unixODBC )
 	openssl? (
@@ -38,17 +39,25 @@ RDEPEND="
 	postgres? ( dev-db/postgresql:= )
 	sqlite? ( dev-db/sqlite:3 )
 "
-DEPEND="
-	${RDEPEND}
-	>=sys-devel/libtool-2.4.2
-	doc? ( app-doc/doxygen )
+DEPEND="${RDEPEND}"
+BDEPEND="
+	>=dev-build/libtool-2.4.2
+	doc? ( app-text/doxygen )
 "
 
-DOCS=(CHANGES NOTICE README)
+DOCS=( CHANGES NOTICE README )
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-1.5.3-sysroot.patch #385775
-	"${FILESDIR}"/${PN}-1.6.1-fix-gdbm-error-handling.patch
+	"${FILESDIR}"/${PN}-1.5.3-sysroot.patch # bug #385775
+	"${FILESDIR}"/${PN}-1.6.1-libtool.patch # bug #779487
+	"${FILESDIR}"/${PN}-1.6.1-my_bool.patch
+	"${FILESDIR}"/${PN}-1.6.1-drop-my_init.patch
+	"${FILESDIR}"/${PN}-1.6.3-fix-pkgconfig-libs.patch
+	"${FILESDIR}"/${PN}-1.6.3-configure-int.patch
+)
+
+QA_CONFIG_IMPL_DECL_SKIP=(
+	memset_s # bug #898566
 )
 
 src_prepare() {
@@ -84,10 +93,12 @@ src_configure() {
 	tc-is-static-only && myconf+=( --disable-util-dso )
 
 	if use nss || use openssl ; then
-		myconf+=( --with-crypto ) # 518708
+		# bug #518708
+		myconf+=( --with-crypto )
 	fi
 
 	econf "${myconf[@]}"
+
 	# Use the current env build settings rather than whatever apr was built with.
 	sed -i -r \
 		-e "/^(apr_builddir|apr_builders|top_builddir)=/s:=:=${SYSROOT}:" \
@@ -114,6 +125,7 @@ src_install() {
 	if [[ -d "${ED%/}/usr/$(get_libdir)/apr-util-${SLOT}" ]] ; then
 		find "${ED%/}/usr/$(get_libdir)/apr-util-${SLOT}" -name "*.a" -delete || die
 	fi
+
 	if ! use static-libs ; then
 		find "${ED}" -name "*.a" -not -name "*$(get_libname)" -delete || die
 	fi

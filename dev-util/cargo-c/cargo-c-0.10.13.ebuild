@@ -194,7 +194,7 @@ https://crates.io/api/v1/crates/libdbus-sys/0.2.5/download -> libdbus-sys-0.2.5.
 https://crates.io/api/v1/crates/libgit2-sys/0.18.2+1.9.1/download -> libgit2-sys-0.18.2+1.9.1.crate
 https://crates.io/api/v1/crates/libloading/0.8.8/download -> libloading-0.8.8.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.11+1.64.0/download -> libnghttp2-sys-0.1.11+1.64.0.crate
-https://crates.io/api/v1/crates/libredox/0.1.3/download -> libredox-0.1.3.crate
+https://crates.io/api/v1/crates/libredox/0.1.4/download -> libredox-0.1.4.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.31.0/download -> libsqlite3-sys-0.31.0.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.1/download -> libssh2-sys-0.3.1.crate
 https://crates.io/api/v1/crates/libz-sys/1.1.22/download -> libz-sys-1.1.22.crate
