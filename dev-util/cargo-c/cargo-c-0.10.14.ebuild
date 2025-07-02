@@ -232,7 +232,7 @@ https://crates.io/api/v1/crates/opener/0.7.2/download -> opener-0.7.2.crate
 https://crates.io/api/v1/crates/openssl/0.10.73/download -> openssl-0.10.73.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
-https://crates.io/api/v1/crates/openssl-src/300.5.0+3.5.0/download -> openssl-src-300.5.0+3.5.0.crate
+https://crates.io/api/v1/crates/openssl-src/300.5.1+3.5.1/download -> openssl-src-300.5.1+3.5.1.crate
 https://crates.io/api/v1/crates/openssl-sys/0.9.109/download -> openssl-sys-0.9.109.crate
 https://crates.io/api/v1/crates/ordered-float/2.10.1/download -> ordered-float-2.10.1.crate
 https://crates.io/api/v1/crates/orion/0.17.11/download -> orion-0.17.11.crate
