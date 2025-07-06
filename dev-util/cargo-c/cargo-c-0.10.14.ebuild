@@ -42,7 +42,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.3.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.21/download -> cargo-util-0.2.21.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.8.2/download -> cargo-util-schemas-0.8.2.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.0/download -> cbindgen-0.29.0.crate
-https://crates.io/api/v1/crates/cc/1.2.27/download -> cc-1.2.27.crate
+https://crates.io/api/v1/crates/cc/1.2.29/download -> cc-1.2.29.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.1/download -> cfg-if-1.0.1.crate
 https://crates.io/api/v1/crates/clap/4.5.40/download -> clap-4.5.40.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.40/download -> clap_builder-4.5.40.crate
@@ -248,7 +248,7 @@ https://crates.io/api/v1/crates/percent-encoding/2.3.1/download -> percent-encod
 https://crates.io/api/v1/crates/pin-project-lite/0.2.16/download -> pin-project-lite-0.2.16.crate
 https://crates.io/api/v1/crates/pkcs8/0.10.2/download -> pkcs8-0.10.2.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.crate
-https://crates.io/api/v1/crates/plist/1.7.2/download -> plist-1.7.2.crate
+https://crates.io/api/v1/crates/plist/1.7.3/download -> plist-1.7.3.crate
 https://crates.io/api/v1/crates/portable-atomic/1.11.1/download -> portable-atomic-1.11.1.crate
 https://crates.io/api/v1/crates/portable-atomic-util/0.2.4/download -> portable-atomic-util-0.2.4.crate
 https://crates.io/api/v1/crates/potential_utf/0.1.2/download -> potential_utf-0.1.2.crate

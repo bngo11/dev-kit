@@ -72,8 +72,8 @@ EGO_SUM=(
 	"github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod"
 	"github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod"
 	"github.com/client9/misspell v0.3.4/go.mod"
-	"github.com/cloudflare/circl v1.6.0"
-	"github.com/cloudflare/circl v1.6.0/go.mod"
+	"github.com/cloudflare/circl v1.6.1"
+	"github.com/cloudflare/circl v1.6.1/go.mod"
 	"github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21"
 	"github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21/go.mod"
 	"github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod"
@@ -705,8 +705,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/jesseduffield/lazygit/tarball/aa331e52b8a0e5da03c59ee6b9bd1d2a9073618c -> lazygit-0.52.0-aa331e5.tar.gz
-https://direct.funtoo.org/eb/ef/d1/ebefd1ba3dd8ff773c76ee6a2061b4f4954ae0478d51b17e16c5f20996e1046fded54f67cb945798fedc6ceb988262ea84e0aed7efdff7294330375ecb06d34d -> lazygit-0.52.0-funtoo-go-bundle-d5d88e5b1577a7f21e3c4ac11888fc8177efc887ebc24dc8b362049241b587ff7e42cd83fa1ab949f0a6d6736b664f18b56d529b15af3af0b035e22ae02626a7.tar.gz"
+SRC_URI="https://github.com/jesseduffield/lazygit/tarball/bc4b50f817a0b82393a872f96b04a77f769ae929 -> lazygit-0.53.0-bc4b50f.tar.gz
+https://direct.funtoo.org/59/a9/86/59a9861b135a6288f974ee65ff63e31ecd92417815147f4c2e4a8351c3a1fe51cbae733b377e77ce4d6c7496f4b84c30df775e59411cdffbb2b75b0fbb5e4cb1 -> lazygit-0.53.0-funtoo-go-bundle-9f27c7ae5f519c73063fbbcaa03436afc71733d03b5e47419c84becaaf5d770752192da5ed6d78188d2b7065c2cbe2f22e3a857c7e091f31712a3e448e1244c6.tar.gz"
 
 DESCRIPTION="A simple terminal UI for git commands"
 HOMEPAGE="http://github.com/jesseduffield/lazygit"
