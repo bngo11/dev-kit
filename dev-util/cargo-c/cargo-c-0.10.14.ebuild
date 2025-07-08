@@ -248,7 +248,7 @@ https://crates.io/api/v1/crates/percent-encoding/2.3.1/download -> percent-encod
 https://crates.io/api/v1/crates/pin-project-lite/0.2.16/download -> pin-project-lite-0.2.16.crate
 https://crates.io/api/v1/crates/pkcs8/0.10.2/download -> pkcs8-0.10.2.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.crate
-https://crates.io/api/v1/crates/plist/1.7.3/download -> plist-1.7.3.crate
+https://crates.io/api/v1/crates/plist/1.7.4/download -> plist-1.7.4.crate
 https://crates.io/api/v1/crates/portable-atomic/1.11.1/download -> portable-atomic-1.11.1.crate
 https://crates.io/api/v1/crates/portable-atomic-util/0.2.4/download -> portable-atomic-util-0.2.4.crate
 https://crates.io/api/v1/crates/potential_utf/0.1.2/download -> potential_utf-0.1.2.crate
@@ -257,7 +257,7 @@ https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download -> ppv-lite86-0.2.21.
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.95/download -> proc-macro2-1.0.95.crate
 https://crates.io/api/v1/crates/prodash/29.0.2/download -> prodash-29.0.2.crate
-https://crates.io/api/v1/crates/quick-xml/0.37.5/download -> quick-xml-0.37.5.crate
+https://crates.io/api/v1/crates/quick-xml/0.38.0/download -> quick-xml-0.38.0.crate
 https://crates.io/api/v1/crates/quote/1.0.40/download -> quote-1.0.40.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate
 https://crates.io/api/v1/crates/rand/0.9.1/download -> rand-0.9.1.crate

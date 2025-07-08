@@ -7,7 +7,7 @@ inherit autotools
 DESCRIPTION="Create debuginfo and source file distributions"
 HOMEPAGE="https://sourceware.org/debugedit/"
 
-SRC_URI=" https://sourceware.org/ftp/debugedit//5.1/debugedit-5.1.tar.xz -> debugedit-5.1.tar.xz
+SRC_URI=" https://sourceware.org/ftp/debugedit//5.2/debugedit-5.2.tar.xz -> debugedit-5.2.tar.xz
 "
 
 LICENSE="GPL-2+ LGPL-2+"
