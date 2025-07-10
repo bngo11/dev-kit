@@ -44,10 +44,10 @@ https://crates.io/api/v1/crates/cargo-util-schemas/0.8.2/download -> cargo-util-
 https://crates.io/api/v1/crates/cbindgen/0.29.0/download -> cbindgen-0.29.0.crate
 https://crates.io/api/v1/crates/cc/1.2.29/download -> cc-1.2.29.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.1/download -> cfg-if-1.0.1.crate
-https://crates.io/api/v1/crates/clap/4.5.40/download -> clap-4.5.40.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.40/download -> clap_builder-4.5.40.crate
-https://crates.io/api/v1/crates/clap_complete/4.5.54/download -> clap_complete-4.5.54.crate
-https://crates.io/api/v1/crates/clap_derive/4.5.40/download -> clap_derive-4.5.40.crate
+https://crates.io/api/v1/crates/clap/4.5.41/download -> clap-4.5.41.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.41/download -> clap_builder-4.5.41.crate
+https://crates.io/api/v1/crates/clap_complete/4.5.55/download -> clap_complete-4.5.55.crate
+https://crates.io/api/v1/crates/clap_derive/4.5.41/download -> clap_derive-4.5.41.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.5/download -> clap_lex-0.7.5.crate
 https://crates.io/api/v1/crates/clru/0.6.2/download -> clru-0.6.2.crate
 https://crates.io/api/v1/crates/color-print/0.3.7/download -> color-print-0.3.7.crate
