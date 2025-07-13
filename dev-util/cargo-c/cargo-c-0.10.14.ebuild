@@ -393,7 +393,7 @@ https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.53.0/download -> window
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.48.5/download -> windows_x86_64_msvc-0.48.5.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download -> windows_x86_64_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.0/download -> windows_x86_64_msvc-0.53.0.crate
-https://crates.io/api/v1/crates/winnow/0.7.11/download -> winnow-0.7.11.crate
+https://crates.io/api/v1/crates/winnow/0.7.12/download -> winnow-0.7.12.crate
 https://crates.io/api/v1/crates/wit-bindgen-rt/0.39.0/download -> wit-bindgen-rt-0.39.0.crate
 https://crates.io/api/v1/crates/writeable/0.6.1/download -> writeable-0.6.1.crate
 https://crates.io/api/v1/crates/yoke/0.8.0/download -> yoke-0.8.0.crate

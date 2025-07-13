@@ -11,7 +11,7 @@ LICENSE="MIT"
 IUSE="doc"
 SLOT="0/$(ver_cut 1-2)"
 
-SRC_URI="https://github.com/NilsBrause/waylandpp/tarball/4321ed5c7b4bffa41b8a2a13dc7f3ece1191f4f3 -> waylandpp-1.0.0-4321ed5.tar.gz"
+SRC_URI="https://github.com/NilsBrause/waylandpp/tarball/4f208c416f37ea093e4a70a1407abd7d93c889f9 -> waylandpp-1.0.1-4f208c4.tar.gz"
 KEYWORDS="*"
 
 RDEPEND="
