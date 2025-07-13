@@ -59,7 +59,7 @@ https://crates.io/api/v1/crates/core-foundation/0.10.1/download -> core-foundati
 https://crates.io/api/v1/crates/core-foundation-sys/0.8.7/download -> core-foundation-sys-0.8.7.crate
 https://crates.io/api/v1/crates/cpufeatures/0.2.17/download -> cpufeatures-0.2.17.crate
 https://crates.io/api/v1/crates/crates-io/0.40.11/download -> crates-io-0.40.11.crate
-https://crates.io/api/v1/crates/crc32fast/1.4.2/download -> crc32fast-1.4.2.crate
+https://crates.io/api/v1/crates/crc32fast/1.5.0/download -> crc32fast-1.5.0.crate
 https://crates.io/api/v1/crates/crossbeam-channel/0.5.15/download -> crossbeam-channel-0.5.15.crate
 https://crates.io/api/v1/crates/crossbeam-deque/0.8.6/download -> crossbeam-deque-0.8.6.crate
 https://crates.io/api/v1/crates/crossbeam-epoch/0.9.18/download -> crossbeam-epoch-0.9.18.crate
@@ -214,7 +214,7 @@ https://crates.io/api/v1/crates/log/0.4.27/download -> log-0.4.27.crate
 https://crates.io/api/v1/crates/matchers/0.1.0/download -> matchers-0.1.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.10/download -> maybe-async-0.2.10.crate
 https://crates.io/api/v1/crates/memchr/2.7.5/download -> memchr-2.7.5.crate
-https://crates.io/api/v1/crates/memmap2/0.9.5/download -> memmap2-0.9.5.crate
+https://crates.io/api/v1/crates/memmap2/0.9.7/download -> memmap2-0.9.7.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
 https://crates.io/api/v1/crates/miniz_oxide/0.8.9/download -> miniz_oxide-0.8.9.crate
