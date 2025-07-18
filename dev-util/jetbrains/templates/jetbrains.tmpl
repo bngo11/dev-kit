@@ -46,7 +46,7 @@ src_install() {
 	insinto "${dir}"
 	mv "${S}"/* "${dst}"
 
-	local bundled_script_name="${PN%-*}.sh" # bundled script is always lowercase, and doesn't have -ultimate, -professional suffix.
+	local bundled_script_name="${PN%-*}" # bundled script is always lowercase, and doesn't have -ultimate, -professional suffix.
 
 	make_wrapper "${PN}" "${dir}/bin/$bundled_script_name" || die
 

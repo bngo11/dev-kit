@@ -42,7 +42,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.3.0/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.21/download -> cargo-util-0.2.21.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.8.2/download -> cargo-util-schemas-0.8.2.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.0/download -> cbindgen-0.29.0.crate
-https://crates.io/api/v1/crates/cc/1.2.29/download -> cc-1.2.29.crate
+https://crates.io/api/v1/crates/cc/1.2.30/download -> cc-1.2.30.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.1/download -> cfg-if-1.0.1.crate
 https://crates.io/api/v1/crates/clap/4.5.41/download -> clap-4.5.41.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.41/download -> clap_builder-4.5.41.crate
@@ -134,7 +134,7 @@ https://crates.io/api/v1/crates/gix-odb/0.68.0/download -> gix-odb-0.68.0.crate
 https://crates.io/api/v1/crates/gix-pack/0.58.0/download -> gix-pack-0.58.0.crate
 https://crates.io/api/v1/crates/gix-packetline/0.18.4/download -> gix-packetline-0.18.4.crate
 https://crates.io/api/v1/crates/gix-packetline-blocking/0.18.3/download -> gix-packetline-blocking-0.18.3.crate
-https://crates.io/api/v1/crates/gix-path/0.10.18/download -> gix-path-0.10.18.crate
+https://crates.io/api/v1/crates/gix-path/0.10.19/download -> gix-path-0.10.19.crate
 https://crates.io/api/v1/crates/gix-pathspec/0.10.0/download -> gix-pathspec-0.10.0.crate
 https://crates.io/api/v1/crates/gix-prompt/0.10.0/download -> gix-prompt-0.10.0.crate
 https://crates.io/api/v1/crates/gix-protocol/0.49.0/download -> gix-protocol-0.49.0.crate
@@ -147,7 +147,7 @@ https://crates.io/api/v1/crates/gix-sec/0.10.12/download -> gix-sec-0.10.12.crat
 https://crates.io/api/v1/crates/gix-shallow/0.3.0/download -> gix-shallow-0.3.0.crate
 https://crates.io/api/v1/crates/gix-submodule/0.18.0/download -> gix-submodule-0.18.0.crate
 https://crates.io/api/v1/crates/gix-tempfile/17.1.0/download -> gix-tempfile-17.1.0.crate
-https://crates.io/api/v1/crates/gix-trace/0.1.12/download -> gix-trace-0.1.12.crate
+https://crates.io/api/v1/crates/gix-trace/0.1.13/download -> gix-trace-0.1.13.crate
 https://crates.io/api/v1/crates/gix-transport/0.46.0/download -> gix-transport-0.46.0.crate
 https://crates.io/api/v1/crates/gix-traverse/0.45.0/download -> gix-traverse-0.45.0.crate
 https://crates.io/api/v1/crates/gix-url/0.30.0/download -> gix-url-0.30.0.crate
@@ -241,7 +241,7 @@ https://crates.io/api/v1/crates/overload/0.1.1/download -> overload-0.1.1.crate
 https://crates.io/api/v1/crates/p384/0.13.1/download -> p384-0.13.1.crate
 https://crates.io/api/v1/crates/parking_lot/0.12.4/download -> parking_lot-0.12.4.crate
 https://crates.io/api/v1/crates/parking_lot_core/0.9.11/download -> parking_lot_core-0.9.11.crate
-https://crates.io/api/v1/crates/pasetors/0.7.6/download -> pasetors-0.7.6.crate
+https://crates.io/api/v1/crates/pasetors/0.7.7/download -> pasetors-0.7.7.crate
 https://crates.io/api/v1/crates/pathdiff/0.2.3/download -> pathdiff-0.2.3.crate
 https://crates.io/api/v1/crates/pem-rfc7468/0.7.0/download -> pem-rfc7468-0.7.0.crate
 https://crates.io/api/v1/crates/percent-encoding/2.3.1/download -> percent-encoding-2.3.1.crate
@@ -277,7 +277,7 @@ https://crates.io/api/v1/crates/rustc-hash/2.1.1/download -> rustc-hash-2.1.1.cr
 https://crates.io/api/v1/crates/rustc-stable-hash/0.1.2/download -> rustc-stable-hash-0.1.2.crate
 https://crates.io/api/v1/crates/rustfix/0.9.1/download -> rustfix-0.9.1.crate
 https://crates.io/api/v1/crates/rustix/0.38.44/download -> rustix-0.38.44.crate
-https://crates.io/api/v1/crates/rustix/1.0.7/download -> rustix-1.0.7.crate
+https://crates.io/api/v1/crates/rustix/1.0.8/download -> rustix-1.0.8.crate
 https://crates.io/api/v1/crates/ryu/1.0.20/download -> ryu-1.0.20.crate
 https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
 https://crates.io/api/v1/crates/schannel/0.1.27/download -> schannel-0.1.27.crate

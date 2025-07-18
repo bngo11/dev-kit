@@ -461,8 +461,8 @@ EGO_SUM=(
 	"github.com/shurcoo!l/githubv4 v0.0.0-20240727222349-48295856cce7/go.mod"
 	"github.com/shurcoo!l/graphql v0.0.0-20230722043721-ed46e5a46466"
 	"github.com/shurcoo!l/graphql v0.0.0-20230722043721-ed46e5a46466/go.mod"
-	"github.com/sigstore/protobuf-specs v0.4.3"
-	"github.com/sigstore/protobuf-specs v0.4.3/go.mod"
+	"github.com/sigstore/protobuf-specs v0.5.0"
+	"github.com/sigstore/protobuf-specs v0.5.0/go.mod"
 	"github.com/sigstore/rekor v1.3.10"
 	"github.com/sigstore/rekor v1.3.10/go.mod"
 	"github.com/sigstore/sigstore v1.9.5"
@@ -569,8 +569,8 @@ EGO_SUM=(
 	"golang.org/x/crypto v0.13.0/go.mod"
 	"golang.org/x/crypto v0.19.0/go.mod"
 	"golang.org/x/crypto v0.23.0/go.mod"
-	"golang.org/x/crypto v0.39.0"
-	"golang.org/x/crypto v0.39.0/go.mod"
+	"golang.org/x/crypto v0.40.0"
+	"golang.org/x/crypto v0.40.0/go.mod"
 	"golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b"
 	"golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b/go.mod"
 	"golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod"
@@ -599,8 +599,8 @@ EGO_SUM=(
 	"golang.org/x/sync v0.6.0/go.mod"
 	"golang.org/x/sync v0.7.0/go.mod"
 	"golang.org/x/sync v0.10.0/go.mod"
-	"golang.org/x/sync v0.15.0"
-	"golang.org/x/sync v0.15.0/go.mod"
+	"golang.org/x/sync v0.16.0"
+	"golang.org/x/sync v0.16.0/go.mod"
 	"golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod"
 	"golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223/go.mod"
 	"golang.org/x/sys v0.0.0-20201119102817-f84b799fce68/go.mod"
@@ -617,8 +617,8 @@ EGO_SUM=(
 	"golang.org/x/sys v0.17.0/go.mod"
 	"golang.org/x/sys v0.20.0/go.mod"
 	"golang.org/x/sys v0.29.0/go.mod"
-	"golang.org/x/sys v0.33.0"
-	"golang.org/x/sys v0.33.0/go.mod"
+	"golang.org/x/sys v0.34.0"
+	"golang.org/x/sys v0.34.0/go.mod"
 	"golang.org/x/telemetry v0.0.0-20240228155512-f48c80bd79b2/go.mod"
 	"golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod"
 	"golang.org/x/term v0.0.0-20210927222741-03fcf44c2211/go.mod"
@@ -628,8 +628,8 @@ EGO_SUM=(
 	"golang.org/x/term v0.17.0/go.mod"
 	"golang.org/x/term v0.20.0/go.mod"
 	"golang.org/x/term v0.28.0/go.mod"
-	"golang.org/x/term v0.32.0"
-	"golang.org/x/term v0.32.0/go.mod"
+	"golang.org/x/term v0.33.0"
+	"golang.org/x/term v0.33.0/go.mod"
 	"golang.org/x/text v0.3.0/go.mod"
 	"golang.org/x/text v0.3.3/go.mod"
 	"golang.org/x/text v0.3.7/go.mod"
@@ -640,8 +640,8 @@ EGO_SUM=(
 	"golang.org/x/text v0.14.0/go.mod"
 	"golang.org/x/text v0.15.0/go.mod"
 	"golang.org/x/text v0.21.0/go.mod"
-	"golang.org/x/text v0.26.0"
-	"golang.org/x/text v0.26.0/go.mod"
+	"golang.org/x/text v0.27.0"
+	"golang.org/x/text v0.27.0/go.mod"
 	"golang.org/x/time v0.11.0"
 	"golang.org/x/time v0.11.0/go.mod"
 	"golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod"
@@ -687,8 +687,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/0e27e840846bbdbda8308c419cedf95914556511 -> cli-2.75.0-0e27e84.tar.gz
-https://direct.funtoo.org/f9/9a/53/f99a53dd674047848e13e698e7d363eab33ffdb51d9e44940e3d0b27f173109eccc34e23e6707881dbedbcf333f6e7da39f166ab95a852b59e67a9fb33dc1656 -> github-cli-2.75.0-funtoo-go-bundle-225eb4d246d14e3e9dfa744f4dd9f2c1568625dde8a292924586d4e9a443ca43f5e1d114a2da4d89178a5e052e6eba5c9408a1f4e7b93eb31ac3f4fbf7852f7b.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/08303d91e634441f3ab3ebb41868daefdd2a0407 -> cli-2.76.0-08303d9.tar.gz
+https://direct.funtoo.org/a9/e6/87/a9e687e6a48dd76e2a7f87be341baf9c179f7c91e8310927087f98f4a0e132b3538e3e8f19bd4e10c85b6b3bb650af4f4eab9a079a3d3a1b8056c2be483a9f84 -> github-cli-2.76.0-funtoo-go-bundle-ede077a4e58a47f9f9dc07fe2aaf97c1a93759164a2f30a8f750b5283951aa481b60ae77eace5666e9f7f80df40a977870be76d6fb95258d2d8e8d2434379d66.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -700,7 +700,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.75.0"
+	export GH_VERSION="v2.76.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
