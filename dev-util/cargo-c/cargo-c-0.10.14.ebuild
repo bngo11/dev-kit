@@ -201,7 +201,7 @@ https://crates.io/api/v1/crates/libdbus-sys/0.2.5/download -> libdbus-sys-0.2.5.
 https://crates.io/api/v1/crates/libgit2-sys/0.18.2+1.9.1/download -> libgit2-sys-0.18.2+1.9.1.crate
 https://crates.io/api/v1/crates/libloading/0.8.8/download -> libloading-0.8.8.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.11+1.64.0/download -> libnghttp2-sys-0.1.11+1.64.0.crate
-https://crates.io/api/v1/crates/libredox/0.1.4/download -> libredox-0.1.4.crate
+https://crates.io/api/v1/crates/libredox/0.1.6/download -> libredox-0.1.6.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.32.0/download -> libsqlite3-sys-0.32.0.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.1/download -> libssh2-sys-0.3.1.crate
 https://crates.io/api/v1/crates/libz-rs-sys/0.5.1/download -> libz-rs-sys-0.5.1.crate
@@ -291,7 +291,7 @@ https://crates.io/api/v1/crates/serde-untagged/0.1.7/download -> serde-untagged-
 https://crates.io/api/v1/crates/serde-value/0.7.0/download -> serde-value-0.7.0.crate
 https://crates.io/api/v1/crates/serde_derive/1.0.219/download -> serde_derive-1.0.219.crate
 https://crates.io/api/v1/crates/serde_ignored/0.1.12/download -> serde_ignored-0.1.12.crate
-https://crates.io/api/v1/crates/serde_json/1.0.140/download -> serde_json-1.0.140.crate
+https://crates.io/api/v1/crates/serde_json/1.0.141/download -> serde_json-1.0.141.crate
 https://crates.io/api/v1/crates/serde_spanned/0.6.9/download -> serde_spanned-0.6.9.crate
 https://crates.io/api/v1/crates/sha1/0.10.6/download -> sha1-0.10.6.crate
 https://crates.io/api/v1/crates/sha1-checked/0.10.0/download -> sha1-checked-0.10.0.crate
