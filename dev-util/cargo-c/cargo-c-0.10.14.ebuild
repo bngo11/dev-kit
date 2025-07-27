@@ -260,12 +260,12 @@ https://crates.io/api/v1/crates/prodash/29.0.2/download -> prodash-29.0.2.crate
 https://crates.io/api/v1/crates/quick-xml/0.38.0/download -> quick-xml-0.38.0.crate
 https://crates.io/api/v1/crates/quote/1.0.40/download -> quote-1.0.40.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate
-https://crates.io/api/v1/crates/rand/0.9.1/download -> rand-0.9.1.crate
+https://crates.io/api/v1/crates/rand/0.9.2/download -> rand-0.9.2.crate
 https://crates.io/api/v1/crates/rand_chacha/0.9.0/download -> rand_chacha-0.9.0.crate
 https://crates.io/api/v1/crates/rand_core/0.6.4/download -> rand_core-0.6.4.crate
 https://crates.io/api/v1/crates/rand_core/0.9.3/download -> rand_core-0.9.3.crate
 https://crates.io/api/v1/crates/rand_xoshiro/0.6.0/download -> rand_xoshiro-0.6.0.crate
-https://crates.io/api/v1/crates/redox_syscall/0.5.13/download -> redox_syscall-0.5.13.crate
+https://crates.io/api/v1/crates/redox_syscall/0.5.16/download -> redox_syscall-0.5.16.crate
 https://crates.io/api/v1/crates/regex/1.11.1/download -> regex-1.11.1.crate
 https://crates.io/api/v1/crates/regex-automata/0.1.10/download -> regex-automata-0.1.10.crate
 https://crates.io/api/v1/crates/regex-automata/0.4.9/download -> regex-automata-0.4.9.crate
