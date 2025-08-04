@@ -257,7 +257,7 @@ https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download -> ppv-lite86-0.2.21.
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.95/download -> proc-macro2-1.0.95.crate
 https://crates.io/api/v1/crates/prodash/29.0.2/download -> prodash-29.0.2.crate
-https://crates.io/api/v1/crates/quick-xml/0.38.0/download -> quick-xml-0.38.0.crate
+https://crates.io/api/v1/crates/quick-xml/0.38.1/download -> quick-xml-0.38.1.crate
 https://crates.io/api/v1/crates/quote/1.0.40/download -> quote-1.0.40.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate
 https://crates.io/api/v1/crates/rand/0.9.2/download -> rand-0.9.2.crate
@@ -405,7 +405,7 @@ https://crates.io/api/v1/crates/zerofrom/0.1.6/download -> zerofrom-0.1.6.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.6/download -> zerofrom-derive-0.1.6.crate
 https://crates.io/api/v1/crates/zeroize/1.8.1/download -> zeroize-1.8.1.crate
 https://crates.io/api/v1/crates/zerotrie/0.2.2/download -> zerotrie-0.2.2.crate
-https://crates.io/api/v1/crates/zerovec/0.11.2/download -> zerovec-0.11.2.crate
+https://crates.io/api/v1/crates/zerovec/0.11.3/download -> zerovec-0.11.3.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.1/download -> zerovec-derive-0.11.1.crate
 https://crates.io/api/v1/crates/zlib-rs/0.5.1/download -> zlib-rs-0.5.1.crate"
 
