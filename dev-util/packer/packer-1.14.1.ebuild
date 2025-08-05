@@ -764,8 +764,8 @@ go-module_set_globals
 
 DESCRIPTION="A tool for creating identical machine images for multiple platforms"
 HOMEPAGE="https://www.packer.io/ https://github.com/hashicorp/packer"
-SRC_URI="https://github.com/hashicorp/packer/tarball/1a01c0547bde0dd7f9124468880e04c37b91cdae -> packer-1.14.0-1a01c05.tar.gz
-https://direct.funtoo.org/14/c7/e5/14c7e56cd3b8673039e9a54f7d9fb8c7acbfffd01e450a724d68e0869bd80512a8cdfe007eb69c9627990f24c5ca68653f8fd9e6eb26e2e777844e1ffeb148c2 -> packer-1.14.0-funtoo-go-bundle-3e33915779df0985983bae9295e97898680304863c3280dd6cb5c081fdb6c732edc28178274392efbb4029617fe956744778eb2f7216fc4d949bf660df152cb4.tar.gz"
+SRC_URI="https://github.com/hashicorp/packer/tarball/8cb0be165d1695e024bb055e69467d81620beec2 -> packer-1.14.1-8cb0be1.tar.gz
+https://direct.funtoo.org/02/e1/38/02e138a7a5ad32ad1d3f49ef43ae831e43c09004a30c7751c0e48a38c3e55339048f673d5fee719e9a5da88a7d4eeecef414d621001ef6d2d6ce30074418ffe1 -> packer-1.14.1-funtoo-go-bundle-3e33915779df0985983bae9295e97898680304863c3280dd6cb5c081fdb6c732edc28178274392efbb4029617fe956744778eb2f7216fc4d949bf660df152cb4.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -774,7 +774,7 @@ KEYWORDS="*"
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.17"
-S="${WORKDIR}/hashicorp-packer-1a01c05"
+S="${WORKDIR}/hashicorp-packer-8cb0be1"
 
 src_compile() {
 	go build -o "${PN}" || die "compile failed"

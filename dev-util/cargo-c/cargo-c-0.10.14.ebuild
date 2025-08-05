@@ -12,11 +12,11 @@ https://crates.io/api/v1/crates/ahash/0.8.12/download -> ahash-0.8.12.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.3/download -> aho-corasick-1.1.3.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
 https://crates.io/api/v1/crates/annotate-snippets/0.11.5/download -> annotate-snippets-0.11.5.crate
-https://crates.io/api/v1/crates/anstream/0.6.19/download -> anstream-0.6.19.crate
+https://crates.io/api/v1/crates/anstream/0.6.20/download -> anstream-0.6.20.crate
 https://crates.io/api/v1/crates/anstyle/1.0.11/download -> anstyle-1.0.11.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download -> anstyle-parse-0.2.7.crate
-https://crates.io/api/v1/crates/anstyle-query/1.1.3/download -> anstyle-query-1.1.3.crate
-https://crates.io/api/v1/crates/anstyle-wincon/3.0.9/download -> anstyle-wincon-3.0.9.crate
+https://crates.io/api/v1/crates/anstyle-query/1.1.4/download -> anstyle-query-1.1.4.crate
+https://crates.io/api/v1/crates/anstyle-wincon/3.0.10/download -> anstyle-wincon-3.0.10.crate
 https://crates.io/api/v1/crates/anyhow/1.0.98/download -> anyhow-1.0.98.crate
 https://crates.io/api/v1/crates/arc-swap/1.7.1/download -> arc-swap-1.7.1.crate
 https://crates.io/api/v1/crates/arrayref/0.3.9/download -> arrayref-0.3.9.crate
