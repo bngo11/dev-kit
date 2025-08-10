@@ -1,0 +1,11 @@
+BDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10 dev-lang/python:3.12 ) dev-util/ninja
+DEFINED_PHASES=compile configure install setup
+DESCRIPTION=GN is a meta-build system that generates build files for Ninja
+EAPI=7
+HOMEPAGE=https://gn.googlesource.com/
+KEYWORDS=*
+LICENSE=BSD
+SLOT=0
+SRC_URI=https://direct.funtoo.org/31/8c/b5/318cb58531eed37946df3e3c126874005536497c95a77d79f840035594e40d3e49e2c888d0b5c114706fe3b0c34c3892a97f51217b5f714b910aa72efa3d1578 -> gn-0.2275.tar.xz
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	c57a84554d3dca7c828e40d877b2dd7d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=cb180e7ede7bed22bc80e1002d8c271c
