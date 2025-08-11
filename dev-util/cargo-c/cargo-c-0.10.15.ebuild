@@ -111,7 +111,7 @@ https://crates.io/api/v1/crates/gix-commitgraph/0.28.0/download -> gix-commitgra
 https://crates.io/api/v1/crates/gix-config/0.45.1/download -> gix-config-0.45.1.crate
 https://crates.io/api/v1/crates/gix-config-value/0.15.1/download -> gix-config-value-0.15.1.crate
 https://crates.io/api/v1/crates/gix-credentials/0.29.0/download -> gix-credentials-0.29.0.crate
-https://crates.io/api/v1/crates/gix-date/0.10.4/download -> gix-date-0.10.4.crate
+https://crates.io/api/v1/crates/gix-date/0.10.5/download -> gix-date-0.10.5.crate
 https://crates.io/api/v1/crates/gix-diff/0.52.1/download -> gix-diff-0.52.1.crate
 https://crates.io/api/v1/crates/gix-dir/0.14.1/download -> gix-dir-0.14.1.crate
 https://crates.io/api/v1/crates/gix-discover/0.40.1/download -> gix-discover-0.40.1.crate
@@ -150,7 +150,7 @@ https://crates.io/api/v1/crates/gix-url/0.31.0/download -> gix-url-0.31.0.crate
 https://crates.io/api/v1/crates/gix-utils/0.3.0/download -> gix-utils-0.3.0.crate
 https://crates.io/api/v1/crates/gix-validate/0.10.0/download -> gix-validate-0.10.0.crate
 https://crates.io/api/v1/crates/gix-worktree/0.41.0/download -> gix-worktree-0.41.0.crate
-https://crates.io/api/v1/crates/glob/0.3.2/download -> glob-0.3.2.crate
+https://crates.io/api/v1/crates/glob/0.3.3/download -> glob-0.3.3.crate
 https://crates.io/api/v1/crates/globset/0.4.16/download -> globset-0.4.16.crate
 https://crates.io/api/v1/crates/group/0.13.0/download -> group-0.13.0.crate
 https://crates.io/api/v1/crates/hash32/0.3.1/download -> hash32-0.3.1.crate
@@ -190,7 +190,7 @@ https://crates.io/api/v1/crates/js-sys/0.3.77/download -> js-sys-0.3.77.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/lazycell/1.3.0/download -> lazycell-1.3.0.crate
-https://crates.io/api/v1/crates/libc/0.2.174/download -> libc-0.2.174.crate
+https://crates.io/api/v1/crates/libc/0.2.175/download -> libc-0.2.175.crate
 https://crates.io/api/v1/crates/libdbus-sys/0.2.5/download -> libdbus-sys-0.2.5.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.2+1.9.1/download -> libgit2-sys-0.18.2+1.9.1.crate
 https://crates.io/api/v1/crates/libloading/0.8.8/download -> libloading-0.8.8.crate
