@@ -9,7 +9,7 @@ inherit cmake flag-o-matic python-any-r1 toolchain-funcs
 DESCRIPTION="Abseil Common Libraries (C++), LTS Branch"
 HOMEPAGE="https://abseil.io"
 SRC_URI="
-	https://github.com/abseil/abseil-cpp/releases/download/20250512.1/abseil-cpp-20250512.1.tar.gz -> abseil-cpp-20250512.1.tar.gz
+	https://github.com/abseil/abseil-cpp/releases/download/20250814.0/abseil-cpp-20250814.0.tar.gz -> abseil-cpp-20250814.0.tar.gz
 	test? ( https://github.com/google/googletest/releases/download/v1.17.0/googletest-1.17.0.tar.gz -> googletest-1.17.0.tar.gz )
 "
 LICENSE="
