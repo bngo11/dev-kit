@@ -177,7 +177,7 @@ https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
 https://crates.io/api/v1/crates/im-rc/15.1.0/download -> im-rc-15.1.0.crate
 https://crates.io/api/v1/crates/implib/0.4.0/download -> implib-0.4.0.crate
 https://crates.io/api/v1/crates/indexmap/2.11.0/download -> indexmap-2.11.0.crate
-https://crates.io/api/v1/crates/is_executable/1.0.4/download -> is_executable-1.0.4.crate
+https://crates.io/api/v1/crates/is_executable/1.0.5/download -> is_executable-1.0.5.crate
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.15/download -> itoa-1.0.15.crate
