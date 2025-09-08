@@ -6,8 +6,8 @@ inherit cargo
 
 DESCRIPTION="Cross-platform Rust rewrite of the GNU coreutils"
 HOMEPAGE="https://github.com/uutils/coreutils https://uutils.github.io/coreutils/docs/"
-SRC_URI="https://github.com/uutils/coreutils/tarball/e4ec7fded977059e3184b9a41dec16783715adb7 -> coreutils-0.1.0-e4ec7fd.tar.gz
-https://direct.funtoo.org/53/0e/00/530e00c876c8ee6901eedfcec47254cde22e602eaf462d5ce50c87e7ee6541770c6f4d82e18346b5956229b3d643e8373a3fe48232c81ad390e8ce4ca56e0243 -> uutils-coreutils-0.1.0-funtoo-crates-bundle-a9023e4c50b4b3f774e0c6f411e43cded396bdff40dbe2d3a7ea3c791fed3b1d745651037822626aa950185b525f1bfe9c571ed5ee7b65c3d7da390fb67ea6d0.tar.gz"
+SRC_URI="https://github.com/uutils/coreutils/tarball/aee3e799802496a576aaf821867f08a43c3c17e5 -> coreutils-0.2.0-aee3e79.tar.gz
+https://direct.funtoo.org/90/0d/1d/900d1d590094c1a5ab2319876ffe692b2a1c7f12a48f00c86a2d52e7863e5fa1e716005544136b4ca9e86a35bed1f7bbb0bd35ed48ad9832a6569a37d7fef077 -> uutils-coreutils-0.2.0-funtoo-crates-bundle-2ef8193c9df47b30c3e629a628af569e0b6c24cd83f266075c54c0c506657bea43124c2104c2256eb213aab83fe8c898cc0ae739c51db39d0aab4b335aef2c3c.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"

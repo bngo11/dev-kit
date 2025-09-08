@@ -291,8 +291,8 @@ EGO_SUM=(
 	"github.com/spf13/afero v1.9.5/go.mod"
 	"github.com/spkg/bom v0.0.0-20160624110644-59b7046e48ad"
 	"github.com/spkg/bom v0.0.0-20160624110644-59b7046e48ad/go.mod"
-	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20250429125209-dcf39e4641f5"
-	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20250429125209-dcf39e4641f5/go.mod"
+	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20250905083220-c50528f08304"
+	"github.com/stefanhaller/git-todo-parser v0.0.7-0.20250905083220-c50528f08304/go.mod"
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/testify v0.0.0-20161117074351-18a02ba4a312/go.mod"
 	"github.com/stretchr/testify v1.2.2/go.mod"
@@ -703,8 +703,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/jesseduffield/lazygit/tarball/e0552aae209cf4f2dc09dd235689fbe534db6858 -> lazygit-0.54.2-e0552aa.tar.gz
-https://direct.funtoo.org/85/f5/1b/85f51bea7491b69f80db11e6d31392a5e7bbea05a2f94626b3a359374526da81da489db194c9b932d5eb08a8c1affd9b2485415144fef93f812e9a793d4ac1a6 -> lazygit-0.54.2-funtoo-go-bundle-f474c08fcb4d3dd5cc5cf9957d030b34f178cf8e07c15c6df2181658ccd01ce3f366ffeee78fdb0d2d0978af54cfd533ea84fb62f1e0c12c03239fdaea48017d.tar.gz"
+SRC_URI="https://github.com/jesseduffield/lazygit/tarball/63f16e5ae1c328a8dde3d4445ec56cd54a106a23 -> lazygit-0.55.0-63f16e5.tar.gz
+https://direct.funtoo.org/3f/0b/b8/3f0bb879d44a66f6dcde57d5a1511741d2513ecdc89912e08d0087ee855f6efb66e3449df04296539c8e3596f3e1cb8edc8f49a30e341b65f4e97a1616550f27 -> lazygit-0.55.0-funtoo-go-bundle-3a9cb21d4acd2650485d944675e23541b3d90c601f76f40315fd3d71af2f1651db36f5a6c8aa3132bd6f80fb4cc3ee047a64981775f43d4bbd0520e567cbd8af.tar.gz"
 
 DESCRIPTION="A simple terminal UI for git commands"
 HOMEPAGE="http://github.com/jesseduffield/lazygit"
