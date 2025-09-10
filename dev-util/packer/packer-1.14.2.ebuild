@@ -311,6 +311,8 @@ EGO_SUM=(
 	"github.com/hashicorp/memberlist v0.5.0/go.mod"
 	"github.com/hashicorp/packer-plugin-sdk v0.6.2"
 	"github.com/hashicorp/packer-plugin-sdk v0.6.2/go.mod"
+	"github.com/hashicorp/packer-plugin-sdk v0.6.3"
+	"github.com/hashicorp/packer-plugin-sdk v0.6.3/go.mod"
 	"github.com/hashicorp/serf v0.10.1"
 	"github.com/hashicorp/serf v0.10.1/go.mod"
 	"github.com/hashicorp/vault/api v1.14.0"
@@ -539,6 +541,8 @@ EGO_SUM=(
 	"github.com/ulikunitz/xz v0.5.6/go.mod"
 	"github.com/ulikunitz/xz v0.5.10"
 	"github.com/ulikunitz/xz v0.5.10/go.mod"
+	"github.com/ulikunitz/xz v0.5.15"
+	"github.com/ulikunitz/xz v0.5.15/go.mod"
 	"github.com/vmihailenco/msgpack/v5 v5.3.5"
 	"github.com/vmihailenco/msgpack/v5 v5.3.5/go.mod"
 	"github.com/vmihailenco/tagparser/v2 v2.0.0"
@@ -764,8 +768,8 @@ go-module_set_globals
 
 DESCRIPTION="A tool for creating identical machine images for multiple platforms"
 HOMEPAGE="https://www.packer.io/ https://github.com/hashicorp/packer"
-SRC_URI="https://github.com/hashicorp/packer/tarball/8cb0be165d1695e024bb055e69467d81620beec2 -> packer-1.14.1-8cb0be1.tar.gz
-https://direct.funtoo.org/02/e1/38/02e138a7a5ad32ad1d3f49ef43ae831e43c09004a30c7751c0e48a38c3e55339048f673d5fee719e9a5da88a7d4eeecef414d621001ef6d2d6ce30074418ffe1 -> packer-1.14.1-funtoo-go-bundle-3e33915779df0985983bae9295e97898680304863c3280dd6cb5c081fdb6c732edc28178274392efbb4029617fe956744778eb2f7216fc4d949bf660df152cb4.tar.gz"
+SRC_URI="https://github.com/hashicorp/packer/tarball/e703473a9baf87dfd62ea1c9a3dc6200decd5e32 -> packer-1.14.2-e703473.tar.gz
+https://direct.funtoo.org/19/9a/e7/199ae75b3053343b6f8ff519f2062191dca15311f12df326140568fb9ef792daf7ac2005401d58947afa240fb8b33bb844a3785228421514eb52f93fb8f15ea9 -> packer-1.14.2-funtoo-go-bundle-93301a40abcacb430b94d39ca66c1abf75e9783e95e46090c8e7e5fec8a6d6515aa638699a957f1c086a7bd9278316b945e3acfcceb7eadb4b97599edd241196.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -774,7 +778,7 @@ KEYWORDS="*"
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.17"
-S="${WORKDIR}/hashicorp-packer-8cb0be1"
+S="${WORKDIR}/hashicorp-packer-e703473"
 
 src_compile() {
 	go build -o "${PN}" || die "compile failed"
