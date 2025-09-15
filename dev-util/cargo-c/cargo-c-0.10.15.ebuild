@@ -275,11 +275,11 @@ https://crates.io/api/v1/crates/sec1/0.7.3/download -> sec1-0.7.3.crate
 https://crates.io/api/v1/crates/security-framework/3.4.0/download -> security-framework-3.4.0.crate
 https://crates.io/api/v1/crates/security-framework-sys/2.15.0/download -> security-framework-sys-2.15.0.crate
 https://crates.io/api/v1/crates/semver/1.0.27/download -> semver-1.0.27.crate
-https://crates.io/api/v1/crates/serde/1.0.223/download -> serde-1.0.223.crate
+https://crates.io/api/v1/crates/serde/1.0.224/download -> serde-1.0.224.crate
 https://crates.io/api/v1/crates/serde-untagged/0.1.9/download -> serde-untagged-0.1.9.crate
 https://crates.io/api/v1/crates/serde-value/0.7.0/download -> serde-value-0.7.0.crate
-https://crates.io/api/v1/crates/serde_core/1.0.223/download -> serde_core-1.0.223.crate
-https://crates.io/api/v1/crates/serde_derive/1.0.223/download -> serde_derive-1.0.223.crate
+https://crates.io/api/v1/crates/serde_core/1.0.224/download -> serde_core-1.0.224.crate
+https://crates.io/api/v1/crates/serde_derive/1.0.224/download -> serde_derive-1.0.224.crate
 https://crates.io/api/v1/crates/serde_ignored/0.1.14/download -> serde_ignored-0.1.14.crate
 https://crates.io/api/v1/crates/serde_json/1.0.145/download -> serde_json-1.0.145.crate
 https://crates.io/api/v1/crates/serde_spanned/0.6.9/download -> serde_spanned-0.6.9.crate
@@ -343,8 +343,8 @@ https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.1+wasi-snapshot-preview1/download -> wasi-0.11.1+wasi-snapshot-preview1.crate
-https://crates.io/api/v1/crates/wasi/0.14.5+wasi-0.2.4/download -> wasi-0.14.5+wasi-0.2.4.crate
-https://crates.io/api/v1/crates/wasip2/1.0.0+wasi-0.2.4/download -> wasip2-1.0.0+wasi-0.2.4.crate
+https://crates.io/api/v1/crates/wasi/0.14.6+wasi-0.2.4/download -> wasi-0.14.6+wasi-0.2.4.crate
+https://crates.io/api/v1/crates/wasip2/1.0.1+wasi-0.2.4/download -> wasip2-1.0.1+wasi-0.2.4.crate
 https://crates.io/api/v1/crates/wasm-bindgen/0.2.101/download -> wasm-bindgen-0.2.101.crate
 https://crates.io/api/v1/crates/wasm-bindgen-backend/0.2.101/download -> wasm-bindgen-backend-0.2.101.crate
 https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.101/download -> wasm-bindgen-macro-0.2.101.crate
@@ -376,7 +376,7 @@ https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.53.0/download -> window
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download -> windows_x86_64_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.0/download -> windows_x86_64_msvc-0.53.0.crate
 https://crates.io/api/v1/crates/winnow/0.7.13/download -> winnow-0.7.13.crate
-https://crates.io/api/v1/crates/wit-bindgen/0.45.1/download -> wit-bindgen-0.45.1.crate
+https://crates.io/api/v1/crates/wit-bindgen/0.46.0/download -> wit-bindgen-0.46.0.crate
 https://crates.io/api/v1/crates/writeable/0.6.1/download -> writeable-0.6.1.crate
 https://crates.io/api/v1/crates/yoke/0.8.0/download -> yoke-0.8.0.crate
 https://crates.io/api/v1/crates/yoke-derive/0.8.0/download -> yoke-derive-0.8.0.crate
