@@ -177,7 +177,7 @@ https://crates.io/api/v1/crates/idna_adapter/1.2.1/download -> idna_adapter-1.2.
 https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
 https://crates.io/api/v1/crates/im-rc/15.1.0/download -> im-rc-15.1.0.crate
 https://crates.io/api/v1/crates/implib/0.4.0/download -> implib-0.4.0.crate
-https://crates.io/api/v1/crates/indexmap/2.11.1/download -> indexmap-2.11.1.crate
+https://crates.io/api/v1/crates/indexmap/2.11.3/download -> indexmap-2.11.3.crate
 https://crates.io/api/v1/crates/is_executable/1.0.5/download -> is_executable-1.0.5.crate
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.1/download -> is_terminal_polyfill-1.70.1.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
@@ -343,7 +343,7 @@ https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.1+wasi-snapshot-preview1/download -> wasi-0.11.1+wasi-snapshot-preview1.crate
-https://crates.io/api/v1/crates/wasi/0.14.6+wasi-0.2.4/download -> wasi-0.14.6+wasi-0.2.4.crate
+https://crates.io/api/v1/crates/wasi/0.14.7+wasi-0.2.4/download -> wasi-0.14.7+wasi-0.2.4.crate
 https://crates.io/api/v1/crates/wasip2/1.0.1+wasi-0.2.4/download -> wasip2-1.0.1+wasi-0.2.4.crate
 https://crates.io/api/v1/crates/wasm-bindgen/0.2.101/download -> wasm-bindgen-0.2.101.crate
 https://crates.io/api/v1/crates/wasm-bindgen-backend/0.2.101/download -> wasm-bindgen-backend-0.2.101.crate
