@@ -187,7 +187,7 @@ https://crates.io/api/v1/crates/jiff-static/0.2.15/download -> jiff-static-0.2.1
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.34/download -> jobserver-0.1.34.crate
-https://crates.io/api/v1/crates/js-sys/0.3.79/download -> js-sys-0.3.79.crate
+https://crates.io/api/v1/crates/js-sys/0.3.80/download -> js-sys-0.3.80.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/lazycell/1.3.0/download -> lazycell-1.3.0.crate
@@ -345,11 +345,11 @@ https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.1+wasi-snapshot-preview1/download -> wasi-0.11.1+wasi-snapshot-preview1.crate
 https://crates.io/api/v1/crates/wasi/0.14.7+wasi-0.2.4/download -> wasi-0.14.7+wasi-0.2.4.crate
 https://crates.io/api/v1/crates/wasip2/1.0.1+wasi-0.2.4/download -> wasip2-1.0.1+wasi-0.2.4.crate
-https://crates.io/api/v1/crates/wasm-bindgen/0.2.102/download -> wasm-bindgen-0.2.102.crate
-https://crates.io/api/v1/crates/wasm-bindgen-backend/0.2.102/download -> wasm-bindgen-backend-0.2.102.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.102/download -> wasm-bindgen-macro-0.2.102.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.102/download -> wasm-bindgen-macro-support-0.2.102.crate
-https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.102/download -> wasm-bindgen-shared-0.2.102.crate
+https://crates.io/api/v1/crates/wasm-bindgen/0.2.103/download -> wasm-bindgen-0.2.103.crate
+https://crates.io/api/v1/crates/wasm-bindgen-backend/0.2.103/download -> wasm-bindgen-backend-0.2.103.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.103/download -> wasm-bindgen-macro-0.2.103.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.103/download -> wasm-bindgen-macro-support-0.2.103.crate
+https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.103/download -> wasm-bindgen-shared-0.2.103.crate
 https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
 https://crates.io/api/v1/crates/windows-link/0.1.3/download -> windows-link-0.1.3.crate
 https://crates.io/api/v1/crates/windows-link/0.2.0/download -> windows-link-0.2.0.crate
