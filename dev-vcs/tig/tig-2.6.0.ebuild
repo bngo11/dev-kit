@@ -5,7 +5,7 @@ EAPI=7
 inherit bash-completion-r1
 
 HOMEPAGE="https://jonas.github.io/tig/"
-SRC_URI="https://github.com/jonas/tig/releases/download/tig-2.5.12/tig-2.5.12.tar.gz -> tig-2.5.12.tar.gz"
+SRC_URI="https://github.com/jonas/tig/releases/download/tig-2.6.0/tig-2.6.0.tar.gz -> tig-2.6.0.tar.gz"
 KEYWORDS="*"
 
 DESCRIPTION="text mode interface for git"
