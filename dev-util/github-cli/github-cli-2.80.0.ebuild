@@ -1424,6 +1424,10 @@ EGO_SUM=(
 	"github.com/transparency-dev/tessera v0.2.1-0.20250610150926-8ee4e93b2823/go.mod"
 	"github.com/vbatts/tar-split v0.12.1"
 	"github.com/vbatts/tar-split v0.12.1/go.mod"
+	"github.com/vmihailenco/msgpack/v5 v5.4.1"
+	"github.com/vmihailenco/msgpack/v5 v5.4.1/go.mod"
+	"github.com/vmihailenco/tagparser/v2 v2.0.0"
+	"github.com/vmihailenco/tagparser/v2 v2.0.0/go.mod"
 	"github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e"
 	"github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e/go.mod"
 	"github.com/yuin/goldmark v1.1.25/go.mod"
@@ -2249,8 +2253,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/6b19a854710ff2c81070f109f35434cd20e40115 -> cli-2.79.0-6b19a85.tar.gz
-https://direct.funtoo.org/1b/86/12/1b8612c7fdff780c0f10f85d6a1547f3c9397f555db3944cd301ad20496baf027423c709e4720885137c0f9a0ffca148c9baf4942e239b2a6c142ff9eeff2184 -> github-cli-2.79.0-funtoo-go-bundle-f209f7d96f7b74ed93e96886c2f8df72c4bc653d083e01baa1a7345d50bf1830c4b4cd8e35ff983baf1cfb9a268900f5b4901b97057e938e3e1b0e6802bc93cb.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/fdd9e7646b7b8ce1d77f738e412ffc608c2f0545 -> cli-2.80.0-fdd9e76.tar.gz
+https://direct.funtoo.org/62/cf/51/62cf51dc7b6effae6156bf7c7a935e1aadc5ae16173182d74042ff01ba85aacad24a334a7ddb2c7c199a15e5a0bb15b48e16e839bed28f4922f97ab3e2f5af0b -> github-cli-2.80.0-funtoo-go-bundle-eb2eb524d37dff818e3339cfc4913812c4444cdc4a2f378c0b7852517f40014a810ad21f8baa76e7c9117e2948d20fe15eb6873e4a2ef87af995ad900a0c7540.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -2262,7 +2266,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.79.0"
+	export GH_VERSION="v2.80.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
