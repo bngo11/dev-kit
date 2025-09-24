@@ -9,5 +9,9 @@ libdbi-drivers_rule:
         patches:
           - 0.9.0-doc-build-fix.patch
           - 0.9.0-slibtool-libdir.patch
+          - 0.9.0-clang16-build-fix.patch
+          - 0.9.0-fortify-source-sqlite.patch
+          - 0.9.0-buffer-overflow-sqlite.patch
+          - 0.9.0-c99.patch
         version: 0.9.0
 

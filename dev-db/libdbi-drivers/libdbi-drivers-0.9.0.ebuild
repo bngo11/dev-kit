@@ -30,6 +30,10 @@ DOCS=( AUTHORS ChangeLog NEWS README README.osx TODO )
 PATCHES=(
 	"${FILESDIR}"/"${PN}-0.9.0-doc-build-fix.patch"
 	"${FILESDIR}"/"${PN}-0.9.0-slibtool-libdir.patch"
+	"${FILESDIR}"/"${PN}-0.9.0-clang16-build-fix.patch"
+	"${FILESDIR}"/"${PN}-0.9.0-fortify-source-sqlite.patch"
+	"${FILESDIR}"/"${PN}-0.9.0-buffer-overflow-sqlite.patch"
+	"${FILESDIR}"/"${PN}-0.9.0-c99.patch"
 )
 
 pkg_setup() {

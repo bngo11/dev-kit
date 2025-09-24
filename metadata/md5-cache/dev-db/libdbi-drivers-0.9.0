@@ -13,4 +13,4 @@ RESTRICT=firebird? ( bindist )
 SLOT=0
 SRC_URI=https://sourceforge.net/projects/libdbi-drivers/files/libdbi-drivers/libdbi-drivers-0.9.0/libdbi-drivers-0.9.0.tar.gz -> libdbi-drivers-0.9.0.tar.gz
 _eclasses_=autotools	619846d0d85ed5d3334692c0215a603e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=82dca4c11707fbe6dd8711b03b41684c
+_md5_=88b3d60bbbd291627ba6df69a8f9c04f
