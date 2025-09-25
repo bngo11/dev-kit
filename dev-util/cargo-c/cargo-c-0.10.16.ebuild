@@ -208,7 +208,7 @@ https://crates.io/api/v1/crates/lock_api/0.4.13/download -> lock_api-0.4.13.crat
 https://crates.io/api/v1/crates/log/0.4.28/download -> log-0.4.28.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.10/download -> maybe-async-0.2.10.crate
-https://crates.io/api/v1/crates/memchr/2.7.5/download -> memchr-2.7.5.crate
+https://crates.io/api/v1/crates/memchr/2.7.6/download -> memchr-2.7.6.crate
 https://crates.io/api/v1/crates/memmap2/0.9.8/download -> memmap2-0.9.8.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
@@ -357,14 +357,13 @@ https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.104/download -> wasm-bind
 https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.104/download -> wasm-bindgen-macro-support-0.2.104.crate
 https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.104/download -> wasm-bindgen-shared-0.2.104.crate
 https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
-https://crates.io/api/v1/crates/windows-link/0.1.3/download -> windows-link-0.1.3.crate
 https://crates.io/api/v1/crates/windows-link/0.2.0/download -> windows-link-0.2.0.crate
 https://crates.io/api/v1/crates/windows-sys/0.52.0/download -> windows-sys-0.52.0.crate
 https://crates.io/api/v1/crates/windows-sys/0.59.0/download -> windows-sys-0.59.0.crate
 https://crates.io/api/v1/crates/windows-sys/0.60.2/download -> windows-sys-0.60.2.crate
-https://crates.io/api/v1/crates/windows-sys/0.61.0/download -> windows-sys-0.61.0.crate
+https://crates.io/api/v1/crates/windows-sys/0.61.1/download -> windows-sys-0.61.1.crate
 https://crates.io/api/v1/crates/windows-targets/0.52.6/download -> windows-targets-0.52.6.crate
-https://crates.io/api/v1/crates/windows-targets/0.53.3/download -> windows-targets-0.53.3.crate
+https://crates.io/api/v1/crates/windows-targets/0.53.4/download -> windows-targets-0.53.4.crate
 https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.52.6/download -> windows_aarch64_gnullvm-0.52.6.crate
 https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.53.0/download -> windows_aarch64_gnullvm-0.53.0.crate
 https://crates.io/api/v1/crates/windows_aarch64_msvc/0.52.6/download -> windows_aarch64_msvc-0.52.6.crate
