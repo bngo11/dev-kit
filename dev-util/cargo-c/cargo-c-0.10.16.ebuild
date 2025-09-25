@@ -259,8 +259,8 @@ https://crates.io/api/v1/crates/rand_core/0.6.4/download -> rand_core-0.6.4.crat
 https://crates.io/api/v1/crates/rand_core/0.9.3/download -> rand_core-0.9.3.crate
 https://crates.io/api/v1/crates/rand_xoshiro/0.6.0/download -> rand_xoshiro-0.6.0.crate
 https://crates.io/api/v1/crates/redox_syscall/0.5.17/download -> redox_syscall-0.5.17.crate
-https://crates.io/api/v1/crates/regex/1.11.2/download -> regex-1.11.2.crate
-https://crates.io/api/v1/crates/regex-automata/0.4.10/download -> regex-automata-0.4.10.crate
+https://crates.io/api/v1/crates/regex/1.11.3/download -> regex-1.11.3.crate
+https://crates.io/api/v1/crates/regex-automata/0.4.11/download -> regex-automata-0.4.11.crate
 https://crates.io/api/v1/crates/regex-syntax/0.8.6/download -> regex-syntax-0.8.6.crate
 https://crates.io/api/v1/crates/rfc6979/0.4.0/download -> rfc6979-0.4.0.crate
 https://crates.io/api/v1/crates/rusqlite/0.36.0/download -> rusqlite-0.36.0.crate
