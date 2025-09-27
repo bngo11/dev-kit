@@ -4,7 +4,7 @@ EAPI="7"
 
 DESCRIPTION="A collection of tools that operate on patch files"
 HOMEPAGE="http://cyberelk.net/tim/patchutils/"
-SRC_URI="http://cyberelk.net/tim/data/patchutils/stable/patchutils-0.4.3.tar.xz -> patchutils-0.4.3.tar.xz"
+SRC_URI="https://github.com/twaugh/patchutils/releases/download/0.4.4/patchutils-0.4.4.tar.xz -> patchutils-0.4.4.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"

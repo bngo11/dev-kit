@@ -41,7 +41,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.3.1/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.23/download -> cargo-util-0.2.23.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.10.0/download -> cargo-util-schemas-0.10.0.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.0/download -> cbindgen-0.29.0.crate
-https://crates.io/api/v1/crates/cc/1.2.38/download -> cc-1.2.38.crate
+https://crates.io/api/v1/crates/cc/1.2.39/download -> cc-1.2.39.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.3/download -> cfg-if-1.0.3.crate
 https://crates.io/api/v1/crates/clap/4.5.48/download -> clap-4.5.48.crate
 https://crates.io/api/v1/crates/clap_builder/4.5.48/download -> clap_builder-4.5.48.crate
@@ -277,11 +277,11 @@ https://crates.io/api/v1/crates/sec1/0.7.3/download -> sec1-0.7.3.crate
 https://crates.io/api/v1/crates/security-framework/3.5.0/download -> security-framework-3.5.0.crate
 https://crates.io/api/v1/crates/security-framework-sys/2.15.0/download -> security-framework-sys-2.15.0.crate
 https://crates.io/api/v1/crates/semver/1.0.27/download -> semver-1.0.27.crate
-https://crates.io/api/v1/crates/serde/1.0.226/download -> serde-1.0.226.crate
+https://crates.io/api/v1/crates/serde/1.0.227/download -> serde-1.0.227.crate
 https://crates.io/api/v1/crates/serde-untagged/0.1.9/download -> serde-untagged-0.1.9.crate
 https://crates.io/api/v1/crates/serde-value/0.7.0/download -> serde-value-0.7.0.crate
-https://crates.io/api/v1/crates/serde_core/1.0.226/download -> serde_core-1.0.226.crate
-https://crates.io/api/v1/crates/serde_derive/1.0.226/download -> serde_derive-1.0.226.crate
+https://crates.io/api/v1/crates/serde_core/1.0.227/download -> serde_core-1.0.227.crate
+https://crates.io/api/v1/crates/serde_derive/1.0.227/download -> serde_derive-1.0.227.crate
 https://crates.io/api/v1/crates/serde_ignored/0.1.14/download -> serde_ignored-0.1.14.crate
 https://crates.io/api/v1/crates/serde_json/1.0.145/download -> serde_json-1.0.145.crate
 https://crates.io/api/v1/crates/serde_spanned/0.6.9/download -> serde_spanned-0.6.9.crate
