@@ -277,11 +277,11 @@ https://crates.io/api/v1/crates/sec1/0.7.3/download -> sec1-0.7.3.crate
 https://crates.io/api/v1/crates/security-framework/3.5.0/download -> security-framework-3.5.0.crate
 https://crates.io/api/v1/crates/security-framework-sys/2.15.0/download -> security-framework-sys-2.15.0.crate
 https://crates.io/api/v1/crates/semver/1.0.27/download -> semver-1.0.27.crate
-https://crates.io/api/v1/crates/serde/1.0.227/download -> serde-1.0.227.crate
+https://crates.io/api/v1/crates/serde/1.0.228/download -> serde-1.0.228.crate
 https://crates.io/api/v1/crates/serde-untagged/0.1.9/download -> serde-untagged-0.1.9.crate
 https://crates.io/api/v1/crates/serde-value/0.7.0/download -> serde-value-0.7.0.crate
-https://crates.io/api/v1/crates/serde_core/1.0.227/download -> serde_core-1.0.227.crate
-https://crates.io/api/v1/crates/serde_derive/1.0.227/download -> serde_derive-1.0.227.crate
+https://crates.io/api/v1/crates/serde_core/1.0.228/download -> serde_core-1.0.228.crate
+https://crates.io/api/v1/crates/serde_derive/1.0.228/download -> serde_derive-1.0.228.crate
 https://crates.io/api/v1/crates/serde_ignored/0.1.14/download -> serde_ignored-0.1.14.crate
 https://crates.io/api/v1/crates/serde_json/1.0.145/download -> serde_json-1.0.145.crate
 https://crates.io/api/v1/crates/serde_spanned/0.6.9/download -> serde_spanned-0.6.9.crate
