@@ -299,7 +299,7 @@ https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.
 https://crates.io/api/v1/crates/smallvec/1.15.1/download -> smallvec-1.15.1.crate
 https://crates.io/api/v1/crates/socket2/0.6.0/download -> socket2-0.6.0.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
-https://crates.io/api/v1/crates/stable_deref_trait/1.2.0/download -> stable_deref_trait-1.2.0.crate
+https://crates.io/api/v1/crates/stable_deref_trait/1.2.1/download -> stable_deref_trait-1.2.1.crate
 https://crates.io/api/v1/crates/static_assertions/1.1.0/download -> static_assertions-1.1.0.crate
 https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
