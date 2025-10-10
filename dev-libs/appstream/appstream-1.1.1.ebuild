@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-libs/glib-2.58
 	dev-libs/libxml2
 	dev-libs/libxmlb
-	dev-libs/libyaml
+	dev-libs/libfyaml
 	dev-libs/snowball-stemmer
 	>=net-misc/curl-7.62
 	dev-libs/gobject-introspection
