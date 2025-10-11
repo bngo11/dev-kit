@@ -216,7 +216,7 @@ https://crates.io/api/v1/crates/miniz_oxide/0.8.9/download -> miniz_oxide-0.8.9.
 https://crates.io/api/v1/crates/miow/0.6.1/download -> miow-0.6.1.crate
 https://crates.io/api/v1/crates/nom/7.1.3/download -> nom-7.1.3.crate
 https://crates.io/api/v1/crates/normpath/1.5.0/download -> normpath-1.5.0.crate
-https://crates.io/api/v1/crates/nu-ansi-term/0.50.1/download -> nu-ansi-term-0.50.1.crate
+https://crates.io/api/v1/crates/nu-ansi-term/0.50.3/download -> nu-ansi-term-0.50.3.crate
 https://crates.io/api/v1/crates/num-conv/0.1.0/download -> num-conv-0.1.0.crate
 https://crates.io/api/v1/crates/num-traits/0.2.19/download -> num-traits-0.2.19.crate
 https://crates.io/api/v1/crates/object/0.37.3/download -> object-0.37.3.crate
@@ -259,9 +259,9 @@ https://crates.io/api/v1/crates/rand_core/0.6.4/download -> rand_core-0.6.4.crat
 https://crates.io/api/v1/crates/rand_core/0.9.3/download -> rand_core-0.9.3.crate
 https://crates.io/api/v1/crates/rand_xoshiro/0.6.0/download -> rand_xoshiro-0.6.0.crate
 https://crates.io/api/v1/crates/redox_syscall/0.5.18/download -> redox_syscall-0.5.18.crate
-https://crates.io/api/v1/crates/regex/1.11.3/download -> regex-1.11.3.crate
-https://crates.io/api/v1/crates/regex-automata/0.4.11/download -> regex-automata-0.4.11.crate
-https://crates.io/api/v1/crates/regex-syntax/0.8.6/download -> regex-syntax-0.8.6.crate
+https://crates.io/api/v1/crates/regex/1.12.1/download -> regex-1.12.1.crate
+https://crates.io/api/v1/crates/regex-automata/0.4.12/download -> regex-automata-0.4.12.crate
+https://crates.io/api/v1/crates/regex-syntax/0.8.7/download -> regex-syntax-0.8.7.crate
 https://crates.io/api/v1/crates/rfc6979/0.4.0/download -> rfc6979-0.4.0.crate
 https://crates.io/api/v1/crates/rusqlite/0.36.0/download -> rusqlite-0.36.0.crate
 https://crates.io/api/v1/crates/rustc-hash/2.1.1/download -> rustc-hash-2.1.1.crate
