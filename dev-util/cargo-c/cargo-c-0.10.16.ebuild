@@ -152,7 +152,7 @@ https://crates.io/api/v1/crates/gix-utils/0.3.0/download -> gix-utils-0.3.0.crat
 https://crates.io/api/v1/crates/gix-validate/0.10.0/download -> gix-validate-0.10.0.crate
 https://crates.io/api/v1/crates/gix-worktree/0.42.0/download -> gix-worktree-0.42.0.crate
 https://crates.io/api/v1/crates/glob/0.3.3/download -> glob-0.3.3.crate
-https://crates.io/api/v1/crates/globset/0.4.16/download -> globset-0.4.16.crate
+https://crates.io/api/v1/crates/globset/0.4.17/download -> globset-0.4.17.crate
 https://crates.io/api/v1/crates/group/0.13.0/download -> group-0.13.0.crate
 https://crates.io/api/v1/crates/hash32/0.3.1/download -> hash32-0.3.1.crate
 https://crates.io/api/v1/crates/hashbrown/0.14.5/download -> hashbrown-0.14.5.crate
@@ -175,7 +175,7 @@ https://crates.io/api/v1/crates/icu_properties_data/2.0.1/download -> icu_proper
 https://crates.io/api/v1/crates/icu_provider/2.0.0/download -> icu_provider-2.0.0.crate
 https://crates.io/api/v1/crates/idna/1.1.0/download -> idna-1.1.0.crate
 https://crates.io/api/v1/crates/idna_adapter/1.2.1/download -> idna_adapter-1.2.1.crate
-https://crates.io/api/v1/crates/ignore/0.4.23/download -> ignore-0.4.23.crate
+https://crates.io/api/v1/crates/ignore/0.4.24/download -> ignore-0.4.24.crate
 https://crates.io/api/v1/crates/im-rc/15.1.0/download -> im-rc-15.1.0.crate
 https://crates.io/api/v1/crates/imara-diff/0.1.8/download -> imara-diff-0.1.8.crate
 https://crates.io/api/v1/crates/implib/0.4.0/download -> implib-0.4.0.crate
