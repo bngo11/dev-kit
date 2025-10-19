@@ -305,7 +305,7 @@ https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/supports-hyperlinks/3.1.0/download -> supports-hyperlinks-3.1.0.crate
 https://crates.io/api/v1/crates/supports-unicode/3.0.0/download -> supports-unicode-3.0.0.crate
-https://crates.io/api/v1/crates/syn/2.0.106/download -> syn-2.0.106.crate
+https://crates.io/api/v1/crates/syn/2.0.107/download -> syn-2.0.107.crate
 https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.13.2.crate
 https://crates.io/api/v1/crates/tar/0.4.44/download -> tar-0.4.44.crate
 https://crates.io/api/v1/crates/tempfile/3.23.0/download -> tempfile-3.23.0.crate
