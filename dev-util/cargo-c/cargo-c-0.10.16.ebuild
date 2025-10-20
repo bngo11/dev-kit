@@ -24,7 +24,7 @@ https://crates.io/api/v1/crates/autocfg/1.5.0/download -> autocfg-1.5.0.crate
 https://crates.io/api/v1/crates/base16ct/0.2.0/download -> base16ct-0.2.0.crate
 https://crates.io/api/v1/crates/base64/0.22.1/download -> base64-0.22.1.crate
 https://crates.io/api/v1/crates/base64ct/1.8.0/download -> base64ct-1.8.0.crate
-https://crates.io/api/v1/crates/bitflags/2.9.4/download -> bitflags-2.9.4.crate
+https://crates.io/api/v1/crates/bitflags/2.10.0/download -> bitflags-2.10.0.crate
 https://crates.io/api/v1/crates/bitmaps/2.1.0/download -> bitmaps-2.1.0.crate
 https://crates.io/api/v1/crates/blake3/1.8.2/download -> blake3-1.8.2.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
@@ -43,8 +43,8 @@ https://crates.io/api/v1/crates/cargo-util-schemas/0.10.0/download -> cargo-util
 https://crates.io/api/v1/crates/cbindgen/0.29.0/download -> cbindgen-0.29.0.crate
 https://crates.io/api/v1/crates/cc/1.2.41/download -> cc-1.2.41.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
-https://crates.io/api/v1/crates/clap/4.5.49/download -> clap-4.5.49.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.49/download -> clap_builder-4.5.49.crate
+https://crates.io/api/v1/crates/clap/4.5.50/download -> clap-4.5.50.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.50/download -> clap_builder-4.5.50.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.59/download -> clap_complete-4.5.59.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.49/download -> clap_derive-4.5.49.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.6/download -> clap_lex-0.7.6.crate
@@ -226,7 +226,7 @@ https://crates.io/api/v1/crates/opener/0.8.3/download -> opener-0.8.3.crate
 https://crates.io/api/v1/crates/openssl/0.10.74/download -> openssl-0.10.74.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
-https://crates.io/api/v1/crates/openssl-src/300.5.3+3.5.4/download -> openssl-src-300.5.3+3.5.4.crate
+https://crates.io/api/v1/crates/openssl-src/300.5.4+3.5.4/download -> openssl-src-300.5.4+3.5.4.crate
 https://crates.io/api/v1/crates/openssl-sys/0.9.110/download -> openssl-sys-0.9.110.crate
 https://crates.io/api/v1/crates/ordered-float/2.10.1/download -> ordered-float-2.10.1.crate
 https://crates.io/api/v1/crates/orion/0.17.11/download -> orion-0.17.11.crate
