@@ -166,13 +166,13 @@ https://crates.io/api/v1/crates/hkdf/0.12.4/download -> hkdf-0.12.4.crate
 https://crates.io/api/v1/crates/hmac/0.12.1/download -> hmac-0.12.1.crate
 https://crates.io/api/v1/crates/home/0.5.12/download -> home-0.5.12.crate
 https://crates.io/api/v1/crates/http-auth/0.1.10/download -> http-auth-0.1.10.crate
-https://crates.io/api/v1/crates/icu_collections/2.0.0/download -> icu_collections-2.0.0.crate
-https://crates.io/api/v1/crates/icu_locale_core/2.0.0/download -> icu_locale_core-2.0.0.crate
-https://crates.io/api/v1/crates/icu_normalizer/2.0.0/download -> icu_normalizer-2.0.0.crate
-https://crates.io/api/v1/crates/icu_normalizer_data/2.0.0/download -> icu_normalizer_data-2.0.0.crate
-https://crates.io/api/v1/crates/icu_properties/2.0.1/download -> icu_properties-2.0.1.crate
-https://crates.io/api/v1/crates/icu_properties_data/2.0.1/download -> icu_properties_data-2.0.1.crate
-https://crates.io/api/v1/crates/icu_provider/2.0.0/download -> icu_provider-2.0.0.crate
+https://crates.io/api/v1/crates/icu_collections/2.1.0/download -> icu_collections-2.1.0.crate
+https://crates.io/api/v1/crates/icu_locale_core/2.1.0/download -> icu_locale_core-2.1.0.crate
+https://crates.io/api/v1/crates/icu_normalizer/2.1.0/download -> icu_normalizer-2.1.0.crate
+https://crates.io/api/v1/crates/icu_normalizer_data/2.1.0/download -> icu_normalizer_data-2.1.0.crate
+https://crates.io/api/v1/crates/icu_properties/2.1.0/download -> icu_properties-2.1.0.crate
+https://crates.io/api/v1/crates/icu_properties_data/2.1.0/download -> icu_properties_data-2.1.0.crate
+https://crates.io/api/v1/crates/icu_provider/2.1.0/download -> icu_provider-2.1.0.crate
 https://crates.io/api/v1/crates/idna/1.1.0/download -> idna-1.1.0.crate
 https://crates.io/api/v1/crates/idna_adapter/1.2.1/download -> idna_adapter-1.2.1.crate
 https://crates.io/api/v1/crates/ignore/0.4.24/download -> ignore-0.4.24.crate
@@ -203,7 +203,7 @@ https://crates.io/api/v1/crates/libssh2-sys/0.3.1/download -> libssh2-sys-0.3.1.
 https://crates.io/api/v1/crates/libz-rs-sys/0.5.2/download -> libz-rs-sys-0.5.2.crate
 https://crates.io/api/v1/crates/libz-sys/1.1.22/download -> libz-sys-1.1.22.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.11.0/download -> linux-raw-sys-0.11.0.crate
-https://crates.io/api/v1/crates/litemap/0.8.0/download -> litemap-0.8.0.crate
+https://crates.io/api/v1/crates/litemap/0.8.1/download -> litemap-0.8.1.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
 https://crates.io/api/v1/crates/log/0.4.28/download -> log-0.4.28.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
@@ -244,7 +244,7 @@ https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.
 https://crates.io/api/v1/crates/plist/1.8.0/download -> plist-1.8.0.crate
 https://crates.io/api/v1/crates/portable-atomic/1.11.1/download -> portable-atomic-1.11.1.crate
 https://crates.io/api/v1/crates/portable-atomic-util/0.2.4/download -> portable-atomic-util-0.2.4.crate
-https://crates.io/api/v1/crates/potential_utf/0.1.3/download -> potential_utf-0.1.3.crate
+https://crates.io/api/v1/crates/potential_utf/0.1.4/download -> potential_utf-0.1.4.crate
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download -> ppv-lite86-0.2.21.crate
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
@@ -315,7 +315,7 @@ https://crates.io/api/v1/crates/thread_local/1.1.9/download -> thread_local-1.1.
 https://crates.io/api/v1/crates/time/0.3.44/download -> time-0.3.44.crate
 https://crates.io/api/v1/crates/time-core/0.1.6/download -> time-core-0.1.6.crate
 https://crates.io/api/v1/crates/time-macros/0.2.24/download -> time-macros-0.2.24.crate
-https://crates.io/api/v1/crates/tinystr/0.8.1/download -> tinystr-0.8.1.crate
+https://crates.io/api/v1/crates/tinystr/0.8.2/download -> tinystr-0.8.2.crate
 https://crates.io/api/v1/crates/tinyvec/1.10.0/download -> tinyvec-1.10.0.crate
 https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
 https://crates.io/api/v1/crates/toml/0.9.8/download -> toml-0.9.8.crate
@@ -376,17 +376,17 @@ https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download -> windows_x
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.1/download -> windows_x86_64_msvc-0.53.1.crate
 https://crates.io/api/v1/crates/winnow/0.7.13/download -> winnow-0.7.13.crate
 https://crates.io/api/v1/crates/wit-bindgen/0.46.0/download -> wit-bindgen-0.46.0.crate
-https://crates.io/api/v1/crates/writeable/0.6.1/download -> writeable-0.6.1.crate
-https://crates.io/api/v1/crates/yoke/0.8.0/download -> yoke-0.8.0.crate
-https://crates.io/api/v1/crates/yoke-derive/0.8.0/download -> yoke-derive-0.8.0.crate
+https://crates.io/api/v1/crates/writeable/0.6.2/download -> writeable-0.6.2.crate
+https://crates.io/api/v1/crates/yoke/0.8.1/download -> yoke-0.8.1.crate
+https://crates.io/api/v1/crates/yoke-derive/0.8.1/download -> yoke-derive-0.8.1.crate
 https://crates.io/api/v1/crates/zerocopy/0.8.27/download -> zerocopy-0.8.27.crate
 https://crates.io/api/v1/crates/zerocopy-derive/0.8.27/download -> zerocopy-derive-0.8.27.crate
 https://crates.io/api/v1/crates/zerofrom/0.1.6/download -> zerofrom-0.1.6.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.6/download -> zerofrom-derive-0.1.6.crate
 https://crates.io/api/v1/crates/zeroize/1.8.2/download -> zeroize-1.8.2.crate
-https://crates.io/api/v1/crates/zerotrie/0.2.2/download -> zerotrie-0.2.2.crate
-https://crates.io/api/v1/crates/zerovec/0.11.4/download -> zerovec-0.11.4.crate
-https://crates.io/api/v1/crates/zerovec-derive/0.11.1/download -> zerovec-derive-0.11.1.crate
+https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
+https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
+https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
 https://crates.io/api/v1/crates/zlib-rs/0.5.2/download -> zlib-rs-0.5.2.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
