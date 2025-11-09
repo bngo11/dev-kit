@@ -6,7 +6,7 @@ inherit autotools
 
 DESCRIPTION="Userspace RCU (read-copy-update) library"
 HOMEPAGE="https://liburcu.org/"
-SRC_URI="https://lttng.org/files/urcu/userspace-rcu-0.15.3.tar.bz2 -> userspace-rcu-0.15.3.tar.bz2"
+SRC_URI="https://lttng.org/files/urcu/userspace-rcu-0.15.4.tar.bz2 -> userspace-rcu-0.15.4.tar.bz2"
 
 LICENSE="LGPL-2.1"
 SLOT="0/8" # subslot = soname version
