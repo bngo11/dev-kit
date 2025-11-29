@@ -43,7 +43,7 @@ https://crates.io/api/v1/crates/cargo-platform/0.3.1/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.24/download -> cargo-util-0.2.24.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.10.1/download -> cargo-util-schemas-0.10.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crate
-https://crates.io/api/v1/crates/cc/1.2.47/download -> cc-1.2.47.crate
+https://crates.io/api/v1/crates/cc/1.2.48/download -> cc-1.2.48.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
 https://crates.io/api/v1/crates/clap/4.5.53/download -> clap-4.5.53.crate
@@ -193,7 +193,7 @@ https://crates.io/api/v1/crates/jiff-static/0.2.16/download -> jiff-static-0.2.1
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.4/download -> jiff-tzdb-0.1.4.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.34/download -> jobserver-0.1.34.crate
-https://crates.io/api/v1/crates/js-sys/0.3.82/download -> js-sys-0.3.82.crate
+https://crates.io/api/v1/crates/js-sys/0.3.83/download -> js-sys-0.3.83.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/lazycell/1.3.0/download -> lazycell-1.3.0.crate
@@ -340,12 +340,12 @@ https://crates.io/api/v1/crates/toml_datetime/0.7.3/download -> toml_datetime-0.
 https://crates.io/api/v1/crates/toml_edit/0.23.7/download -> toml_edit-0.23.7.crate
 https://crates.io/api/v1/crates/toml_parser/1.0.4/download -> toml_parser-1.0.4.crate
 https://crates.io/api/v1/crates/toml_writer/1.0.4/download -> toml_writer-1.0.4.crate
-https://crates.io/api/v1/crates/tracing/0.1.41/download -> tracing-0.1.41.crate
+https://crates.io/api/v1/crates/tracing/0.1.43/download -> tracing-0.1.43.crate
 https://crates.io/api/v1/crates/tracing-attributes/0.1.31/download -> tracing-attributes-0.1.31.crate
 https://crates.io/api/v1/crates/tracing-chrome/0.7.2/download -> tracing-chrome-0.7.2.crate
 https://crates.io/api/v1/crates/tracing-core/0.1.35/download -> tracing-core-0.1.35.crate
 https://crates.io/api/v1/crates/tracing-log/0.2.0/download -> tracing-log-0.2.0.crate
-https://crates.io/api/v1/crates/tracing-subscriber/0.3.20/download -> tracing-subscriber-0.3.20.crate
+https://crates.io/api/v1/crates/tracing-subscriber/0.3.22/download -> tracing-subscriber-0.3.22.crate
 https://crates.io/api/v1/crates/typeid/1.0.3/download -> typeid-1.0.3.crate
 https://crates.io/api/v1/crates/typenum/1.19.0/download -> typenum-1.19.0.crate
 https://crates.io/api/v1/crates/unicase/2.8.1/download -> unicase-2.8.1.crate
@@ -363,10 +363,10 @@ https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.
 https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.1+wasi-snapshot-preview1/download -> wasi-0.11.1+wasi-snapshot-preview1.crate
 https://crates.io/api/v1/crates/wasip2/1.0.1+wasi-0.2.4/download -> wasip2-1.0.1+wasi-0.2.4.crate
-https://crates.io/api/v1/crates/wasm-bindgen/0.2.105/download -> wasm-bindgen-0.2.105.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.105/download -> wasm-bindgen-macro-0.2.105.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.105/download -> wasm-bindgen-macro-support-0.2.105.crate
-https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.105/download -> wasm-bindgen-shared-0.2.105.crate
+https://crates.io/api/v1/crates/wasm-bindgen/0.2.106/download -> wasm-bindgen-0.2.106.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.106/download -> wasm-bindgen-macro-0.2.106.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.106/download -> wasm-bindgen-macro-support-0.2.106.crate
+https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.106/download -> wasm-bindgen-shared-0.2.106.crate
 https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
 https://crates.io/api/v1/crates/windows-link/0.2.1/download -> windows-link-0.2.1.crate
 https://crates.io/api/v1/crates/windows-sys/0.59.0/download -> windows-sys-0.59.0.crate
