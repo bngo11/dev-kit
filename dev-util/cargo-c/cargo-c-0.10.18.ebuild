@@ -395,8 +395,8 @@ https://crates.io/api/v1/crates/wit-bindgen/0.46.0/download -> wit-bindgen-0.46.
 https://crates.io/api/v1/crates/writeable/0.6.2/download -> writeable-0.6.2.crate
 https://crates.io/api/v1/crates/yoke/0.8.1/download -> yoke-0.8.1.crate
 https://crates.io/api/v1/crates/yoke-derive/0.8.1/download -> yoke-derive-0.8.1.crate
-https://crates.io/api/v1/crates/zerocopy/0.8.30/download -> zerocopy-0.8.30.crate
-https://crates.io/api/v1/crates/zerocopy-derive/0.8.30/download -> zerocopy-derive-0.8.30.crate
+https://crates.io/api/v1/crates/zerocopy/0.8.31/download -> zerocopy-0.8.31.crate
+https://crates.io/api/v1/crates/zerocopy-derive/0.8.31/download -> zerocopy-derive-0.8.31.crate
 https://crates.io/api/v1/crates/zerofrom/0.1.6/download -> zerofrom-0.1.6.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.6/download -> zerofrom-derive-0.1.6.crate
 https://crates.io/api/v1/crates/zeroize/1.8.2/download -> zeroize-1.8.2.crate
