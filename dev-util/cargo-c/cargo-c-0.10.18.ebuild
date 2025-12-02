@@ -11,7 +11,7 @@ https://crates.io/api/v1/crates/adler2/2.0.1/download -> adler2-2.0.1.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.4/download -> aho-corasick-1.1.4.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
-https://crates.io/api/v1/crates/annotate-snippets/0.12.9/download -> annotate-snippets-0.12.9.crate
+https://crates.io/api/v1/crates/annotate-snippets/0.12.10/download -> annotate-snippets-0.12.10.crate
 https://crates.io/api/v1/crates/anstream/0.6.21/download -> anstream-0.6.21.crate
 https://crates.io/api/v1/crates/anstyle/1.0.13/download -> anstyle-1.0.13.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download -> anstyle-parse-0.2.7.crate
@@ -197,7 +197,7 @@ https://crates.io/api/v1/crates/js-sys/0.3.83/download -> js-sys-0.3.83.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/lazycell/1.3.0/download -> lazycell-1.3.0.crate
-https://crates.io/api/v1/crates/libc/0.2.177/download -> libc-0.2.177.crate
+https://crates.io/api/v1/crates/libc/0.2.178/download -> libc-0.2.178.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.2+1.9.1/download -> libgit2-sys-0.18.2+1.9.1.crate
 https://crates.io/api/v1/crates/libloading/0.8.9/download -> libloading-0.8.9.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.11+1.64.0/download -> libnghttp2-sys-0.1.11+1.64.0.crate
