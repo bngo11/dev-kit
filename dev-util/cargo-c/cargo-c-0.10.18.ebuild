@@ -204,7 +204,7 @@ https://crates.io/api/v1/crates/libnghttp2-sys/0.1.11+1.64.0/download -> libnght
 https://crates.io/api/v1/crates/libredox/0.1.10/download -> libredox-0.1.10.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.35.0/download -> libsqlite3-sys-0.35.0.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.1/download -> libssh2-sys-0.3.1.crate
-https://crates.io/api/v1/crates/libz-rs-sys/0.5.2/download -> libz-rs-sys-0.5.2.crate
+https://crates.io/api/v1/crates/libz-rs-sys/0.5.3/download -> libz-rs-sys-0.5.3.crate
 https://crates.io/api/v1/crates/libz-sys/1.1.23/download -> libz-sys-1.1.23.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.11.0/download -> linux-raw-sys-0.11.0.crate
 https://crates.io/api/v1/crates/litemap/0.8.1/download -> litemap-0.8.1.crate
@@ -403,7 +403,7 @@ https://crates.io/api/v1/crates/zeroize/1.8.2/download -> zeroize-1.8.2.crate
 https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
 https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
-https://crates.io/api/v1/crates/zlib-rs/0.5.2/download -> zlib-rs-0.5.2.crate"
+https://crates.io/api/v1/crates/zlib-rs/0.5.3/download -> zlib-rs-0.5.3.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
