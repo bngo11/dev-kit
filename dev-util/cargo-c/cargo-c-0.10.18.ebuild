@@ -24,7 +24,7 @@ https://crates.io/api/v1/crates/arrayvec/0.7.6/download -> arrayvec-0.7.6.crate
 https://crates.io/api/v1/crates/autocfg/1.5.0/download -> autocfg-1.5.0.crate
 https://crates.io/api/v1/crates/base16ct/0.2.0/download -> base16ct-0.2.0.crate
 https://crates.io/api/v1/crates/base64/0.22.1/download -> base64-0.22.1.crate
-https://crates.io/api/v1/crates/base64ct/1.8.0/download -> base64ct-1.8.0.crate
+https://crates.io/api/v1/crates/base64ct/1.8.1/download -> base64ct-1.8.1.crate
 https://crates.io/api/v1/crates/bitflags/2.10.0/download -> bitflags-2.10.0.crate
 https://crates.io/api/v1/crates/bitmaps/2.1.0/download -> bitmaps-2.1.0.crate
 https://crates.io/api/v1/crates/blake3/1.8.2/download -> blake3-1.8.2.crate
@@ -94,7 +94,7 @@ https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
 https://crates.io/api/v1/crates/filetime/0.2.26/download -> filetime-0.2.26.crate
 https://crates.io/api/v1/crates/find-msvc-tools/0.1.5/download -> find-msvc-tools-0.1.5.crate
-https://crates.io/api/v1/crates/flate2/1.1.7/download -> flate2-1.1.7.crate
+https://crates.io/api/v1/crates/flate2/1.1.5/download -> flate2-1.1.5.crate
 https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
 https://crates.io/api/v1/crates/foldhash/0.1.5/download -> foldhash-0.1.5.crate
 https://crates.io/api/v1/crates/foreign-types/0.3.2/download -> foreign-types-0.3.2.crate
@@ -204,6 +204,7 @@ https://crates.io/api/v1/crates/libnghttp2-sys/0.1.11+1.64.0/download -> libnght
 https://crates.io/api/v1/crates/libredox/0.1.10/download -> libredox-0.1.10.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.35.0/download -> libsqlite3-sys-0.35.0.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.1/download -> libssh2-sys-0.3.1.crate
+https://crates.io/api/v1/crates/libz-rs-sys/0.5.3/download -> libz-rs-sys-0.5.3.crate
 https://crates.io/api/v1/crates/libz-sys/1.1.23/download -> libz-sys-1.1.23.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.11.0/download -> linux-raw-sys-0.11.0.crate
 https://crates.io/api/v1/crates/litemap/0.8.1/download -> litemap-0.8.1.crate
