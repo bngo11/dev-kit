@@ -7,7 +7,7 @@ inherit autotools
 
 DESCRIPTION="Command line tool for signing, verifying, encrypting and decrypting XML"
 HOMEPAGE="https://www.aleksey.com/xmlsec"
-SRC_URI="https://www.aleksey.com/xmlsec/download/older-releases/${PN}1-${PV}.tar.gz"
+SRC_URI="https://www.aleksey.com/xmlsec/download/${PN}1-${PV}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
