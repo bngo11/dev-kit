@@ -310,7 +310,7 @@ https://crates.io/api/v1/crates/shell-escape/0.1.5/download -> shell-escape-0.1.
 https://crates.io/api/v1/crates/shell-words/1.1.0/download -> shell-words-1.1.0.crate
 https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
 https://crates.io/api/v1/crates/signature/2.2.0/download -> signature-2.2.0.crate
-https://crates.io/api/v1/crates/simd-adler32/0.3.7/download -> simd-adler32-0.3.7.crate
+https://crates.io/api/v1/crates/simd-adler32/0.3.8/download -> simd-adler32-0.3.8.crate
 https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.5.crate
 https://crates.io/api/v1/crates/smallvec/1.15.1/download -> smallvec-1.15.1.crate
 https://crates.io/api/v1/crates/socket2/0.6.1/download -> socket2-0.6.1.crate
