@@ -1,0 +1,14 @@
+BDEPEND=>=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=>=virtual/rust-1.37.0
+DESCRIPTION=Automatically generates Rust FFI bindings to C and C++ libraries.
+EAPI=7
+HOMEPAGE=https://rust-lang.github.io/rust-bindgen/
+IUSE=abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64 debug
+KEYWORDS=*
+LICENSE=BSD Apache-2.0 BSD ISC MIT Unicode-3.0
+RDEPEND=>=virtual/rust-1.37.0 sys-devel/clang:*
+SLOT=0
+SRC_URI=https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v0.72.1.tar.gz -> bindgen-0.72.1.tar.gz https://github.com/gentoo-crate-dist/rust-bindgen/releases/download/v0.72.1/rust-bindgen-0.72.1-crates.tar.xz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multilib-build	dbed54cab0d2fac962c6342aeae40ef9	multiprocessing	cac3169468f893670dac3e7cb940e045	rust-toolchain	517aaf17f17f9497026ae6c08c472168	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=2b0ec0789f714159807ca177304c2888

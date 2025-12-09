@@ -22,7 +22,6 @@ RDEPEND="${DEPEND}"
 LLVM_MAX_SLOT=${SLOT}
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-8.0.0.1-no_pkgconfig_files.patch
 )
 
 src_unpack() {
@@ -39,6 +38,7 @@ src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_INSTALL_PREFIX="$(get_llvm_prefix ${LLVM_MAX_SLOT})"
 		-DLLVM_BUILD_TOOLS=$(usex tools "ON" "OFF")
+		-DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR="${ESYSROOT}/usr/include/spirv"
 	)
 	cmake-utils_src_configure
 }
