@@ -25,7 +25,7 @@ DEPEND="${RDEPEND}"
 
 RESTRICT="test"
 
-S="${WORKDIR}/${P}/${PN}"
+S="${WORKDIR}/nss-3_119_1/${PN}"
 
 PATCHES=(
 	"${FILESDIR}"/nss-3.103-gentoo-fixes-add-pkgconfig-files.patch

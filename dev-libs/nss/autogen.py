@@ -82,6 +82,7 @@ async def generate(hub, **pkginfo):
 		url = f"https://ftp.mozilla.org/pub/security/nss/releases/{nss_info[1]}/src/{nss_info[2]}"
 		ebuild = hub.pkgtools.ebuild.BreezyBuild(
 			**pkginfo,
+			workdir=f'nss-{nss_info[0]}',
 			version=nss_info[0].replace("_", "."),
 			nspr_ver=repo_info['nspr'][0],
 			artifacts=[hub.pkgtools.ebuild.Artifact(url=url, final_name=nss_info[2].replace("_", "."))],
