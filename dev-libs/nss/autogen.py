@@ -4,8 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 
 async def generate(hub, **pkginfo):
-	repos = [('nspr', None), ('nss', '3.110')]
-	repo_info = []
+	repos = [('nspr', '4.38'), ('nss', '3.110')]
+	repo_info = {}
 
 	for repo, ver in repos:
 		html_data = await hub.pkgtools.fetch.get_page(f"https://hg.mozilla.org/projects/{repo}/")
@@ -17,37 +17,74 @@ async def generate(hub, **pkginfo):
 			href = link.get("href")
 			if href and href.endswith("_RTM"):
 				parts = href.split("/")
-				version = parts[-1].lstrip(f"{repo.upper()}_").rstrip("_RTM").replace("_", ".")
+				pkgdir = parts[-1]
+				version = pkgdir.lstrip(f"{repo.upper()}_").rstrip("_RTM")
 
 				try:
-					list(map(int, version.split(".")))
+					list(map(int, version.split("_")))
 					if repo == 'nspr':
-						res = requests.get(f"https://ftp.mozilla.org/pub/nspr/releases/v{version}/")
-					else:
-						res = requests.get(f"https://ftp.mozilla.org/pub/security/nss/releases/{parts[-1]}/")
-					if res.status_code != 200:
-						continue
+						for v in [version, version.replace("_", ".")]:
+							res = requests.head(f"https://ftp.mozilla.org/pub/nspr/releases/v{v}/")
+							if res.status_code != 200:
+								continue
 
-					if ver:
-						if version >= ver:
-							repo_info.append((version, parts[-1]))
-							break
-						else:
-							continue
-					repo_info.append((version, parts[-1]))
-					break
+							if ver:
+								if v.replace("_", ".") < ver:
+									continue
+
+							for f in [f'nspr-{version}.tar.gz', f'nspr-{version.replace("_", ".")}.tar.gz']:
+								res = requests.head(f"https://ftp.mozilla.org/pub/nspr/releases/v{v}/src/{f}")
+								if res.status_code != 200:
+									continue
+
+								repo_info['nspr'] = (v, pkgdir, f)
+								break
+							if 'nspr' in repo_info:
+								break
+							else:
+								continue
+					else:
+						for d in [pkgdir, pkgdir.replace("_", ".")]:
+							res = requests.head(f"https://ftp.mozilla.org/pub/security/nss/releases/{d}/")
+							if res.status_code != 200:
+								continue
+
+							for v in [version, version.replace("_", ".")]:
+								tarball = f'nss-{v}.tar.gz'
+								res = requests.head(f"https://ftp.mozilla.org/pub/security/nss/releases/{d}/src/{tarball}")
+								if res.status_code != 200:
+									continue
+
+								if ver:
+									if v.replace("_", ".") >= ver:
+										repo_info['nss'] = (v, d, tarball)
+										break
+									else:
+										continue
+								repo_info['nss'] = (v, d, tarball)
+								break
+							if 'nss' in repo_info:
+								break
+							else:
+								continue
 
 				except ValueError:
 					continue
 
-	if repo_info:
-		final_name = f"nss-{repo_info[1][0]}.tar.gz"
-		url = f"https://ftp.mozilla.org/pub/security/nss/releases/{repo_info[1][1]}/src/{final_name}"
+				if repo in repo_info:
+					break
+
+		if {'nspr', 'nss'} <= repo_info.keys():
+			break
+
+	if {'nspr', 'nss'} <= repo_info.keys():
+		nss_info = repo_info['nss']
+		url = f"https://ftp.mozilla.org/pub/security/nss/releases/{nss_info[1]}/src/{nss_info[2]}"
 		ebuild = hub.pkgtools.ebuild.BreezyBuild(
 			**pkginfo,
-			version=repo_info[1][0],
-			nspr_ver=repo_info[0][0],
-			artifacts=[hub.pkgtools.ebuild.Artifact(url=url, final_name=final_name)],
+			version=nss_info[0].replace("_", "."),
+			nspr_ver=repo_info['nspr'][0],
+			artifacts=[hub.pkgtools.ebuild.Artifact(url=url, final_name=nss_info[2].replace("_", "."))],
 		)
 
 		ebuild.push()
