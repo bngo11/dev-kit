@@ -7,6 +7,7 @@ async def generate(hub, **pkginfo):
 	soup = BeautifulSoup(html_data, "html.parser")
 	links = soup.find_all("a")
 	version = None
+	basever = '4.38'
 
 	for link in links:
 		href = link.get("href")
@@ -16,7 +17,8 @@ async def generate(hub, **pkginfo):
 
 			try:
 				list(map(int, version.split(".")))
-				break
+				if version >= basever:
+					break
 
 			except ValueError:
 				continue
