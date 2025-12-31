@@ -405,7 +405,7 @@ https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
 https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
 https://crates.io/api/v1/crates/zlib-rs/0.5.5/download -> zlib-rs-0.5.5.crate
-https://crates.io/api/v1/crates/zmij/1.0.5/download -> zmij-1.0.5.crate"
+https://crates.io/api/v1/crates/zmij/1.0.6/download -> zmij-1.0.6.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
