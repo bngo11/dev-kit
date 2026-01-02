@@ -110,7 +110,7 @@ https://crates.io/api/v1/crates/gix-actor/0.35.6/download -> gix-actor-0.35.6.cr
 https://crates.io/api/v1/crates/gix-attributes/0.27.0/download -> gix-attributes-0.27.0.crate
 https://crates.io/api/v1/crates/gix-bitmap/0.2.15/download -> gix-bitmap-0.2.15.crate
 https://crates.io/api/v1/crates/gix-chunk/0.4.12/download -> gix-chunk-0.4.12.crate
-https://crates.io/api/v1/crates/gix-command/0.6.3/download -> gix-command-0.6.3.crate
+https://crates.io/api/v1/crates/gix-command/0.6.4/download -> gix-command-0.6.4.crate
 https://crates.io/api/v1/crates/gix-commitgraph/0.29.0/download -> gix-commitgraph-0.29.0.crate
 https://crates.io/api/v1/crates/gix-config/0.46.0/download -> gix-config-0.46.0.crate
 https://crates.io/api/v1/crates/gix-config-value/0.15.3/download -> gix-config-value-0.15.3.crate
