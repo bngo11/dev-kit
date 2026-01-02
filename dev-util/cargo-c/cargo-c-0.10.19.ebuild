@@ -239,7 +239,7 @@ https://crates.io/api/v1/crates/objc2-quartz-core/0.3.2/download -> objc2-quartz
 https://crates.io/api/v1/crates/objc2-ui-kit/0.3.2/download -> objc2-ui-kit-0.3.2.crate
 https://crates.io/api/v1/crates/objc2-user-notifications/0.3.2/download -> objc2-user-notifications-0.3.2.crate
 https://crates.io/api/v1/crates/object/0.37.3/download -> object-0.37.3.crate
-https://crates.io/api/v1/crates/object/0.38.0/download -> object-0.38.0.crate
+https://crates.io/api/v1/crates/object/0.38.1/download -> object-0.38.1.crate
 https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
 https://crates.io/api/v1/crates/once_cell_polyfill/1.70.2/download -> once_cell_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/opener/0.8.3/download -> opener-0.8.3.crate
