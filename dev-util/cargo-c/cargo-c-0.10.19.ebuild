@@ -110,7 +110,7 @@ https://crates.io/api/v1/crates/gix-actor/0.35.6/download -> gix-actor-0.35.6.cr
 https://crates.io/api/v1/crates/gix-attributes/0.27.0/download -> gix-attributes-0.27.0.crate
 https://crates.io/api/v1/crates/gix-bitmap/0.2.15/download -> gix-bitmap-0.2.15.crate
 https://crates.io/api/v1/crates/gix-chunk/0.4.12/download -> gix-chunk-0.4.12.crate
-https://crates.io/api/v1/crates/gix-command/0.6.4/download -> gix-command-0.6.4.crate
+https://crates.io/api/v1/crates/gix-command/0.6.5/download -> gix-command-0.6.5.crate
 https://crates.io/api/v1/crates/gix-commitgraph/0.29.0/download -> gix-commitgraph-0.29.0.crate
 https://crates.io/api/v1/crates/gix-config/0.46.0/download -> gix-config-0.46.0.crate
 https://crates.io/api/v1/crates/gix-config-value/0.15.3/download -> gix-config-value-0.15.3.crate
@@ -148,7 +148,7 @@ https://crates.io/api/v1/crates/gix-shallow/0.5.0/download -> gix-shallow-0.5.0.
 https://crates.io/api/v1/crates/gix-status/0.20.0/download -> gix-status-0.20.0.crate
 https://crates.io/api/v1/crates/gix-submodule/0.20.0/download -> gix-submodule-0.20.0.crate
 https://crates.io/api/v1/crates/gix-tempfile/18.0.0/download -> gix-tempfile-18.0.0.crate
-https://crates.io/api/v1/crates/gix-trace/0.1.16/download -> gix-trace-0.1.16.crate
+https://crates.io/api/v1/crates/gix-trace/0.1.17/download -> gix-trace-0.1.17.crate
 https://crates.io/api/v1/crates/gix-transport/0.48.0/download -> gix-transport-0.48.0.crate
 https://crates.io/api/v1/crates/gix-traverse/0.47.0/download -> gix-traverse-0.47.0.crate
 https://crates.io/api/v1/crates/gix-url/0.32.0/download -> gix-url-0.32.0.crate
@@ -188,8 +188,8 @@ https://crates.io/api/v1/crates/is_executable/1.0.5/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download -> is_terminal_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.17/download -> itoa-1.0.17.crate
-https://crates.io/api/v1/crates/jiff/0.2.17/download -> jiff-0.2.17.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.17/download -> jiff-static-0.2.17.crate
+https://crates.io/api/v1/crates/jiff/0.2.18/download -> jiff-0.2.18.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.18/download -> jiff-static-0.2.18.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.5/download -> jiff-tzdb-0.1.5.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.34/download -> jobserver-0.1.34.crate
@@ -267,9 +267,9 @@ https://crates.io/api/v1/crates/potential_utf/0.1.4/download -> potential_utf-0.
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download -> ppv-lite86-0.2.21.crate
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
-https://crates.io/api/v1/crates/proc-macro2/1.0.104/download -> proc-macro2-1.0.104.crate
+https://crates.io/api/v1/crates/proc-macro2/1.0.105/download -> proc-macro2-1.0.105.crate
 https://crates.io/api/v1/crates/prodash/30.0.1/download -> prodash-30.0.1.crate
-https://crates.io/api/v1/crates/quote/1.0.42/download -> quote-1.0.42.crate
+https://crates.io/api/v1/crates/quote/1.0.43/download -> quote-1.0.43.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate
 https://crates.io/api/v1/crates/rand/0.9.2/download -> rand-0.9.2.crate
 https://crates.io/api/v1/crates/rand_chacha/0.9.0/download -> rand_chacha-0.9.0.crate
@@ -355,7 +355,7 @@ https://crates.io/api/v1/crates/unicode-ident/1.0.22/download -> unicode-ident-1
 https://crates.io/api/v1/crates/unicode-normalization/0.1.25/download -> unicode-normalization-0.1.25.crate
 https://crates.io/api/v1/crates/unicode-width/0.2.2/download -> unicode-width-0.2.2.crate
 https://crates.io/api/v1/crates/unicode-xid/0.2.6/download -> unicode-xid-0.2.6.crate
-https://crates.io/api/v1/crates/url/2.5.7/download -> url-2.5.7.crate
+https://crates.io/api/v1/crates/url/2.5.8/download -> url-2.5.8.crate
 https://crates.io/api/v1/crates/utf8_iter/1.0.4/download -> utf8_iter-1.0.4.crate
 https://crates.io/api/v1/crates/utf8parse/0.2.2/download -> utf8parse-0.2.2.crate
 https://crates.io/api/v1/crates/valuable/0.1.1/download -> valuable-0.1.1.crate
@@ -405,7 +405,7 @@ https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
 https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
 https://crates.io/api/v1/crates/zlib-rs/0.5.5/download -> zlib-rs-0.5.5.crate
-https://crates.io/api/v1/crates/zmij/1.0.10/download -> zmij-1.0.10.crate"
+https://crates.io/api/v1/crates/zmij/1.0.12/download -> zmij-1.0.12.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"

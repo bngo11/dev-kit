@@ -7,12 +7,12 @@ inherit ninja-utils python-any-r1 toolchain-funcs
 
 DESCRIPTION="GN is a meta-build system that generates build files for Ninja"
 HOMEPAGE="https://gn.googlesource.com/"
-SRC_URI="https://direct.funtoo.org/c7/59/71/c7597119180dc6eb5639bf48265c661f438055b952713d774fd86ad93103d57c6c5190f622111fcc80b5e657100d81e4e716f6318445fafa07cd3ce12a2f384d -> gn-0.2311.tar.xz"
+SRC_URI="https://direct.funtoo.org/64/8a/f9/648af9494a5d9be8ea931312d81dadaf309a60d00279c1f7058bad042402cf764cf8bb002f3f05817ce4c4f20bff9349a05d6f500e2db9ece6de99e6468a0c6e -> gn-0.2313.tar.xz"
 
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="*"
-S="${WORKDIR}/gn-0.2311"
+S="${WORKDIR}/gn-0.2313"
 
 BDEPEND="
 	${PYTHON_DEPS}
