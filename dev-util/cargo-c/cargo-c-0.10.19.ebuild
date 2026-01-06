@@ -301,7 +301,7 @@ https://crates.io/api/v1/crates/serde-value/0.7.0/download -> serde-value-0.7.0.
 https://crates.io/api/v1/crates/serde_core/1.0.228/download -> serde_core-1.0.228.crate
 https://crates.io/api/v1/crates/serde_derive/1.0.228/download -> serde_derive-1.0.228.crate
 https://crates.io/api/v1/crates/serde_ignored/0.1.14/download -> serde_ignored-0.1.14.crate
-https://crates.io/api/v1/crates/serde_json/1.0.148/download -> serde_json-1.0.148.crate
+https://crates.io/api/v1/crates/serde_json/1.0.149/download -> serde_json-1.0.149.crate
 https://crates.io/api/v1/crates/serde_spanned/1.0.4/download -> serde_spanned-1.0.4.crate
 https://crates.io/api/v1/crates/sha1/0.10.6/download -> sha1-0.10.6.crate
 https://crates.io/api/v1/crates/sha1-checked/0.10.0/download -> sha1-checked-0.10.0.crate
@@ -349,7 +349,7 @@ https://crates.io/api/v1/crates/tracing-log/0.2.0/download -> tracing-log-0.2.0.
 https://crates.io/api/v1/crates/tracing-subscriber/0.3.22/download -> tracing-subscriber-0.3.22.crate
 https://crates.io/api/v1/crates/typeid/1.0.3/download -> typeid-1.0.3.crate
 https://crates.io/api/v1/crates/typenum/1.19.0/download -> typenum-1.19.0.crate
-https://crates.io/api/v1/crates/unicase/2.8.1/download -> unicase-2.8.1.crate
+https://crates.io/api/v1/crates/unicase/2.9.0/download -> unicase-2.9.0.crate
 https://crates.io/api/v1/crates/unicode-bom/2.0.3/download -> unicode-bom-2.0.3.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.22/download -> unicode-ident-1.0.22.crate
 https://crates.io/api/v1/crates/unicode-normalization/0.1.25/download -> unicode-normalization-0.1.25.crate

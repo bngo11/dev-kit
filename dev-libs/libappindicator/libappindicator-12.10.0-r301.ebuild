@@ -51,8 +51,6 @@ src_prepare() {
 }
 
 multilib_src_configure() {
-	export CC=/usr/bin/gcc-12.3.0 CXX=/usr/bin/g++-12.3.0
-
 	if multilib_is_native_abi; then
 		local -x VALAC VALA_API_GEN VAPIGEN_VAPIDIR PKG_CONFIG_PATH
 		use introspection && vala_src_prepare && export VALA_API_GEN="${VAPIGEN}"
