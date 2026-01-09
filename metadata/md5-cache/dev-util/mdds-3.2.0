@@ -8,7 +8,7 @@ IUSE=doc valgrind
 KEYWORDS=*
 LICENSE=MIT
 RDEPEND=dev-libs/boost:=
-SLOT=3.0/3.0.0
-SRC_URI=https://github.com/kohei-us/mdds/tarball/595be427b00eb8c29f51392896dcedef20afe249 -> mdds-3.0.0-595be42.tar.gz
+SLOT=3.2/3.2.0
+SRC_URI=https://github.com/kohei-us/mdds/tarball/b5a52dfb293548e8580be8754be055d9e1e54f28 -> mdds-3.2.0-b5a52df.tar.gz
 _eclasses_=autotools	619846d0d85ed5d3334692c0215a603e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=ee3c628f0d404411c5bdd30717065d72
+_md5_=7bde6c5eb3f455c4c56ae53d249ba21d
