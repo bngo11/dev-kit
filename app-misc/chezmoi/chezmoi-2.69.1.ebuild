@@ -297,8 +297,8 @@ EGO_SUM=(
 	"github.com/go-viper/mapstructure/v2 v2.4.0/go.mod"
 	"github.com/gobwas/glob v0.2.3"
 	"github.com/gobwas/glob v0.2.3/go.mod"
-	"github.com/goccy/go-yaml v1.19.1"
-	"github.com/goccy/go-yaml v1.19.1/go.mod"
+	"github.com/goccy/go-yaml v1.19.2"
+	"github.com/goccy/go-yaml v1.19.2/go.mod"
 	"github.com/godbus/dbus/v5 v5.0.4/go.mod"
 	"github.com/godbus/dbus/v5 v5.2.2"
 	"github.com/godbus/dbus/v5 v5.2.2/go.mod"
@@ -674,8 +674,8 @@ EGO_SUM=(
 	"github.com/xyproto/randomstring v1.0.5"
 	"github.com/xyproto/randomstring v1.0.5/go.mod"
 	"github.com/yuin/goldmark v1.4.13/go.mod"
-	"github.com/yuin/goldmark v1.7.14"
-	"github.com/yuin/goldmark v1.7.14/go.mod"
+	"github.com/yuin/goldmark v1.7.16"
+	"github.com/yuin/goldmark v1.7.16/go.mod"
 	"github.com/yuin/goldmark-emoji v1.0.6"
 	"github.com/yuin/goldmark-emoji v1.0.6/go.mod"
 	"github.com/zalando/go-keyring v0.2.6"
@@ -808,8 +808,8 @@ EGO_SUM=(
 	"golang.org/x/sys v0.6.0/go.mod"
 	"golang.org/x/sys v0.12.0/go.mod"
 	"golang.org/x/sys v0.15.0/go.mod"
-	"golang.org/x/sys v0.39.0"
-	"golang.org/x/sys v0.39.0/go.mod"
+	"golang.org/x/sys v0.40.0"
+	"golang.org/x/sys v0.40.0/go.mod"
 	"golang.org/x/telemetry v0.0.0-20251203150158-8fff8a5912fc"
 	"golang.org/x/telemetry v0.0.0-20251203150158-8fff8a5912fc/go.mod"
 	"golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod"
@@ -958,8 +958,8 @@ go-module_set_globals
 
 DESCRIPTION="Manage your dotfiles across multiple diverse machines, securely."
 HOMEPAGE="https://github.com/twpayne/chezmoi"
-SRC_URI="https://github.com/twpayne/chezmoi/tarball/562f9716b6d3690abd854f6a4ffab73a56595884 -> chezmoi-2.69.0-562f971.tar.gz
-https://direct.funtoo.org/a7/74/96/a774967b580f1ac8a84f0dffa1238e016930c0870095fefd20696ad74bb271eadd8e6fa38cdb2218640d1b72ab990046558b692a00ae74be0a1b7cd32c2115db -> chezmoi-2.69.0-funtoo-go-bundle-5b7087ca4a3fcf8de52bc972f5fb980e9a66d1ddb936beca0c5b5ec6dedefa8fca85a01e6b355fa7580eca3796965de414c4caf4cd78c304404d850a3bfaeabb.tar.gz"
+SRC_URI="https://github.com/twpayne/chezmoi/tarball/a08a575a051dbe93b9dadb63f683e437af1337ba -> chezmoi-2.69.1-a08a575.tar.gz
+https://direct.funtoo.org/60/1f/77/601f77b363b2dea0ae23f904e5d374c56ba46fc68ffdd23216b2b0ce3212bf8bb3dbb5c71205f0f29e67339c62b9e1fb552d97a6c2fbc66d3ab2b7146cc03746 -> chezmoi-2.69.1-funtoo-go-bundle-04dcbc49b0d70e827979e71514a99eb7a380ba4316238f3dcb415aa5c41f3030b0284bfd74fddd638c195ef942fb18f1592f76e0796ece6432abafb824e6c178.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
