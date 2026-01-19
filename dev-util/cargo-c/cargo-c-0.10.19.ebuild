@@ -92,7 +92,7 @@ https://crates.io/api/v1/crates/faster-hex/0.10.0/download -> faster-hex-0.10.0.
 https://crates.io/api/v1/crates/fastrand/2.3.0/download -> fastrand-2.3.0.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
-https://crates.io/api/v1/crates/filetime/0.2.26/download -> filetime-0.2.26.crate
+https://crates.io/api/v1/crates/filetime/0.2.27/download -> filetime-0.2.27.crate
 https://crates.io/api/v1/crates/find-msvc-tools/0.1.8/download -> find-msvc-tools-0.1.8.crate
 https://crates.io/api/v1/crates/flate2/1.1.8/download -> flate2-1.1.8.crate
 https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
@@ -326,8 +326,8 @@ https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.1
 https://crates.io/api/v1/crates/tar/0.4.44/download -> tar-0.4.44.crate
 https://crates.io/api/v1/crates/tempfile/3.24.0/download -> tempfile-3.24.0.crate
 https://crates.io/api/v1/crates/terminal_size/0.4.3/download -> terminal_size-0.4.3.crate
-https://crates.io/api/v1/crates/thiserror/2.0.17/download -> thiserror-2.0.17.crate
-https://crates.io/api/v1/crates/thiserror-impl/2.0.17/download -> thiserror-impl-2.0.17.crate
+https://crates.io/api/v1/crates/thiserror/2.0.18/download -> thiserror-2.0.18.crate
+https://crates.io/api/v1/crates/thiserror-impl/2.0.18/download -> thiserror-impl-2.0.18.crate
 https://crates.io/api/v1/crates/thread_local/1.1.9/download -> thread_local-1.1.9.crate
 https://crates.io/api/v1/crates/time/0.3.45/download -> time-0.3.45.crate
 https://crates.io/api/v1/crates/time-core/0.1.7/download -> time-core-0.1.7.crate
