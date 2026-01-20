@@ -9,5 +9,5 @@ KEYWORDS=*
 LICENSE=MIT
 RDEPEND=sys-libs/ncurses
 SLOT=0/6
-SRC_URI=https://invisible-mirror.net/archives/cdk/cdk-5.0-20251014.tgz -> cdk-5.0-20251014.tgz
-_md5_=935ff9a147a7a6a8110039595b7a6c61
+SRC_URI=https://invisible-mirror.net/archives/cdk/cdk-5.0-20260119.tgz -> cdk-5.0-20260119.tgz
+_md5_=055e78674e10677222cb4ac4c70fc04b
