@@ -36,11 +36,11 @@ https://crates.io/api/v1/crates/byteorder/1.5.0/download -> byteorder-1.5.0.crat
 https://crates.io/api/v1/crates/bytes/1.11.0/download -> bytes-1.11.0.crate
 https://crates.io/api/v1/crates/cargo/0.93.0/download -> cargo-0.93.0.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.9/download -> cargo-credential-0.4.9.crate
-https://crates.io/api/v1/crates/cargo-credential-libsecret/0.5.3/download -> cargo-credential-libsecret-0.5.3.crate
-https://crates.io/api/v1/crates/cargo-credential-macos-keychain/0.4.18/download -> cargo-credential-macos-keychain-0.4.18.crate
-https://crates.io/api/v1/crates/cargo-credential-wincred/0.4.18/download -> cargo-credential-wincred-0.4.18.crate
+https://crates.io/api/v1/crates/cargo-credential-libsecret/0.5.4/download -> cargo-credential-libsecret-0.5.4.crate
+https://crates.io/api/v1/crates/cargo-credential-macos-keychain/0.4.19/download -> cargo-credential-macos-keychain-0.4.19.crate
+https://crates.io/api/v1/crates/cargo-credential-wincred/0.4.19/download -> cargo-credential-wincred-0.4.19.crate
 https://crates.io/api/v1/crates/cargo-platform/0.3.2/download -> cargo-platform-0.3.2.crate
-https://crates.io/api/v1/crates/cargo-util/0.2.25/download -> cargo-util-0.2.25.crate
+https://crates.io/api/v1/crates/cargo-util/0.2.26/download -> cargo-util-0.2.26.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.10.2/download -> cargo-util-schemas-0.10.2.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crate
 https://crates.io/api/v1/crates/cc/1.2.53/download -> cc-1.2.53.crate
@@ -60,7 +60,7 @@ https://crates.io/api/v1/crates/constant_time_eq/0.4.2/download -> constant_time
 https://crates.io/api/v1/crates/core-foundation/0.10.1/download -> core-foundation-0.10.1.crate
 https://crates.io/api/v1/crates/core-foundation-sys/0.8.7/download -> core-foundation-sys-0.8.7.crate
 https://crates.io/api/v1/crates/cpufeatures/0.2.17/download -> cpufeatures-0.2.17.crate
-https://crates.io/api/v1/crates/crates-io/0.40.15/download -> crates-io-0.40.15.crate
+https://crates.io/api/v1/crates/crates-io/0.40.16/download -> crates-io-0.40.16.crate
 https://crates.io/api/v1/crates/crc32fast/1.5.0/download -> crc32fast-1.5.0.crate
 https://crates.io/api/v1/crates/crossbeam-channel/0.5.15/download -> crossbeam-channel-0.5.15.crate
 https://crates.io/api/v1/crates/crossbeam-deque/0.8.6/download -> crossbeam-deque-0.8.6.crate
@@ -266,7 +266,7 @@ https://crates.io/api/v1/crates/potential_utf/0.1.4/download -> potential_utf-0.
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download -> ppv-lite86-0.2.21.crate
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
-https://crates.io/api/v1/crates/proc-macro2/1.0.105/download -> proc-macro2-1.0.105.crate
+https://crates.io/api/v1/crates/proc-macro2/1.0.106/download -> proc-macro2-1.0.106.crate
 https://crates.io/api/v1/crates/prodash/30.0.1/download -> prodash-30.0.1.crate
 https://crates.io/api/v1/crates/quote/1.0.43/download -> quote-1.0.43.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate

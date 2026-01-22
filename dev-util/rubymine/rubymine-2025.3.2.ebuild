@@ -6,7 +6,7 @@ inherit desktop eutils gnome3-utils readme.gentoo-r1 xdg
 
 DESCRIPTION="The Most Intelligent Ruby and Rails IDE"
 HOMEPAGE="https://www.jetbrains.com/ruby"
-SRC_URI="https://download.jetbrains.com/ruby/RubyMine-2025.3.1.1.tar.gz -> rubymine-2025.3.1.1.tar.gz"
+SRC_URI="https://download.jetbrains.com/ruby/RubyMine-2025.3.2.tar.gz -> rubymine-2025.3.2.tar.gz"
 
 LICENSE="JetBrains"
 SLOT="0"
@@ -16,7 +16,7 @@ IUSE="+system-java +sysctl"
 DEPEND="dev-util/patchelf"
 RDEPEND="
 	system-java? ( virtual/jre )
-	dev-libs/libdbusmenu
+	sys-apps/dbus
 	dev-python/pip"
 
 RESTRICT="strip"

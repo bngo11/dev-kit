@@ -16,7 +16,7 @@ IUSE="+system-java +sysctl"
 DEPEND="dev-util/patchelf"
 RDEPEND="
 	system-java? ( virtual/jre )
-	dev-libs/libdbusmenu
+	sys-apps/dbus
 	dev-python/pip"
 
 RESTRICT="strip"

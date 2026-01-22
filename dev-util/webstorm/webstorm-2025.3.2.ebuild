@@ -4,9 +4,9 @@ EAPI=7
 
 inherit desktop eutils gnome3-utils readme.gentoo-r1 xdg
 
-DESCRIPTION="Cross-platform IDE for C and C++"
-HOMEPAGE="https://www.jetbrains.com/clion"
-SRC_URI="https://download.jetbrains.com/cpp/CLion-2025.3.1.1.tar.gz -> clion-2025.3.1.1.tar.gz"
+DESCRIPTION="The smartest JavaScript IDE"
+HOMEPAGE="http://www.jetbrains.com/webstorm"
+SRC_URI="https://download.jetbrains.com/webstorm/WebStorm-2025.3.2.tar.gz -> webstorm-2025.3.2.tar.gz"
 
 LICENSE="JetBrains"
 SLOT="0"
@@ -16,7 +16,7 @@ IUSE="+system-java +sysctl"
 DEPEND="dev-util/patchelf"
 RDEPEND="
 	system-java? ( virtual/jre )
-	dev-libs/libdbusmenu
+	sys-apps/dbus
 	dev-python/pip"
 
 RESTRICT="strip"
@@ -28,12 +28,12 @@ QA_PREBUILT="opt/${PN}/bin/fsnotifier
 	opt/${PN}/bin/libyjpagent-linux64.so"
 
 
-S="${WORKDIR}/CLion-${PV}"
+S="${WORKDIR}/webstorm-${PV}"
 
 post_src_unpack() {
 	if [ ! -d "$S" ]; then
 		einfo "Renaming source directory to predictable name..."
-		mv $(ls "${WORKDIR}") "CLion-${PV}" || die
+		mv $(ls "${WORKDIR}") "webstorm-${PV}" || die
 	fi
 }
 
@@ -56,7 +56,7 @@ src_install() {
 	local pngfile="$(find ${dst}/bin -maxdepth 1 -iname '*.png')"
 	newicon $pngfile "${PN}.png" || die
 
-	make_desktop_entry ${PN} "CLion" ${PN} "Development;IDE;" || die
+	make_desktop_entry ${PN} "WebStorm" ${PN} "Development;IDE;" || die
 
 	if use system-java; then
 		rm -rf "$dst{jbr,jre{64}}" || die "Failed to remove bundled Java"

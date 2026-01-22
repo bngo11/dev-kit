@@ -4,9 +4,9 @@ EAPI=7
 
 inherit desktop eutils gnome3-utils readme.gentoo-r1 xdg
 
-DESCRIPTION="Cross-Platform IDE for Databases & SQL"
-HOMEPAGE="https://www.jetbrains.com/datagrip"
-SRC_URI="https://download.jetbrains.com/datagrip/datagrip-2025.3.3.tar.gz -> datagrip-2025.3.3.tar.gz"
+DESCRIPTION="a PHP IDE by JetBrains"
+HOMEPAGE="https://www.jetbrains.com/phpstorm"
+SRC_URI="https://download.jetbrains.com/webide/PhpStorm-2025.3.2.tar.gz -> phpstorm-2025.3.2.tar.gz"
 
 LICENSE="JetBrains"
 SLOT="0"
@@ -16,7 +16,7 @@ IUSE="+system-java +sysctl"
 DEPEND="dev-util/patchelf"
 RDEPEND="
 	system-java? ( virtual/jre )
-	dev-libs/libdbusmenu
+	sys-apps/dbus
 	dev-python/pip"
 
 RESTRICT="strip"
@@ -28,12 +28,12 @@ QA_PREBUILT="opt/${PN}/bin/fsnotifier
 	opt/${PN}/bin/libyjpagent-linux64.so"
 
 
-S="${WORKDIR}/DataGrip-${PV}"
+S="${WORKDIR}/PhpStorm-${PV}"
 
 post_src_unpack() {
 	if [ ! -d "$S" ]; then
 		einfo "Renaming source directory to predictable name..."
-		mv $(ls "${WORKDIR}") "DataGrip-${PV}" || die
+		mv $(ls "${WORKDIR}") "PhpStorm-${PV}" || die
 	fi
 }
 
@@ -56,7 +56,7 @@ src_install() {
 	local pngfile="$(find ${dst}/bin -maxdepth 1 -iname '*.png')"
 	newicon $pngfile "${PN}.png" || die
 
-	make_desktop_entry ${PN} "DataGrip" ${PN} "Development;IDE;" || die
+	make_desktop_entry ${PN} "PhpStorm" ${PN} "Development;IDE;" || die
 
 	if use system-java; then
 		rm -rf "$dst{jbr,jre{64}}" || die "Failed to remove bundled Java"
