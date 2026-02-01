@@ -11,7 +11,7 @@ https://crates.io/api/v1/crates/adler2/2.0.1/download -> adler2-2.0.1.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.4/download -> aho-corasick-1.1.4.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
-https://crates.io/api/v1/crates/annotate-snippets/0.12.10/download -> annotate-snippets-0.12.10.crate
+https://crates.io/api/v1/crates/annotate-snippets/0.12.11/download -> annotate-snippets-0.12.11.crate
 https://crates.io/api/v1/crates/anstream/0.6.21/download -> anstream-0.6.21.crate
 https://crates.io/api/v1/crates/anstyle/1.0.13/download -> anstyle-1.0.13.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download -> anstyle-parse-0.2.7.crate
@@ -44,13 +44,13 @@ https://crates.io/api/v1/crates/cargo-platform/0.3.2/download -> cargo-platform-
 https://crates.io/api/v1/crates/cargo-util/0.2.26/download -> cargo-util-0.2.26.crate
 https://crates.io/api/v1/crates/cargo-util-schemas/0.11.0/download -> cargo-util-schemas-0.11.0.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crate
-https://crates.io/api/v1/crates/cc/1.2.54/download -> cc-1.2.54.crate
+https://crates.io/api/v1/crates/cc/1.2.55/download -> cc-1.2.55.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
-https://crates.io/api/v1/crates/clap/4.5.54/download -> clap-4.5.54.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.54/download -> clap_builder-4.5.54.crate
+https://crates.io/api/v1/crates/clap/4.5.56/download -> clap-4.5.56.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.56/download -> clap_builder-4.5.56.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.65/download -> clap_complete-4.5.65.crate
-https://crates.io/api/v1/crates/clap_derive/4.5.49/download -> clap_derive-4.5.49.crate
+https://crates.io/api/v1/crates/clap_derive/4.5.55/download -> clap_derive-4.5.55.crate
 https://crates.io/api/v1/crates/clap_lex/0.7.7/download -> clap_lex-0.7.7.crate
 https://crates.io/api/v1/crates/clru/0.6.2/download -> clru-0.6.2.crate
 https://crates.io/api/v1/crates/color-print/0.3.7/download -> color-print-0.3.7.crate
@@ -94,7 +94,7 @@ https://crates.io/api/v1/crates/fastrand/2.3.0/download -> fastrand-2.3.0.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
 https://crates.io/api/v1/crates/filetime/0.2.27/download -> filetime-0.2.27.crate
-https://crates.io/api/v1/crates/find-msvc-tools/0.1.8/download -> find-msvc-tools-0.1.8.crate
+https://crates.io/api/v1/crates/find-msvc-tools/0.1.9/download -> find-msvc-tools-0.1.9.crate
 https://crates.io/api/v1/crates/flate2/1.1.8/download -> flate2-1.1.8.crate
 https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
 https://crates.io/api/v1/crates/foldhash/0.1.5/download -> foldhash-0.1.5.crate
@@ -247,7 +247,7 @@ https://crates.io/api/v1/crates/opener/0.8.4/download -> opener-0.8.4.crate
 https://crates.io/api/v1/crates/openssl/0.10.75/download -> openssl-0.10.75.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
-https://crates.io/api/v1/crates/openssl-src/300.5.4+3.5.4/download -> openssl-src-300.5.4+3.5.4.crate
+https://crates.io/api/v1/crates/openssl-src/300.5.5+3.5.5/download -> openssl-src-300.5.5+3.5.5.crate
 https://crates.io/api/v1/crates/openssl-sys/0.9.111/download -> openssl-sys-0.9.111.crate
 https://crates.io/api/v1/crates/ordered-float/2.10.1/download -> ordered-float-2.10.1.crate
 https://crates.io/api/v1/crates/orion/0.17.12/download -> orion-0.17.12.crate
@@ -262,8 +262,8 @@ https://crates.io/api/v1/crates/percent-encoding/2.3.2/download -> percent-encod
 https://crates.io/api/v1/crates/pin-project-lite/0.2.16/download -> pin-project-lite-0.2.16.crate
 https://crates.io/api/v1/crates/pkcs8/0.10.2/download -> pkcs8-0.10.2.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.crate
-https://crates.io/api/v1/crates/portable-atomic/1.13.0/download -> portable-atomic-1.13.0.crate
-https://crates.io/api/v1/crates/portable-atomic-util/0.2.4/download -> portable-atomic-util-0.2.4.crate
+https://crates.io/api/v1/crates/portable-atomic/1.13.1/download -> portable-atomic-1.13.1.crate
+https://crates.io/api/v1/crates/portable-atomic-util/0.2.5/download -> portable-atomic-util-0.2.5.crate
 https://crates.io/api/v1/crates/potential_utf/0.1.4/download -> potential_utf-0.1.4.crate
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/ppv-lite86/0.2.21/download -> ppv-lite86-0.2.21.crate
@@ -396,8 +396,8 @@ https://crates.io/api/v1/crates/wit-bindgen/0.51.0/download -> wit-bindgen-0.51.
 https://crates.io/api/v1/crates/writeable/0.6.2/download -> writeable-0.6.2.crate
 https://crates.io/api/v1/crates/yoke/0.8.1/download -> yoke-0.8.1.crate
 https://crates.io/api/v1/crates/yoke-derive/0.8.1/download -> yoke-derive-0.8.1.crate
-https://crates.io/api/v1/crates/zerocopy/0.8.33/download -> zerocopy-0.8.33.crate
-https://crates.io/api/v1/crates/zerocopy-derive/0.8.33/download -> zerocopy-derive-0.8.33.crate
+https://crates.io/api/v1/crates/zerocopy/0.8.37/download -> zerocopy-0.8.37.crate
+https://crates.io/api/v1/crates/zerocopy-derive/0.8.37/download -> zerocopy-derive-0.8.37.crate
 https://crates.io/api/v1/crates/zerofrom/0.1.6/download -> zerofrom-0.1.6.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.6/download -> zerofrom-derive-0.1.6.crate
 https://crates.io/api/v1/crates/zeroize/1.8.2/download -> zeroize-1.8.2.crate
@@ -405,7 +405,7 @@ https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
 https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
 https://crates.io/api/v1/crates/zlib-rs/0.5.5/download -> zlib-rs-0.5.5.crate
-https://crates.io/api/v1/crates/zmij/1.0.17/download -> zmij-1.0.17.crate"
+https://crates.io/api/v1/crates/zmij/1.0.18/download -> zmij-1.0.18.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
