@@ -31,7 +31,7 @@ QA_PREBUILT="
 
 DESCRIPTION="Android development environment based on IntelliJ IDEA"
 HOMEPAGE="https://developer.android.com/studio"
-SRC_URI="https://edgedl.me.gvt1.com/android/studio/ide-zips/2025.3.1.7/android-studio-panda1-linux.tar.gz -> android-studio-panda1-linux.tar.gz"
+SRC_URI="https://edgedl.me.gvt1.com/android/studio/ide-zips/2025.3.1.8/android-studio-panda1-patch1-linux.tar.gz -> android-studio-panda1-patch1-linux.tar.gz"
 
 LICENSE="Apache-2.0 android-sdk"
 SLOT="0"

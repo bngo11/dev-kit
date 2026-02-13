@@ -8,5 +8,5 @@ KEYWORDS=*
 LICENSE=GPL-2
 RDEPEND=dev-libs/userspace-rcu:= dev-libs/popt dev-libs/libxml2 ust? ( >=dev-util/lttng-ust-2.12.0:= )
 SLOT=0/2.15
-SRC_URI=https://lttng.org/files/lttng-tools/lttng-tools-2.15.0-rc1.tar.bz2 -> lttng-tools-2.15.0-rc1.tar.bz2
-_md5_=ce39105ef8bb3d82c1621ab1efe23ab9
+SRC_URI=https://lttng.org/files/lttng-tools/lttng-tools-2.15.0.tar.bz2 -> lttng-tools-2.15.0.tar.bz2
+_md5_=c418eaa917bb048462e5d842c36a260c
