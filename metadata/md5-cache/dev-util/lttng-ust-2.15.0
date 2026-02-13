@@ -9,6 +9,6 @@ KEYWORDS=*
 LICENSE=GPL-2
 RDEPEND=dev-libs/userspace-rcu:= numa? ( sys-process/numactl )
 SLOT=0/2.15
-SRC_URI=https://lttng.org/files/lttng-ust/lttng-ust-2.15.0-rc1.tar.bz2 -> lttng-ust-2.15.0-rc1.tar.bz2
+SRC_URI=https://lttng.org/files/lttng-ust/lttng-ust-2.15.0.tar.bz2 -> lttng-ust-2.15.0.tar.bz2
 _eclasses_=autotools	619846d0d85ed5d3334692c0215a603e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=552be59f16e2c804dd038033e68b472c
+_md5_=372f62e575e9d83569b2288b95ba4c96

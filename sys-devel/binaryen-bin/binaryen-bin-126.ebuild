@@ -8,10 +8,10 @@ S=${WORKDIR}/${MY_PN}-version-${PV}
 DESCRIPTION="Optimizer and compiler/toolchain library for WebAssembly"
 HOMEPAGE="https://github.com/WebAssembly/binaryen"
 SRC_URI="amd64? (
-  https://github.com/WebAssembly/binaryen/releases/download/version_125/binaryen-version_125-x86_64-linux.tar.gz -> binaryen-version_125-x86_64-linux.tar.gz
+  https://github.com/WebAssembly/binaryen/releases/download/version_126/binaryen-version_126-x86_64-linux.tar.gz -> binaryen-version_126-x86_64-linux.tar.gz
 )
 arm64? (
-  https://github.com/WebAssembly/binaryen/releases/download/version_125/binaryen-version_125-aarch64-linux.tar.gz -> binaryen-version_125-aarch64-linux.tar.gz
+  https://github.com/WebAssembly/binaryen/releases/download/version_126/binaryen-version_126-aarch64-linux.tar.gz -> binaryen-version_126-aarch64-linux.tar.gz
 )
 "
 

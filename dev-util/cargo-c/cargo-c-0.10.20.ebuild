@@ -297,8 +297,8 @@ https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crat
 https://crates.io/api/v1/crates/schannel/0.1.28/download -> schannel-0.1.28.crate
 https://crates.io/api/v1/crates/scopeguard/1.2.0/download -> scopeguard-1.2.0.crate
 https://crates.io/api/v1/crates/sec1/0.7.3/download -> sec1-0.7.3.crate
-https://crates.io/api/v1/crates/security-framework/3.5.1/download -> security-framework-3.5.1.crate
-https://crates.io/api/v1/crates/security-framework-sys/2.15.0/download -> security-framework-sys-2.15.0.crate
+https://crates.io/api/v1/crates/security-framework/3.6.0/download -> security-framework-3.6.0.crate
+https://crates.io/api/v1/crates/security-framework-sys/2.16.0/download -> security-framework-sys-2.16.0.crate
 https://crates.io/api/v1/crates/semver/1.0.27/download -> semver-1.0.27.crate
 https://crates.io/api/v1/crates/serde/1.0.228/download -> serde-1.0.228.crate
 https://crates.io/api/v1/crates/serde-untagged/0.1.9/download -> serde-untagged-0.1.9.crate
