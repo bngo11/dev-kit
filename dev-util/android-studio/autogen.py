@@ -1,47 +1,34 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from bs4 import BeautifulSoup
-import re
-
 
 async def generate(hub, **pkginfo):
-	download_page_url = "https://developer.android.com/studio"
-	src_pattern = re.compile("android-studio-([\d.]+)-linux.tar.gz")
-	download_url_format = (
-		"https://redirector.gvt1.com/edgedl/android/studio/ide-zips/{version}/{name}"
-	)
+	html_data = await hub.pkgtools.fetch.get_page("https://developer.android.com/studio/")
+	soup = BeautifulSoup(html_data, "html.parser")
+	links = soup.find_all("a")
+	version = None
 
-	download_page_soup = BeautifulSoup(
-		await hub.pkgtools.fetch.get_page(download_page_url), "lxml"
-	)
+	for link in links:
+		url = link.get("href")
+		if url and url.endswith("linux.tar.gz"):
+			parts = url.split("/")
+			version = parts[-2]
 
-	downloads_table = download_page_soup.find("table", class_="download")
+			try:
+				list(map(int, version.split(".")))
+				break
 
-	downloads_table_rows = downloads_table.find_all("tr")
+			except ValueError:
+				continue
 
-	for row in downloads_table_rows:
-		platform_column = row.find("td")
-		if platform_column is None:
-			continue
+	if version:
+		ebuild = hub.pkgtools.ebuild.BreezyBuild(
+			**pkginfo,
+			version=version,
+			artifacts=[hub.pkgtools.ebuild.Artifact(url=url)],
+		)
 
-		if platform_column.text.strip() == "Linux(64-bit)":
-			linux_row = row
-			break
+		ebuild.push()
 
-	linux_download_button = linux_row.find("button")
-	linux_download_name = linux_download_button.text.strip()
 
-	(linux_version,) = src_pattern.match(linux_download_name).groups()
-
-	linux_source_url = download_url_format.format(
-		version=linux_version, name=linux_download_name
-	)
-	linux_source_artifact = hub.pkgtools.ebuild.Artifact(url=linux_source_url)
-
-	ebuild = hub.pkgtools.ebuild.BreezyBuild(
-		**pkginfo,
-		version=linux_version,
-		artifacts=[linux_source_artifact],
-	)
-	ebuild.push()
-
+# vim: ts=4 sw=4 noet
