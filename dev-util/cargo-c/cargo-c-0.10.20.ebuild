@@ -47,8 +47,8 @@ https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crat
 https://crates.io/api/v1/crates/cc/1.2.56/download -> cc-1.2.56.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
-https://crates.io/api/v1/crates/clap/4.5.58/download -> clap-4.5.58.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.58/download -> clap_builder-4.5.58.crate
+https://crates.io/api/v1/crates/clap/4.5.59/download -> clap-4.5.59.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.59/download -> clap_builder-4.5.59.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.66/download -> clap_complete-4.5.66.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.55/download -> clap_derive-4.5.55.crate
 https://crates.io/api/v1/crates/clap_lex/1.0.0/download -> clap_lex-1.0.0.crate
@@ -217,7 +217,7 @@ https://crates.io/api/v1/crates/log/0.4.29/download -> log-0.4.29.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.10/download -> maybe-async-0.2.10.crate
 https://crates.io/api/v1/crates/memchr/2.8.0/download -> memchr-2.8.0.crate
-https://crates.io/api/v1/crates/memmap2/0.9.9/download -> memmap2-0.9.9.crate
+https://crates.io/api/v1/crates/memmap2/0.9.10/download -> memmap2-0.9.10.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
 https://crates.io/api/v1/crates/miniz_oxide/0.8.9/download -> miniz_oxide-0.8.9.crate
@@ -327,7 +327,7 @@ https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/supports-hyperlinks/3.2.0/download -> supports-hyperlinks-3.2.0.crate
 https://crates.io/api/v1/crates/supports-unicode/3.0.0/download -> supports-unicode-3.0.0.crate
-https://crates.io/api/v1/crates/syn/2.0.115/download -> syn-2.0.115.crate
+https://crates.io/api/v1/crates/syn/2.0.116/download -> syn-2.0.116.crate
 https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.13.2.crate
 https://crates.io/api/v1/crates/tar/0.4.44/download -> tar-0.4.44.crate
 https://crates.io/api/v1/crates/tempfile/3.25.0/download -> tempfile-3.25.0.crate
@@ -344,7 +344,7 @@ https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-
 https://crates.io/api/v1/crates/toml/0.9.12+spec-1.1.0/download -> toml-0.9.12+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml_datetime/0.7.5+spec-1.1.0/download -> toml_datetime-0.7.5+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml_edit/0.23.10+spec-1.0.0/download -> toml_edit-0.23.10+spec-1.0.0.crate
-https://crates.io/api/v1/crates/toml_parser/1.0.8+spec-1.1.0/download -> toml_parser-1.0.8+spec-1.1.0.crate
+https://crates.io/api/v1/crates/toml_parser/1.0.9+spec-1.1.0/download -> toml_parser-1.0.9+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml_writer/1.0.6+spec-1.1.0/download -> toml_writer-1.0.6+spec-1.1.0.crate
 https://crates.io/api/v1/crates/tracing/0.1.44/download -> tracing-0.1.44.crate
 https://crates.io/api/v1/crates/tracing-attributes/0.1.31/download -> tracing-attributes-0.1.31.crate
@@ -356,7 +356,7 @@ https://crates.io/api/v1/crates/typeid/1.0.3/download -> typeid-1.0.3.crate
 https://crates.io/api/v1/crates/typenum/1.19.0/download -> typenum-1.19.0.crate
 https://crates.io/api/v1/crates/unicase/2.9.0/download -> unicase-2.9.0.crate
 https://crates.io/api/v1/crates/unicode-bom/2.0.3/download -> unicode-bom-2.0.3.crate
-https://crates.io/api/v1/crates/unicode-ident/1.0.23/download -> unicode-ident-1.0.23.crate
+https://crates.io/api/v1/crates/unicode-ident/1.0.24/download -> unicode-ident-1.0.24.crate
 https://crates.io/api/v1/crates/unicode-normalization/0.1.25/download -> unicode-normalization-0.1.25.crate
 https://crates.io/api/v1/crates/unicode-width/0.2.2/download -> unicode-width-0.2.2.crate
 https://crates.io/api/v1/crates/unicode-xid/0.2.6/download -> unicode-xid-0.2.6.crate
@@ -419,7 +419,7 @@ https://crates.io/api/v1/crates/zerotrie/0.2.3/download -> zerotrie-0.2.3.crate
 https://crates.io/api/v1/crates/zerovec/0.11.5/download -> zerovec-0.11.5.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.2/download -> zerovec-derive-0.11.2.crate
 https://crates.io/api/v1/crates/zlib-rs/0.5.5/download -> zlib-rs-0.5.5.crate
-https://crates.io/api/v1/crates/zlib-rs/0.6.0/download -> zlib-rs-0.6.0.crate
+https://crates.io/api/v1/crates/zlib-rs/0.6.2/download -> zlib-rs-0.6.2.crate
 https://crates.io/api/v1/crates/zmij/1.0.21/download -> zmij-1.0.21.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
