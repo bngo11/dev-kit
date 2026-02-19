@@ -11,7 +11,7 @@ https://crates.io/api/v1/crates/adler2/2.0.1/download -> adler2-2.0.1.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.4/download -> aho-corasick-1.1.4.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
-https://crates.io/api/v1/crates/annotate-snippets/0.12.11/download -> annotate-snippets-0.12.11.crate
+https://crates.io/api/v1/crates/annotate-snippets/0.12.12/download -> annotate-snippets-0.12.12.crate
 https://crates.io/api/v1/crates/anstream/0.6.21/download -> anstream-0.6.21.crate
 https://crates.io/api/v1/crates/anstyle/1.0.13/download -> anstyle-1.0.13.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download -> anstyle-parse-0.2.7.crate
@@ -31,7 +31,7 @@ https://crates.io/api/v1/crates/blake3/1.8.3/download -> blake3-1.8.3.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
 https://crates.io/api/v1/crates/block2/0.6.2/download -> block2-0.6.2.crate
 https://crates.io/api/v1/crates/bstr/1.12.1/download -> bstr-1.12.1.crate
-https://crates.io/api/v1/crates/bumpalo/3.19.1/download -> bumpalo-3.19.1.crate
+https://crates.io/api/v1/crates/bumpalo/3.20.2/download -> bumpalo-3.20.2.crate
 https://crates.io/api/v1/crates/byteorder/1.5.0/download -> byteorder-1.5.0.crate
 https://crates.io/api/v1/crates/bytes/1.11.1/download -> bytes-1.11.1.crate
 https://crates.io/api/v1/crates/camino/1.2.2/download -> camino-1.2.2.crate
@@ -47,8 +47,8 @@ https://crates.io/api/v1/crates/cbindgen/0.29.2/download -> cbindgen-0.29.2.crat
 https://crates.io/api/v1/crates/cc/1.2.56/download -> cc-1.2.56.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
-https://crates.io/api/v1/crates/clap/4.5.59/download -> clap-4.5.59.crate
-https://crates.io/api/v1/crates/clap_builder/4.5.59/download -> clap_builder-4.5.59.crate
+https://crates.io/api/v1/crates/clap/4.5.60/download -> clap-4.5.60.crate
+https://crates.io/api/v1/crates/clap_builder/4.5.60/download -> clap_builder-4.5.60.crate
 https://crates.io/api/v1/crates/clap_complete/4.5.66/download -> clap_complete-4.5.66.crate
 https://crates.io/api/v1/crates/clap_derive/4.5.55/download -> clap_derive-4.5.55.crate
 https://crates.io/api/v1/crates/clap_lex/1.0.0/download -> clap_lex-1.0.0.crate
