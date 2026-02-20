@@ -197,7 +197,7 @@ https://crates.io/api/v1/crates/jiff-static/0.2.20/download -> jiff-static-0.2.2
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.5/download -> jiff-tzdb-0.1.5.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.34/download -> jobserver-0.1.34.crate
-https://crates.io/api/v1/crates/js-sys/0.3.85/download -> js-sys-0.3.85.crate
+https://crates.io/api/v1/crates/js-sys/0.3.86/download -> js-sys-0.3.86.crate
 https://crates.io/api/v1/crates/kstring/2.0.2/download -> kstring-2.0.2.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/leb128fmt/0.1.0/download -> leb128fmt-0.1.0.crate
@@ -370,10 +370,10 @@ https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.1+wasi-snapshot-preview1/download -> wasi-0.11.1+wasi-snapshot-preview1.crate
 https://crates.io/api/v1/crates/wasip2/1.0.2+wasi-0.2.9/download -> wasip2-1.0.2+wasi-0.2.9.crate
 https://crates.io/api/v1/crates/wasip3/0.4.0+wasi-0.3.0-rc-2026-01-06/download -> wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06.crate
-https://crates.io/api/v1/crates/wasm-bindgen/0.2.108/download -> wasm-bindgen-0.2.108.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.108/download -> wasm-bindgen-macro-0.2.108.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.108/download -> wasm-bindgen-macro-support-0.2.108.crate
-https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.108/download -> wasm-bindgen-shared-0.2.108.crate
+https://crates.io/api/v1/crates/wasm-bindgen/0.2.109/download -> wasm-bindgen-0.2.109.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.109/download -> wasm-bindgen-macro-0.2.109.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.109/download -> wasm-bindgen-macro-support-0.2.109.crate
+https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.109/download -> wasm-bindgen-shared-0.2.109.crate
 https://crates.io/api/v1/crates/wasm-encoder/0.244.0/download -> wasm-encoder-0.244.0.crate
 https://crates.io/api/v1/crates/wasm-metadata/0.244.0/download -> wasm-metadata-0.244.0.crate
 https://crates.io/api/v1/crates/wasmparser/0.244.0/download -> wasmparser-0.244.0.crate
