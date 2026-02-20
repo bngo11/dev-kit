@@ -17,7 +17,7 @@ https://crates.io/api/v1/crates/anstyle/1.0.13/download -> anstyle-1.0.13.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download -> anstyle-parse-0.2.7.crate
 https://crates.io/api/v1/crates/anstyle-query/1.1.5/download -> anstyle-query-1.1.5.crate
 https://crates.io/api/v1/crates/anstyle-wincon/3.0.11/download -> anstyle-wincon-3.0.11.crate
-https://crates.io/api/v1/crates/anyhow/1.0.101/download -> anyhow-1.0.101.crate
+https://crates.io/api/v1/crates/anyhow/1.0.102/download -> anyhow-1.0.102.crate
 https://crates.io/api/v1/crates/arc-swap/1.8.2/download -> arc-swap-1.8.2.crate
 https://crates.io/api/v1/crates/arrayref/0.3.9/download -> arrayref-0.3.9.crate
 https://crates.io/api/v1/crates/arrayvec/0.7.6/download -> arrayvec-0.7.6.crate
@@ -297,8 +297,8 @@ https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crat
 https://crates.io/api/v1/crates/schannel/0.1.28/download -> schannel-0.1.28.crate
 https://crates.io/api/v1/crates/scopeguard/1.2.0/download -> scopeguard-1.2.0.crate
 https://crates.io/api/v1/crates/sec1/0.7.3/download -> sec1-0.7.3.crate
-https://crates.io/api/v1/crates/security-framework/3.6.0/download -> security-framework-3.6.0.crate
-https://crates.io/api/v1/crates/security-framework-sys/2.16.0/download -> security-framework-sys-2.16.0.crate
+https://crates.io/api/v1/crates/security-framework/3.7.0/download -> security-framework-3.7.0.crate
+https://crates.io/api/v1/crates/security-framework-sys/2.17.0/download -> security-framework-sys-2.17.0.crate
 https://crates.io/api/v1/crates/semver/1.0.27/download -> semver-1.0.27.crate
 https://crates.io/api/v1/crates/serde/1.0.228/download -> serde-1.0.228.crate
 https://crates.io/api/v1/crates/serde-untagged/0.1.9/download -> serde-untagged-0.1.9.crate
@@ -327,7 +327,7 @@ https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/supports-hyperlinks/3.2.0/download -> supports-hyperlinks-3.2.0.crate
 https://crates.io/api/v1/crates/supports-unicode/3.0.0/download -> supports-unicode-3.0.0.crate
-https://crates.io/api/v1/crates/syn/2.0.116/download -> syn-2.0.116.crate
+https://crates.io/api/v1/crates/syn/2.0.117/download -> syn-2.0.117.crate
 https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.13.2.crate
 https://crates.io/api/v1/crates/tar/0.4.44/download -> tar-0.4.44.crate
 https://crates.io/api/v1/crates/tempfile/3.25.0/download -> tempfile-3.25.0.crate

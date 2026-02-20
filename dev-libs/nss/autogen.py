@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 async def generate(hub, **pkginfo):
-	repos = [('nspr', '4.38'), ('nss', '3.110')]
+	repos = [('nspr', '4.38'), ('nss', '3.120')]
 	repo_info = {}
 
 	for repo, ver in repos:
