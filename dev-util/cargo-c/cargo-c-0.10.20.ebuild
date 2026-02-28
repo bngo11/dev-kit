@@ -205,7 +205,7 @@ https://crates.io/api/v1/crates/libc/0.2.182/download -> libc-0.2.182.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.3+1.9.2/download -> libgit2-sys-0.18.3+1.9.2.crate
 https://crates.io/api/v1/crates/libloading/0.8.9/download -> libloading-0.8.9.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.12+1.68.0/download -> libnghttp2-sys-0.1.12+1.68.0.crate
-https://crates.io/api/v1/crates/libredox/0.1.12/download -> libredox-0.1.12.crate
+https://crates.io/api/v1/crates/libredox/0.1.14/download -> libredox-0.1.14.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.35.0/download -> libsqlite3-sys-0.35.0.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.1/download -> libssh2-sys-0.3.1.crate
 https://crates.io/api/v1/crates/libz-rs-sys/0.5.5/download -> libz-rs-sys-0.5.5.crate
@@ -265,6 +265,7 @@ https://crates.io/api/v1/crates/percent-encoding/2.3.2/download -> percent-encod
 https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download -> pin-project-lite-0.2.17.crate
 https://crates.io/api/v1/crates/pkcs8/0.10.2/download -> pkcs8-0.10.2.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.crate
+https://crates.io/api/v1/crates/plain/0.2.3/download -> plain-0.2.3.crate
 https://crates.io/api/v1/crates/portable-atomic/1.13.1/download -> portable-atomic-1.13.1.crate
 https://crates.io/api/v1/crates/portable-atomic-util/0.2.5/download -> portable-atomic-util-0.2.5.crate
 https://crates.io/api/v1/crates/potential_utf/0.1.4/download -> potential_utf-0.1.4.crate
