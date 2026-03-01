@@ -7,7 +7,7 @@ inherit cmake-utils flag-o-matic llvm
 
 DESCRIPTION="Bi-directional translator between SPIR-V and LLVM IR"
 HOMEPAGE="https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
-SRC_URI="https://api.github.com/repos/KhronosGroup/SPIRV-LLVM-Translator/tarball/v21.1.4 -> spirv-llvm-translator-21.1.4.tar.gz"
+SRC_URI="https://api.github.com/repos/KhronosGroup/SPIRV-LLVM-Translator/tarball/v21.1.5 -> spirv-llvm-translator-21.1.5.tar.gz"
 
 LICENSE="UoI-NCSA"
 SLOT="$(ver_cut 1)"
