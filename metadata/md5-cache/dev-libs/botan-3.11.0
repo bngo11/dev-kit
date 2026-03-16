@@ -10,7 +10,7 @@ LICENSE=BSD-2
 RDEPEND=boost? ( dev-libs/boost:= ) bzip2? ( >=app-arch/bzip2-1.0.5:= ) zlib? ( >=sys-libs/zlib-1.2.3:= ) lzma? ( app-arch/xz-utils:= ) python? ( python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_12(-)?,python_targets_python3_10(-)?,python_targets_python3_7(-)?,python_targets_python3_9(-)?,python_targets_python3_8(-)?,-python_single_target_python3_12(-),-python_single_target_python3_10(-),-python_single_target_python3_7(-),-python_single_target_python3_9(-),-python_single_target_python3_8(-)] ) sqlite? ( dev-db/sqlite:3= )
 REQUIRED_USE=python? ( || ( python_targets_python3_12 python_targets_python3_10 python_targets_python3_7 python_targets_python3_9 python_targets_python3_8 ) )
 RESTRICT=!test? ( test )
-SLOT=3/3.10
-SRC_URI=https://github.com/randombit/botan/tarball/e27d332089247f04e89854a2e60a3af2ec4e430f -> botan-3.10.0-e27d332.tar.gz
+SLOT=3/3.11
+SRC_URI=https://github.com/randombit/botan/tarball/4f6f5bbaf7263ca6062e6644950ae30625f06490 -> botan-3.11.0-4f6f5bb.tar.gz
 _eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multibuild	b2c915190b051f55a23b9354b9849847	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	5bbb250a8d0b8f4496dcef8e8c1c1a8a	python-utils-r1	c57a84554d3dca7c828e40d877b2dd7d	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=2f2787180bf833856e0706a88b5b58b8
+_md5_=dc8202e747240ad308c8e1eb51509a05
