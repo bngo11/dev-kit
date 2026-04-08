@@ -11,7 +11,7 @@ https://crates.io/api/v1/crates/adler2/2.0.1/download -> adler2-2.0.1.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.4/download -> aho-corasick-1.1.4.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
-https://crates.io/api/v1/crates/annotate-snippets/0.12.14/download -> annotate-snippets-0.12.14.crate
+https://crates.io/api/v1/crates/annotate-snippets/0.12.15/download -> annotate-snippets-0.12.15.crate
 https://crates.io/api/v1/crates/anstream/0.6.21/download -> anstream-0.6.21.crate
 https://crates.io/api/v1/crates/anstream/1.0.0/download -> anstream-1.0.0.crate
 https://crates.io/api/v1/crates/anstyle/1.0.14/download -> anstyle-1.0.14.crate
@@ -93,7 +93,7 @@ https://crates.io/api/v1/crates/errno/0.3.14/download -> errno-0.3.14.crate
 https://crates.io/api/v1/crates/fallible-iterator/0.3.0/download -> fallible-iterator-0.3.0.crate
 https://crates.io/api/v1/crates/fallible-streaming-iterator/0.1.9/download -> fallible-streaming-iterator-0.1.9.crate
 https://crates.io/api/v1/crates/faster-hex/0.10.0/download -> faster-hex-0.10.0.crate
-https://crates.io/api/v1/crates/fastrand/2.4.0/download -> fastrand-2.4.0.crate
+https://crates.io/api/v1/crates/fastrand/2.4.1/download -> fastrand-2.4.1.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
 https://crates.io/api/v1/crates/filetime/0.2.27/download -> filetime-0.2.27.crate
@@ -251,7 +251,7 @@ https://crates.io/api/v1/crates/opener/0.8.4/download -> opener-0.8.4.crate
 https://crates.io/api/v1/crates/openssl/0.10.76/download -> openssl-0.10.76.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
-https://crates.io/api/v1/crates/openssl-src/300.5.5+3.5.5/download -> openssl-src-300.5.5+3.5.5.crate
+https://crates.io/api/v1/crates/openssl-src/300.6.0+3.6.2/download -> openssl-src-300.6.0+3.6.2.crate
 https://crates.io/api/v1/crates/openssl-sys/0.9.112/download -> openssl-sys-0.9.112.crate
 https://crates.io/api/v1/crates/ordered-float/2.10.1/download -> ordered-float-2.10.1.crate
 https://crates.io/api/v1/crates/orion/0.17.13/download -> orion-0.17.13.crate
