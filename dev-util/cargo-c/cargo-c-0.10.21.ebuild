@@ -266,7 +266,7 @@ https://crates.io/api/v1/crates/pem-rfc7468/0.7.0/download -> pem-rfc7468-0.7.0.
 https://crates.io/api/v1/crates/percent-encoding/2.3.2/download -> percent-encoding-2.3.2.crate
 https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download -> pin-project-lite-0.2.17.crate
 https://crates.io/api/v1/crates/pkcs8/0.10.2/download -> pkcs8-0.10.2.crate
-https://crates.io/api/v1/crates/pkg-config/0.3.32/download -> pkg-config-0.3.32.crate
+https://crates.io/api/v1/crates/pkg-config/0.3.33/download -> pkg-config-0.3.33.crate
 https://crates.io/api/v1/crates/plain/0.2.3/download -> plain-0.2.3.crate
 https://crates.io/api/v1/crates/portable-atomic/1.13.1/download -> portable-atomic-1.13.1.crate
 https://crates.io/api/v1/crates/portable-atomic-util/0.2.6/download -> portable-atomic-util-0.2.6.crate
