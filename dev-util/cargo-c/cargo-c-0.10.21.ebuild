@@ -59,7 +59,7 @@ https://crates.io/api/v1/crates/color-print/0.3.7/download -> color-print-0.3.7.
 https://crates.io/api/v1/crates/color-print-proc-macro/0.3.7/download -> color-print-proc-macro-0.3.7.crate
 https://crates.io/api/v1/crates/colorchoice/1.0.5/download -> colorchoice-1.0.5.crate
 https://crates.io/api/v1/crates/const-oid/0.9.6/download -> const-oid-0.9.6.crate
-https://crates.io/api/v1/crates/constant_time_eq/0.4.3/download -> constant_time_eq-0.4.3.crate
+https://crates.io/api/v1/crates/constant_time_eq/0.4.2/download -> constant_time_eq-0.4.2.crate
 https://crates.io/api/v1/crates/core-foundation/0.10.1/download -> core-foundation-0.10.1.crate
 https://crates.io/api/v1/crates/core-foundation-sys/0.8.7/download -> core-foundation-sys-0.8.7.crate
 https://crates.io/api/v1/crates/cpufeatures/0.2.17/download -> cpufeatures-0.2.17.crate
