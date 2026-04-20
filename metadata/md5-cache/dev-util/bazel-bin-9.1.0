@@ -7,5 +7,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=virtual/jre-11
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/bazelbuild/bazel/releases/download/9.0.2/bazel_nojdk-9.0.2-linux-x86_64 -> bazel_nojdk-9.0.2-linux-x86_64
-_md5_=4b5abab20f99f7c8ff61058d01ab6d95
+SRC_URI=https://github.com/bazelbuild/bazel/releases/download/9.1.0/bazel_nojdk-9.1.0-linux-x86_64 -> bazel_nojdk-9.1.0-linux-x86_64
+_md5_=91b54d555189111b9060361fc6669920
