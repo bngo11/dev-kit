@@ -1789,7 +1789,7 @@ go-module_set_globals
 DESCRIPTION="A tool for creating identical machine images for multiple platforms"
 HOMEPAGE="https://www.packer.io/ https://github.com/hashicorp/packer"
 SRC_URI="https://github.com/hashicorp/packer/tarball/1c3935786ec542fe33c2029bc1e0bc9417bd9b9a -> packer-1.15.3-1c39357.tar.gz
-https://direct.funtoo.org/76/45/79/7645799ca07e1dc6628a54bec1cdb7d62996e07c02c759a8b7bc069db755d6242efb5ace1e884b0ed3a71c86c02c2eec104b238b67b57364d57e1f244d23a730 -> packer-1.15.3-funtoo-go-bundle-7ab4a71833bb1e9f08c1dce027751abbd131fe22dc2c336b1f7eaf6ec171da5ba10afc80f645348887a9c749db8f3becfdd47139a0f0a2aeca3a5b2b47b4b4e1.tar.gz"
+https://direct.funtoo.org/62/74/94/627494a332b7d13ee66b0682594d37cba0b5bda8d3d6c13cc8f3f5858e53b92491187979640cd185887463788e367a43fc4dd5a49f09341be6e5a1e7612ffa97 -> packer-1.15.3-funtoo-go-bundle-7ab4a71833bb1e9f08c1dce027751abbd131fe22dc2c336b1f7eaf6ec171da5ba10afc80f645348887a9c749db8f3becfdd47139a0f0a2aeca3a5b2b47b4b4e1.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
