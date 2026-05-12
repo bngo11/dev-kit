@@ -419,7 +419,7 @@ https://crates.io/api/v1/crates/yoke/0.8.2/download -> yoke-0.8.2.crate
 https://crates.io/api/v1/crates/yoke-derive/0.8.2/download -> yoke-derive-0.8.2.crate
 https://crates.io/api/v1/crates/zerocopy/0.8.48/download -> zerocopy-0.8.48.crate
 https://crates.io/api/v1/crates/zerocopy-derive/0.8.48/download -> zerocopy-derive-0.8.48.crate
-https://crates.io/api/v1/crates/zerofrom/0.1.7/download -> zerofrom-0.1.7.crate
+https://crates.io/api/v1/crates/zerofrom/0.1.8/download -> zerofrom-0.1.8.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.7/download -> zerofrom-derive-0.1.7.crate
 https://crates.io/api/v1/crates/zeroize/1.8.2/download -> zeroize-1.8.2.crate
 https://crates.io/api/v1/crates/zerotrie/0.2.4/download -> zerotrie-0.2.4.crate
