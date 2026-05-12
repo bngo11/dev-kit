@@ -52,7 +52,7 @@ https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
 https://crates.io/api/v1/crates/clap/4.6.1/download -> clap-4.6.1.crate
 https://crates.io/api/v1/crates/clap_builder/4.6.0/download -> clap_builder-4.6.0.crate
-https://crates.io/api/v1/crates/clap_complete/4.6.4/download -> clap_complete-4.6.4.crate
+https://crates.io/api/v1/crates/clap_complete/4.6.5/download -> clap_complete-4.6.5.crate
 https://crates.io/api/v1/crates/clap_derive/4.6.1/download -> clap_derive-4.6.1.crate
 https://crates.io/api/v1/crates/clap_lex/1.1.0/download -> clap_lex-1.1.0.crate
 https://crates.io/api/v1/crates/clru/0.6.3/download -> clru-0.6.3.crate
