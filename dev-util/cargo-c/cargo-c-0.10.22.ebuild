@@ -218,7 +218,7 @@ https://crates.io/api/v1/crates/litemap/0.8.2/download -> litemap-0.8.2.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
 https://crates.io/api/v1/crates/log/0.4.29/download -> log-0.4.29.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
-https://crates.io/api/v1/crates/maybe-async/0.2.10/download -> maybe-async-0.2.10.crate
+https://crates.io/api/v1/crates/maybe-async/0.2.11/download -> maybe-async-0.2.11.crate
 https://crates.io/api/v1/crates/memchr/2.8.0/download -> memchr-2.8.0.crate
 https://crates.io/api/v1/crates/memmap2/0.9.10/download -> memmap2-0.9.10.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
@@ -250,11 +250,11 @@ https://crates.io/api/v1/crates/object/0.39.1/download -> object-0.39.1.crate
 https://crates.io/api/v1/crates/once_cell/1.21.4/download -> once_cell-1.21.4.crate
 https://crates.io/api/v1/crates/once_cell_polyfill/1.70.2/download -> once_cell_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/opener/0.8.4/download -> opener-0.8.4.crate
-https://crates.io/api/v1/crates/openssl/0.10.79/download -> openssl-0.10.79.crate
+https://crates.io/api/v1/crates/openssl/0.10.80/download -> openssl-0.10.80.crate
 https://crates.io/api/v1/crates/openssl-macros/0.1.1/download -> openssl-macros-0.1.1.crate
 https://crates.io/api/v1/crates/openssl-probe/0.1.6/download -> openssl-probe-0.1.6.crate
 https://crates.io/api/v1/crates/openssl-src/300.6.0+3.6.2/download -> openssl-src-300.6.0+3.6.2.crate
-https://crates.io/api/v1/crates/openssl-sys/0.9.115/download -> openssl-sys-0.9.115.crate
+https://crates.io/api/v1/crates/openssl-sys/0.9.116/download -> openssl-sys-0.9.116.crate
 https://crates.io/api/v1/crates/ordered-float/2.10.1/download -> ordered-float-2.10.1.crate
 https://crates.io/api/v1/crates/orion/0.17.14/download -> orion-0.17.14.crate
 https://crates.io/api/v1/crates/os_info/3.14.0/download -> os_info-3.14.0.crate
@@ -406,7 +406,7 @@ https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.53.1/download -> window
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.52.6/download -> windows_x86_64_msvc-0.52.6.crate
 https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.1/download -> windows_x86_64_msvc-0.53.1.crate
 https://crates.io/api/v1/crates/winnow/0.7.15/download -> winnow-0.7.15.crate
-https://crates.io/api/v1/crates/winnow/1.0.2/download -> winnow-1.0.2.crate
+https://crates.io/api/v1/crates/winnow/1.0.3/download -> winnow-1.0.3.crate
 https://crates.io/api/v1/crates/wit-bindgen/0.51.0/download -> wit-bindgen-0.51.0.crate
 https://crates.io/api/v1/crates/wit-bindgen/0.57.1/download -> wit-bindgen-0.57.1.crate
 https://crates.io/api/v1/crates/wit-bindgen-core/0.51.0/download -> wit-bindgen-core-0.51.0.crate
