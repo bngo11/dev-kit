@@ -84,7 +84,7 @@ https://crates.io/api/v1/crates/dispatch2/0.3.1/download -> dispatch2-0.3.1.crat
 https://crates.io/api/v1/crates/displaydoc/0.2.5/download -> displaydoc-0.2.5.crate
 https://crates.io/api/v1/crates/dunce/1.0.5/download -> dunce-1.0.5.crate
 https://crates.io/api/v1/crates/ecdsa/0.16.9/download -> ecdsa-0.16.9.crate
-https://crates.io/api/v1/crates/ed25519-compact/2.2.0/download -> ed25519-compact-2.2.0.crate
+https://crates.io/api/v1/crates/ed25519-compact/2.3.0/download -> ed25519-compact-2.3.0.crate
 https://crates.io/api/v1/crates/either/1.15.0/download -> either-1.15.0.crate
 https://crates.io/api/v1/crates/elliptic-curve/0.13.8/download -> elliptic-curve-0.13.8.crate
 https://crates.io/api/v1/crates/encoding_rs/0.8.35/download -> encoding_rs-0.8.35.crate
