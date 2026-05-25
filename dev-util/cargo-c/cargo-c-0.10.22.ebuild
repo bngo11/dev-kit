@@ -197,8 +197,8 @@ https://crates.io/api/v1/crates/is_executable/1.0.5/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download -> is_terminal_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.18/download -> itoa-1.0.18.crate
-https://crates.io/api/v1/crates/jiff/0.2.24/download -> jiff-0.2.24.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.24/download -> jiff-static-0.2.24.crate
+https://crates.io/api/v1/crates/jiff/0.2.25/download -> jiff-0.2.25.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.25/download -> jiff-static-0.2.25.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.6/download -> jiff-tzdb-0.1.6.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.34/download -> jobserver-0.1.34.crate
@@ -216,7 +216,7 @@ https://crates.io/api/v1/crates/libz-sys/1.1.28/download -> libz-sys-1.1.28.crat
 https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download -> linux-raw-sys-0.12.1.crate
 https://crates.io/api/v1/crates/litemap/0.8.2/download -> litemap-0.8.2.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
-https://crates.io/api/v1/crates/log/0.4.29/download -> log-0.4.29.crate
+https://crates.io/api/v1/crates/log/0.4.30/download -> log-0.4.30.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.11/download -> maybe-async-0.2.11.crate
 https://crates.io/api/v1/crates/memchr/2.8.0/download -> memchr-2.8.0.crate
@@ -325,7 +325,7 @@ https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.
 https://crates.io/api/v1/crates/smallvec/1.15.1/download -> smallvec-1.15.1.crate
 https://crates.io/api/v1/crates/socket2/0.6.3/download -> socket2-0.6.3.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
-https://crates.io/api/v1/crates/sqlite-wasm-rs/0.5.4/download -> sqlite-wasm-rs-0.5.4.crate
+https://crates.io/api/v1/crates/sqlite-wasm-rs/0.5.5/download -> sqlite-wasm-rs-0.5.5.crate
 https://crates.io/api/v1/crates/stable_deref_trait/1.2.1/download -> stable_deref_trait-1.2.1.crate
 https://crates.io/api/v1/crates/static_assertions/1.1.0/download -> static_assertions-1.1.0.crate
 https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
