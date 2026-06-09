@@ -666,7 +666,7 @@ go-module_set_globals
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
 SRC_URI="https://github.com/cli/cli/tarball/f96972ce1c11fdb8eaa556257fde962a363dffde -> cli-2.93.0-f96972c.tar.gz
-https://direct.funtoo.org/6b/d7/aa/6bd7aa3059ae3840de3ae1fff714d52da0d1c5410357a88672296462d6ca50b95c999caa647d9b9c1153f34d6cdcc3180582ad936b89144af57e6b8a4f3416d5 -> github-cli-2.93.0-funtoo-go-bundle-07e798fb9f18a0814be6fba6ed4b589c1167ba87f610f0837accb0e2cfeef4b0e2c9f7fe1de507bc0fe266e8eae938b5aca3836f87aca1c63c638eba45b5458e.tar.gz"
+https://direct.funtoo.org/d0/3c/87/d03c8711ede9d2c14c7a69b9387db2abdd47dbddd436c59194e1a361db632cb42af94140f4e08915de59b3b3e63ff2f06a7f85508312e29c387260facced8d2e -> github-cli-2.93.0-funtoo-go-bundle-07e798fb9f18a0814be6fba6ed4b589c1167ba87f610f0837accb0e2cfeef4b0e2c9f7fe1de507bc0fe266e8eae938b5aca3836f87aca1c63c638eba45b5458e.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
