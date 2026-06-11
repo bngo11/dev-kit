@@ -7,7 +7,7 @@ inherit cmake vala
 
 DESCRIPTION="Ayatana Application Indicators (Shared Library)"
 HOMEPAGE="https://github.com/AyatanaIndicators/libayatana-appindicator"
-SRC_URI="https://github.com/AyatanaIndicators/libayatana-appindicator/tarball/31e8bb083b307e1cc96af4874a94707727bd1e79 -> libayatana-appindicator-0.5.94-31e8bb0.tar.gz"
+SRC_URI="https://github.com/AyatanaIndicators/libayatana-appindicator/tarball/27f9d9ddcf20be87c6cede65c89c5b098b16330d -> libayatana-appindicator-0.6.0-27f9d9d.tar.gz"
 
 LICENSE="GPL-3 LGPL-2 LGPL-3"
 SLOT="0"
@@ -22,7 +22,7 @@ DEPEND="${RDEPEND}"
 BDEPEND="
 	$(vala_depend)
 "
-S="${WORKDIR}/AyatanaIndicators-libayatana-appindicator-31e8bb0"
+S="${WORKDIR}/AyatanaIndicators-libayatana-appindicator-27f9d9d"
 
 src_prepare() {
 	default

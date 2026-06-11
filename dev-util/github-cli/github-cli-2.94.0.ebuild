@@ -7,8 +7,8 @@ inherit bash-completion-r1 go-module
 EGO_SUM=(
 	"charm.land/bubbles/v2 v2.1.0"
 	"charm.land/bubbles/v2 v2.1.0/go.mod"
-	"charm.land/bubbletea/v2 v2.0.6"
-	"charm.land/bubbletea/v2 v2.0.6/go.mod"
+	"charm.land/bubbletea/v2 v2.0.7"
+	"charm.land/bubbletea/v2 v2.0.7/go.mod"
 	"charm.land/huh/v2 v2.0.3"
 	"charm.land/huh/v2 v2.0.3/go.mod"
 	"charm.land/lipgloss/v2 v2.0.3"
@@ -123,8 +123,8 @@ EGO_SUM=(
 	"github.com/charmbracelet/glamour v0.10.0/go.mod"
 	"github.com/charmbracelet/lipgloss v1.1.1-0.20250404203927-76690c660834"
 	"github.com/charmbracelet/lipgloss v1.1.1-0.20250404203927-76690c660834/go.mod"
-	"github.com/charmbracelet/ultraviolet v0.0.0-20260416155717-489999b90468"
-	"github.com/charmbracelet/ultraviolet v0.0.0-20260416155717-489999b90468/go.mod"
+	"github.com/charmbracelet/ultraviolet v0.0.0-20260525132238-948f4557a654"
+	"github.com/charmbracelet/ultraviolet v0.0.0-20260525132238-948f4557a654/go.mod"
 	"github.com/charmbracelet/x/ansi v0.11.7"
 	"github.com/charmbracelet/x/ansi v0.11.7/go.mod"
 	"github.com/charmbracelet/x/cellbuf v0.0.15"
@@ -210,8 +210,8 @@ EGO_SUM=(
 	"github.com/gabriel-vasile/mimetype v1.4.13/go.mod"
 	"github.com/gdamore/encoding v1.0.1"
 	"github.com/gdamore/encoding v1.0.1/go.mod"
-	"github.com/gdamore/tcell/v2 v2.13.9"
-	"github.com/gdamore/tcell/v2 v2.13.9/go.mod"
+	"github.com/gdamore/tcell/v2 v2.13.10"
+	"github.com/gdamore/tcell/v2 v2.13.10/go.mod"
 	"github.com/go-chi/chi/v5 v5.2.5"
 	"github.com/go-chi/chi/v5 v5.2.5/go.mod"
 	"github.com/go-jose/go-jose/v4 v4.1.4"
@@ -385,8 +385,8 @@ EGO_SUM=(
 	"github.com/lucasb-eyer/go-colorful v1.4.0"
 	"github.com/lucasb-eyer/go-colorful v1.4.0/go.mod"
 	"github.com/mattn/go-colorable v0.1.2/go.mod"
-	"github.com/mattn/go-colorable v0.1.14"
-	"github.com/mattn/go-colorable v0.1.14/go.mod"
+	"github.com/mattn/go-colorable v0.1.15"
+	"github.com/mattn/go-colorable v0.1.15/go.mod"
 	"github.com/mattn/go-isatty v0.0.8/go.mod"
 	"github.com/mattn/go-isatty v0.0.22"
 	"github.com/mattn/go-isatty v0.0.22/go.mod"
@@ -665,8 +665,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/f96972ce1c11fdb8eaa556257fde962a363dffde -> cli-2.93.0-f96972c.tar.gz
-https://direct.funtoo.org/d0/3c/87/d03c8711ede9d2c14c7a69b9387db2abdd47dbddd436c59194e1a361db632cb42af94140f4e08915de59b3b3e63ff2f06a7f85508312e29c387260facced8d2e -> github-cli-2.93.0-funtoo-go-bundle-07e798fb9f18a0814be6fba6ed4b589c1167ba87f610f0837accb0e2cfeef4b0e2c9f7fe1de507bc0fe266e8eae938b5aca3836f87aca1c63c638eba45b5458e.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/cac0ba166220017af1d299001b698e811077d5a6 -> cli-2.94.0-cac0ba1.tar.gz
+https://direct.funtoo.org/05/d6/e8/05d6e81c9294a827f4ccb6361831864c5f68bf91023b9ad1ebf94c7a2683f8a39d9581b1b4602420db5311c1e831c49a47db52f3c65d27173e0c2795832cee7d -> github-cli-2.94.0-funtoo-go-bundle-002b4e93c0f1241fdf1eee327be8ab02b949d9d87f44ef9965556a8be3ad1cabe39b6bb4fddad05777609eea9514e41a1ad2d567619e0a76beca34fcbbaeb5a5.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -678,7 +678,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.93.0"
+	export GH_VERSION="v2.94.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted

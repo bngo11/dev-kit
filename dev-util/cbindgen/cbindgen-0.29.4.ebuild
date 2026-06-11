@@ -82,7 +82,7 @@ inherit cargo rust-toolchain
 
 DESCRIPTION="A tool for generating C bindings to Rust code"
 HOMEPAGE="https://github.com//"
-SRC_URI="https://api.github.com/repos/mozilla/cbindgen/tarball/0.29.2 -> cbindgen-ubuntu22.04-0.29.2.tar.gz
+SRC_URI="https://api.github.com/repos/mozilla/cbindgen/tarball/0.29.4 -> cbindgen-ubuntu22.04-0.29.4.tar.gz
 https://crates.io/api/v1/crates/anstream/0.6.19/download -> anstream-0.6.19.crate
 https://crates.io/api/v1/crates/anstyle/1.0.11/download -> anstyle-1.0.11.crate
 https://crates.io/api/v1/crates/anstyle-parse/0.2.7/download -> anstyle-parse-0.2.7.crate
