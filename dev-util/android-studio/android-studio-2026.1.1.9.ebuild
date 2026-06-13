@@ -31,7 +31,7 @@ QA_PREBUILT="
 
 DESCRIPTION="Android development environment based on IntelliJ IDEA"
 HOMEPAGE="https://developer.android.com/studio"
-SRC_URI="https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.1.1.8/android-studio-quail1-linux.tar.gz -> android-studio-quail1-linux.tar.gz"
+SRC_URI="https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.1.1.9/android-studio-quail1-patch1-linux.tar.gz -> android-studio-quail1-patch1-linux.tar.gz"
 
 LICENSE="Apache-2.0 android-sdk"
 SLOT="0"

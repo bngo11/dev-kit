@@ -7,7 +7,7 @@ async def generate(hub, **pkginfo):
 	github_user = "KhronosGroup"
 	github_repo = "SPIRV-LLVM-Translator"
 	app = pkginfo["name"]
-	basever = '21'
+	basever = '22'
 	url = version = None
 	json_list = await hub.pkgtools.fetch.get_page(
 		f"https://api.github.com/repos/{github_user}/{github_repo}/releases", is_json=True
