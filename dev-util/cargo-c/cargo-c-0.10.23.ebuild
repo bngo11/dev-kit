@@ -371,9 +371,9 @@ https://crates.io/api/v1/crates/terminal_size/0.4.4/download -> terminal_size-0.
 https://crates.io/api/v1/crates/thiserror/2.0.18/download -> thiserror-2.0.18.crate
 https://crates.io/api/v1/crates/thiserror-impl/2.0.18/download -> thiserror-impl-2.0.18.crate
 https://crates.io/api/v1/crates/thread_local/1.1.9/download -> thread_local-1.1.9.crate
-https://crates.io/api/v1/crates/time/0.3.47/download -> time-0.3.47.crate
-https://crates.io/api/v1/crates/time-core/0.1.8/download -> time-core-0.1.8.crate
-https://crates.io/api/v1/crates/time-macros/0.2.27/download -> time-macros-0.2.27.crate
+https://crates.io/api/v1/crates/time/0.3.49/download -> time-0.3.49.crate
+https://crates.io/api/v1/crates/time-core/0.1.9/download -> time-core-0.1.9.crate
+https://crates.io/api/v1/crates/time-macros/0.2.29/download -> time-macros-0.2.29.crate
 https://crates.io/api/v1/crates/tinystr/0.8.3/download -> tinystr-0.8.3.crate
 https://crates.io/api/v1/crates/tinyvec/1.11.0/download -> tinyvec-1.11.0.crate
 https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
