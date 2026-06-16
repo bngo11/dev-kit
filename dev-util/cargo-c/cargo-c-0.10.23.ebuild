@@ -161,7 +161,7 @@ https://crates.io/api/v1/crates/gix-negotiate/0.29.0/download -> gix-negotiate-0
 https://crates.io/api/v1/crates/gix-object/0.58.0/download -> gix-object-0.58.0.crate
 https://crates.io/api/v1/crates/gix-odb/0.78.0/download -> gix-odb-0.78.0.crate
 https://crates.io/api/v1/crates/gix-pack/0.68.0/download -> gix-pack-0.68.0.crate
-https://crates.io/api/v1/crates/gix-packetline/0.21.4/download -> gix-packetline-0.21.4.crate
+https://crates.io/api/v1/crates/gix-packetline/0.21.5/download -> gix-packetline-0.21.5.crate
 https://crates.io/api/v1/crates/gix-path/0.11.3/download -> gix-path-0.11.3.crate
 https://crates.io/api/v1/crates/gix-pathspec/0.16.1/download -> gix-pathspec-0.16.1.crate
 https://crates.io/api/v1/crates/gix-prompt/0.14.2/download -> gix-prompt-0.14.2.crate
@@ -221,7 +221,7 @@ https://crates.io/api/v1/crates/imara-diff/0.2.0/download -> imara-diff-0.2.0.cr
 https://crates.io/api/v1/crates/implib/0.6.0/download -> implib-0.6.0.crate
 https://crates.io/api/v1/crates/indexmap/2.14.0/download -> indexmap-2.14.0.crate
 https://crates.io/api/v1/crates/io-close/0.3.7/download -> io-close-0.3.7.crate
-https://crates.io/api/v1/crates/is_executable/1.0.5/download -> is_executable-1.0.5.crate
+https://crates.io/api/v1/crates/is_executable/1.0.6/download -> is_executable-1.0.6.crate
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download -> is_terminal_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.18/download -> itoa-1.0.18.crate
@@ -363,7 +363,7 @@ https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
 https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/supports-hyperlinks/3.2.0/download -> supports-hyperlinks-3.2.0.crate
 https://crates.io/api/v1/crates/supports-unicode/3.0.0/download -> supports-unicode-3.0.0.crate
-https://crates.io/api/v1/crates/syn/2.0.117/download -> syn-2.0.117.crate
+https://crates.io/api/v1/crates/syn/2.0.118/download -> syn-2.0.118.crate
 https://crates.io/api/v1/crates/synstructure/0.13.2/download -> synstructure-0.13.2.crate
 https://crates.io/api/v1/crates/tar/0.4.46/download -> tar-0.4.46.crate
 https://crates.io/api/v1/crates/tempfile/3.27.0/download -> tempfile-3.27.0.crate
@@ -420,17 +420,7 @@ https://crates.io/api/v1/crates/winapi-i686-pc-windows-gnu/0.4.0/download -> win
 https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
 https://crates.io/api/v1/crates/winapi-x86_64-pc-windows-gnu/0.4.0/download -> winapi-x86_64-pc-windows-gnu-0.4.0.crate
 https://crates.io/api/v1/crates/windows-link/0.2.1/download -> windows-link-0.2.1.crate
-https://crates.io/api/v1/crates/windows-sys/0.60.2/download -> windows-sys-0.60.2.crate
 https://crates.io/api/v1/crates/windows-sys/0.61.2/download -> windows-sys-0.61.2.crate
-https://crates.io/api/v1/crates/windows-targets/0.53.5/download -> windows-targets-0.53.5.crate
-https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.53.1/download -> windows_aarch64_gnullvm-0.53.1.crate
-https://crates.io/api/v1/crates/windows_aarch64_msvc/0.53.1/download -> windows_aarch64_msvc-0.53.1.crate
-https://crates.io/api/v1/crates/windows_i686_gnu/0.53.1/download -> windows_i686_gnu-0.53.1.crate
-https://crates.io/api/v1/crates/windows_i686_gnullvm/0.53.1/download -> windows_i686_gnullvm-0.53.1.crate
-https://crates.io/api/v1/crates/windows_i686_msvc/0.53.1/download -> windows_i686_msvc-0.53.1.crate
-https://crates.io/api/v1/crates/windows_x86_64_gnu/0.53.1/download -> windows_x86_64_gnu-0.53.1.crate
-https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.53.1/download -> windows_x86_64_gnullvm-0.53.1.crate
-https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.1/download -> windows_x86_64_msvc-0.53.1.crate
 https://crates.io/api/v1/crates/winnow/0.7.15/download -> winnow-0.7.15.crate
 https://crates.io/api/v1/crates/winnow/1.0.3/download -> winnow-1.0.3.crate
 https://crates.io/api/v1/crates/wit-bindgen/0.51.0/download -> wit-bindgen-0.51.0.crate
