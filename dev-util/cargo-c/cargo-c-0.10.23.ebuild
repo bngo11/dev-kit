@@ -146,7 +146,7 @@ https://crates.io/api/v1/crates/gix-commitgraph/0.35.0/download -> gix-commitgra
 https://crates.io/api/v1/crates/gix-config/0.54.0/download -> gix-config-0.54.0.crate
 https://crates.io/api/v1/crates/gix-config-value/0.17.2/download -> gix-config-value-0.17.2.crate
 https://crates.io/api/v1/crates/gix-credentials/0.37.2/download -> gix-credentials-0.37.2.crate
-https://crates.io/api/v1/crates/gix-date/0.15.4/download -> gix-date-0.15.4.crate
+https://crates.io/api/v1/crates/gix-date/0.15.5/download -> gix-date-0.15.5.crate
 https://crates.io/api/v1/crates/gix-diff/0.61.0/download -> gix-diff-0.61.0.crate
 https://crates.io/api/v1/crates/gix-dir/0.23.0/download -> gix-dir-0.23.0.crate
 https://crates.io/api/v1/crates/gix-discover/0.49.0/download -> gix-discover-0.49.0.crate
@@ -308,7 +308,7 @@ https://crates.io/api/v1/crates/proc-macro-error-attr2/2.0.0/download -> proc-ma
 https://crates.io/api/v1/crates/proc-macro-error2/2.0.1/download -> proc-macro-error2-2.0.1.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.106/download -> proc-macro2-1.0.106.crate
 https://crates.io/api/v1/crates/prodash/31.0.0/download -> prodash-31.0.0.crate
-https://crates.io/api/v1/crates/quote/1.0.45/download -> quote-1.0.45.crate
+https://crates.io/api/v1/crates/quote/1.0.46/download -> quote-1.0.46.crate
 https://crates.io/api/v1/crates/r-efi/5.3.0/download -> r-efi-5.3.0.crate
 https://crates.io/api/v1/crates/r-efi/6.0.0/download -> r-efi-6.0.0.crate
 https://crates.io/api/v1/crates/rand/0.10.1/download -> rand-0.10.1.crate
@@ -374,9 +374,9 @@ https://crates.io/api/v1/crates/terminal_size/0.4.4/download -> terminal_size-0.
 https://crates.io/api/v1/crates/thiserror/2.0.18/download -> thiserror-2.0.18.crate
 https://crates.io/api/v1/crates/thiserror-impl/2.0.18/download -> thiserror-impl-2.0.18.crate
 https://crates.io/api/v1/crates/thread_local/1.1.9/download -> thread_local-1.1.9.crate
-https://crates.io/api/v1/crates/time/0.3.49/download -> time-0.3.49.crate
+https://crates.io/api/v1/crates/time/0.3.51/download -> time-0.3.51.crate
 https://crates.io/api/v1/crates/time-core/0.1.9/download -> time-core-0.1.9.crate
-https://crates.io/api/v1/crates/time-macros/0.2.29/download -> time-macros-0.2.29.crate
+https://crates.io/api/v1/crates/time-macros/0.2.30/download -> time-macros-0.2.30.crate
 https://crates.io/api/v1/crates/tinystr/0.8.3/download -> tinystr-0.8.3.crate
 https://crates.io/api/v1/crates/tinyvec/1.11.0/download -> tinyvec-1.11.0.crate
 https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
@@ -431,7 +431,7 @@ https://crates.io/api/v1/crates/zeroize/1.9.0/download -> zeroize-1.9.0.crate
 https://crates.io/api/v1/crates/zerotrie/0.2.4/download -> zerotrie-0.2.4.crate
 https://crates.io/api/v1/crates/zerovec/0.11.6/download -> zerovec-0.11.6.crate
 https://crates.io/api/v1/crates/zerovec-derive/0.11.3/download -> zerovec-derive-0.11.3.crate
-https://crates.io/api/v1/crates/zlib-rs/0.6.3/download -> zlib-rs-0.6.3.crate
+https://crates.io/api/v1/crates/zlib-rs/0.6.4/download -> zlib-rs-0.6.4.crate
 https://crates.io/api/v1/crates/zmij/1.0.21/download -> zmij-1.0.21.crate"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"

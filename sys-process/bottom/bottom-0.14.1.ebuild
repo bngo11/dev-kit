@@ -6,8 +6,8 @@ inherit cargo
 
 DESCRIPTION="Yet another cross-platform graphical process/system monitor."
 HOMEPAGE="https://github.com/ClementTsang/bottom"
-SRC_URI="https://github.com/ClementTsang/bottom/tarball/ed9ffbc86535ea1c2ba8e51216f6a7e90e0ce84d -> bottom-0.14.0-ed9ffbc.tar.gz
-https://direct.funtoo.org/df/62/e9/df62e9efd16fe7c3ceafd7fe98c41144c4a70b9ff4485e10209dcfc2af028cf8d03453414bf45cc5b011bf190a62991f845460b3762a7995fc21cac32c3c40ca -> bottom-0.14.0-funtoo-crates-bundle-109f3f1b3dc72a65d98e64ac74519e38566c3b02a13611a0cb1b3b308e581217bbab7bb0f149e6090204cacea6e1ffac1ce9221e72871a27979ab6773ce24757.tar.gz"
+SRC_URI="https://github.com/ClementTsang/bottom/tarball/b3694fc3f414a13205764023398d67e5be0a42bf -> bottom-0.14.1-b3694fc.tar.gz
+https://direct.funtoo.org/96/80/7c/96807c80bca66ead0bc8888b1b4082a310806dd1974bdf67868f9a067d5c316a2e2e3f7426c2e7bf6571eefc2e40f796eed0c58818db1b05ba17860705f4f39f -> bottom-0.14.1-funtoo-crates-bundle-2e6f5f900c69cde3afeb552d3f19ef4b8cbb0b429face1a6280f4052dff2edfdba407f86b023e53718a1266579f915d18861a58ec0bd88db05ab1a0fd06c5b51.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
