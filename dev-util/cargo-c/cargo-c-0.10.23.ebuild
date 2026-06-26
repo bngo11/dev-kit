@@ -19,7 +19,7 @@ https://crates.io/api/v1/crates/anstyle-parse/1.0.0/download -> anstyle-parse-1.
 https://crates.io/api/v1/crates/anstyle-progress/0.1.0/download -> anstyle-progress-0.1.0.crate
 https://crates.io/api/v1/crates/anstyle-query/1.1.5/download -> anstyle-query-1.1.5.crate
 https://crates.io/api/v1/crates/anstyle-wincon/3.0.11/download -> anstyle-wincon-3.0.11.crate
-https://crates.io/api/v1/crates/anyhow/1.0.102/download -> anyhow-1.0.102.crate
+https://crates.io/api/v1/crates/anyhow/1.0.103/download -> anyhow-1.0.103.crate
 https://crates.io/api/v1/crates/ar_archive_writer/0.5.2/download -> ar_archive_writer-0.5.2.crate
 https://crates.io/api/v1/crates/arc-swap/1.9.1/download -> arc-swap-1.9.1.crate
 https://crates.io/api/v1/crates/arrayref/0.3.9/download -> arrayref-0.3.9.crate
@@ -36,7 +36,7 @@ https://crates.io/api/v1/crates/blake3/1.8.5/download -> blake3-1.8.5.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
 https://crates.io/api/v1/crates/block-buffer/0.12.1/download -> block-buffer-0.12.1.crate
 https://crates.io/api/v1/crates/block2/0.6.2/download -> block2-0.6.2.crate
-https://crates.io/api/v1/crates/bstr/1.12.2/download -> bstr-1.12.2.crate
+https://crates.io/api/v1/crates/bstr/1.12.3/download -> bstr-1.12.3.crate
 https://crates.io/api/v1/crates/bumpalo/3.20.3/download -> bumpalo-3.20.3.crate
 https://crates.io/api/v1/crates/byteorder/1.5.0/download -> byteorder-1.5.0.crate
 https://crates.io/api/v1/crates/bytes/1.12.0/download -> bytes-1.12.0.crate
