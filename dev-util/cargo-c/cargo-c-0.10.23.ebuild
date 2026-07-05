@@ -86,8 +86,8 @@ https://crates.io/api/v1/crates/ctutils/0.4.2/download -> ctutils-0.4.2.crate
 https://crates.io/api/v1/crates/curl/0.4.50/download -> curl-0.4.50.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.90+curl-8.21.0/download -> curl-sys-0.4.90+curl-8.21.0.crate
 https://crates.io/api/v1/crates/dashmap/6.2.1/download -> dashmap-6.2.1.crate
-https://crates.io/api/v1/crates/defmt/1.1.0/download -> defmt-1.1.0.crate
-https://crates.io/api/v1/crates/defmt-macros/1.1.0/download -> defmt-macros-1.1.0.crate
+https://crates.io/api/v1/crates/defmt/1.1.1/download -> defmt-1.1.1.crate
+https://crates.io/api/v1/crates/defmt-macros/1.1.1/download -> defmt-macros-1.1.1.crate
 https://crates.io/api/v1/crates/defmt-parser/1.0.0/download -> defmt-parser-1.0.0.crate
 https://crates.io/api/v1/crates/der/0.7.10/download -> der-0.7.10.crate
 https://crates.io/api/v1/crates/deranged/0.5.8/download -> deranged-0.5.8.crate
@@ -304,8 +304,6 @@ https://crates.io/api/v1/crates/portable-atomic-util/0.2.7/download -> portable-
 https://crates.io/api/v1/crates/potential_utf/0.1.5/download -> potential_utf-0.1.5.crate
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
-https://crates.io/api/v1/crates/proc-macro-error-attr2/2.0.0/download -> proc-macro-error-attr2-2.0.0.crate
-https://crates.io/api/v1/crates/proc-macro-error2/2.0.1/download -> proc-macro-error2-2.0.1.crate
 https://crates.io/api/v1/crates/proc-macro2/1.0.106/download -> proc-macro2-1.0.106.crate
 https://crates.io/api/v1/crates/prodash/31.0.0/download -> prodash-31.0.0.crate
 https://crates.io/api/v1/crates/quote/1.0.46/download -> quote-1.0.46.crate
@@ -322,7 +320,7 @@ https://crates.io/api/v1/crates/regex-syntax/0.8.11/download -> regex-syntax-0.8
 https://crates.io/api/v1/crates/rfc6979/0.4.0/download -> rfc6979-0.4.0.crate
 https://crates.io/api/v1/crates/rsqlite-vfs/0.1.1/download -> rsqlite-vfs-0.1.1.crate
 https://crates.io/api/v1/crates/rusqlite/0.39.0/download -> rusqlite-0.39.0.crate
-https://crates.io/api/v1/crates/rustc-hash/2.1.2/download -> rustc-hash-2.1.2.crate
+https://crates.io/api/v1/crates/rustc-hash/2.1.3/download -> rustc-hash-2.1.3.crate
 https://crates.io/api/v1/crates/rustc-stable-hash/0.1.2/download -> rustc-stable-hash-0.1.2.crate
 https://crates.io/api/v1/crates/rustfix/0.9.6/download -> rustfix-0.9.6.crate
 https://crates.io/api/v1/crates/rustix/1.1.4/download -> rustix-1.1.4.crate

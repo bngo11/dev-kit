@@ -194,8 +194,8 @@ EGO_SUM=(
 	"github.com/distribution/reference v0.6.0/go.mod"
 	"github.com/dlclark/regexp2 v1.11.5"
 	"github.com/dlclark/regexp2 v1.11.5/go.mod"
-	"github.com/docker/cli v29.4.3+incompatible"
-	"github.com/docker/cli v29.4.3+incompatible/go.mod"
+	"github.com/docker/cli v29.5.3+incompatible"
+	"github.com/docker/cli v29.5.3+incompatible/go.mod"
 	"github.com/docker/docker-credential-helpers v0.9.3"
 	"github.com/docker/docker-credential-helpers v0.9.3/go.mod"
 	"github.com/dustin/go-humanize v1.0.1"
@@ -286,8 +286,8 @@ EGO_SUM=(
 	"github.com/google/go-cmp v0.6.0/go.mod"
 	"github.com/google/go-cmp v0.7.0"
 	"github.com/google/go-cmp v0.7.0/go.mod"
-	"github.com/google/go-containerregistry v0.21.6"
-	"github.com/google/go-containerregistry v0.21.6/go.mod"
+	"github.com/google/go-containerregistry v0.21.7"
+	"github.com/google/go-containerregistry v0.21.7/go.mod"
 	"github.com/google/s2a-go v0.1.9"
 	"github.com/google/s2a-go v0.1.9/go.mod"
 	"github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510"
@@ -389,8 +389,8 @@ EGO_SUM=(
 	"github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d/go.mod"
 	"github.com/microcosm-cc/bluemonday v1.0.27"
 	"github.com/microcosm-cc/bluemonday v1.0.27/go.mod"
-	"github.com/microsoft/dev-tunnels v0.1.19"
-	"github.com/microsoft/dev-tunnels v0.1.19/go.mod"
+	"github.com/microsoft/dev-tunnels v0.1.27"
+	"github.com/microsoft/dev-tunnels v0.1.27/go.mod"
 	"github.com/mitchellh/copystructure v1.2.0"
 	"github.com/mitchellh/copystructure v1.2.0/go.mod"
 	"github.com/mitchellh/go-homedir v1.1.0"
@@ -574,14 +574,14 @@ EGO_SUM=(
 	"golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546/go.mod"
 	"golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod"
 	"golang.org/x/mod v0.8.0/go.mod"
-	"golang.org/x/mod v0.36.0"
-	"golang.org/x/mod v0.36.0/go.mod"
+	"golang.org/x/mod v0.37.0"
+	"golang.org/x/mod v0.37.0/go.mod"
 	"golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod"
 	"golang.org/x/net v0.0.0-20210226172049-e18ecbb05110/go.mod"
 	"golang.org/x/net v0.0.0-20220722155237-a158d28d115b/go.mod"
 	"golang.org/x/net v0.6.0/go.mod"
-	"golang.org/x/net v0.55.0"
-	"golang.org/x/net v0.55.0/go.mod"
+	"golang.org/x/net v0.56.0"
+	"golang.org/x/net v0.56.0/go.mod"
 	"golang.org/x/oauth2 v0.36.0"
 	"golang.org/x/oauth2 v0.36.0/go.mod"
 	"golang.org/x/sync v0.0.0-20190423024810-112230192c58/go.mod"
@@ -618,8 +618,8 @@ EGO_SUM=(
 	"golang.org/x/tools v0.0.0-20191119224855-298f0cb1881e/go.mod"
 	"golang.org/x/tools v0.1.12/go.mod"
 	"golang.org/x/tools v0.6.0/go.mod"
-	"golang.org/x/tools v0.45.0"
-	"golang.org/x/tools v0.45.0/go.mod"
+	"golang.org/x/tools v0.46.0"
+	"golang.org/x/tools v0.46.0/go.mod"
 	"golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod"
 	"gonum.org/v1/gonum v0.17.0"
 	"gonum.org/v1/gonum v0.17.0/go.mod"
@@ -657,8 +657,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/70bb306bd25eb407f90eabefd98824aed62cf519 -> cli-2.95.0-70bb306.tar.gz
-https://direct.funtoo.org/3c/71/1d/3c711d374a11e8ba11e9b0a75ffa8b4553016a7b3daa9d5fc50fdeb7adc91ed8da7da3281a22336b09c5fac2738bfe36a6d7cbabeb73dd42ac2a5ba1525fb29a -> github-cli-2.95.0-funtoo-go-bundle-74292019156ee34392ed89db06af21b4c246afa1b281cb509d16e387d44639eee6cdd2a251b4f1b480fc6634e10efa95f975d2fddd1ac40ee3dbffd0507f884e.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/b300f2ec7ec9dc9addc39b2ad88c54097ded7ca0 -> cli-2.96.0-b300f2e.tar.gz
+https://direct.funtoo.org/0a/58/09/0a58095a0d32ef9b5d5e776a888d0e83cea0fd874a4e6d89b66599606c17a12a239469726a6ce5074943323f149ba16b18b2121acad24b8e12e330abc8b36a4f -> github-cli-2.96.0-funtoo-go-bundle-45d4fd63c359cb47a47b36c9786e2cf8972925fa13fc10bc765cf49b80b6585385f97ab08761549b7bd8e9bc1ec08a700cac17aa66370e190775340382f0bec4.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -670,7 +670,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.95.0"
+	export GH_VERSION="v2.96.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
