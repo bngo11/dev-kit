@@ -248,7 +248,7 @@ https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crat
 https://crates.io/api/v1/crates/log/0.4.33/download -> log-0.4.33.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.11/download -> maybe-async-0.2.11.crate
-https://crates.io/api/v1/crates/memchr/2.8.2/download -> memchr-2.8.2.crate
+https://crates.io/api/v1/crates/memchr/2.8.3/download -> memchr-2.8.3.crate
 https://crates.io/api/v1/crates/memmap2/0.9.11/download -> memmap2-0.9.11.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
