@@ -39,7 +39,7 @@ https://crates.io/api/v1/crates/block2/0.6.2/download -> block2-0.6.2.crate
 https://crates.io/api/v1/crates/bstr/1.12.3/download -> bstr-1.12.3.crate
 https://crates.io/api/v1/crates/bumpalo/3.20.3/download -> bumpalo-3.20.3.crate
 https://crates.io/api/v1/crates/byteorder/1.5.0/download -> byteorder-1.5.0.crate
-https://crates.io/api/v1/crates/bytes/1.12.0/download -> bytes-1.12.0.crate
+https://crates.io/api/v1/crates/bytes/1.12.1/download -> bytes-1.12.1.crate
 https://crates.io/api/v1/crates/camino/1.2.4/download -> camino-1.2.4.crate
 https://crates.io/api/v1/crates/cargo/0.97.2/download -> cargo-0.97.2.crate
 https://crates.io/api/v1/crates/cargo-credential/0.4.10/download -> cargo-credential-0.4.10.crate
@@ -227,9 +227,9 @@ https://crates.io/api/v1/crates/is_executable/1.0.6/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download -> is_terminal_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/itertools/0.14.0/download -> itertools-0.14.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.18/download -> itoa-1.0.18.crate
-https://crates.io/api/v1/crates/jiff/0.2.31/download -> jiff-0.2.31.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.31/download -> jiff-static-0.2.31.crate
-https://crates.io/api/v1/crates/jiff-tzdb/0.1.7/download -> jiff-tzdb-0.1.7.crate
+https://crates.io/api/v1/crates/jiff/0.2.32/download -> jiff-0.2.32.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.32/download -> jiff-static-0.2.32.crate
+https://crates.io/api/v1/crates/jiff-tzdb/0.1.8/download -> jiff-tzdb-0.1.8.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.crate
 https://crates.io/api/v1/crates/js-sys/0.3.103/download -> js-sys-0.3.103.crate
