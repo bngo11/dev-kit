@@ -1,0 +1,138 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI="7"
+CMAKE_MAKEFILE_GENERATOR="emake"
+
+inherit cmake elisp-common flag-o-matic multilib-minimal toolchain-funcs
+
+DESCRIPTION="Protocol Buffers - Google's data interchange format"
+HOMEPAGE="https://developers.google.com/protocol-buffers/ https://github.com/protocolbuffers/protobuf"
+SRC_URI="https://github.com/protocolbuffers/protobuf/tarball/4502acbcc96017a14b2cbfc04d9896a9e45ca2da -> protobuf-35.1-4502acb.tar.gz"
+
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS="*"
+IUSE="emacs examples static-libs test zlib"
+RESTRICT="!test? ( test )"
+
+
+COMMON_DEPEND="
+	>=dev-cpp/abseil-cpp-20260526.0:=[${MULTILIB_USEDEP}]
+"
+BDEPEND="emacs? ( app-editors/emacs:* )"
+DEPEND="
+	${COMMON_DEPEND}
+	test? ( >=dev-cpp/gtest-1.9[${MULTILIB_USEDEP}] )
+	zlib? ( sys-libs/zlib[${MULTILIB_USEDEP}] )"
+RDEPEND="
+	${COMMON_DEPEND}
+	emacs? ( app-editors/emacs:* )
+	zlib? ( sys-libs/zlib[${MULTILIB_USEDEP}] )"
+
+PATCHES=(
+)
+
+DOCS=( CONTRIBUTORS.txt README.md)
+
+post_src_unpack() {
+	if [ ! -d "${S}" ]; then
+		mv "${WORKDIR}"/protocolbuffers-protobuf-* "${S}" || die
+	fi
+}
+
+src_prepare() {
+	default
+	cmake_src_prepare
+
+	cp "${FILESDIR}/FindJsonCpp.cmake" "${S}/cmake" || die
+}
+
+src_configure() {
+	append-cppflags -DGOOGLE_PROTOBUF_NO_RTTI
+
+	if tc-ld-is-gold; then
+		# https://sourceware.org/bugzilla/show_bug.cgi?id=24527
+		tc-ld-disable-gold
+	fi
+
+	multilib-minimal_src_configure
+}
+
+multilib_src_configure() {
+	local mycmakeargs=(
+		-Dprotobuf_BUILD_CONFORMANCE="$(usex test no)"
+		-Dprotobuf_BUILD_LIBPROTOC="yes"
+		-Dprotobuf_BUILD_LIBUPB="yes"
+		-Dprotobuf_BUILD_PROTOBUF_BINARIES="yes"
+		-Dprotobuf_BUILD_PROTOC_BINARIES="yes"
+		-Dprotobuf_BUILD_SHARED_LIBS="yes"
+		-Dprotobuf_BUILD_TESTS="$(usex test)"
+
+		-Dprotobuf_DISABLE_RTTI="no"
+
+		-Dprotobuf_INSTALL="yes"
+		-Dprotobuf_TEST_XML_OUTDIR="$(usex test)"
+
+		-Dprotobuf_WITH_ZLIB="$(usex zlib)"
+		-Dprotobuf_VERBOSE="no"
+		-DCMAKE_MODULE_PATH="${S}/cmake"
+
+		-Dprotobuf_LOCAL_DEPENDENCIES_ONLY="yes"
+		# -Dprotobuf_FORCE_FETCH_DEPENDENCIES="no"
+	)
+	if use examples ; then
+		mycmakeargs+=(
+			-Dprotobuf_BUILD_EXAMPLES="$(usex examples)"
+			-Dprotobuf_INSTALL_EXAMPLES="$(usex examples)"
+		)
+	fi
+
+	cmake_src_configure
+}
+
+src_compile() {
+	multilib-minimal_src_compile
+
+	if use emacs; then
+		elisp-compile editors/protobuf-mode.el
+	fi
+}
+
+multilib_src_compile() {
+	cmake_src_compile
+
+	default
+}
+
+multilib_src_test() {
+	emake check
+}
+
+multilib_src_install_all() {
+	find "${ED}" -name "*.la" -delete || die
+
+	insinto /usr/share/vim/vimfiles/syntax
+	doins editors/proto.vim
+	insinto /usr/share/vim/vimfiles/ftdetect
+	doins "${FILESDIR}/proto.vim"
+
+	if use emacs; then
+		elisp-install ${PN} editors/protobuf-mode.el*
+		elisp-site-file-install "${FILESDIR}/70${PN}-gentoo.el"
+	fi
+
+	if use examples; then
+		DOCS+=(examples)
+		docompress -x /usr/share/doc/${PF}/examples
+	fi
+
+	einstalldocs
+}
+
+pkg_postinst() {
+	use emacs && elisp-site-regen
+}
+
+pkg_postrm() {
+	use emacs && elisp-site-regen
+}

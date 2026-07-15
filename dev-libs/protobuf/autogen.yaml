@@ -1,14 +1,28 @@
-protobufs:
+protobuf:
   generator: github-1
   defaults:
-    version: '21.12'
+    version: '35.1'
     github:
       user: protocolbuffers
       repo: protobuf
       query: releases
   packages:
     - protobuf
+
+protobuf-c:
+  generator: protobuf-c
+  packages:
+    - protobuf-c:
+        version: 1.5.2
+
+protobuf-python:
+  generator: pypi-1
+  defaults:
+    version: '7.35.1'
+  packages:
     - protobuf-python:
+        pypi_name: protobuf
+        template: protobuf-python.tmpl
         cat: dev-python
         python_compat: python3+
         depend:
@@ -16,8 +30,3 @@ protobufs:
           - dev-python/namespace-google
           - dev-python/six
 
-protobuf-c:
-  generator: protobuf-c
-  packages:
-    - protobuf-c:
-        version: 1.4.1

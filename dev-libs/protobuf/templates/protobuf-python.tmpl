@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3+ )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
-S="${S}"/python
+S="${WORKDIR}"/protobuf-${PV}
 DESCRIPTION="{{ description }}"
 HOMEPAGE="https://developers.google.com/protocol-buffers/ https://github.com/protocolbuffers/protobuf"
 SRC_URI="{{ artifacts[0].src_uri }}"
@@ -19,12 +19,6 @@ IUSE=""
 SLOT="0"
 LICENSE=""
 KEYWORDS="*"
-
-post_src_unpack() {
-	if [ ! -d "${S}" ]; then
-		mv "${WORKDIR}"/{{ github_user }}-{{ github_repo }}-* "${WORKDIR}/${P}" || die
-	fi
-}
 
 python_install_all() {
 	distutils-r1_python_install_all
