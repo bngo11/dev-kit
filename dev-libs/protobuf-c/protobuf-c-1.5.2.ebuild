@@ -23,6 +23,10 @@ DEPEND=">=dev-libs/protobuf-3:0="
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
+PATCHES=(
+	"${FILESDIR}/${PN}-PR797.patch"
+)
+
 src_prepare() {
 	default
 	eautoreconf
