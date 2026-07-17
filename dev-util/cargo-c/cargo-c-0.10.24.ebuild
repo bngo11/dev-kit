@@ -216,7 +216,7 @@ https://crates.io/api/v1/crates/icu_properties_data/2.2.0/download -> icu_proper
 https://crates.io/api/v1/crates/icu_provider/2.2.0/download -> icu_provider-2.2.0.crate
 https://crates.io/api/v1/crates/idna/1.1.0/download -> idna-1.1.0.crate
 https://crates.io/api/v1/crates/idna_adapter/1.2.2/download -> idna_adapter-1.2.2.crate
-https://crates.io/api/v1/crates/ignore/0.4.29/download -> ignore-0.4.29.crate
+https://crates.io/api/v1/crates/ignore/0.4.30/download -> ignore-0.4.30.crate
 https://crates.io/api/v1/crates/im-rc/15.1.0/download -> im-rc-15.1.0.crate
 https://crates.io/api/v1/crates/implib/0.6.0/download -> implib-0.6.0.crate
 https://crates.io/api/v1/crates/indexmap/2.14.0/download -> indexmap-2.14.0.crate
@@ -232,7 +232,7 @@ https://crates.io/api/v1/crates/jiff-tzdb/0.1.8/download -> jiff-tzdb-0.1.8.crat
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.crate
 https://crates.io/api/v1/crates/js-sys/0.3.103/download -> js-sys-0.3.103.crate
-https://crates.io/api/v1/crates/kstring/2.0.3/download -> kstring-2.0.3.crate
+https://crates.io/api/v1/crates/kstring/2.0.4/download -> kstring-2.0.4.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/libc/0.2.186/download -> libc-0.2.186.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.5+1.9.4/download -> libgit2-sys-0.18.5+1.9.4.crate
