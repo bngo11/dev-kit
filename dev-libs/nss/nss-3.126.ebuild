@@ -8,7 +8,7 @@ NSPR_VER="4.39"
 
 DESCRIPTION="Mozilla's Network Security Services library that implements PKI support"
 HOMEPAGE="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS"
-SRC_URI="https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_125_RTM/src/nss-3.125.tar.gz -> nss-3.125.tar.gz"
+SRC_URI="https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_126_RTM/src/nss-3.126.tar.gz -> nss-3.126.tar.gz"
 
 LICENSE="|| ( MPL-2.0 GPL-2 LGPL-2.1 )"
 SLOT="0"
@@ -25,7 +25,7 @@ DEPEND="${RDEPEND}"
 
 RESTRICT="test"
 
-S="${WORKDIR}/nss-3.125/${PN}"
+S="${WORKDIR}/nss-3.126/${PN}"
 
 PATCHES=(
 	"${FILESDIR}"/nss-3.103-gentoo-fixes-add-pkgconfig-files.patch
