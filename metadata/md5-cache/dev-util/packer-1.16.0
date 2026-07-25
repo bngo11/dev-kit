@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/go-1.17 >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=A tool for creating identical machine images for multiple platforms
+EAPI=7
+HOMEPAGE=https://www.packer.io/ https://github.com/hashicorp/packer
+KEYWORDS=*
+LICENSE=Apache-2.0
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/hashicorp/packer/tarball/856572ec8313eab942dce5bca8e623ce2171d7cb -> packer-1.16.0-856572e.tar.gz https://direct.funtoo.org/e2/ac/5e/e2ac5e9563ed0810f6f6df893f14c61ee86cd393285fc7fb83cde88c4f025cb72666816223632b5145294e4816c0700c01f375a4ab78de123896d7039efae7d5 -> packer-1.16.0-funtoo-go-bundle-0acc258ffdc4ee82f1f84c022ec04c394060c6349732be2fc50d691ad7680dccae5903697262f33f12e6e411d5e28544b0471dbf9fa6943c18670b4e5db25f05.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=4fb9a32bd2836a9b7aba89a2b2fb93b4

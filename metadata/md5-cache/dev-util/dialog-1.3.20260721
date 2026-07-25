@@ -9,5 +9,5 @@ KEYWORDS=*
 LICENSE=LGPL-2.1
 RDEPEND=sys-libs/ncurses
 SLOT=0/15
-SRC_URI=https://invisible-mirror.net/archives/dialog/dialog-1.3-20260107.tgz -> dialog-1.3-20260107.tgz
-_md5_=b6393e7cf754769453b16c044d13b081
+SRC_URI=https://invisible-mirror.net/archives/dialog/dialog-1.3-20260721.tgz -> dialog-1.3-20260721.tgz
+_md5_=a37fecbcc24714c826611ccc6168f332
