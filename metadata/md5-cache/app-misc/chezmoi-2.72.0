@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.17 >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=Manage your dotfiles across multiple diverse machines, securely.
+EAPI=7
+HOMEPAGE=https://github.com/twpayne/chezmoi
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=>=dev-vcs/git-1.7.3
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/twpayne/chezmoi/tarball/f81cb321789aa3df62871248f5e4d361a59e7cc1 -> chezmoi-2.72.0-f81cb32.tar.gz https://direct.funtoo.org/27/1f/57/271f578d6534f9d2dd5c093e094fe89405b56993b665c4dd336e60383b5f49d8160e0631df74e2bce967a067b898eba550060d72eb6d05ab878d621d4acbd1fc -> chezmoi-2.72.0-funtoo-go-bundle-b13777dfb1f270c2a14a01530396f746d212c7e13db8ac4e7adc19594349de5f3a36f25f162ee344abae4955040a709ce5de946b06d7266500a4087eeeb727d7.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=448193e15bbab57d5dc68c3c5c5f02f8
