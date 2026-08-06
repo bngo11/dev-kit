@@ -6,10 +6,10 @@ inherit toolchain-funcs
 
 DESCRIPTION="Minimalistic C client library for the Redis database"
 HOMEPAGE="https://github.com/redis/hiredis"
-SRC_URI="https://github.com/redis/hiredis/tarball/67c88a05bb97c40d5c29d0680e51828627e4f362 -> hiredis-1.4.0-67c88a0.tar.gz"
+SRC_URI="https://github.com/redis/hiredis/tarball/616f2286ba5503f74ae96e720623fa11dbc690af -> hiredis-1.4.1-616f228.tar.gz"
 
 LICENSE="BSD"
-SLOT="0/1.4.013"
+SLOT="0/1.4.113"
 KEYWORDS="*"
 IUSE="examples static-libs test"
 

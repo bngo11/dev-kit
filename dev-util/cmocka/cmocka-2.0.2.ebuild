@@ -18,7 +18,7 @@ BDEPEND="
 	doc? ( app-doc/doxygen[dot] )
 "
 
-DOCS=( AUTHORS ChangeLog )
+DOCS=( AUTHORS )
 multilib_src_configure() {
 	local mycmakeargs=(
 		-DWITH_EXAMPLES=$(usex examples)
