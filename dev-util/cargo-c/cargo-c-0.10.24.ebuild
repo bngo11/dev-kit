@@ -10,7 +10,7 @@ SRC_URI="https://api.github.com/repos/lu-zero/cargo-c/tarball/v0.10.24 -> cargo-
 https://crates.io/api/v1/crates/adler2/2.0.1/download -> adler2-2.0.1.crate
 https://crates.io/api/v1/crates/aho-corasick/1.1.5/download -> aho-corasick-1.1.5.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
-https://crates.io/api/v1/crates/android_system_properties/0.1.5/download -> android_system_properties-0.1.5.crate
+https://crates.io/api/v1/crates/android_system_properties/0.1.6/download -> android_system_properties-0.1.6.crate
 https://crates.io/api/v1/crates/annotate-snippets/0.12.16/download -> annotate-snippets-0.12.16.crate
 https://crates.io/api/v1/crates/anstream/1.0.0/download -> anstream-1.0.0.crate
 https://crates.io/api/v1/crates/anstyle/1.0.14/download -> anstyle-1.0.14.crate
@@ -32,7 +32,7 @@ https://crates.io/api/v1/crates/base64ct/1.8.3/download -> base64ct-1.8.3.crate
 https://crates.io/api/v1/crates/bitflags/1.3.2/download -> bitflags-1.3.2.crate
 https://crates.io/api/v1/crates/bitflags/2.13.1/download -> bitflags-2.13.1.crate
 https://crates.io/api/v1/crates/bitmaps/2.1.0/download -> bitmaps-2.1.0.crate
-https://crates.io/api/v1/crates/blake3/1.8.5/download -> blake3-1.8.5.crate
+https://crates.io/api/v1/crates/blake3/1.8.6/download -> blake3-1.8.6.crate
 https://crates.io/api/v1/crates/block-buffer/0.10.4/download -> block-buffer-0.10.4.crate
 https://crates.io/api/v1/crates/block-buffer/0.12.1/download -> block-buffer-0.12.1.crate
 https://crates.io/api/v1/crates/block2/0.6.2/download -> block2-0.6.2.crate
