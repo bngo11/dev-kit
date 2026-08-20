@@ -97,7 +97,7 @@ https://crates.io/api/v1/crates/dispatch2/0.3.1/download -> dispatch2-0.3.1.crat
 https://crates.io/api/v1/crates/displaydoc/0.2.7/download -> displaydoc-0.2.7.crate
 https://crates.io/api/v1/crates/dunce/1.0.5/download -> dunce-1.0.5.crate
 https://crates.io/api/v1/crates/ecdsa/0.16.9/download -> ecdsa-0.16.9.crate
-https://crates.io/api/v1/crates/ed25519-compact/2.4.0/download -> ed25519-compact-2.4.0.crate
+https://crates.io/api/v1/crates/ed25519-compact/2.4.2/download -> ed25519-compact-2.4.2.crate
 https://crates.io/api/v1/crates/either/1.17.0/download -> either-1.17.0.crate
 https://crates.io/api/v1/crates/elliptic-curve/0.13.8/download -> elliptic-curve-0.13.8.crate
 https://crates.io/api/v1/crates/encoding_rs/0.8.35/download -> encoding_rs-0.8.35.crate
@@ -422,8 +422,8 @@ https://crates.io/api/v1/crates/zerofrom/0.1.8/download -> zerofrom-0.1.8.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.7/download -> zerofrom-derive-0.1.7.crate
 https://crates.io/api/v1/crates/zeroize/1.9.0/download -> zeroize-1.9.0.crate
 https://crates.io/api/v1/crates/zerotrie/0.2.5/download -> zerotrie-0.2.5.crate
-https://crates.io/api/v1/crates/zerovec/0.11.7/download -> zerovec-0.11.7.crate
-https://crates.io/api/v1/crates/zerovec-derive/0.11.4/download -> zerovec-derive-0.11.4.crate
+https://crates.io/api/v1/crates/zerovec/0.11.8/download -> zerovec-0.11.8.crate
+https://crates.io/api/v1/crates/zerovec-derive/0.11.5/download -> zerovec-derive-0.11.5.crate
 https://crates.io/api/v1/crates/zlib-rs/0.6.7/download -> zlib-rs-0.6.7.crate
 https://crates.io/api/v1/crates/zmij/1.0.23/download -> zmij-1.0.23.crate"
 

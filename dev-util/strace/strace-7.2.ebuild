@@ -4,7 +4,7 @@ EAPI=7
 
 inherit autotools flag-o-matic toolchain-funcs
 
-SRC_URI="https://github.com/strace/strace/releases/download/v7.1/strace-7.1.tar.xz -> strace-7.1.tar.xz"
+SRC_URI="https://github.com/strace/strace/releases/download/v7.2/strace-7.2.tar.xz -> strace-7.2.tar.xz"
 KEYWORDS="*"
 
 DESCRIPTION="A useful diagnostic, instructional, and debugging tool"
