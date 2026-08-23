@@ -10,7 +10,7 @@ MY_PN="${PN^}"
 
 DESCRIPTION="Imath basic math package"
 HOMEPAGE="https://imath.readthedocs.io"
-SRC_URI="https://api.github.com/repos/AcademySoftwareFoundation/Imath/tarball/v3.2.2 -> imath-3.2.2.tar.gz"
+SRC_URI="https://api.github.com/repos/AcademySoftwareFoundation/Imath/tarball/v3.2.3 -> imath-3.2.3.tar.gz"
 # re-keywording needed for (according to ilmbase keywords):
 # ~mips ~x64-macos ~x86-solaris
 KEYWORDS="*"
