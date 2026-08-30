@@ -1,0 +1,181 @@
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit cargo rust-toolchain
+
+DESCRIPTION=""
+HOMEPAGE="https://github.com//"
+SRC_URI="https://api.github.com/repos/sharkdp/fd/tarball/v10.5.0 -> fd-musl_10.5.0_amd64.deb-10.5.0.tar.gz
+https://crates.io/api/v1/crates/aho-corasick/1.1.4/download -> aho-corasick-1.1.4.crate
+https://crates.io/api/v1/crates/anstream/1.0.0/download -> anstream-1.0.0.crate
+https://crates.io/api/v1/crates/anstyle/1.0.13/download -> anstyle-1.0.13.crate
+https://crates.io/api/v1/crates/anstyle-parse/1.0.0/download -> anstyle-parse-1.0.0.crate
+https://crates.io/api/v1/crates/anstyle-query/1.1.5/download -> anstyle-query-1.1.5.crate
+https://crates.io/api/v1/crates/anstyle-wincon/3.0.11/download -> anstyle-wincon-3.0.11.crate
+https://crates.io/api/v1/crates/anyhow/1.0.104/download -> anyhow-1.0.104.crate
+https://crates.io/api/v1/crates/argmax/0.4.0/download -> argmax-0.4.0.crate
+https://crates.io/api/v1/crates/bitflags/1.3.2/download -> bitflags-1.3.2.crate
+https://crates.io/api/v1/crates/bitflags/2.11.0/download -> bitflags-2.11.0.crate
+https://crates.io/api/v1/crates/block2/0.6.2/download -> block2-0.6.2.crate
+https://crates.io/api/v1/crates/bstr/1.12.1/download -> bstr-1.12.1.crate
+https://crates.io/api/v1/crates/cc/1.2.56/download -> cc-1.2.56.crate
+https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
+https://crates.io/api/v1/crates/cfg_aliases/0.2.1/download -> cfg_aliases-0.2.1.crate
+https://crates.io/api/v1/crates/clap/4.6.1/download -> clap-4.6.1.crate
+https://crates.io/api/v1/crates/clap_builder/4.6.0/download -> clap_builder-4.6.0.crate
+https://crates.io/api/v1/crates/clap_complete/4.6.5/download -> clap_complete-4.6.5.crate
+https://crates.io/api/v1/crates/clap_derive/4.6.1/download -> clap_derive-4.6.1.crate
+https://crates.io/api/v1/crates/clap_lex/1.0.0/download -> clap_lex-1.0.0.crate
+https://crates.io/api/v1/crates/colorchoice/1.0.4/download -> colorchoice-1.0.4.crate
+https://crates.io/api/v1/crates/crossbeam-channel/0.5.16/download -> crossbeam-channel-0.5.16.crate
+https://crates.io/api/v1/crates/crossbeam-deque/0.8.6/download -> crossbeam-deque-0.8.6.crate
+https://crates.io/api/v1/crates/crossbeam-epoch/0.9.18/download -> crossbeam-epoch-0.9.18.crate
+https://crates.io/api/v1/crates/crossbeam-utils/0.8.21/download -> crossbeam-utils-0.8.21.crate
+https://crates.io/api/v1/crates/ctrlc/3.5.2/download -> ctrlc-3.5.2.crate
+https://crates.io/api/v1/crates/defmt/1.1.0/download -> defmt-1.1.0.crate
+https://crates.io/api/v1/crates/defmt-macros/1.1.0/download -> defmt-macros-1.1.0.crate
+https://crates.io/api/v1/crates/defmt-parser/1.0.0/download -> defmt-parser-1.0.0.crate
+https://crates.io/api/v1/crates/diff/0.1.13/download -> diff-0.1.13.crate
+https://crates.io/api/v1/crates/dispatch2/0.3.1/download -> dispatch2-0.3.1.crate
+https://crates.io/api/v1/crates/equivalent/1.0.2/download -> equivalent-1.0.2.crate
+https://crates.io/api/v1/crates/errno/0.3.14/download -> errno-0.3.14.crate
+https://crates.io/api/v1/crates/etcetera/0.11.0/download -> etcetera-0.11.0.crate
+https://crates.io/api/v1/crates/faccess/0.2.4/download -> faccess-0.2.4.crate
+https://crates.io/api/v1/crates/fastrand/2.3.0/download -> fastrand-2.3.0.crate
+https://crates.io/api/v1/crates/filetime/0.2.29/download -> filetime-0.2.29.crate
+https://crates.io/api/v1/crates/find-msvc-tools/0.1.9/download -> find-msvc-tools-0.1.9.crate
+https://crates.io/api/v1/crates/foldhash/0.1.5/download -> foldhash-0.1.5.crate
+https://crates.io/api/v1/crates/getrandom/0.4.2/download -> getrandom-0.4.2.crate
+https://crates.io/api/v1/crates/globset/0.4.19/download -> globset-0.4.19.crate
+https://crates.io/api/v1/crates/hashbrown/0.15.5/download -> hashbrown-0.15.5.crate
+https://crates.io/api/v1/crates/hashbrown/0.16.1/download -> hashbrown-0.16.1.crate
+https://crates.io/api/v1/crates/heck/0.5.0/download -> heck-0.5.0.crate
+https://crates.io/api/v1/crates/id-arena/2.3.0/download -> id-arena-2.3.0.crate
+https://crates.io/api/v1/crates/ignore/0.4.31/download -> ignore-0.4.31.crate
+https://crates.io/api/v1/crates/indexmap/2.13.0/download -> indexmap-2.13.0.crate
+https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download -> is_terminal_polyfill-1.70.2.crate
+https://crates.io/api/v1/crates/itoa/1.0.17/download -> itoa-1.0.17.crate
+https://crates.io/api/v1/crates/jiff/0.2.29/download -> jiff-0.2.29.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.29/download -> jiff-static-0.2.29.crate
+https://crates.io/api/v1/crates/jiff-tzdb/0.1.6/download -> jiff-tzdb-0.1.6.crate
+https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
+https://crates.io/api/v1/crates/leb128fmt/0.1.0/download -> leb128fmt-0.1.0.crate
+https://crates.io/api/v1/crates/libc/0.2.189/download -> libc-0.2.189.crate
+https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download -> linux-raw-sys-0.12.1.crate
+https://crates.io/api/v1/crates/log/0.4.29/download -> log-0.4.29.crate
+https://crates.io/api/v1/crates/lscolors/0.21.0/download -> lscolors-0.21.0.crate
+https://crates.io/api/v1/crates/memchr/2.8.0/download -> memchr-2.8.0.crate
+https://crates.io/api/v1/crates/nix/0.30.1/download -> nix-0.30.1.crate
+https://crates.io/api/v1/crates/nix/0.31.3/download -> nix-0.31.3.crate
+https://crates.io/api/v1/crates/normpath/1.5.1/download -> normpath-1.5.1.crate
+https://crates.io/api/v1/crates/nu-ansi-term/0.50.3/download -> nu-ansi-term-0.50.3.crate
+https://crates.io/api/v1/crates/objc2/0.6.4/download -> objc2-0.6.4.crate
+https://crates.io/api/v1/crates/objc2-encode/4.1.0/download -> objc2-encode-4.1.0.crate
+https://crates.io/api/v1/crates/once_cell/1.21.3/download -> once_cell-1.21.3.crate
+https://crates.io/api/v1/crates/once_cell_polyfill/1.70.2/download -> once_cell_polyfill-1.70.2.crate
+https://crates.io/api/v1/crates/portable-atomic/1.13.1/download -> portable-atomic-1.13.1.crate
+https://crates.io/api/v1/crates/portable-atomic-util/0.2.5/download -> portable-atomic-util-0.2.5.crate
+https://crates.io/api/v1/crates/prettyplease/0.2.37/download -> prettyplease-0.2.37.crate
+https://crates.io/api/v1/crates/proc-macro-error-attr2/2.0.0/download -> proc-macro-error-attr2-2.0.0.crate
+https://crates.io/api/v1/crates/proc-macro-error2/2.0.1/download -> proc-macro-error2-2.0.1.crate
+https://crates.io/api/v1/crates/proc-macro2/1.0.106/download -> proc-macro2-1.0.106.crate
+https://crates.io/api/v1/crates/quote/1.0.45/download -> quote-1.0.45.crate
+https://crates.io/api/v1/crates/r-efi/6.0.0/download -> r-efi-6.0.0.crate
+https://crates.io/api/v1/crates/regex/1.12.4/download -> regex-1.12.4.crate
+https://crates.io/api/v1/crates/regex-automata/0.4.14/download -> regex-automata-0.4.14.crate
+https://crates.io/api/v1/crates/regex-syntax/0.8.11/download -> regex-syntax-0.8.11.crate
+https://crates.io/api/v1/crates/rustix/1.1.4/download -> rustix-1.1.4.crate
+https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
+https://crates.io/api/v1/crates/semver/1.0.27/download -> semver-1.0.27.crate
+https://crates.io/api/v1/crates/serde/1.0.228/download -> serde-1.0.228.crate
+https://crates.io/api/v1/crates/serde_core/1.0.228/download -> serde_core-1.0.228.crate
+https://crates.io/api/v1/crates/serde_derive/1.0.228/download -> serde_derive-1.0.228.crate
+https://crates.io/api/v1/crates/serde_json/1.0.149/download -> serde_json-1.0.149.crate
+https://crates.io/api/v1/crates/shlex/1.3.0/download -> shlex-1.3.0.crate
+https://crates.io/api/v1/crates/strsim/0.11.1/download -> strsim-0.11.1.crate
+https://crates.io/api/v1/crates/syn/2.0.117/download -> syn-2.0.117.crate
+https://crates.io/api/v1/crates/tempfile/3.27.0/download -> tempfile-3.27.0.crate
+https://crates.io/api/v1/crates/terminal_size/0.4.3/download -> terminal_size-0.4.3.crate
+https://crates.io/api/v1/crates/test-case/3.3.1/download -> test-case-3.3.1.crate
+https://crates.io/api/v1/crates/test-case-core/3.3.1/download -> test-case-core-3.3.1.crate
+https://crates.io/api/v1/crates/test-case-macros/3.3.1/download -> test-case-macros-3.3.1.crate
+https://crates.io/api/v1/crates/thiserror/2.0.18/download -> thiserror-2.0.18.crate
+https://crates.io/api/v1/crates/thiserror-impl/2.0.18/download -> thiserror-impl-2.0.18.crate
+https://crates.io/api/v1/crates/tikv-jemalloc-sys/0.7.1+5.3.1-0-g81034ce1f1373e37dc865038e1bc8eeecf559ce8/download -> tikv-jemalloc-sys-0.7.1+5.3.1-0-g81034ce1f1373e37dc865038e1bc8eeecf559ce8.crate
+https://crates.io/api/v1/crates/tikv-jemallocator/0.7.0/download -> tikv-jemallocator-0.7.0.crate
+https://crates.io/api/v1/crates/unicode-ident/1.0.24/download -> unicode-ident-1.0.24.crate
+https://crates.io/api/v1/crates/unicode-xid/0.2.6/download -> unicode-xid-0.2.6.crate
+https://crates.io/api/v1/crates/utf8parse/0.2.2/download -> utf8parse-0.2.2.crate
+https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
+https://crates.io/api/v1/crates/wasip2/1.0.2+wasi-0.2.9/download -> wasip2-1.0.2+wasi-0.2.9.crate
+https://crates.io/api/v1/crates/wasip3/0.4.0+wasi-0.3.0-rc-2026-01-06/download -> wasip3-0.4.0+wasi-0.3.0-rc-2026-01-06.crate
+https://crates.io/api/v1/crates/wasm-encoder/0.244.0/download -> wasm-encoder-0.244.0.crate
+https://crates.io/api/v1/crates/wasm-metadata/0.244.0/download -> wasm-metadata-0.244.0.crate
+https://crates.io/api/v1/crates/wasmparser/0.244.0/download -> wasmparser-0.244.0.crate
+https://crates.io/api/v1/crates/winapi/0.3.9/download -> winapi-0.3.9.crate
+https://crates.io/api/v1/crates/winapi-i686-pc-windows-gnu/0.4.0/download -> winapi-i686-pc-windows-gnu-0.4.0.crate
+https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
+https://crates.io/api/v1/crates/winapi-x86_64-pc-windows-gnu/0.4.0/download -> winapi-x86_64-pc-windows-gnu-0.4.0.crate
+https://crates.io/api/v1/crates/windows-link/0.2.1/download -> windows-link-0.2.1.crate
+https://crates.io/api/v1/crates/windows-sys/0.60.2/download -> windows-sys-0.60.2.crate
+https://crates.io/api/v1/crates/windows-sys/0.61.2/download -> windows-sys-0.61.2.crate
+https://crates.io/api/v1/crates/windows-targets/0.53.5/download -> windows-targets-0.53.5.crate
+https://crates.io/api/v1/crates/windows_aarch64_gnullvm/0.53.1/download -> windows_aarch64_gnullvm-0.53.1.crate
+https://crates.io/api/v1/crates/windows_aarch64_msvc/0.53.1/download -> windows_aarch64_msvc-0.53.1.crate
+https://crates.io/api/v1/crates/windows_i686_gnu/0.53.1/download -> windows_i686_gnu-0.53.1.crate
+https://crates.io/api/v1/crates/windows_i686_gnullvm/0.53.1/download -> windows_i686_gnullvm-0.53.1.crate
+https://crates.io/api/v1/crates/windows_i686_msvc/0.53.1/download -> windows_i686_msvc-0.53.1.crate
+https://crates.io/api/v1/crates/windows_x86_64_gnu/0.53.1/download -> windows_x86_64_gnu-0.53.1.crate
+https://crates.io/api/v1/crates/windows_x86_64_gnullvm/0.53.1/download -> windows_x86_64_gnullvm-0.53.1.crate
+https://crates.io/api/v1/crates/windows_x86_64_msvc/0.53.1/download -> windows_x86_64_msvc-0.53.1.crate
+https://crates.io/api/v1/crates/wit-bindgen/0.51.0/download -> wit-bindgen-0.51.0.crate
+https://crates.io/api/v1/crates/wit-bindgen-core/0.51.0/download -> wit-bindgen-core-0.51.0.crate
+https://crates.io/api/v1/crates/wit-bindgen-rust/0.51.0/download -> wit-bindgen-rust-0.51.0.crate
+https://crates.io/api/v1/crates/wit-bindgen-rust-macro/0.51.0/download -> wit-bindgen-rust-macro-0.51.0.crate
+https://crates.io/api/v1/crates/wit-component/0.244.0/download -> wit-component-0.244.0.crate
+https://crates.io/api/v1/crates/wit-parser/0.244.0/download -> wit-parser-0.244.0.crate
+https://crates.io/api/v1/crates/zmij/1.0.21/download -> zmij-1.0.21.crate"
+
+LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
+SLOT="0"
+KEYWORDS="*"
+
+DEPEND=""
+RDEPEND="${DEPEND}"
+DEPEND="virtual/rust"
+
+QA_FLAGS_IGNORED="/usr/bin/"
+
+src_unpack() {
+	cargo_src_unpack
+	rm -rf ${S}
+	mv ${WORKDIR}/sharkdp-fd-* ${S} || die
+}
+
+src_compile() {
+	# https://bugs.funtoo.org/browse/FL-10663
+	# If we want bash and fish shell completions we have to
+	# reverse engineer components of this Makefile from upstream
+	# into this ebuild: https://github.com/sharkdp/fd/blob/master/Makefile
+	#
+	# After fd v8.5.0, bash and fish shell completion is being handled directly
+	# by the fd Rust binary itself, specifically the clap_complete feature of the clap Crate
+	#
+	# These shell completion files can now be dynamically generated  with:
+	# fd --gen-completions bash
+	# fd --gen-completions fish
+	#
+	# The problem is the absolute pathing to the fd binary in those auto-generated
+	# completion files needs to be correct relative to the Funtoo install in this ebuild
+	cargo_src_compile
+}
+
+src_install() {
+	cargo_src_install
+
+	insinto /usr/share/zsh/site-functions
+	doins contrib/completion/_fd
+	dodoc README.md
+	doman doc/fd.1
+}

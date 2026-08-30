@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=A tool similar to cloc, sloccount and tokei
+EAPI=7
+HOMEPAGE=https://github.com/boyter/scc
+KEYWORDS=*
+LICENSE=MIT
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/boyter/scc/tarball/128887cb776961ca72d2823ea06c2aa112eb2585 -> scc-4.0.0-128887c.tar.gz https://direct.funtoo.org/ff/13/77/ff13776dbfa8cdea1a043a1839b5eeb23d82ff727ba3038234cc14e2d257cf94e4af48d78847bf1ccbebea80ba2946ad16bad65948e24082403fc1475d08366e -> scc-4.0.0-funtoo-go-bundle-c31bea6443a88e2fbab070ee8d67b412994b022dca78e6aaf45bc107ed28e5dd11b0d08957876458d28fe8083d80ffe67965071f166f6358183c984bf0876e8e.tar.gz
+_eclasses_=go-module	cb10a443c46556a15ed035d7a99128e8	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=781d88ff59286a091c521dbfe03c6c01
