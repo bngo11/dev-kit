@@ -161,7 +161,7 @@ https://crates.io/api/v1/crates/gix-object/0.62.0/download -> gix-object-0.62.0.
 https://crates.io/api/v1/crates/gix-odb/0.82.0/download -> gix-odb-0.82.0.crate
 https://crates.io/api/v1/crates/gix-pack/0.72.0/download -> gix-pack-0.72.0.crate
 https://crates.io/api/v1/crates/gix-packetline/0.21.5/download -> gix-packetline-0.21.5.crate
-https://crates.io/api/v1/crates/gix-path/0.12.5/download -> gix-path-0.12.5.crate
+https://crates.io/api/v1/crates/gix-path/0.12.6/download -> gix-path-0.12.6.crate
 https://crates.io/api/v1/crates/gix-pathspec/0.18.1/download -> gix-pathspec-0.18.1.crate
 https://crates.io/api/v1/crates/gix-prompt/0.15.1/download -> gix-prompt-0.15.1.crate
 https://crates.io/api/v1/crates/gix-protocol/0.63.0/download -> gix-protocol-0.63.0.crate
@@ -341,7 +341,7 @@ https://crates.io/api/v1/crates/shlex/2.0.1/download -> shlex-2.0.1.crate
 https://crates.io/api/v1/crates/signature/2.2.0/download -> signature-2.2.0.crate
 https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.5.crate
 https://crates.io/api/v1/crates/slab/0.4.12/download -> slab-0.4.12.crate
-https://crates.io/api/v1/crates/smallvec/1.15.2/download -> smallvec-1.15.2.crate
+https://crates.io/api/v1/crates/smallvec/1.16.0/download -> smallvec-1.16.0.crate
 https://crates.io/api/v1/crates/socket2/0.6.5/download -> socket2-0.6.5.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
 https://crates.io/api/v1/crates/sqlite-wasm-rs/0.5.5/download -> sqlite-wasm-rs-0.5.5.crate
@@ -367,7 +367,7 @@ https://crates.io/api/v1/crates/tinystr/0.8.4/download -> tinystr-0.8.4.crate
 https://crates.io/api/v1/crates/tinyvec/1.12.0/download -> tinyvec-1.12.0.crate
 https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
 https://crates.io/api/v1/crates/toml/0.9.12+spec-1.1.0/download -> toml-0.9.12+spec-1.1.0.crate
-https://crates.io/api/v1/crates/toml/1.1.4+spec-1.1.0/download -> toml-1.1.4+spec-1.1.0.crate
+https://crates.io/api/v1/crates/toml/1.1.5+spec-1.1.0/download -> toml-1.1.5+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml_datetime/0.7.5+spec-1.1.0/download -> toml_datetime-0.7.5+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml_datetime/1.1.1+spec-1.1.0/download -> toml_datetime-1.1.1+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml_edit/0.25.13+spec-1.1.0/download -> toml_edit-0.25.13+spec-1.1.0.crate

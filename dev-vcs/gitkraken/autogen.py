@@ -4,7 +4,7 @@ import json
 import re
 from datetime import timedelta
 
-RELEASE = re.compile(r"Latest release: ([0-9.]+)")
+RELEASE = re.compile(r"Latest Release: ([0-9.]+)")
 
 
 async def generate(hub, **pkginfo):
