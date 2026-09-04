@@ -364,7 +364,7 @@ https://crates.io/api/v1/crates/time/0.3.55/download -> time-0.3.55.crate
 https://crates.io/api/v1/crates/time-core/0.1.9/download -> time-core-0.1.9.crate
 https://crates.io/api/v1/crates/time-macros/0.2.32/download -> time-macros-0.2.32.crate
 https://crates.io/api/v1/crates/tinystr/0.8.4/download -> tinystr-0.8.4.crate
-https://crates.io/api/v1/crates/tinyvec/1.13.0/download -> tinyvec-1.13.0.crate
+https://crates.io/api/v1/crates/tinyvec/1.13.2/download -> tinyvec-1.13.2.crate
 https://crates.io/api/v1/crates/tinyvec_macros/0.1.1/download -> tinyvec_macros-0.1.1.crate
 https://crates.io/api/v1/crates/toml/0.9.12+spec-1.1.0/download -> toml-0.9.12+spec-1.1.0.crate
 https://crates.io/api/v1/crates/toml/1.1.5+spec-1.1.0/download -> toml-1.1.5+spec-1.1.0.crate
