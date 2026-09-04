@@ -49,7 +49,7 @@ https://crates.io/api/v1/crates/cargo-util/0.2.31/download -> cargo-util-0.2.31.
 https://crates.io/api/v1/crates/cargo-util-schemas/0.14.2/download -> cargo-util-schemas-0.14.2.crate
 https://crates.io/api/v1/crates/cargo-util-terminal/0.1.1/download -> cargo-util-terminal-0.1.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.4/download -> cbindgen-0.29.4.crate
-https://crates.io/api/v1/crates/cc/1.4.4/download -> cc-1.4.4.crate
+https://crates.io/api/v1/crates/cc/1.4.5/download -> cc-1.4.5.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.4/download -> cfg-if-1.0.4.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.2/download -> cfg_aliases-0.2.2.crate
 https://crates.io/api/v1/crates/chacha20/0.10.2/download -> chacha20-0.10.2.crate
@@ -109,7 +109,7 @@ https://crates.io/api/v1/crates/fastrand/2.5.0/download -> fastrand-2.5.0.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
 https://crates.io/api/v1/crates/filetime/0.2.29/download -> filetime-0.2.29.crate
-https://crates.io/api/v1/crates/find-msvc-tools/0.1.11/download -> find-msvc-tools-0.1.11.crate
+https://crates.io/api/v1/crates/find-msvc-tools/0.1.12/download -> find-msvc-tools-0.1.12.crate
 https://crates.io/api/v1/crates/flate2/1.1.10/download -> flate2-1.1.10.crate
 https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
 https://crates.io/api/v1/crates/foldhash/0.2.0/download -> foldhash-0.2.0.crate
