@@ -290,7 +290,7 @@ https://crates.io/api/v1/crates/pin-project-lite/0.2.17/download -> pin-project-
 https://crates.io/api/v1/crates/pkcs8/0.10.2/download -> pkcs8-0.10.2.crate
 https://crates.io/api/v1/crates/pkg-config/0.3.34/download -> pkg-config-0.3.34.crate
 https://crates.io/api/v1/crates/portable-atomic/1.15.0/download -> portable-atomic-1.15.0.crate
-https://crates.io/api/v1/crates/portable-atomic-util/0.2.7/download -> portable-atomic-util-0.2.7.crate
+https://crates.io/api/v1/crates/portable-atomic-util/0.2.8/download -> portable-atomic-util-0.2.8.crate
 https://crates.io/api/v1/crates/potential_utf/0.1.6/download -> potential_utf-0.1.6.crate
 https://crates.io/api/v1/crates/powerfmt/0.2.0/download -> powerfmt-0.2.0.crate
 https://crates.io/api/v1/crates/primeorder/0.13.6/download -> primeorder-0.13.6.crate
