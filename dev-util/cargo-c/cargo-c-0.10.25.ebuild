@@ -232,7 +232,7 @@ https://crates.io/api/v1/crates/libgit2-sys/0.18.8+1.9.7/download -> libgit2-sys
 https://crates.io/api/v1/crates/libloading/0.9.0/download -> libloading-0.9.0.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.13+1.68.1/download -> libnghttp2-sys-0.1.13+1.68.1.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.38.2/download -> libsqlite3-sys-0.38.2.crate
-https://crates.io/api/v1/crates/libssh2-sys/0.3.2/download -> libssh2-sys-0.3.2.crate
+https://crates.io/api/v1/crates/libssh2-sys/0.3.3/download -> libssh2-sys-0.3.3.crate
 https://crates.io/api/v1/crates/libz-sys/1.1.29/download -> libz-sys-1.1.29.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download -> linux-raw-sys-0.12.1.crate
 https://crates.io/api/v1/crates/litemap/0.8.3/download -> litemap-0.8.3.crate
