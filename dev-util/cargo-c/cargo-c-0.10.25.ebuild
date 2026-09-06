@@ -72,10 +72,10 @@ https://crates.io/api/v1/crates/cpufeatures/0.2.17/download -> cpufeatures-0.2.1
 https://crates.io/api/v1/crates/cpufeatures/0.3.1/download -> cpufeatures-0.3.1.crate
 https://crates.io/api/v1/crates/crates-io/0.41.1/download -> crates-io-0.41.1.crate
 https://crates.io/api/v1/crates/crc32fast/1.5.1/download -> crc32fast-1.5.1.crate
-https://crates.io/api/v1/crates/crossbeam-channel/0.5.16/download -> crossbeam-channel-0.5.16.crate
-https://crates.io/api/v1/crates/crossbeam-deque/0.8.7/download -> crossbeam-deque-0.8.7.crate
-https://crates.io/api/v1/crates/crossbeam-epoch/0.9.20/download -> crossbeam-epoch-0.9.20.crate
-https://crates.io/api/v1/crates/crossbeam-utils/0.8.22/download -> crossbeam-utils-0.8.22.crate
+https://crates.io/api/v1/crates/crossbeam-channel/0.5.17/download -> crossbeam-channel-0.5.17.crate
+https://crates.io/api/v1/crates/crossbeam-deque/0.8.8/download -> crossbeam-deque-0.8.8.crate
+https://crates.io/api/v1/crates/crossbeam-epoch/0.9.21/download -> crossbeam-epoch-0.9.21.crate
+https://crates.io/api/v1/crates/crossbeam-utils/0.8.23/download -> crossbeam-utils-0.8.23.crate
 https://crates.io/api/v1/crates/crypto-bigint/0.5.5/download -> crypto-bigint-0.5.5.crate
 https://crates.io/api/v1/crates/crypto-common/0.1.6/download -> crypto-common-0.1.6.crate
 https://crates.io/api/v1/crates/crypto-common/0.2.2/download -> crypto-common-0.2.2.crate
