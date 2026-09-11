@@ -20,8 +20,8 @@ EGO_SUM=(
 	"github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0/go.mod"
 	"github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5"
 	"github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5/go.mod"
-	"github.com/boyter/gocodewalker v1.5.2-0.20260627224246-75bd04cd8742"
-	"github.com/boyter/gocodewalker v1.5.2-0.20260627224246-75bd04cd8742/go.mod"
+	"github.com/boyter/gocodewalker v1.5.2-0.20260905064325-27ad42ef7a81"
+	"github.com/boyter/gocodewalker v1.5.2-0.20260905064325-27ad42ef7a81/go.mod"
 	"github.com/boyter/simplecache v0.0.0-20260310220729-445661819a53"
 	"github.com/boyter/simplecache v0.0.0-20260310220729-445661819a53/go.mod"
 	"github.com/clipperhouse/uax29/v2 v2.7.0"
@@ -174,8 +174,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/boyter/scc/tarball/128887cb776961ca72d2823ea06c2aa112eb2585 -> scc-4.0.0-128887c.tar.gz
-https://direct.funtoo.org/ff/13/77/ff13776dbfa8cdea1a043a1839b5eeb23d82ff727ba3038234cc14e2d257cf94e4af48d78847bf1ccbebea80ba2946ad16bad65948e24082403fc1475d08366e -> scc-4.0.0-funtoo-go-bundle-c31bea6443a88e2fbab070ee8d67b412994b022dca78e6aaf45bc107ed28e5dd11b0d08957876458d28fe8083d80ffe67965071f166f6358183c984bf0876e8e.tar.gz"
+SRC_URI="https://github.com/boyter/scc/tarball/f9ab68bf05ec0d82a6129738aa2fcc148313e472 -> scc-4.1.0-f9ab68b.tar.gz
+https://direct.funtoo.org/2e/79/5d/2e795d8ab1d96be42dea9404241e96a7d3feb368ed9e2f58cdb3b43b414928c398d7f5d009d3e238179e8df4cd4410e3988f3e7dd7eafcc90477651b8d4dd9b4 -> scc-4.1.0-funtoo-go-bundle-5702bc2f3a5c7825d5b78644e9d6e6a28e71e507a3cb9bbba44ed2b82583bc3988bf9b57bbace0eef58e9b25b2953924aed115133e79fe881b6658782b5aed27.tar.gz"
 
 DESCRIPTION="A tool similar to cloc, sloccount and tokei"
 HOMEPAGE="https://github.com/boyter/scc"
