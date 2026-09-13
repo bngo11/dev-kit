@@ -37,8 +37,8 @@ EGO_SUM=(
 	"github.com/fatih/color v1.9.0/go.mod"
 	"github.com/gdamore/encoding v1.0.1"
 	"github.com/gdamore/encoding v1.0.1/go.mod"
-	"github.com/gdamore/tcell/v3 v3.4.2"
-	"github.com/gdamore/tcell/v3 v3.4.2/go.mod"
+	"github.com/gdamore/tcell/v3 v3.5.0"
+	"github.com/gdamore/tcell/v3 v3.5.0/go.mod"
 	"github.com/go-errors/errors v1.5.1"
 	"github.com/go-errors/errors v1.5.1/go.mod"
 	"github.com/go-logfmt/logfmt v0.4.0/go.mod"
@@ -208,8 +208,8 @@ EGO_SUM=(
 
 go-module_set_globals
 
-SRC_URI="https://github.com/jesseduffield/lazygit/tarball/82ecb2842a16c1a3d9e749651a816aed5075c821 -> lazygit-0.65.0-82ecb28.tar.gz
-https://direct.funtoo.org/d5/9f/7d/d59f7d390e1afba5402b230f4d773f1d9f3c3814ec4ca64ca7129760f7b5d14fad08b8511c88c1680cb38b450ea28b1204758f17bc7204430ac02868fc086c4c -> lazygit-0.65.0-funtoo-go-bundle-c8a5d6b6737b0360207808b887f218cbfe1072ef97ad3abbe89372822ccc5066764b8bf97b1353b361ee96c5c0872c19b8a16e6acab8d0a5893f7ea70d029659.tar.gz"
+SRC_URI="https://github.com/jesseduffield/lazygit/tarball/c4c5b44785e91e7fda50414bee5e18dd86843645 -> lazygit-0.65.1-c4c5b44.tar.gz
+https://direct.funtoo.org/23/b3/12/23b312a56bfdb9db0b40530e6f3d6102722b4acfebe5a1a309ddfe16f5d060b8d96401b4de18884d74170cfde8b4a73e32ae71e2d6f9d885da13951495ad9880 -> lazygit-0.65.1-funtoo-go-bundle-4618283eddc561c6242aa949f7a4cf814ea5190482ade6cc15e1dc80484dbebf1197b87866e98703abcbcd5c8503bdf915bdd7ee049528d963f1336a786379b1.tar.gz"
 
 DESCRIPTION="A simple terminal UI for git commands"
 HOMEPAGE="http://github.com/jesseduffield/lazygit"
