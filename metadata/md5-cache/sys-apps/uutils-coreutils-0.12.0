@@ -1,0 +1,12 @@
+BDEPEND=virtual/rust >=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=Cross-platform Rust rewrite of the GNU coreutils
+EAPI=7
+HOMEPAGE=https://github.com/uutils/coreutils https://uutils.github.io/coreutils/docs/
+IUSE=debug
+KEYWORDS=*
+LICENSE=Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB
+SLOT=0
+SRC_URI=https://github.com/uutils/coreutils/tarball/5ab52189443867d56e8beb8984f52efd18fd7682 -> coreutils-0.12.0-5ab5218.tar.gz https://direct.funtoo.org/7c/a4/7e/7ca47e8bb3b5744bfae1c13f7950969e76d79b71d206c7c6e8ed93954412778c3b5db375817c13bb3dec18c186004cfcb1fe957bd71e6eea5b186e15bddd8560 -> uutils-coreutils-0.12.0-funtoo-crates-bundle-f166c60860a3bb916b7f7a34c2612d0e7c075beaa2384803456316adc37509f8d5374eb0322124438a279e3bdcf3284186d99834e27219efda25a76b305fb7f0.tar.gz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=acbe22c5633c3bf393774762c35d89e1
