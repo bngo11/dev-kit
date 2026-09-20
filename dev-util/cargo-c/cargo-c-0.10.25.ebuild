@@ -226,7 +226,7 @@ https://crates.io/api/v1/crates/jiff-tzdb/0.1.8/download -> jiff-tzdb-0.1.8.crat
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.crate
 https://crates.io/api/v1/crates/js-sys/0.3.105/download -> js-sys-0.3.105.crate
-https://crates.io/api/v1/crates/kstring/2.0.4/download -> kstring-2.0.4.crate
+https://crates.io/api/v1/crates/kstring/2.0.5/download -> kstring-2.0.5.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/libc/0.2.189/download -> libc-0.2.189.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.8+1.9.7/download -> libgit2-sys-0.18.8+1.9.7.crate
@@ -252,7 +252,7 @@ https://crates.io/api/v1/crates/multiversion_no_op/1.0.0/download -> multiversio
 https://crates.io/api/v1/crates/nix/0.31.3/download -> nix-0.31.3.crate
 https://crates.io/api/v1/crates/nom/7.1.3/download -> nom-7.1.3.crate
 https://crates.io/api/v1/crates/nonempty/0.12.0/download -> nonempty-0.12.0.crate
-https://crates.io/api/v1/crates/normpath/1.5.1/download -> normpath-1.5.1.crate
+https://crates.io/api/v1/crates/normpath/1.5.2/download -> normpath-1.5.2.crate
 https://crates.io/api/v1/crates/nu-ansi-term/0.50.3/download -> nu-ansi-term-0.50.3.crate
 https://crates.io/api/v1/crates/num-conv/0.2.2/download -> num-conv-0.2.2.crate
 https://crates.io/api/v1/crates/num-traits/0.2.19/download -> num-traits-0.2.19.crate

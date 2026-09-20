@@ -6,7 +6,7 @@ inherit meson ninja-utils multilib-minimal
 
 DESCRIPTION="A free implementation of the unicode bidirectional algorithm"
 HOMEPAGE="https://fribidi.org/"
-SRC_URI="https://github.com/fribidi/fribidi/releases/download/v1.0.16/fribidi-1.0.16.tar.xz -> fribidi-1.0.16.tar.xz"
+SRC_URI="https://github.com/fribidi/fribidi/releases/download/v1.0.17/fribidi-1.0.17.tar.xz -> fribidi-1.0.17.tar.xz"
 
 LICENSE="LGPL-2.1+"
 SLOT="0"
@@ -19,7 +19,7 @@ BDEPEND="virtual/pkgconfig"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv fribidi-fribidi-* "${S}" || die
+		mv --* "${S}" || die
 	fi
 }
 
