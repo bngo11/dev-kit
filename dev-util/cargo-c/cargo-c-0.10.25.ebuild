@@ -302,7 +302,7 @@ https://crates.io/api/v1/crates/proc-macro2/1.0.107/download -> proc-macro2-1.0.
 https://crates.io/api/v1/crates/prodash/31.0.0/download -> prodash-31.0.0.crate
 https://crates.io/api/v1/crates/quote/1.0.47/download -> quote-1.0.47.crate
 https://crates.io/api/v1/crates/r-efi/6.0.0/download -> r-efi-6.0.0.crate
-https://crates.io/api/v1/crates/rand/0.10.2/download -> rand-0.10.2.crate
+https://crates.io/api/v1/crates/rand/0.10.3/download -> rand-0.10.3.crate
 https://crates.io/api/v1/crates/rand_core/0.6.4/download -> rand_core-0.6.4.crate
 https://crates.io/api/v1/crates/rand_core/0.10.1/download -> rand_core-0.10.1.crate
 https://crates.io/api/v1/crates/rand_xoshiro/0.6.0/download -> rand_xoshiro-0.6.0.crate
