@@ -363,8 +363,8 @@ https://crates.io/api/v1/crates/synstructure/0.14.0/download -> synstructure-0.1
 https://crates.io/api/v1/crates/tar/0.4.46/download -> tar-0.4.46.crate
 https://crates.io/api/v1/crates/tempfile/3.27.0/download -> tempfile-3.27.0.crate
 https://crates.io/api/v1/crates/terminal_size/0.4.4/download -> terminal_size-0.4.4.crate
-https://crates.io/api/v1/crates/thiserror/2.0.20/download -> thiserror-2.0.20.crate
-https://crates.io/api/v1/crates/thiserror-impl/2.0.20/download -> thiserror-impl-2.0.20.crate
+https://crates.io/api/v1/crates/thiserror/2.0.21/download -> thiserror-2.0.21.crate
+https://crates.io/api/v1/crates/thiserror-impl/2.0.21/download -> thiserror-impl-2.0.21.crate
 https://crates.io/api/v1/crates/thread_local/1.1.10/download -> thread_local-1.1.10.crate
 https://crates.io/api/v1/crates/time/0.3.55/download -> time-0.3.55.crate
 https://crates.io/api/v1/crates/time-core/0.1.9/download -> time-core-0.1.9.crate
