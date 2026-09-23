@@ -85,6 +85,7 @@ https://crates.io/api/v1/crates/ctutils/0.4.2/download -> ctutils-0.4.2.crate
 https://crates.io/api/v1/crates/curl/0.4.50/download -> curl-0.4.50.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.90+curl-8.21.0/download -> curl-sys-0.4.90+curl-8.21.0.crate
 https://crates.io/api/v1/crates/dashmap/6.2.1/download -> dashmap-6.2.1.crate
+https://crates.io/api/v1/crates/defmt/0.3.100/download -> defmt-0.3.100.crate
 https://crates.io/api/v1/crates/defmt/1.1.1/download -> defmt-1.1.1.crate
 https://crates.io/api/v1/crates/defmt-macros/1.1.1/download -> defmt-macros-1.1.1.crate
 https://crates.io/api/v1/crates/defmt-parser/1.0.0/download -> defmt-parser-1.0.0.crate
@@ -105,7 +106,7 @@ https://crates.io/api/v1/crates/erased-serde/0.4.10/download -> erased-serde-0.4
 https://crates.io/api/v1/crates/errno/0.3.14/download -> errno-0.3.14.crate
 https://crates.io/api/v1/crates/fallible-iterator/0.3.0/download -> fallible-iterator-0.3.0.crate
 https://crates.io/api/v1/crates/fallible-streaming-iterator/0.1.9/download -> fallible-streaming-iterator-0.1.9.crate
-https://crates.io/api/v1/crates/faster-hex/0.10.0/download -> faster-hex-0.10.0.crate
+https://crates.io/api/v1/crates/faster-hex/0.10.1/download -> faster-hex-0.10.1.crate
 https://crates.io/api/v1/crates/fastrand/2.5.0/download -> fastrand-2.5.0.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
