@@ -100,7 +100,7 @@ https://crates.io/api/v1/crates/ecdsa/0.16.9/download -> ecdsa-0.16.9.crate
 https://crates.io/api/v1/crates/ed25519-compact/2.4.2/download -> ed25519-compact-2.4.2.crate
 https://crates.io/api/v1/crates/either/1.18.0/download -> either-1.18.0.crate
 https://crates.io/api/v1/crates/elliptic-curve/0.13.8/download -> elliptic-curve-0.13.8.crate
-https://crates.io/api/v1/crates/encoding_rs/0.8.41/download -> encoding_rs-0.8.41.crate
+https://crates.io/api/v1/crates/encoding_rs/0.8.42/download -> encoding_rs-0.8.42.crate
 https://crates.io/api/v1/crates/equivalent/1.0.2/download -> equivalent-1.0.2.crate
 https://crates.io/api/v1/crates/erased-serde/0.4.10/download -> erased-serde-0.4.10.crate
 https://crates.io/api/v1/crates/errno/0.3.14/download -> errno-0.3.14.crate
@@ -247,8 +247,6 @@ https://crates.io/api/v1/crates/memmap2/0.9.11/download -> memmap2-0.9.11.crate
 https://crates.io/api/v1/crates/memoffset/0.9.1/download -> memoffset-0.9.1.crate
 https://crates.io/api/v1/crates/minimal-lexical/0.2.1/download -> minimal-lexical-0.2.1.crate
 https://crates.io/api/v1/crates/miow/0.6.1/download -> miow-0.6.1.crate
-https://crates.io/api/v1/crates/multiversion/0.9.0/download -> multiversion-0.9.0.crate
-https://crates.io/api/v1/crates/multiversion-macros/0.9.0/download -> multiversion-macros-0.9.0.crate
 https://crates.io/api/v1/crates/multiversion_no_op/1.0.0/download -> multiversion_no_op-1.0.0.crate
 https://crates.io/api/v1/crates/nix/0.31.3/download -> nix-0.31.3.crate
 https://crates.io/api/v1/crates/nom/7.1.3/download -> nom-7.1.3.crate
