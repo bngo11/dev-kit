@@ -1,4 +1,4 @@
-BDEPEND=|| ( dev-lang/python:3.12 dev-lang/python:3.14 ) dev-util/ninja
+BDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.9 dev-lang/python:3.7 dev-lang/python:3.10 dev-lang/python:3.12 dev-lang/python:3.14 ) dev-util/ninja
 DEFINED_PHASES=compile configure install setup
 DESCRIPTION=GN is a meta-build system that generates build files for Ninja
 EAPI=7
@@ -7,5 +7,5 @@ KEYWORDS=*
 LICENSE=BSD
 SLOT=0
 SRC_URI=https://direct.funtoo.org/ae/d5/97/aed5971e9d50d34c8f7e6cd588d7f6e9e29b3962ddc84de78b0f685149fdb9313e847799757175753306b7057703cedc3a00c6f43f8a11a1dc51fdecbea14354 -> gn-0.2577.tar.xz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	e7575bc4a90349d76e72777013b2bbc2	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	63b0a8c97581d572e6bb8a48b5fd2374	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	e7575bc4a90349d76e72777013b2bbc2	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	89d946015dea2829c7554116a61cae96	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=ce517793994c20d82b86770831eb4227
