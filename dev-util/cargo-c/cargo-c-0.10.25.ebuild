@@ -49,7 +49,7 @@ https://crates.io/api/v1/crates/cargo-util/0.2.31/download -> cargo-util-0.2.31.
 https://crates.io/api/v1/crates/cargo-util-schemas/0.14.2/download -> cargo-util-schemas-0.14.2.crate
 https://crates.io/api/v1/crates/cargo-util-terminal/0.1.1/download -> cargo-util-terminal-0.1.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.4/download -> cbindgen-0.29.4.crate
-https://crates.io/api/v1/crates/cc/1.4.7/download -> cc-1.4.7.crate
+https://crates.io/api/v1/crates/cc/1.5.0/download -> cc-1.5.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.5/download -> cfg-if-1.0.5.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.2/download -> cfg_aliases-0.2.2.crate
 https://crates.io/api/v1/crates/chacha20/0.10.2/download -> chacha20-0.10.2.crate
@@ -80,7 +80,7 @@ https://crates.io/api/v1/crates/crossbeam-utils/0.8.23/download -> crossbeam-uti
 https://crates.io/api/v1/crates/crypto-bigint/0.5.5/download -> crypto-bigint-0.5.5.crate
 https://crates.io/api/v1/crates/crypto-common/0.1.6/download -> crypto-common-0.1.6.crate
 https://crates.io/api/v1/crates/crypto-common/0.2.2/download -> crypto-common-0.2.2.crate
-https://crates.io/api/v1/crates/ct-codecs/1.1.7/download -> ct-codecs-1.1.7.crate
+https://crates.io/api/v1/crates/ct-codecs/1.1.8/download -> ct-codecs-1.1.8.crate
 https://crates.io/api/v1/crates/ctutils/0.4.2/download -> ctutils-0.4.2.crate
 https://crates.io/api/v1/crates/curl/0.4.50/download -> curl-0.4.50.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.90+curl-8.21.0/download -> curl-sys-0.4.90+curl-8.21.0.crate
@@ -97,7 +97,7 @@ https://crates.io/api/v1/crates/dispatch2/0.3.1/download -> dispatch2-0.3.1.crat
 https://crates.io/api/v1/crates/displaydoc/0.2.7/download -> displaydoc-0.2.7.crate
 https://crates.io/api/v1/crates/dunce/1.0.5/download -> dunce-1.0.5.crate
 https://crates.io/api/v1/crates/ecdsa/0.16.9/download -> ecdsa-0.16.9.crate
-https://crates.io/api/v1/crates/ed25519-compact/2.4.2/download -> ed25519-compact-2.4.2.crate
+https://crates.io/api/v1/crates/ed25519-compact/2.6.0/download -> ed25519-compact-2.6.0.crate
 https://crates.io/api/v1/crates/either/1.18.0/download -> either-1.18.0.crate
 https://crates.io/api/v1/crates/elliptic-curve/0.13.8/download -> elliptic-curve-0.13.8.crate
 https://crates.io/api/v1/crates/encoding_rs/0.8.42/download -> encoding_rs-0.8.42.crate
@@ -111,7 +111,7 @@ https://crates.io/api/v1/crates/fastrand/2.5.0/download -> fastrand-2.5.0.crate
 https://crates.io/api/v1/crates/ff/0.13.1/download -> ff-0.13.1.crate
 https://crates.io/api/v1/crates/fiat-crypto/0.3.0/download -> fiat-crypto-0.3.0.crate
 https://crates.io/api/v1/crates/filetime/0.2.29/download -> filetime-0.2.29.crate
-https://crates.io/api/v1/crates/find-msvc-tools/0.1.13/download -> find-msvc-tools-0.1.13.crate
+https://crates.io/api/v1/crates/find-msvc-tools/0.1.14/download -> find-msvc-tools-0.1.14.crate
 https://crates.io/api/v1/crates/flate2/1.1.10/download -> flate2-1.1.10.crate
 https://crates.io/api/v1/crates/fnv/1.0.7/download -> fnv-1.0.7.crate
 https://crates.io/api/v1/crates/foldhash/0.2.0/download -> foldhash-0.2.0.crate
@@ -226,7 +226,7 @@ https://crates.io/api/v1/crates/jiff-static/0.2.37/download -> jiff-static-0.2.3
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.8/download -> jiff-tzdb-0.1.8.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.crate
-https://crates.io/api/v1/crates/js-sys/0.3.105/download -> js-sys-0.3.105.crate
+https://crates.io/api/v1/crates/js-sys/0.3.106/download -> js-sys-0.3.106.crate
 https://crates.io/api/v1/crates/kstring/2.0.5/download -> kstring-2.0.5.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.0/download -> lazy_static-1.5.0.crate
 https://crates.io/api/v1/crates/libc/0.2.189/download -> libc-0.2.189.crate
@@ -345,7 +345,7 @@ https://crates.io/api/v1/crates/signature/2.2.0/download -> signature-2.2.0.crat
 https://crates.io/api/v1/crates/simdutf8/0.1.5/download -> simdutf8-0.1.5.crate
 https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.5.crate
 https://crates.io/api/v1/crates/slab/0.4.12/download -> slab-0.4.12.crate
-https://crates.io/api/v1/crates/smallvec/1.16.1/download -> smallvec-1.16.1.crate
+https://crates.io/api/v1/crates/smallvec/1.16.2/download -> smallvec-1.16.2.crate
 https://crates.io/api/v1/crates/socket2/0.6.5/download -> socket2-0.6.5.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
 https://crates.io/api/v1/crates/sqlite-wasm-rs/0.5.5/download -> sqlite-wasm-rs-0.5.5.crate
@@ -397,10 +397,10 @@ https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
 https://crates.io/api/v1/crates/walkdir/2.5.0/download -> walkdir-2.5.0.crate
 https://crates.io/api/v1/crates/wasi/0.11.1+wasi-snapshot-preview1/download -> wasi-0.11.1+wasi-snapshot-preview1.crate
-https://crates.io/api/v1/crates/wasm-bindgen/0.2.128/download -> wasm-bindgen-0.2.128.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.128/download -> wasm-bindgen-macro-0.2.128.crate
-https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.128/download -> wasm-bindgen-macro-support-0.2.128.crate
-https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.128/download -> wasm-bindgen-shared-0.2.128.crate
+https://crates.io/api/v1/crates/wasm-bindgen/0.2.129/download -> wasm-bindgen-0.2.129.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro/0.2.129/download -> wasm-bindgen-macro-0.2.129.crate
+https://crates.io/api/v1/crates/wasm-bindgen-macro-support/0.2.129/download -> wasm-bindgen-macro-support-0.2.129.crate
+https://crates.io/api/v1/crates/wasm-bindgen-shared/0.2.129/download -> wasm-bindgen-shared-0.2.129.crate
 https://crates.io/api/v1/crates/winapi-util/0.1.11/download -> winapi-util-0.1.11.crate
 https://crates.io/api/v1/crates/windows-link/0.2.1/download -> windows-link-0.2.1.crate
 https://crates.io/api/v1/crates/windows-sys/0.61.2/download -> windows-sys-0.61.2.crate
