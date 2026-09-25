@@ -49,7 +49,7 @@ https://crates.io/api/v1/crates/cargo-util/0.2.31/download -> cargo-util-0.2.31.
 https://crates.io/api/v1/crates/cargo-util-schemas/0.14.2/download -> cargo-util-schemas-0.14.2.crate
 https://crates.io/api/v1/crates/cargo-util-terminal/0.1.1/download -> cargo-util-terminal-0.1.1.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.4/download -> cbindgen-0.29.4.crate
-https://crates.io/api/v1/crates/cc/1.5.0/download -> cc-1.5.0.crate
+https://crates.io/api/v1/crates/cc/1.5.1/download -> cc-1.5.1.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.5/download -> cfg-if-1.0.5.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.2/download -> cfg_aliases-0.2.2.crate
 https://crates.io/api/v1/crates/chacha20/0.10.2/download -> chacha20-0.10.2.crate
