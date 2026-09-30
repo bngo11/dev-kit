@@ -408,7 +408,7 @@ https://crates.io/api/v1/crates/winnow/0.7.15/download -> winnow-0.7.15.crate
 https://crates.io/api/v1/crates/winnow/1.0.4/download -> winnow-1.0.4.crate
 https://crates.io/api/v1/crates/writeable/0.6.4/download -> writeable-0.6.4.crate
 https://crates.io/api/v1/crates/yoke/0.8.3/download -> yoke-0.8.3.crate
-https://crates.io/api/v1/crates/yoke-derive/0.8.3/download -> yoke-derive-0.8.3.crate
+https://crates.io/api/v1/crates/yoke-derive/0.8.4/download -> yoke-derive-0.8.4.crate
 https://crates.io/api/v1/crates/zerofrom/0.1.8/download -> zerofrom-0.1.8.crate
 https://crates.io/api/v1/crates/zerofrom-derive/0.1.8/download -> zerofrom-derive-0.1.8.crate
 https://crates.io/api/v1/crates/zeroize/1.9.0/download -> zeroize-1.9.0.crate

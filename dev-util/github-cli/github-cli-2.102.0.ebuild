@@ -7,8 +7,8 @@ inherit bash-completion-r1 go-module
 EGO_SUM=(
 	"charm.land/bubbles/v2 v2.2.1"
 	"charm.land/bubbles/v2 v2.2.1/go.mod"
-	"charm.land/bubbletea/v2 v2.0.9"
-	"charm.land/bubbletea/v2 v2.0.9/go.mod"
+	"charm.land/bubbletea/v2 v2.0.10"
+	"charm.land/bubbletea/v2 v2.0.10/go.mod"
 	"charm.land/huh/v2 v2.0.3"
 	"charm.land/huh/v2 v2.0.3/go.mod"
 	"charm.land/lipgloss/v2 v2.0.6"
@@ -360,8 +360,8 @@ EGO_SUM=(
 	"github.com/joho/godotenv v1.5.1/go.mod"
 	"github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51"
 	"github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51/go.mod"
-	"github.com/klauspost/compress v1.20.0"
-	"github.com/klauspost/compress v1.20.0/go.mod"
+	"github.com/klauspost/compress v1.20.1"
+	"github.com/klauspost/compress v1.20.1/go.mod"
 	"github.com/kr/pretty v0.3.1"
 	"github.com/kr/pretty v0.3.1/go.mod"
 	"github.com/kr/text v0.2.0"
@@ -657,8 +657,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/0cf1092493af067646fc5f3db9421c6a6ec9c938 -> cli-2.101.0-0cf1092.tar.gz
-https://direct.funtoo.org/5c/e9/a6/5ce9a62d0451d47dea1debc5e7c0f5d940d4ca26d13da1a43a6a5b05a769c82262cde74b73a89d7213ec2543f6406af604c2611b61b586467d3a7c6a00159c18 -> github-cli-2.101.0-funtoo-go-bundle-2dda83b95aed8f235039cf72a27e23ab0737a6a563375d3558f970aadfe5ea0ff4ce2fe83c9c0403bce29b7b5f67a4fb4c02f3976d18ac0e3dc9f0a4fa2f44ba.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/fc4b137cdef0a6bd28fd461b7cf9c84a5812a8cd -> cli-2.102.0-fc4b137.tar.gz
+https://direct.funtoo.org/d8/4e/28/d84e2878d363e1f2942947e3ebae92db98b1c2625c7aea8f6b0c7abd58f60341cceabc8564d464d2fe0f1f37c0742c7697c57f1ab6561c95fd2b806a2d6cb629 -> github-cli-2.102.0-funtoo-go-bundle-d89b7a815052fd45ec89b9b8bc820f885cce7c6a5499ea9f8c5d164869972a01a6322381d1fbf0cc80d813508eaeea212f31a065a509ef898d27d2dbd69656cc.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -670,7 +670,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.101.0"
+	export GH_VERSION="v2.102.0"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
