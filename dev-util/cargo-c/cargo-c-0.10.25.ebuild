@@ -49,7 +49,7 @@ https://crates.io/api/v1/crates/cargo-util/0.2.32/download -> cargo-util-0.2.32.
 https://crates.io/api/v1/crates/cargo-util-schemas/0.14.3/download -> cargo-util-schemas-0.14.3.crate
 https://crates.io/api/v1/crates/cargo-util-terminal/0.1.2/download -> cargo-util-terminal-0.1.2.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.4/download -> cbindgen-0.29.4.crate
-https://crates.io/api/v1/crates/cc/1.5.1/download -> cc-1.5.1.crate
+https://crates.io/api/v1/crates/cc/1.6.0/download -> cc-1.6.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.5/download -> cfg-if-1.0.5.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.2/download -> cfg_aliases-0.2.2.crate
 https://crates.io/api/v1/crates/chacha20/0.10.2/download -> chacha20-0.10.2.crate
@@ -229,7 +229,7 @@ https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.cr
 https://crates.io/api/v1/crates/js-sys/0.3.106/download -> js-sys-0.3.106.crate
 https://crates.io/api/v1/crates/kstring/2.0.5/download -> kstring-2.0.5.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.1/download -> lazy_static-1.5.1.crate
-https://crates.io/api/v1/crates/libc/0.2.189/download -> libc-0.2.189.crate
+https://crates.io/api/v1/crates/libc/0.2.190/download -> libc-0.2.190.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.8+1.9.7/download -> libgit2-sys-0.18.8+1.9.7.crate
 https://crates.io/api/v1/crates/libloading/0.9.0/download -> libloading-0.9.0.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.13+1.68.1/download -> libnghttp2-sys-0.1.13+1.68.1.crate
