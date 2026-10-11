@@ -49,7 +49,7 @@ https://crates.io/api/v1/crates/cargo-util/0.2.32/download -> cargo-util-0.2.32.
 https://crates.io/api/v1/crates/cargo-util-schemas/0.14.3/download -> cargo-util-schemas-0.14.3.crate
 https://crates.io/api/v1/crates/cargo-util-terminal/0.1.2/download -> cargo-util-terminal-0.1.2.crate
 https://crates.io/api/v1/crates/cbindgen/0.29.4/download -> cbindgen-0.29.4.crate
-https://crates.io/api/v1/crates/cc/1.6.0/download -> cc-1.6.0.crate
+https://crates.io/api/v1/crates/cc/1.7.0/download -> cc-1.7.0.crate
 https://crates.io/api/v1/crates/cfg-if/1.0.5/download -> cfg-if-1.0.5.crate
 https://crates.io/api/v1/crates/cfg_aliases/0.2.2/download -> cfg_aliases-0.2.2.crate
 https://crates.io/api/v1/crates/chacha20/0.10.2/download -> chacha20-0.10.2.crate
@@ -330,7 +330,7 @@ https://crates.io/api/v1/crates/serde-value/0.7.0/download -> serde-value-0.7.0.
 https://crates.io/api/v1/crates/serde_core/1.0.229/download -> serde_core-1.0.229.crate
 https://crates.io/api/v1/crates/serde_derive/1.0.229/download -> serde_derive-1.0.229.crate
 https://crates.io/api/v1/crates/serde_ignored/0.1.14/download -> serde_ignored-0.1.14.crate
-https://crates.io/api/v1/crates/serde_json/1.0.151/download -> serde_json-1.0.151.crate
+https://crates.io/api/v1/crates/serde_json/1.0.152/download -> serde_json-1.0.152.crate
 https://crates.io/api/v1/crates/serde_spanned/1.1.2/download -> serde_spanned-1.1.2.crate
 https://crates.io/api/v1/crates/sha1/0.10.7/download -> sha1-0.10.7.crate
 https://crates.io/api/v1/crates/sha1/0.11.0/download -> sha1-0.11.0.crate
@@ -345,7 +345,7 @@ https://crates.io/api/v1/crates/signature/2.2.0/download -> signature-2.2.0.crat
 https://crates.io/api/v1/crates/simdutf8/0.1.5/download -> simdutf8-0.1.5.crate
 https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.5.crate
 https://crates.io/api/v1/crates/slab/0.4.12/download -> slab-0.4.12.crate
-https://crates.io/api/v1/crates/smallvec/1.16.2/download -> smallvec-1.16.2.crate
+https://crates.io/api/v1/crates/smallvec/1.16.3/download -> smallvec-1.16.3.crate
 https://crates.io/api/v1/crates/socket2/0.6.5/download -> socket2-0.6.5.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
 https://crates.io/api/v1/crates/sqlite-wasm-rs/0.5.5/download -> sqlite-wasm-rs-0.5.5.crate
@@ -356,7 +356,7 @@ https://crates.io/api/v1/crates/subtle/2.6.1/download -> subtle-2.6.1.crate
 https://crates.io/api/v1/crates/supports-hyperlinks/3.2.0/download -> supports-hyperlinks-3.2.0.crate
 https://crates.io/api/v1/crates/supports-unicode/3.0.0/download -> supports-unicode-3.0.0.crate
 https://crates.io/api/v1/crates/syn/2.0.119/download -> syn-2.0.119.crate
-https://crates.io/api/v1/crates/syn/3.0.6/download -> syn-3.0.6.crate
+https://crates.io/api/v1/crates/syn/3.0.7/download -> syn-3.0.7.crate
 https://crates.io/api/v1/crates/synstructure/0.14.0/download -> synstructure-0.14.0.crate
 https://crates.io/api/v1/crates/tar/0.4.46/download -> tar-0.4.46.crate
 https://crates.io/api/v1/crates/tempfile/3.27.0/download -> tempfile-3.27.0.crate
