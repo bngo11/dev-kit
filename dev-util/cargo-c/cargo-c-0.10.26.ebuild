@@ -85,10 +85,10 @@ https://crates.io/api/v1/crates/ctutils/0.4.3/download -> ctutils-0.4.3.crate
 https://crates.io/api/v1/crates/curl/0.4.51/download -> curl-0.4.51.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.91+curl-8.22.0/download -> curl-sys-0.4.91+curl-8.22.0.crate
 https://crates.io/api/v1/crates/dashmap/6.2.1/download -> dashmap-6.2.1.crate
-https://crates.io/api/v1/crates/defmt/0.3.100/download -> defmt-0.3.100.crate
-https://crates.io/api/v1/crates/defmt/1.1.1/download -> defmt-1.1.1.crate
-https://crates.io/api/v1/crates/defmt-macros/1.1.1/download -> defmt-macros-1.1.1.crate
-https://crates.io/api/v1/crates/defmt-parser/1.0.0/download -> defmt-parser-1.0.0.crate
+https://crates.io/api/v1/crates/defmt/0.3.101/download -> defmt-0.3.101.crate
+https://crates.io/api/v1/crates/defmt/1.2.0/download -> defmt-1.2.0.crate
+https://crates.io/api/v1/crates/defmt-macros/1.2.0/download -> defmt-macros-1.2.0.crate
+https://crates.io/api/v1/crates/defmt-parser/1.1.0/download -> defmt-parser-1.1.0.crate
 https://crates.io/api/v1/crates/der/0.7.10/download -> der-0.7.10.crate
 https://crates.io/api/v1/crates/deranged/0.5.9/download -> deranged-0.5.9.crate
 https://crates.io/api/v1/crates/digest/0.10.7/download -> digest-0.10.7.crate
