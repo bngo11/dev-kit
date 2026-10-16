@@ -318,7 +318,7 @@ https://crates.io/api/v1/crates/rustfix/0.9.8/download -> rustfix-0.9.8.crate
 https://crates.io/api/v1/crates/rustix/1.1.5/download -> rustix-1.1.5.crate
 https://crates.io/api/v1/crates/rustversion/1.0.23/download -> rustversion-1.0.23.crate
 https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
-https://crates.io/api/v1/crates/schannel/0.1.29/download -> schannel-0.1.29.crate
+https://crates.io/api/v1/crates/schannel/0.1.30/download -> schannel-0.1.30.crate
 https://crates.io/api/v1/crates/scopeguard/1.2.0/download -> scopeguard-1.2.0.crate
 https://crates.io/api/v1/crates/sec1/0.7.3/download -> sec1-0.7.3.crate
 https://crates.io/api/v1/crates/security-framework/3.7.0/download -> security-framework-3.7.0.crate
