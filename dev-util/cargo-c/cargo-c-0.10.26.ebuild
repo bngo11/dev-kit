@@ -229,7 +229,7 @@ https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.cr
 https://crates.io/api/v1/crates/js-sys/0.3.106/download -> js-sys-0.3.106.crate
 https://crates.io/api/v1/crates/kstring/2.0.5/download -> kstring-2.0.5.crate
 https://crates.io/api/v1/crates/lazy_static/1.5.1/download -> lazy_static-1.5.1.crate
-https://crates.io/api/v1/crates/libc/0.2.190/download -> libc-0.2.190.crate
+https://crates.io/api/v1/crates/libc/0.2.191/download -> libc-0.2.191.crate
 https://crates.io/api/v1/crates/libgit2-sys/0.18.8+1.9.7/download -> libgit2-sys-0.18.8+1.9.7.crate
 https://crates.io/api/v1/crates/libloading/0.9.0/download -> libloading-0.9.0.crate
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.13+1.68.1/download -> libnghttp2-sys-0.1.13+1.68.1.crate
@@ -387,7 +387,7 @@ https://crates.io/api/v1/crates/typenum/1.20.1/download -> typenum-1.20.1.crate
 https://crates.io/api/v1/crates/unicase/2.10.0/download -> unicase-2.10.0.crate
 https://crates.io/api/v1/crates/unicode-bom/2.0.3/download -> unicode-bom-2.0.3.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.27/download -> unicode-ident-1.0.27.crate
-https://crates.io/api/v1/crates/unicode-normalization/0.1.25/download -> unicode-normalization-0.1.25.crate
+https://crates.io/api/v1/crates/unicode-normalization/0.1.26/download -> unicode-normalization-0.1.26.crate
 https://crates.io/api/v1/crates/unicode-width/0.2.2/download -> unicode-width-0.2.2.crate
 https://crates.io/api/v1/crates/url/2.5.8/download -> url-2.5.8.crate
 https://crates.io/api/v1/crates/utf8_iter/1.0.4/download -> utf8_iter-1.0.4.crate
