@@ -1,0 +1,12 @@
+BDEPEND=virtual/rust >=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=Command-line Git information tool
+EAPI=7
+HOMEPAGE=https://github.com/o2sh/onefetch
+IUSE=debug
+KEYWORDS=*
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/o2sh/onefetch/tarball/a84d62403c5e530eead293804afd43c527d9d433 -> onefetch-3.1.0-a84d624.tar.gz https://direct.funtoo.org/c0/fa/92/c0fa92260e7d496634863acfd20c24a4d47129ae5e840b2d4d286c35d05af5724125570b18f9745323e623ac46dd6a3df03066132fcb26705f3b1c42445616ac -> onefetch-3.1.0-funtoo-crates-bundle-886a32612088d766f9b8c45068cc9af59c9b4903564e49a1f7646e904f3fb8cd91a24bd10df3024804ed2e00e2f7e970ed903fa4f8104a7f2ff1ea0749cb563c.tar.gz
+_eclasses_=cargo	a3e90d3e6ca8541d967cff212149cffc	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=9dfc2bb8a0b45acad542a038a277dfc2

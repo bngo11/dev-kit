@@ -20,7 +20,7 @@ https://crates.io/api/v1/crates/anstyle-query/1.1.5/download -> anstyle-query-1.
 https://crates.io/api/v1/crates/anstyle-wincon/3.0.11/download -> anstyle-wincon-3.0.11.crate
 https://crates.io/api/v1/crates/anyhow/1.0.104/download -> anyhow-1.0.104.crate
 https://crates.io/api/v1/crates/ar_archive_writer/0.5.3/download -> ar_archive_writer-0.5.3.crate
-https://crates.io/api/v1/crates/arc-swap/1.9.2/download -> arc-swap-1.9.2.crate
+https://crates.io/api/v1/crates/arc-swap/1.9.3/download -> arc-swap-1.9.3.crate
 https://crates.io/api/v1/crates/arrayvec/0.7.8/download -> arrayvec-0.7.8.crate
 https://crates.io/api/v1/crates/async-trait/0.1.92/download -> async-trait-0.1.92.crate
 https://crates.io/api/v1/crates/autocfg/1.5.1/download -> autocfg-1.5.1.crate
