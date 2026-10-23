@@ -19,7 +19,7 @@ BDEPEND="virtual/pkgconfig"
 
 post_src_unpack() {
 	if [ ! -d "${S}" ]; then
-		mv fribidi-fribidi-* "${S}" || die
+		mv --* "${S}" || die
 	fi
 }
 
