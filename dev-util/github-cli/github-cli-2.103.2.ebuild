@@ -635,8 +635,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/64d175234b85aa7765c1f4cda058bd6353adb78f -> cli-2.103.1-64d1752.tar.gz
-https://direct.funtoo.org/e7/c1/1d/e7c11d9bdd1fbc5aefe1a0fbe5e8aee6b456814ee592d02de6b4824800e60524ade75e60ef8c58bfd3f211f6baebe9b201fdf7f27d029a85eb2a2f4bbb076f17 -> github-cli-2.103.1-funtoo-go-bundle-2471814645e8d536fbf067bd486396036235f9f6c85042cf183961568186f93d013b3aff70e00d2c805ebc531a10dc7ff8e5599606f15a5aeea14679155f5cbe.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/4f2cfe92e3499f8581bf39db77e0a1431fa7b55c -> cli-2.103.2-4f2cfe9.tar.gz
+https://direct.funtoo.org/93/c5/c7/93c5c7120b7902b736444b0bc6b3f6b9242ee789270e6733ad9b6141529188182905fcadece0dbcc29f0a8620808fc4526bacbac235f1845957729c7aa4d0721 -> github-cli-2.103.2-funtoo-go-bundle-2471814645e8d536fbf067bd486396036235f9f6c85042cf183961568186f93d013b3aff70e00d2c805ebc531a10dc7ff8e5599606f15a5aeea14679155f5cbe.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -648,7 +648,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.103.1"
+	export GH_VERSION="v2.103.2"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted

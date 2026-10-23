@@ -345,7 +345,7 @@ https://crates.io/api/v1/crates/signature/2.2.0/download -> signature-2.2.0.crat
 https://crates.io/api/v1/crates/simdutf8/0.1.5/download -> simdutf8-0.1.5.crate
 https://crates.io/api/v1/crates/sized-chunks/0.6.5/download -> sized-chunks-0.6.5.crate
 https://crates.io/api/v1/crates/slab/0.4.12/download -> slab-0.4.12.crate
-https://crates.io/api/v1/crates/smallvec/1.16.3/download -> smallvec-1.16.3.crate
+https://crates.io/api/v1/crates/smallvec/1.16.4/download -> smallvec-1.16.4.crate
 https://crates.io/api/v1/crates/socket2/0.6.5/download -> socket2-0.6.5.crate
 https://crates.io/api/v1/crates/spki/0.7.3/download -> spki-0.7.3.crate
 https://crates.io/api/v1/crates/sqlite-wasm-rs/0.5.5/download -> sqlite-wasm-rs-0.5.5.crate
