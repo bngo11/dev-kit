@@ -178,8 +178,8 @@ EGO_SUM=(
 	"github.com/davecgh/go-spew v1.1.0/go.mod"
 	"github.com/davecgh/go-spew v1.1.1/go.mod"
 	"github.com/digitorus/pkcs7 v0.0.0-20230713084857-e76b763bdc49/go.mod"
-	"github.com/digitorus/pkcs7 v0.0.0-20230818184609-3a137a874352"
-	"github.com/digitorus/pkcs7 v0.0.0-20230818184609-3a137a874352/go.mod"
+	"github.com/digitorus/pkcs7 v0.0.0-20260914070511-d678ea5ea03f"
+	"github.com/digitorus/pkcs7 v0.0.0-20260914070511-d678ea5ea03f/go.mod"
 	"github.com/digitorus/timestamp v0.0.0-20250524132541-c45532741eea"
 	"github.com/digitorus/timestamp v0.0.0-20250524132541-c45532741eea/go.mod"
 	"github.com/distribution/reference v0.6.0"
@@ -635,8 +635,8 @@ go-module_set_globals
 
 DESCRIPTION="GitHub CLI"
 HOMEPAGE="https://github.com/cli/cli"
-SRC_URI="https://github.com/cli/cli/tarball/7948e8056e45ac3c729b829e0eafe2d0797a95c6 -> cli-2.103.0-7948e80.tar.gz
-https://direct.funtoo.org/96/c8/6a/96c86ac005045c6d1e1a596f4dc19ad1a45db9180c6efdf9a584392c9f440e6fec68f9570afe93fbdc32a8ed3f43274f7ed7fa8dadf1141d91e3346e1484a751 -> github-cli-2.103.0-funtoo-go-bundle-ceed7f3f46a8a16b811a9065a2c8b7d4233526dbde0065184f45f42f1d3244566524479ddf90dbe6e48126aa3b109ed852922f89614f0e1c9ead8d62c1afda41.tar.gz"
+SRC_URI="https://github.com/cli/cli/tarball/64d175234b85aa7765c1f4cda058bd6353adb78f -> cli-2.103.1-64d1752.tar.gz
+https://direct.funtoo.org/e7/c1/1d/e7c11d9bdd1fbc5aefe1a0fbe5e8aee6b456814ee592d02de6b4824800e60524ade75e60ef8c58bfd3f211f6baebe9b201fdf7f27d029a85eb2a2f4bbb076f17 -> github-cli-2.103.1-funtoo-go-bundle-2471814645e8d536fbf067bd486396036235f9f6c85042cf183961568186f93d013b3aff70e00d2c805ebc531a10dc7ff8e5599606f15a5aeea14679155f5cbe.tar.gz"
 KEYWORDS="*"
 LICENSE="MIT Apache-2.0 BSD BSD-2 MPL-2.0"
 SLOT="0"
@@ -648,7 +648,7 @@ post_src_unpack() {
 }
 
 src_compile() {
-	export GH_VERSION="v2.103.0"
+	export GH_VERSION="v2.103.1"
 	# Go LDFLAGS are not the same as GCC/Binutils LDFLAGS
 	unset LDFLAGS
 	# Once we set up cross compiling, this line will need to be adjusted
