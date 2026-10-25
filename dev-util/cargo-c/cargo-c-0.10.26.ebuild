@@ -102,7 +102,7 @@ https://crates.io/api/v1/crates/either/1.19.0/download -> either-1.19.0.crate
 https://crates.io/api/v1/crates/elliptic-curve/0.13.8/download -> elliptic-curve-0.13.8.crate
 https://crates.io/api/v1/crates/encoding_rs/0.8.42/download -> encoding_rs-0.8.42.crate
 https://crates.io/api/v1/crates/equivalent/1.0.3/download -> equivalent-1.0.3.crate
-https://crates.io/api/v1/crates/erased-serde/0.4.10/download -> erased-serde-0.4.10.crate
+https://crates.io/api/v1/crates/erased-serde/0.4.11/download -> erased-serde-0.4.11.crate
 https://crates.io/api/v1/crates/errno/0.3.14/download -> errno-0.3.14.crate
 https://crates.io/api/v1/crates/fallible-iterator/0.3.0/download -> fallible-iterator-0.3.0.crate
 https://crates.io/api/v1/crates/fallible-streaming-iterator/0.1.9/download -> fallible-streaming-iterator-0.1.9.crate
