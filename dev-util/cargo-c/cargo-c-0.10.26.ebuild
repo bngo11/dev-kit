@@ -81,7 +81,7 @@ https://crates.io/api/v1/crates/crypto-bigint/0.5.5/download -> crypto-bigint-0.
 https://crates.io/api/v1/crates/crypto-common/0.1.6/download -> crypto-common-0.1.6.crate
 https://crates.io/api/v1/crates/crypto-common/0.2.2/download -> crypto-common-0.2.2.crate
 https://crates.io/api/v1/crates/ct-codecs/1.1.8/download -> ct-codecs-1.1.8.crate
-https://crates.io/api/v1/crates/ctutils/0.4.5/download -> ctutils-0.4.5.crate
+https://crates.io/api/v1/crates/ctutils/0.4.6/download -> ctutils-0.4.6.crate
 https://crates.io/api/v1/crates/curl/0.4.51/download -> curl-0.4.51.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.91+curl-8.22.0/download -> curl-sys-0.4.91+curl-8.22.0.crate
 https://crates.io/api/v1/crates/dashmap/6.2.1/download -> dashmap-6.2.1.crate
