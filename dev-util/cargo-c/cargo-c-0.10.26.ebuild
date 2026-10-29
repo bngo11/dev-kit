@@ -81,7 +81,7 @@ https://crates.io/api/v1/crates/crypto-bigint/0.5.5/download -> crypto-bigint-0.
 https://crates.io/api/v1/crates/crypto-common/0.1.6/download -> crypto-common-0.1.6.crate
 https://crates.io/api/v1/crates/crypto-common/0.2.2/download -> crypto-common-0.2.2.crate
 https://crates.io/api/v1/crates/ct-codecs/1.1.8/download -> ct-codecs-1.1.8.crate
-https://crates.io/api/v1/crates/ctutils/0.4.6/download -> ctutils-0.4.6.crate
+https://crates.io/api/v1/crates/ctutils/0.4.7/download -> ctutils-0.4.7.crate
 https://crates.io/api/v1/crates/curl/0.4.51/download -> curl-0.4.51.crate
 https://crates.io/api/v1/crates/curl-sys/0.4.91+curl-8.22.0/download -> curl-sys-0.4.91+curl-8.22.0.crate
 https://crates.io/api/v1/crates/dashmap/6.2.1/download -> dashmap-6.2.1.crate
@@ -186,7 +186,7 @@ https://crates.io/api/v1/crates/gix-validate/0.11.4/download -> gix-validate-0.1
 https://crates.io/api/v1/crates/gix-worktree/0.54.0/download -> gix-worktree-0.54.0.crate
 https://crates.io/api/v1/crates/gix-worktree-stream/0.34.0/download -> gix-worktree-stream-0.34.0.crate
 https://crates.io/api/v1/crates/glob/0.3.4/download -> glob-0.3.4.crate
-https://crates.io/api/v1/crates/globset/0.4.20/download -> globset-0.4.20.crate
+https://crates.io/api/v1/crates/globset/0.4.21/download -> globset-0.4.21.crate
 https://crates.io/api/v1/crates/group/0.13.0/download -> group-0.13.0.crate
 https://crates.io/api/v1/crates/hash32/0.3.1/download -> hash32-0.3.1.crate
 https://crates.io/api/v1/crates/hashbrown/0.14.5/download -> hashbrown-0.14.5.crate
@@ -212,7 +212,7 @@ https://crates.io/api/v1/crates/icu_properties_data/2.4.0/download -> icu_proper
 https://crates.io/api/v1/crates/icu_provider/2.4.0/download -> icu_provider-2.4.0.crate
 https://crates.io/api/v1/crates/idna/1.1.0/download -> idna-1.1.0.crate
 https://crates.io/api/v1/crates/idna_adapter/1.2.2/download -> idna_adapter-1.2.2.crate
-https://crates.io/api/v1/crates/ignore/0.4.33/download -> ignore-0.4.33.crate
+https://crates.io/api/v1/crates/ignore/0.4.34/download -> ignore-0.4.34.crate
 https://crates.io/api/v1/crates/im-rc/15.1.0/download -> im-rc-15.1.0.crate
 https://crates.io/api/v1/crates/implib/0.6.0/download -> implib-0.6.0.crate
 https://crates.io/api/v1/crates/indexmap/2.14.2/download -> indexmap-2.14.2.crate
@@ -235,7 +235,7 @@ https://crates.io/api/v1/crates/libloading/0.9.0/download -> libloading-0.9.0.cr
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.13+1.68.1/download -> libnghttp2-sys-0.1.13+1.68.1.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.38.2/download -> libsqlite3-sys-0.38.2.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.3/download -> libssh2-sys-0.3.3.crate
-https://crates.io/api/v1/crates/libz-sys/1.1.30/download -> libz-sys-1.1.30.crate
+https://crates.io/api/v1/crates/libz-sys/1.1.31/download -> libz-sys-1.1.31.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download -> linux-raw-sys-0.12.1.crate
 https://crates.io/api/v1/crates/litemap/0.8.3/download -> litemap-0.8.3.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
@@ -315,7 +315,7 @@ https://crates.io/api/v1/crates/rusqlite/0.40.2/download -> rusqlite-0.40.2.crat
 https://crates.io/api/v1/crates/rustc-hash/2.1.3/download -> rustc-hash-2.1.3.crate
 https://crates.io/api/v1/crates/rustc-stable-hash/0.1.2/download -> rustc-stable-hash-0.1.2.crate
 https://crates.io/api/v1/crates/rustfix/0.9.8/download -> rustfix-0.9.8.crate
-https://crates.io/api/v1/crates/rustix/1.1.5/download -> rustix-1.1.5.crate
+https://crates.io/api/v1/crates/rustix/1.1.6/download -> rustix-1.1.6.crate
 https://crates.io/api/v1/crates/rustversion/1.0.23/download -> rustversion-1.0.23.crate
 https://crates.io/api/v1/crates/same-file/1.0.6/download -> same-file-1.0.6.crate
 https://crates.io/api/v1/crates/schannel/0.1.30/download -> schannel-0.1.30.crate
@@ -388,10 +388,11 @@ https://crates.io/api/v1/crates/unicase/2.10.0/download -> unicase-2.10.0.crate
 https://crates.io/api/v1/crates/unicode-bom/2.0.3/download -> unicode-bom-2.0.3.crate
 https://crates.io/api/v1/crates/unicode-ident/1.0.27/download -> unicode-ident-1.0.27.crate
 https://crates.io/api/v1/crates/unicode-normalization/0.1.26/download -> unicode-normalization-0.1.26.crate
-https://crates.io/api/v1/crates/unicode-width/0.2.2/download -> unicode-width-0.2.2.crate
+https://crates.io/api/v1/crates/unicode-width/0.2.3/download -> unicode-width-0.2.3.crate
 https://crates.io/api/v1/crates/url/2.5.8/download -> url-2.5.8.crate
-https://crates.io/api/v1/crates/utf8_iter/1.0.4/download -> utf8_iter-1.0.4.crate
+https://crates.io/api/v1/crates/utf8_iter/1.1.0/download -> utf8_iter-1.1.0.crate
 https://crates.io/api/v1/crates/utf8parse/0.2.2/download -> utf8parse-0.2.2.crate
+https://crates.io/api/v1/crates/utf_types/1.0.0/download -> utf_types-1.0.0.crate
 https://crates.io/api/v1/crates/valuable/0.1.1/download -> valuable-0.1.1.crate
 https://crates.io/api/v1/crates/vcpkg/0.2.15/download -> vcpkg-0.2.15.crate
 https://crates.io/api/v1/crates/version_check/0.9.5/download -> version_check-0.9.5.crate
