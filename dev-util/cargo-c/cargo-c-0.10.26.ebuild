@@ -239,7 +239,7 @@ https://crates.io/api/v1/crates/libz-sys/1.1.31/download -> libz-sys-1.1.31.crat
 https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download -> linux-raw-sys-0.12.1.crate
 https://crates.io/api/v1/crates/litemap/0.8.3/download -> litemap-0.8.3.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
-https://crates.io/api/v1/crates/log/0.4.34/download -> log-0.4.34.crate
+https://crates.io/api/v1/crates/log/0.4.35/download -> log-0.4.35.crate
 https://crates.io/api/v1/crates/matchers/0.2.0/download -> matchers-0.2.0.crate
 https://crates.io/api/v1/crates/maybe-async/0.2.11/download -> maybe-async-0.2.11.crate
 https://crates.io/api/v1/crates/memchr/2.8.3/download -> memchr-2.8.3.crate
