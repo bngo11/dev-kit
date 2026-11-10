@@ -100,13 +100,13 @@ go-module_set_globals
 
 DESCRIPTION="yq is a portable command-line YAML, JSON and XML processor"
 HOMEPAGE="https://github.com/mikefarah/yq"
-SRC_URI="https://github.com/mikefarah/yq/tarball/6ba7a244aaf79f9468143fe3575c87534671ca4e -> yq-4.54.2-6ba7a24.tar.gz
-https://direct.funtoo.org/d4/3c/53/d43c530db707e2682459e99c910babec06344072bfdc6f616569758c3497d0ffd0f989428f2c6332e2c7a1f56df52c8366ed311f73bb68dcf51d2939ae435fc3 -> yq-go-4.54.2-funtoo-go-bundle-10410eed3a3797c18e22b83a3b608cccfe45ea7b34b69f169c34ec8cf91aa9437324f9fe50429404b368f30cd8fdfbf5ebb27163eda9edd1b237996913ffadd5.tar.gz"
+SRC_URI="https://github.com/mikefarah/yq/tarball/aaf140c3af176b2e6cff7200ccbd5d7339910a48 -> yq-4.54.3-aaf140c.tar.gz
+https://direct.funtoo.org/fb/29/6c/fb296cd28fde1a41df9f7c9fa717fe2bd7e65464ad2e19c41d9877702add9ee047c018b083840fb623766d8d8041c6f3b1d45d7ea0f263e4dc6f0a0a916f5a7c -> yq-go-4.54.3-funtoo-go-bundle-10410eed3a3797c18e22b83a3b608cccfe45ea7b34b69f169c34ec8cf91aa9437324f9fe50429404b368f30cd8fdfbf5ebb27163eda9edd1b237996913ffadd5.tar.gz"
 
 LICENSE="Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense ZLIB"
 SLOT="0"
 KEYWORDS="*"
-S="${WORKDIR}/mikefarah-yq-6ba7a24"
+S="${WORKDIR}/mikefarah-yq-aaf140c"
 
 DEPEND=""
 RDEPEND=">=dev-vcs/git-1.7.3"
