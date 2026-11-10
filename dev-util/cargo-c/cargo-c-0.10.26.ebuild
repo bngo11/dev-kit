@@ -72,7 +72,7 @@ https://crates.io/api/v1/crates/core_detect/1.0.0/download -> core_detect-1.0.0.
 https://crates.io/api/v1/crates/cpufeatures/0.2.17/download -> cpufeatures-0.2.17.crate
 https://crates.io/api/v1/crates/cpufeatures/0.3.1/download -> cpufeatures-0.3.1.crate
 https://crates.io/api/v1/crates/crates-io/0.41.2/download -> crates-io-0.41.2.crate
-https://crates.io/api/v1/crates/crc32fast/1.5.4/download -> crc32fast-1.5.4.crate
+https://crates.io/api/v1/crates/crc32fast/1.5.5/download -> crc32fast-1.5.5.crate
 https://crates.io/api/v1/crates/crossbeam-channel/0.5.17/download -> crossbeam-channel-0.5.17.crate
 https://crates.io/api/v1/crates/crossbeam-deque/0.8.8/download -> crossbeam-deque-0.8.8.crate
 https://crates.io/api/v1/crates/crossbeam-epoch/0.9.21/download -> crossbeam-epoch-0.9.21.crate
@@ -235,7 +235,7 @@ https://crates.io/api/v1/crates/libloading/0.9.0/download -> libloading-0.9.0.cr
 https://crates.io/api/v1/crates/libnghttp2-sys/0.1.13+1.68.1/download -> libnghttp2-sys-0.1.13+1.68.1.crate
 https://crates.io/api/v1/crates/libsqlite3-sys/0.38.2/download -> libsqlite3-sys-0.38.2.crate
 https://crates.io/api/v1/crates/libssh2-sys/0.3.4/download -> libssh2-sys-0.3.4.crate
-https://crates.io/api/v1/crates/libz-sys/1.1.32/download -> libz-sys-1.1.32.crate
+https://crates.io/api/v1/crates/libz-sys/1.1.33/download -> libz-sys-1.1.33.crate
 https://crates.io/api/v1/crates/linux-raw-sys/0.12.1/download -> linux-raw-sys-0.12.1.crate
 https://crates.io/api/v1/crates/litemap/0.8.3/download -> litemap-0.8.3.crate
 https://crates.io/api/v1/crates/lock_api/0.4.14/download -> lock_api-0.4.14.crate
