@@ -10,7 +10,7 @@ SRC_URI="https://api.github.com/repos/lu-zero/cargo-c/tarball/v0.10.26 -> cargo-
 https://crates.io/api/v1/crates/aho-corasick/1.1.5/download -> aho-corasick-1.1.5.crate
 https://crates.io/api/v1/crates/allocator-api2/0.2.21/download -> allocator-api2-0.2.21.crate
 https://crates.io/api/v1/crates/android_system_properties/0.1.6/download -> android_system_properties-0.1.6.crate
-https://crates.io/api/v1/crates/annotate-snippets/0.12.17/download -> annotate-snippets-0.12.17.crate
+https://crates.io/api/v1/crates/annotate-snippets/0.12.18/download -> annotate-snippets-0.12.18.crate
 https://crates.io/api/v1/crates/anstream/1.0.0/download -> anstream-1.0.0.crate
 https://crates.io/api/v1/crates/anstyle/1.0.14/download -> anstyle-1.0.14.crate
 https://crates.io/api/v1/crates/anstyle-hyperlink/1.0.2/download -> anstyle-hyperlink-1.0.2.crate
@@ -19,7 +19,7 @@ https://crates.io/api/v1/crates/anstyle-progress/0.1.6/download -> anstyle-progr
 https://crates.io/api/v1/crates/anstyle-query/1.1.5/download -> anstyle-query-1.1.5.crate
 https://crates.io/api/v1/crates/anstyle-wincon/3.0.11/download -> anstyle-wincon-3.0.11.crate
 https://crates.io/api/v1/crates/anyhow/1.0.104/download -> anyhow-1.0.104.crate
-https://crates.io/api/v1/crates/ar_archive_writer/0.5.3/download -> ar_archive_writer-0.5.3.crate
+https://crates.io/api/v1/crates/ar_archive_writer/0.5.5/download -> ar_archive_writer-0.5.5.crate
 https://crates.io/api/v1/crates/arc-swap/1.9.5/download -> arc-swap-1.9.5.crate
 https://crates.io/api/v1/crates/arrayvec/0.7.8/download -> arrayvec-0.7.8.crate
 https://crates.io/api/v1/crates/async-trait/0.1.92/download -> async-trait-0.1.92.crate
@@ -64,7 +64,7 @@ https://crates.io/api/v1/crates/color-print/0.3.7/download -> color-print-0.3.7.
 https://crates.io/api/v1/crates/color-print-proc-macro/0.3.7/download -> color-print-proc-macro-0.3.7.crate
 https://crates.io/api/v1/crates/colorchoice/1.0.5/download -> colorchoice-1.0.5.crate
 https://crates.io/api/v1/crates/const-oid/0.9.6/download -> const-oid-0.9.6.crate
-https://crates.io/api/v1/crates/const-oid/0.10.2/download -> const-oid-0.10.2.crate
+https://crates.io/api/v1/crates/const-oid/0.10.3/download -> const-oid-0.10.3.crate
 https://crates.io/api/v1/crates/constant_time_eq/0.4.2/download -> constant_time_eq-0.4.2.crate
 https://crates.io/api/v1/crates/core-foundation/0.10.1/download -> core-foundation-0.10.1.crate
 https://crates.io/api/v1/crates/core-foundation-sys/0.8.7/download -> core-foundation-sys-0.8.7.crate
@@ -220,9 +220,9 @@ https://crates.io/api/v1/crates/is_executable/1.0.6/download -> is_executable-1.
 https://crates.io/api/v1/crates/is_terminal_polyfill/1.70.2/download -> is_terminal_polyfill-1.70.2.crate
 https://crates.io/api/v1/crates/itertools/0.15.0/download -> itertools-0.15.0.crate
 https://crates.io/api/v1/crates/itoa/1.0.19/download -> itoa-1.0.19.crate
-https://crates.io/api/v1/crates/jiff/0.2.42/download -> jiff-0.2.42.crate
-https://crates.io/api/v1/crates/jiff-core/0.1.4/download -> jiff-core-0.1.4.crate
-https://crates.io/api/v1/crates/jiff-static/0.2.42/download -> jiff-static-0.2.42.crate
+https://crates.io/api/v1/crates/jiff/0.2.43/download -> jiff-0.2.43.crate
+https://crates.io/api/v1/crates/jiff-core/0.1.5/download -> jiff-core-0.1.5.crate
+https://crates.io/api/v1/crates/jiff-static/0.2.43/download -> jiff-static-0.2.43.crate
 https://crates.io/api/v1/crates/jiff-tzdb/0.1.9/download -> jiff-tzdb-0.1.9.crate
 https://crates.io/api/v1/crates/jiff-tzdb-platform/0.1.3/download -> jiff-tzdb-platform-0.1.3.crate
 https://crates.io/api/v1/crates/jobserver/0.1.35/download -> jobserver-0.1.35.crate
